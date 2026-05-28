@@ -11,7 +11,7 @@ Static academic personal website for Sijie Wang (王思杰), Ph.D. student in Ap
 
 ## Personalization
 
-The public email address is set to `stillwang@bjtu.edu.cn`. Add a CV PDF later and link it from the hero or contact section. If you have a public Google Scholar profile URL, replace the current Scholar search link with that profile URL.
+The public email address is set to `stillwang@bjtu.edu.cn`. The Google Scholar profile is set to `https://scholar.google.com/citations?user=mdoqJCQAAAAJ&hl=en`. Add a CV PDF later and link it from the hero or contact section.
 
 ## Preview
 
