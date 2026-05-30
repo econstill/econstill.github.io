@@ -1,6 +1,6 @@
 # Sijie Wang Academic Homepage
 
-Static academic personal website for Sijie Wang (王思杰), Ph.D. student in Applied Economics at Beijing Jiaotong University.
+Static academic personal website for Sijie Wang (王思杰), who also goes by Still, Ph.D. student in Applied Economics at Beijing Jiaotong University.
 
 ## Files
 
