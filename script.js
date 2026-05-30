@@ -1,41 +1,38 @@
-const copyButtons = [...document.querySelectorAll(".copy-cite")];
+const lastUpdated = document.querySelector("[data-last-updated]");
 
-copyButtons.forEach((button) => {
-  const defaultLabel = button.textContent;
+updateLastUpdated();
 
-  button.addEventListener("click", async () => {
-    try {
-      await copyText(button.dataset.citation);
-      button.textContent = "Copied";
-      setTimeout(() => {
-        button.textContent = defaultLabel;
-      }, 1400);
-    } catch {
-      button.textContent = "Copy Failed";
-      setTimeout(() => {
-        button.textContent = defaultLabel;
-      }, 1400);
-    }
-  });
-});
-
-async function copyText(text) {
-  if (navigator.clipboard && window.isSecureContext) {
-    await navigator.clipboard.writeText(text);
+async function updateLastUpdated() {
+  if (!lastUpdated) {
     return;
   }
 
-  const field = document.createElement("textarea");
-  field.value = text;
-  field.setAttribute("readonly", "");
-  field.style.position = "fixed";
-  field.style.opacity = "0";
-  document.body.append(field);
-  field.select();
-  const copied = document.execCommand("copy");
-  field.remove();
+  try {
+    const response = await fetch("https://api.github.com/repos/still-wang96/stillwang/commits/gh-pages", {
+      headers: {
+        Accept: "application/vnd.github+json",
+      },
+    });
 
-  if (!copied) {
-    throw new Error("Unable to copy citation");
+    if (!response.ok) {
+      throw new Error("Unable to load latest commit");
+    }
+
+    const data = await response.json();
+    const committedAt = data?.commit?.committer?.date;
+
+    if (!committedAt) {
+      throw new Error("Latest commit date missing");
+    }
+
+    const date = new Date(committedAt);
+    lastUpdated.dateTime = date.toISOString();
+    lastUpdated.textContent = new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }).format(date);
+  } catch {
+    // Keep the fallback date in the HTML if GitHub's API is unavailable.
   }
 }
