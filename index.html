@@ -10,16 +10,15 @@
     />
     <meta
       name="keywords"
-      content="Sijie Wang, Still Wang, Still, Sijie Wang economics, Sijie Wang econ, Wang Sijie, 王思杰, Beijing Jiaotong University, BJTU, applied economics, game theory, network economics"
+      content="Sijie Wang, Still Wang, Still, Sijie Wang economics, Sijie Wang econ, Wang Sijie, 王思杰, Beijing Jiaotong University, BJTU, Jilin University, applied economics, game theory, network economics"
     />
     <link rel="canonical" href="https://still-wang96.github.io/stillwang/" />
-    <meta name="theme-color" content="#123c46" />
+    <meta name="theme-color" content="#ffffff" />
     <meta property="og:title" content="Sijie Wang | Academic Homepage" />
     <meta
       property="og:description"
       content="Research in game theory, network economics, equilibrium, and mathematical economics."
     />
-    <meta property="og:image" content="assets/research-network-hero.png" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
     <script type="application/ld+json">
@@ -31,6 +30,10 @@
         "affiliation": {
           "@type": "CollegeOrUniversity",
           "name": "Beijing Jiaotong University"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Jilin University"
         },
         "jobTitle": "Ph.D. Student in Applied Economics",
         "knowsAbout": [
@@ -48,254 +51,162 @@
     </script>
   </head>
   <body>
-    <header class="site-header" aria-label="Primary">
-      <a class="brand" href="#home" aria-label="Sijie Wang home">
-        <span class="brand-mark">SW</span>
-        <span>
-          <strong>Sijie Wang</strong>
-          <small>王思杰</small>
-        </span>
-      </a>
-      <nav class="nav-links" aria-label="Page sections">
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#talks">Talks</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <main id="home">
-      <section class="hero" aria-labelledby="hero-title">
-        <img
-          class="hero-image"
-          src="assets/research-network-hero.png"
-          alt="Abstract desk scene with research papers and network diagrams"
-        />
-        <div class="hero-shade" aria-hidden="true"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Applied Economics | Beijing Jiaotong University</p>
-          <h1 id="hero-title">Sijie Wang</h1>
-          <p class="hero-subtitle">
-            Ph.D. student studying game theory, network economics. I also go by Still.
-          </p>
-          <div class="hero-actions" aria-label="Academic links">
-            <a class="button primary" href="#publications">View Publications</a>
-            <a
-              class="button ghost"
-              href="https://scholar.google.com/citations?user=mdoqJCQAAAAJ&hl=en"
-              target="_blank"
-              rel="noopener"
-            >
-              Google Scholar
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section class="intro section-grid" aria-labelledby="about-title">
+    <main class="page">
+      <header class="masthead" id="home">
         <div>
-          <p class="section-kicker">About</p>
-          <h2 id="about-title">Mathematical models for strategic behavior in networks.</h2>
-        </div>
-        <div class="intro-copy">
-          <p>
-            I am a doctoral student in Applied Economics at the School of Economics and
-            Management, Beijing Jiaotong University. You can call me Still. 
-          </p>
-          <p>
-            Current projects study the strategic behaviors with strong network externalities by using our developed strategic elasticity method.
+          <h1>Sijie Wang <span lang="zh-CN">王思杰</span></h1>
+          <p class="subtitle">
+            Ph.D. student in Applied Economics, Beijing Jiaotong University. I also go by
+            Still.
           </p>
         </div>
+        <nav aria-label="Page sections">
+          <a href="#research">Research</a>
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+        <p>
+          I am a doctoral student in Applied Economics at the School of Economics and
+          Management, Beijing Jiaotong University. You can call me Still.
+        </p>
+        <p>
+          My current projects study strategic behavior with strong network externalities,
+          using tools from game theory, fixed-point theory, and strategic elasticity.
+        </p>
       </section>
 
-      <section id="research" class="section section-grid" aria-labelledby="research-title">
-        <div>
-          <p class="section-kicker">Research</p>
-          <h2 id="research-title">Themes</h2>
-        </div>
-        <div class="theme-grid">
-          <article class="theme-card">
-            <span class="theme-number">01</span>
-            <h3>Network Games</h3>
-            <p>
-              Pricing, externalities, and equilibrium behavior when agents' decisions interact
-              through social or economic networks.
-            </p>
-          </article>
-          <article class="theme-card">
-            <span class="theme-number">02</span>
-            <h3>Equilibrium Theory</h3>
-            <p>
-              Existence, uniqueness and stability of equilibrium in game theory.
-            </p>
-          </article>
-          <article class="theme-card">
-            <span class="theme-number">03</span>
-            <h3>Strategic Elasticity</h3>
-            <p>
-              Fixed-point and contraction methods for strategic interactions with inelastic
-              best-response structures.
-            </p>
-          </article>
-        </div>
+      <section id="research" aria-labelledby="research-title">
+        <h2 id="research-title">Research Interests</h2>
+        <ul class="compact-list">
+          <li>Game theory and network games</li>
+          <li>Network externalities and pricing</li>
+          <li>Equilibrium existence, uniqueness, and stability</li>
+          <li>Strategic elasticity and fixed-point methods</li>
+        </ul>
       </section>
 
-      <section id="publications" class="section publications" aria-labelledby="pub-title">
-        <div class="section-heading">
-          <div>
-            <p class="section-kicker">Publications</p>
-            <h2 id="pub-title">Selected Work</h2>
-          </div>
-          <div class="filter-bar" aria-label="Publication filters">
-            <button class="filter active" type="button" data-filter="all" aria-pressed="true">
-              All
-            </button>
-            <button class="filter" type="button" data-filter="journal" aria-pressed="false">
-              Journal
-            </button>
-            <button class="filter" type="button" data-filter="working" aria-pressed="false">
-              Working
-            </button>
-          </div>
-        </div>
-
-        <div class="publication-list">
-          <article class="publication" data-kind="journal">
-            <div class="pub-year">2026</div>
-            <div class="pub-body">
-              <p class="pub-type">Journal article</p>
-              <h3>On Scarcity in Glove Games</h3>
-              <p class="authors">Doudou Gong, <strong>Sijie Wang</strong>, Zhengxing Zou</p>
-              <p>
-                Studies scarcity in glove games and characterizes allocation values satisfying
-                efficiency, symmetry, individual rationality, and scarcity.
-              </p>
-              <div class="venue">Economics Letters, 265, Article 113030</div>
-              <div class="pub-links">
-                <a href="https://doi.org/10.1016/j.econlet.2026.113030" target="_blank" rel="noopener">DOI</a>
-                <a href="https://www.sciencedirect.com/science/article/pii/S0165176526002247" target="_blank" rel="noopener">ScienceDirect</a>
-                <button
-                  class="copy-cite"
-                  type="button"
-                  data-citation="Gong, Doudou, Sijie Wang, and Zhengxing Zou. 2026. On scarcity in glove games. Economics Letters 265: 113030. https://doi.org/10.1016/j.econlet.2026.113030"
-                >
-                  Copy Cite
-                </button>
-              </div>
+      <section id="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
+        <ul class="entry-list">
+          <li>
+            <span class="date">2023-present</span>
+            <div>
+              <strong>Ph.D. in Applied Economics</strong><br />
+              School of Economics and Management, Beijing Jiaotong University
             </div>
-          </article>
-
-          <article class="publication" data-kind="working">
-            <div class="pub-year">2026</div>
-            <div class="pub-body">
-              <p class="pub-type">Working paper</p>
-              <h3>(Strategic) Elasticity</h3>
-              <p class="authors">Zhigang Cao, <strong>Sijie Wang</strong>, Feng Zhu</p>
-              <p>
-                Introduces elasticity into game theory and studies inelastic games through
-                contraction mapping theory under Thompson's metric.
-              </p>
-              <div class="pub-links">
-                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6522998" target="_blank" rel="noopener">SSRN</a>
-                <a href="https://doi.org/10.2139/ssrn.6522998" target="_blank" rel="noopener">DOI</a>
-                <button
-                  class="copy-cite"
-                  type="button"
-                  data-citation="Cao, Zhigang, Sijie Wang, and Feng Zhu. 2026. (Strategic) Elasticity. SSRN Working Paper. https://doi.org/10.2139/ssrn.6522998"
-                >
-                  Copy Cite
-                </button>
-              </div>
+          </li>
+          <li>
+            <span class="date">2015-2019</span>
+            <div>
+              <strong>B.A. in Advertising</strong><br />
+              School of Journalism and Communication, Jilin University
             </div>
-          </article>
-
-          <article class="publication" data-kind="journal">
-            <div class="pub-year">2025</div>
-            <div class="pub-body">
-              <p class="pub-type">Journal article</p>
-              <h3>Pricing Negative Externalities in Social Networks</h3>
-              <p class="authors">
-                Guopeng Li, <strong>Sijie Wang</strong>, Yifan Xiong, Feng Zhu
-              </p>
-              <p>
-                Studies optimal monopoly pricing when consumers create local negative
-                externalities for one another in a network.
-              </p>
-              <div class="venue">Journal of Mathematical Economics, 118(C), Article 103105</div>
-              <div class="pub-links">
-                <a href="https://doi.org/10.1016/j.jmateco.2025.103105" target="_blank" rel="noopener">DOI</a>
-                <a href="https://econpapers.repec.org/RePEc%3Aeee%3Amateco%3Av%3A118%3Ay%3A2025%3Ai%3Ac%3As0304406825000229" target="_blank" rel="noopener">EconPapers</a>
-                <button
-                  class="copy-cite"
-                  type="button"
-                  data-citation="Li, Guopeng, Sijie Wang, Yifan Xiong, and Feng Zhu. 2025. Pricing negative externalities in social networks. Journal of Mathematical Economics 118(C): 103105. https://doi.org/10.1016/j.jmateco.2025.103105"
-                >
-                  Copy Cite
-                </button>
-              </div>
-            </div>
-          </article>
-        </div>
+          </li>
+        </ul>
       </section>
 
-      <section id="talks" class="section section-grid" aria-labelledby="talk-title">
-        <div>
-          <p class="section-kicker">Talks</p>
-          <h2 id="talk-title">Research Activity</h2>
-        </div>
-        <div class="timeline">
-          <article class="timeline-item">
-            <time datetime="2025-06">June 2025</time>
-            <h3>Supermodular Games with Strong Network Externalities</h3>
+      <section id="publications" aria-labelledby="publications-title">
+        <h2 id="publications-title">Publications and Working Papers</h2>
+        <ol class="publication-list">
+          <li>
             <p>
-              Collaborative work with Zhigang Cao, listed at the Third Systems Science
-              Frontiers Forum. The project studies equilibrium uniqueness under strong
-              network externalities using Perron-Frobenius theory.
+              Doudou Gong, <strong>Sijie Wang</strong>, and Zhengxing Zou.
+              <strong>On Scarcity in Glove Games.</strong>
+              <em>Economics Letters</em>, 265, Article 113030, 2026.
             </p>
-            <a href="https://ssff2025.cn/list/10/1" target="_blank" rel="noopener">Event listing</a>
-          </article>
-          <article class="timeline-item">
-            <time datetime="2023">2023-present</time>
-            <h3>Ph.D. Study in Applied Economics</h3>
+            <p class="links">
+              <a href="https://doi.org/10.1016/j.econlet.2026.113030" target="_blank" rel="noopener">DOI</a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S0165176526002247" target="_blank" rel="noopener">ScienceDirect</a>
+              <button
+                class="copy-cite"
+                type="button"
+                data-citation="Gong, Doudou, Sijie Wang, and Zhengxing Zou. 2026. On scarcity in glove games. Economics Letters 265: 113030. https://doi.org/10.1016/j.econlet.2026.113030"
+              >
+                Copy citation
+              </button>
+            </p>
+          </li>
+          <li>
             <p>
-              School of Economics and Management, Beijing Jiaotong University.
+              Zhigang Cao, <strong>Sijie Wang</strong>, and Feng Zhu.
+              <strong>(Strategic) Elasticity.</strong>
+              Working paper, 2026.
             </p>
-          </article>
-        </div>
+            <p class="links">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6522998" target="_blank" rel="noopener">SSRN</a>
+              <a href="https://doi.org/10.2139/ssrn.6522998" target="_blank" rel="noopener">DOI</a>
+              <button
+                class="copy-cite"
+                type="button"
+                data-citation="Cao, Zhigang, Sijie Wang, and Feng Zhu. 2026. (Strategic) Elasticity. SSRN Working Paper. https://doi.org/10.2139/ssrn.6522998"
+              >
+                Copy citation
+              </button>
+            </p>
+          </li>
+          <li>
+            <p>
+              Guopeng Li, <strong>Sijie Wang</strong>, Yifan Xiong, and Feng Zhu.
+              <strong>Pricing Negative Externalities in Social Networks.</strong>
+              <em>Journal of Mathematical Economics</em>, 118(C), Article 103105, 2025.
+            </p>
+            <p class="links">
+              <a href="https://doi.org/10.1016/j.jmateco.2025.103105" target="_blank" rel="noopener">DOI</a>
+              <a href="https://econpapers.repec.org/RePEc%3Aeee%3Amateco%3Av%3A118%3Ay%3A2025%3Ai%3Ac%3As0304406825000229" target="_blank" rel="noopener">EconPapers</a>
+              <button
+                class="copy-cite"
+                type="button"
+                data-citation="Li, Guopeng, Sijie Wang, Yifan Xiong, and Feng Zhu. 2025. Pricing negative externalities in social networks. Journal of Mathematical Economics 118(C): 103105. https://doi.org/10.1016/j.jmateco.2025.103105"
+              >
+                Copy citation
+              </button>
+            </p>
+          </li>
+        </ol>
       </section>
 
-      <section id="contact" class="section contact-panel" aria-labelledby="contact-title">
-        <div>
-          <p class="section-kicker">Contact</p>
-          <h2 id="contact-title">Get in touch</h2>
-        </div>
-        <div class="contact-grid">
-          <a href="mailto:stillwang@bjtu.edu.cn">
-            <span>Email</span>
-            <strong>stillwang@bjtu.edu.cn</strong>
+      <section id="presentations" aria-labelledby="presentations-title">
+        <h2 id="presentations-title">Presentations</h2>
+        <ul class="entry-list">
+          <li>
+            <span class="date">June 2025</span>
+            <div>
+              <strong>Supermodular Games with Strong Network Externalities</strong><br />
+              with Zhigang Cao, Third Systems Science Frontiers Forum.
+              <a href="https://ssff2025.cn/list/10/1" target="_blank" rel="noopener">Event listing</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:stillwang@bjtu.edu.cn">stillwang@bjtu.edu.cn</a>
+        </p>
+        <p>
+          Google Scholar:
+          <a href="https://scholar.google.com/citations?user=mdoqJCQAAAAJ&hl=en" target="_blank" rel="noopener">
+            profile and papers
           </a>
-          <a
-            href="https://scholar.google.com/citations?user=mdoqJCQAAAAJ&hl=en"
-            target="_blank"
-            rel="noopener"
-          >
-            <span>Google Scholar</span>
-            <strong>Profile and papers</strong>
-          </a>
+        </p>
+        <p>
+          Affiliation:
           <a href="https://en.bjtu.edu.cn/departments/index.htm" target="_blank" rel="noopener">
-            <span>Affiliation</span>
-            <strong>Beijing Jiaotong University</strong>
+            Beijing Jiaotong University
           </a>
-        </div>
+        </p>
       </section>
-    </main>
 
-    <footer class="site-footer">
-      <div>
-        <strong>Sijie Wang</strong>
-        <span>Game theory, networks, and mathematical economics.</span>
-      </div>
-      <a href="#home">Back to top</a>
-    </footer>
+      <footer>
+        <p>Last updated: May 2026.</p>
+      </footer>
+    </main>
   </body>
 </html>

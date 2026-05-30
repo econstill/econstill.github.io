@@ -1,23 +1,4 @@
-const filterButtons = [...document.querySelectorAll(".filter")];
-const publications = [...document.querySelectorAll(".publication")];
 const copyButtons = [...document.querySelectorAll(".copy-cite")];
-
-filterButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const filter = button.dataset.filter;
-
-    filterButtons.forEach((item) => {
-      const isActive = item === button;
-      item.classList.toggle("active", isActive);
-      item.setAttribute("aria-pressed", String(isActive));
-    });
-
-    publications.forEach((publication) => {
-      const shouldShow = filter === "all" || publication.dataset.kind === filter;
-      publication.classList.toggle("is-hidden", !shouldShow);
-    });
-  });
-});
 
 copyButtons.forEach((button) => {
   const defaultLabel = button.textContent;
