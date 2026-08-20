@@ -36,6 +36,12 @@ h2 {
   font-size: 1.22rem;
 }
 
+.authorship-note {
+  margin: -2px 0 12px;
+  color: #555;
+  font-size: 0.94rem;
+}
+
 section {
   border-bottom: 1px solid #ddd;
   padding: 19px 0;
