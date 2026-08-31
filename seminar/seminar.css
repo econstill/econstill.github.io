@@ -1,0 +1,279 @@
+:root {
+  color-scheme: light;
+  font-family: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif;
+  color: #171717;
+  background: #ffffff;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #171717;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+main {
+  width: min(920px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 28px 0 48px;
+}
+
+a {
+  color: #0758a6;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #3f4a54;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-size: 0.9rem;
+}
+
+.seminar-header {
+  max-width: 790px;
+  padding-bottom: 24px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #8b2f27;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  overflow-wrap: anywhere;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.18;
+  letter-spacing: 0;
+}
+
+.subtitle {
+  margin: 9px 0 0;
+  color: #3f4a54;
+  font-size: 1.15rem;
+}
+
+.tagline {
+  margin: 20px 0 0;
+  color: #1f603a;
+  font-size: 1.05rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.organizers {
+  margin: 18px 0 0;
+}
+
+.network-figure {
+  width: 100%;
+  margin: 0 0 8px;
+  border-top: 1px solid #d9dde0;
+  border-bottom: 1px solid #d9dde0;
+  background: #f7f8f8;
+  overflow: hidden;
+}
+
+.network-figure img {
+  display: block;
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+}
+
+section {
+  padding: 30px 0;
+  border-bottom: 1px solid #d9dde0;
+}
+
+h2 {
+  margin: 0 0 13px;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+p {
+  margin: 0 0 13px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.working-paper-note {
+  padding-left: 20px;
+  border-left: 4px solid #8b2f27;
+}
+
+blockquote {
+  margin: 18px 0 0;
+  color: #343b40;
+  font-size: 1.04rem;
+}
+
+cite {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-style: normal;
+}
+
+.details-list {
+  margin: 0;
+  border-top: 1px solid #c8cdd1;
+}
+
+.details-list div {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: 20px;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e3e5;
+}
+
+.details-list dt {
+  color: #3f4a54;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.details-list dd {
+  margin: 0;
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+
+.section-heading h2,
+.section-heading p {
+  margin: 0;
+}
+
+.section-heading p {
+  color: #59636b;
+  font-size: 0.9rem;
+}
+
+.reading-list {
+  margin: 0;
+  padding-left: 1.55rem;
+}
+
+.reading-list li {
+  padding: 14px 0 16px 8px;
+  border-bottom: 1px solid #e0e3e5;
+}
+
+.reading-list li:first-child {
+  border-top: 1px solid #e0e3e5;
+}
+
+.reading-list a {
+  display: block;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.reading-list span {
+  display: block;
+  margin-top: 3px;
+  color: #343b40;
+  font-size: 0.94rem;
+}
+
+.more-papers {
+  margin-top: 17px;
+  color: #1f603a;
+  font-size: 0.94rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 28px;
+  color: #59636b;
+  font-family: Arial, "Noto Sans SC", sans-serif;
+  font-size: 0.82rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2.05rem;
+  }
+
+  main {
+    width: min(100% - 28px, 920px);
+    padding-top: 20px;
+  }
+
+  .back-link {
+    margin-bottom: 22px;
+  }
+
+  .network-figure img {
+    height: 165px;
+  }
+
+  section {
+    padding: 25px 0;
+  }
+
+  .details-list div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+
+  .section-heading,
+  footer {
+    display: block;
+  }
+
+  .section-heading p {
+    margin-top: 5px;
+  }
+
+  footer a {
+    display: inline-block;
+    margin-top: 8px;
+  }
+}
