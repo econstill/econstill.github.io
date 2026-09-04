@@ -8,7 +8,7 @@ async function updateLastUpdated() {
   }
 
   try {
-    const response = await fetch("https://api.github.com/repos/still-wang96/stillwang/commits/gh-pages", {
+    const response = await fetch("https://api.github.com/repos/econstill/econstill.github.io/commits/gh-pages", {
       headers: {
         Accept: "application/vnd.github+json",
       },
