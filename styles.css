@@ -42,6 +42,28 @@ h2 {
   font-size: 0.94rem;
 }
 
+.research-quote {
+  margin: 0;
+  padding: 24px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.research-quote blockquote {
+  margin: 0 0 12px;
+  color: #444;
+  font-style: italic;
+  line-height: 1.65;
+}
+
+.research-quote p {
+  margin: 0;
+}
+
+.research-quote figcaption {
+  color: #555;
+  font-size: 0.9rem;
+}
+
 section {
   border-bottom: 1px solid #ddd;
   padding: 19px 0;
