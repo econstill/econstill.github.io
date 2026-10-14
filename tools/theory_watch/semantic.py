@@ -55,13 +55,14 @@ class SemanticSelector:
         self.stats = {"retrieved": 0, "included": 0, "review": 0, "excluded": 0, "cached": 0}
         self.models = {}
         for name in ("embedding", "nli"):
+            onnx_file = CONFIG["nli_onnx_file"] if name == "nli" else CONFIG["onnx_file"]
             if model_dir:
                 directory = Path(model_dir) / ("minilm" if name == "embedding" else "nli")
             else:
                 from huggingface_hub import snapshot_download
                 directory = Path(snapshot_download(
                     CONFIG[name + "_model"], revision=CONFIG[name + "_revision"],
-                    allow_patterns=["tokenizer.json", "config.json", CONFIG["onnx_file"]],
+                    allow_patterns=["tokenizer.json", "config.json", onnx_file],
                 ))
             tokenizer = Tokenizer.from_file(str(directory / "tokenizer.json"))
             tokenizer.enable_truncation(max_length=256 if name == "embedding" else 512,
@@ -69,7 +70,7 @@ class SemanticSelector:
             tokenizer.enable_padding()
             options = ort.SessionOptions()
             options.intra_op_num_threads = int(os.environ.get("THEORY_WATCH_THREADS", "2"))
-            session = ort.InferenceSession(str(directory / CONFIG["onnx_file"]), sess_options=options,
+            session = ort.InferenceSession(str(directory / onnx_file), sess_options=options,
                                           providers=["CPUExecutionProvider"])
             config = json.loads((directory / "config.json").read_text())
             self.models[name] = (tokenizer, session, config)

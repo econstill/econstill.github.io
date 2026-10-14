@@ -1,19 +1,20 @@
 {
-  "version": "semantic-2.0",
+  "version": "semantic-2.1",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
   "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
-  "nli_model": "cross-encoder/nli-deberta-v3-xsmall",
-  "nli_revision": "a150876415327c80daeff35ca6f68f5ed8cf5c24",
+  "nli_model": "MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33",
+  "nli_revision": "ebd4b8b0a8c32237bd4c2d0a5b1fda76428b714d",
   "onnx_file": "onnx/model_quint8_avx2.onnx",
-  "retrieval_minimum": 0.27,
-  "retrieval_margin": -0.02,
-  "include_minimum": 0.78,
-  "include_margin": 0.25,
-  "review_minimum": 0.40,
+  "nli_onnx_file": "onnx/model_quantized.onnx",
+  "retrieval_minimum": 0.23,
+  "retrieval_margin": -0.10,
+  "include_minimum": 0.70,
+  "include_margin": 0.20,
+  "review_minimum": 0.35,
   "hypotheses": [
-    "This paper develops or analyzes a formal economic theory of strategic behavior, incentives, preferences, markets, or equilibrium.",
-    "This paper primarily estimates or empirically tests economic relationships using observed data, experiments, or quantitative calibration.",
-    "This paper studies a subject outside economic theory, such as engineering, computing applications, medicine, law, or business practice."
+    "This paper is about economic theory and mathematical economic models.",
+    "This paper reports empirical economic research using data.",
+    "This paper is about a subject other than economics."
   ],
   "topics": {
     "Game Theory & Networks": "Economic theory of strategic interaction: Nash equilibrium, repeated and dynamic games, bargaining, cooperative games, network formation and network games.",
