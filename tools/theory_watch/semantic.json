@@ -1,0 +1,35 @@
+{
+  "version": "semantic-2.0",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "nli_model": "cross-encoder/nli-deberta-v3-xsmall",
+  "nli_revision": "a150876415327c80daeff35ca6f68f5ed8cf5c24",
+  "onnx_file": "onnx/model_quint8_avx2.onnx",
+  "retrieval_minimum": 0.27,
+  "retrieval_margin": -0.02,
+  "include_minimum": 0.78,
+  "include_margin": 0.25,
+  "review_minimum": 0.40,
+  "hypotheses": [
+    "This paper develops or analyzes a formal economic theory of strategic behavior, incentives, preferences, markets, or equilibrium.",
+    "This paper primarily estimates or empirically tests economic relationships using observed data, experiments, or quantitative calibration.",
+    "This paper studies a subject outside economic theory, such as engineering, computing applications, medicine, law, or business practice."
+  ],
+  "topics": {
+    "Game Theory & Networks": "Economic theory of strategic interaction: Nash equilibrium, repeated and dynamic games, bargaining, cooperative games, network formation and network games.",
+    "Mechanism & Market Design": "Economic theory of mechanism design, incentive compatibility, auctions, matching, allocation rules, and market design.",
+    "Information & Contracts": "Economic theory of asymmetric information, information design, Bayesian persuasion, signaling, screening, principal-agent models and contract theory.",
+    "Decision & Social Choice": "Economic theory of preferences, choice axioms, decisions under uncertainty, expected utility, voting, social choice, aggregation and welfare.",
+    "Equilibrium & Mathematical Economics": "Mathematical economic theory of competitive general equilibrium, production and exchange economies, equilibrium existence and uniqueness, prices and economic dynamics.",
+    "Industrial Organization Theory": "Economic theory of oligopoly, Cournot and Bertrand competition, monopoly pricing, market entry, search, platforms and strategic firm behavior.",
+    "Other Economic Theory": "A theoretical economic model with analytical results about public economics, political economy, international trade, economic growth or macroeconomics."
+  },
+  "negative_prototypes": [
+    "An empirical economics paper estimating causal effects using regression, difference in differences, instrumental variables, survey data or field experiments.",
+    "A quantitative macroeconomics or finance paper calibrated to data to forecast returns, estimate risk or measure policy effects.",
+    "An engineering or computer science application optimizing wireless communications, energy systems, machine learning algorithms, security or vehicle routing.",
+    "A legal, medical, management or historical paper reviewing policy, institutional practice or philosophical arguments."
+  ],
+  "jel_codes": ["C7", "C62", "D5", "D44", "D47", "D71", "D81", "D82", "D85", "D86"],
+  "notes": "Embedding retrieval followed by zero-shot natural-language-inference screening. Scores are model signals, not calibrated probabilities or quality judgments. Borderline cases are withheld for review. Explicit JEL codes, where deposited, support retrieval only; no official SSRN category feed is claimed."
+}

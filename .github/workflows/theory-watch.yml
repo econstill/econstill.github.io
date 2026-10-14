@@ -4,34 +4,55 @@ on:
 permissions:
   contents: read
 jobs:
-  models:
+  evaluate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: codex/theory-watch-semantic
+          path: automation
+          persist-credentials: false
+      - uses: actions/checkout@v7
+        with:
+          ref: gh-pages
+          path: site
+          persist-credentials: false
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - run: pip install huggingface-hub==1.0.1
-      - name: Download public inference models
+      - run: python -m unittest discover -s automation/tools/theory_watch -p 'test_*.py'
+      - run: pip install -r automation/tools/theory_watch/requirements.txt
+      - name: Evaluate complete coverage window
+        env:
+          CROSSREF_MAILTO: stillwang@bjtu.edu.cn
+        run: python automation/tools/theory_watch/update.py --site-dir site --rescreen --raw-output private/raw.json --review-output results/pending.json
+      - name: Summarize decisions
         run: |
           python - <<'PY'
-          from huggingface_hub import HfApi, hf_hub_download
-          import json
+          import json, sys
+          sys.path.insert(0, 'automation/tools/theory_watch')
+          import semantic, update
           from pathlib import Path
-          models = [('sentence-transformers/all-MiniLM-L6-v2', 'minilm'), ('cross-encoder/nli-deberta-v3-xsmall', 'nli')]
-          metadata = {}
-          for repo, directory in models:
-              info = HfApi().model_info(repo)
-              files = [file.rfilename for file in info.siblings]
-              print(repo, info.sha, files, flush=True)
-              metadata[directory] = {'repo': repo, 'revision': info.sha, 'files': files}
-              for filename in files:
-                  if '/' not in filename and (filename.endswith('.json') or filename.endswith('.model') or filename == 'vocab.txt') or filename == 'onnx/model_quint8_avx2.onnx':
-                      hf_hub_download(repo, filename, revision=info.sha, local_dir='models/' + directory)
-          Path('models/manifest.json').write_text(json.dumps(metadata, indent=2))
+          data = json.loads(Path('site/theory-watch/papers.json').read_text())
+          cache = json.loads(Path('.cache/theory-watch/decisions.json').read_text())
+          works = json.loads(Path('private/raw.json').read_text())['works']
+          decisions = []
+          for work in works:
+              title = update.plain(' '.join(work.get('title') or []))
+              abstract = update.plain(work.get('abstract', ''))
+              value = cache.get(semantic.fingerprint(title, abstract), {})
+              if value.get('scores'):
+                  decisions.append({'doi': work['DOI'], 'title': title, 'excerpt': update.shorten(abstract), **value})
+          Path('results/decisions.json').write_text(json.dumps(decisions, indent=2))
+          print(json.dumps({'screening': data['screening'], 'papers': [{'id': p['id'], 'title': p['title']} for p in data['papers']]}, indent=2))
           PY
       - uses: actions/upload-artifact@v7
         with:
-          name: theory-watch-public-models
-          path: models
-          retention-days: 2
+          name: theory-watch-evaluation
+          path: |
+            results
+            site/theory-watch
+            .cache/theory-watch/decisions.json
+          include-hidden-files: true
+          retention-days: 3
