@@ -10,6 +10,8 @@ The collector uses the public Crossref REST API, restricted to DOI prefix `10.21
 
 The initial run scans the last 14 days of DOI registrations. Later runs scan metadata deposits since the last successful check, with a two-day overlap. IDs are deduplicated; records with the same normalized title and author set are also merged, retaining alternate SSRN IDs in `ssrn_ids`. A record's `first_seen` remains stable. A title, author, or abstract change sets `record_updated_at`; this is not described as a new paper version. Full abstracts are used during selection but only short excerpts (at most 20 words) and fingerprints are stored in the public archive.
 
+The archive begins with DOI registrations from September 30, 2026 (`registrations_from` in `rules.json`). Older registrations encountered in metadata-deposit queries are skipped, so routine updates to old records do not appear as newly discovered papers in this feed.
+
 Failed or incomplete collection does not advance the checkpoint or publish an empty replacement. The last successful static page remains online. The page flags checks older than three days as delayed.
 
 ## Run

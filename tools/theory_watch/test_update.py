@@ -70,6 +70,13 @@ class UpdateTests(unittest.TestCase):
         self.assertEqual(second["last_collection"]["changed_matches"], 1)
         self.assertEqual(second["papers"][0]["first_seen"], NOW.isoformat())
 
+    def test_old_registration_is_not_added_by_a_recent_metadata_deposit(self):
+        old = work()
+        old["created"]["date-time"] = "2024-08-12T12:00:00Z"
+        old["deposited"]["date-time"] = "2026-10-14T01:00:00Z"
+        result = update.merge({}, [old], NOW, {"date_field": "deposit"})
+        self.assertEqual(result["papers"], [])
+
     def test_identical_work_under_two_ssrn_ids_is_merged(self):
         duplicate = work()
         duplicate["DOI"] = "10.2139/ssrn.2345678"

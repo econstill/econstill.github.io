@@ -250,7 +250,8 @@ def identity(paper):
 
 
 def merge(previous, works, now, window):
-    existing = {paper["id"]: paper for paper in previous.get("papers", [])}
+    coverage_start = previous.get("coverage_start", RULES["registrations_from"])
+    existing = {paper["id"]: paper for paper in previous.get("papers", []) if paper["indexed_at"][:10] >= coverage_start}
     new_count = updated_count = 0
     unique_works = {}
     for work in works:
@@ -261,6 +262,9 @@ def merge(previous, works, now, window):
     aliases = {alias: paper["id"] for paper in existing.values() for alias in paper.get("ssrn_ids", [paper["id"]])}
     identities = {identity(paper): paper["id"] for paper in existing.values()}
     for work in sorted(unique_works.values(), key=lambda item: timestamp(item.get("created")) or ""):
+        registered = timestamp(work.get("created"))
+        if not registered or registered[:10] < coverage_start:
+            continue
         paper = normalize(work, now)
         if paper is None:
             continue
@@ -292,6 +296,7 @@ def merge(previous, works, now, window):
         "source": "SSRN DOI metadata deposited with Crossref",
         "selection": "Automatic title and abstract topic matching; not a complete SSRN feed",
         "rule_version": RULES["version"], "last_successful_check": now.isoformat(),
+        "coverage_start": coverage_start,
         "last_collection": {**window, "records_checked": len(unique_works), "new_matches": new_count,
                             "changed_matches": updated_count},
         "papers": papers,
@@ -348,6 +353,7 @@ def render(data, site):
         initial_count=min(50, len(papers)),
         css_version=hashlib.sha256((ROOT / "watch.css").read_bytes()).hexdigest()[:10],
         js_version=hashlib.sha256((ROOT / "watch.js").read_bytes()).hexdigest()[:10],
+        coverage_start=datetime.fromisoformat(data.get("coverage_start", RULES["registrations_from"])).strftime("%d %b %Y"),
     )
     write_text(output / "index.html", rendered)
     write_text(output / "papers.json", json.dumps(data, ensure_ascii=False, indent=2) + "\n")
