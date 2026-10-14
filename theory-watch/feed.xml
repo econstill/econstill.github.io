@@ -5,7 +5,7 @@
     <link>https://econstill.github.io/theory-watch/</link>
     <description>Automatically matched economic-theory papers from SSRN DOI metadata. Coverage is partial; dates are DOI registration dates.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 13:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 13:59:14 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation</title>
@@ -106,13 +106,6 @@
       <description>Vladimir Asriyan, William Martin Fuchs, Caio Lorecchio. Information &amp; Contracts / Mechanism &amp; Market Design. We study dynamic monopoly pricing with multiple buyers whose privately known valuations are correlated, so one buyer's purchase reveals information...</description>
     </item>
     <item>
-      <title>Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078</link>
-      <guid isPermaLink="false">10.2139/ssrn.7596078</guid>
-      <pubDate>Mon, 12 Oct 2026 14:55:05 +0000</pubDate>
-      <description>Tim J. Boonen, Yilong Gong, Bin Li, Dongchen Li. Decision &amp; Social Choice / Information &amp; Contracts. We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...</description>
-    </item>
-    <item>
       <title>Claim Discipline for Threshold-Based Economics</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7594600</link>
       <guid isPermaLink="false">10.2139/ssrn.7594600</guid>
@@ -173,7 +166,7 @@
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587019</link>
       <guid isPermaLink="false">10.2139/ssrn.7587019</guid>
       <pubDate>Sat, 10 Oct 2026 04:21:37 +0000</pubDate>
-      <description>Daojing Zhai, Hongjian Shi. Mechanism &amp; Market Design / Information &amp; Contracts. We develop a framework to identify and quantify arbitrage across logically related prediction-market contracts. We prove that prices outside the...</description>
+      <description>Daojing Zhai, Hongjian Shi. Mechanism &amp; Market Design. We develop a framework to identify and quantify arbitrage across logically related prediction-market contracts. We prove that prices outside the...</description>
     </item>
     <item>
       <title>Shaping the Menu: Information Design under Screening</title>
@@ -264,7 +257,7 @@
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7579198</link>
       <guid isPermaLink="false">10.2139/ssrn.7579198</guid>
       <pubDate>Thu, 08 Oct 2026 13:25:18 +0000</pubDate>
-      <description>Serkan Kara. Information &amp; Contracts / Mechanism &amp; Market Design. Organizations increasingly face environments in which the ability to transform repeatedly determines survival. Existing theories explain why organizations change, how...</description>
+      <description>Serkan Kara. Mechanism &amp; Market Design / Information &amp; Contracts. Organizations increasingly face environments in which the ability to transform repeatedly determines survival. Existing theories explain why organizations change, how...</description>
     </item>
     <item>
       <title>Economies of Scale in Service Systems</title>

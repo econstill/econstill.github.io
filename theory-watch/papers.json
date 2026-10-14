@@ -5,24 +5,22 @@
   "source": "SSRN DOI metadata deposited with Crossref",
   "selection": "Semantic topic retrieval plus transparent formal-contribution and empirical-evidence checks; borderline records withheld for review",
   "rule_version": "semantic-2.3-hybrid",
-  "last_successful_check": "2026-10-14T13:51:31+00:00",
+  "last_successful_check": "2026-10-14T13:59:14+00:00",
   "screening": {
-    "retrieved": 3052,
-    "included": 94,
-    "review": 272,
-    "excluded": 11959,
+    "retrieved": 721,
+    "included": 23,
+    "review": 64,
+    "excluded": 2374,
     "cached": 0
   },
   "coverage_start": "2026-09-30",
   "last_collection": {
-    "from": "2026-09-30",
+    "from": "2026-10-12",
     "through": "2026-10-14",
-    "date_field": "created",
-    "records_checked": 12325,
-    "new_matches": 68,
-    "changed_matches": 0,
-    "embedding_check_at": "2026-10-14T13:38:51+00:00",
-    "selection_rechecked_at": "2026-10-14T13:51:31+00:00"
+    "date_field": "deposit",
+    "records_checked": 2461,
+    "new_matches": 0,
+    "changed_matches": 0
   },
   "papers": [
     {
@@ -416,36 +414,6 @@
       "fingerprint": "2f447173a5b0a07048a56c51aa316ee465c2d8d4e0217c74d6e3935bea103feb"
     },
     {
-      "id": "7596078",
-      "doi": "10.2139/ssrn.7596078",
-      "title": "Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences",
-      "authors": [
-        "Tim J. Boonen",
-        "Yilong Gong",
-        "Bin Li",
-        "Dongchen Li"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078",
-      "topics": [
-        "Decision & Social Choice",
-        "Information & Contracts"
-      ],
-      "excerpt": "We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...",
-      "indexed_at": "2026-10-12T14:55:05+00:00",
-      "selection_reason": "Automatic screening",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596078",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T14:55:05+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7596078"
-      ],
-      "fingerprint": "bee07884ce7e6a0b7cbd5057507e145c1f3d3f803378feeaa99a028550976bec"
-    },
-    {
       "id": "7594600",
       "doi": "10.2139/ssrn.7594600",
       "title": "Claim Discipline for Threshold-Based Economics",
@@ -672,8 +640,7 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587019",
       "topics": [
-        "Mechanism & Market Design",
-        "Information & Contracts"
+        "Mechanism & Market Design"
       ],
       "excerpt": "We develop a framework to identify and quantify arbitrage across logically related prediction-market contracts. We prove that prices outside the...",
       "indexed_at": "2026-10-10T04:21:37+00:00",
@@ -1026,8 +993,8 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7579198",
       "topics": [
-        "Information & Contracts",
-        "Mechanism & Market Design"
+        "Mechanism & Market Design",
+        "Information & Contracts"
       ],
       "excerpt": "Organizations increasingly face environments in which the ability to transform repeatedly determines survival. Existing theories explain why organizations change, how...",
       "indexed_at": "2026-10-08T13:25:18+00:00",
