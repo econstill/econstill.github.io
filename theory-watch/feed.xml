@@ -5,7 +5,7 @@
     <link>https://econstill.github.io/theory-watch/</link>
     <description>Automatically matched economic-theory papers from SSRN DOI metadata. Coverage is partial; dates are DOI registration dates.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Oct 2026 07:34:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 07:39:30 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Incentives in School Choice with Rank-Dependent Priorities</title>
@@ -286,34 +286,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7527498</guid>
       <pubDate>Wed, 30 Sep 2026 00:03:12 +0000</pubDate>
       <description>Micheal Duchesne. Information &amp; Contracts. Enslavement in the ancient Mediterranean was structured by a striking paradox: enslavers relied on violent coercion while simultaneously cultivating cooperative...</description>
-    </item>
-    <item>
-      <title>On the Origin of Algebraic Complexity in Games and Resource Allocation</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7512219</link>
-      <guid isPermaLink="false">10.2139/ssrn.7512219</guid>
-      <pubDate>Wed, 23 Sep 2026 17:53:44 +0000</pubDate>
-      <description>Taylor Canann. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. When the primitives of an economic model are rational numbers, its solution need not be. We ask which solution concepts...</description>
-    </item>
-    <item>
-      <title>A Theory of Two-Sided Directed Search</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7339258</link>
-      <guid isPermaLink="false">10.2139/ssrn.7339258</guid>
-      <pubDate>Wed, 26 Aug 2026 05:03:41 +0000</pubDate>
-      <description>Puyu WANG. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. In empirical research, two-sided directed models frequently incorporate taste shocks to match data, yet the resulting non-linear strategic feedback leaves...</description>
-    </item>
-    <item>
-      <title>Authority in Relational Contracts with Asymmetric Information</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071247</link>
-      <guid isPermaLink="false">10.2139/ssrn.6071247</guid>
-      <pubDate>Wed, 14 Jan 2026 13:48:56 +0000</pubDate>
-      <description>Harvey Upton. Information &amp; Contracts. </description>
-    </item>
-    <item>
-      <title>Structured Stable Matchings</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910284</link>
-      <guid isPermaLink="false">10.2139/ssrn.4910284</guid>
-      <pubDate>Mon, 12 Aug 2024 16:22:46 +0000</pubDate>
-      <description>Gaoji Hu. Mechanism &amp; Market Design. We study the structure of stable outcomes in matching markets with incomplete information, where firms' characteristics are public and workers...</description>
     </item>
   </channel>
 </rss>

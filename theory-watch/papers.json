@@ -5,13 +5,14 @@
   "source": "SSRN DOI metadata deposited with Crossref",
   "selection": "Automatic title and abstract topic matching; not a complete SSRN feed",
   "rule_version": 1,
-  "last_successful_check": "2026-10-14T07:34:33+00:00",
+  "last_successful_check": "2026-10-14T07:39:30+00:00",
+  "coverage_start": "2026-09-30",
   "last_collection": {
     "from": "2026-10-12",
     "through": "2026-10-14",
     "date_field": "deposit",
     "records_checked": 2587,
-    "new_matches": 4,
+    "new_matches": 0,
     "changed_matches": 0
   },
   "papers": [
@@ -939,97 +940,6 @@
         "7527498"
       ],
       "fingerprint": "4afd405dccb1f457574e01996f59a5968206999ba55616ffbb363068bfacc2f7"
-    },
-    {
-      "id": "7512219",
-      "doi": "10.2139/ssrn.7512219",
-      "title": "On the Origin of Algebraic Complexity in Games and Resource Allocation",
-      "authors": [
-        "Taylor Canann"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7512219",
-      "topics": [
-        "Game Theory & Networks",
-        "Equilibrium & Mathematical Economics"
-      ],
-      "excerpt": "When the primitives of an economic model are rational numbers, its solution need not be. We ask which solution concepts...",
-      "indexed_at": "2026-09-23T17:53:44+00:00",
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-13T13:10:10+00:00",
-      "first_seen": "2026-10-14T07:34:33+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7512219"
-      ],
-      "fingerprint": "be05a24a584b2d381ba872d923ce0486484692e66e0bd700181b1ea128bfbaa8"
-    },
-    {
-      "id": "7339258",
-      "doi": "10.2139/ssrn.7339258",
-      "title": "A Theory of Two-Sided Directed Search",
-      "authors": [
-        "Puyu WANG"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7339258",
-      "topics": [
-        "Game Theory & Networks",
-        "Equilibrium & Mathematical Economics",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "In empirical research, two-sided directed models frequently incorporate taste shocks to match data, yet the resulting non-linear strategic feedback leaves...",
-      "indexed_at": "2026-08-26T05:03:41+00:00",
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T10:20:05+00:00",
-      "first_seen": "2026-10-14T07:34:33+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7339258"
-      ],
-      "fingerprint": "5548dff14677a1c5689cca65697fae510daf0b8b60ca0bf4d89245acc9df05f1"
-    },
-    {
-      "id": "6071247",
-      "doi": "10.2139/ssrn.6071247",
-      "title": "Authority in Relational Contracts with Asymmetric Information",
-      "authors": [
-        "Harvey Upton"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6071247",
-      "topics": [
-        "Information & Contracts"
-      ],
-      "excerpt": "",
-      "indexed_at": "2026-01-14T13:48:56+00:00",
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T13:01:07+00:00",
-      "first_seen": "2026-10-14T07:34:33+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "6071247"
-      ],
-      "fingerprint": "a8126b966a639fc68d7ca7ef1be1a2af2643bc57a334c0ded81533d2dcbd6d1e"
-    },
-    {
-      "id": "4910284",
-      "doi": "10.2139/ssrn.4910284",
-      "title": "Structured Stable Matchings",
-      "authors": [
-        "Gaoji Hu"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4910284",
-      "topics": [
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "We study the structure of stable outcomes in matching markets with incomplete information, where firms' characteristics are public and workers...",
-      "indexed_at": "2024-08-12T16:22:46+00:00",
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T06:45:08+00:00",
-      "first_seen": "2026-10-14T07:34:33+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "4910284"
-      ],
-      "fingerprint": "9c7ddb6c97951aa3ff0e26928b5ecb93e2e7d7c7e945c67cd9cb5ede2847472c"
     }
   ]
 }
