@@ -3,19 +3,254 @@
   "title": "Theory Watch",
   "home_page_url": "https://econstill.github.io/theory-watch/",
   "source": "SSRN DOI metadata deposited with Crossref",
-  "selection": "Automatic title and abstract topic matching; not a complete SSRN feed",
-  "rule_version": 1,
-  "last_successful_check": "2026-10-14T07:39:30+00:00",
+  "selection": "Semantic topic retrieval plus transparent formal-contribution and empirical-evidence checks; borderline records withheld for review",
+  "rule_version": "semantic-2.3-hybrid",
+  "last_successful_check": "2026-10-14T13:51:31+00:00",
+  "screening": {
+    "retrieved": 3052,
+    "included": 94,
+    "review": 272,
+    "excluded": 11959,
+    "cached": 0
+  },
   "coverage_start": "2026-09-30",
   "last_collection": {
-    "from": "2026-10-12",
+    "from": "2026-09-30",
     "through": "2026-10-14",
-    "date_field": "deposit",
-    "records_checked": 2587,
-    "new_matches": 0,
-    "changed_matches": 0
+    "date_field": "created",
+    "records_checked": 12325,
+    "new_matches": 68,
+    "changed_matches": 0,
+    "embedding_check_at": "2026-10-14T13:38:51+00:00",
+    "selection_rechecked_at": "2026-10-14T13:51:31+00:00"
   },
   "papers": [
+    {
+      "id": "7609418",
+      "doi": "10.2139/ssrn.7609418",
+      "title": "Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation",
+      "authors": [
+        "Anuj Bhowmik"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609418",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "This paper develops a general equilibrium model of tradable licenses by considering an economy with a continuum of agents who...",
+      "indexed_at": "2026-10-14T08:45:36+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609418",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T08:45:36+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7609418"
+      ],
+      "fingerprint": "13243f3aae3c240f16d6e74d7e3a3bf6d451d3a532b1b8ebe7f7705ea891aa2f"
+    },
+    {
+      "id": "7606878",
+      "doi": "10.2139/ssrn.7606878",
+      "title": "Finite-Horizon Portfolio Choice with Stochastic Income: From Analytical Approximation to Reinforcement Learning",
+      "authors": [
+        "Alain Bensoussan",
+        "Jeonggyu Huh",
+        "Hojin Ko",
+        "Seyoung Park"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7606878",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We examine a household's optimal consumption and portfolio choice problem over a finite working life subject to unspanned labor income...",
+      "indexed_at": "2026-10-14T06:47:11+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7606878",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T06:47:11+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7606878"
+      ],
+      "fingerprint": "fb774351bd4328ef80e07fa45ce548d2f2c168a9566c6aa3abedb848dee1ddeb"
+    },
+    {
+      "id": "7601123",
+      "doi": "10.2139/ssrn.7601123",
+      "title": "Competing for Advertiser Spending: Optimal Allocation and Pricing on a Smaller Advertising Platform",
+      "authors": [
+        "Bar Light",
+        "Jussi Keppo",
+        "Zhengyuan Zhou",
+        "Xiaoyu Fan",
+        "Kerun Xu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7601123",
+      "topics": [
+        "Industrial Organization Theory",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Digital advertising markets often feature a large established platform and smaller platforms competing for advertiser spending. We study how a...",
+      "indexed_at": "2026-10-14T03:40:52+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7601123",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T03:40:52+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7601123"
+      ],
+      "fingerprint": "71feb36ca0e57a7992c653549b7fe86119a300e47c42730d3b659ebc647af27e"
+    },
+    {
+      "id": "7607814",
+      "doi": "10.2139/ssrn.7607814",
+      "title": "Contracting for Safe Transaction Recovery: Evidence and Payment Scale",
+      "authors": [
+        "Chang Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607814",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "Recovering an unconfirmed order requires coordinating the original and backup fulfillment channels. A termination request alone does not establish that...",
+      "indexed_at": "2026-10-13T17:11:41+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607814",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T17:11:41+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607814"
+      ],
+      "fingerprint": "6abd3675274ffc13f0db9ab59ecbf9b4dce7f34f9ebc23886292774fea5c1e40"
+    },
+    {
+      "id": "7607813",
+      "doi": "10.2139/ssrn.7607813",
+      "title": "EPR Fee Design in Fashion Supply Chains: The Effects of Supply Chain Structure and Bargaining Power",
+      "authors": [
+        "Dinh Anh PHAN",
+        "Thi Le Hoa Vo"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607813",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Extended producer responsibility (EPR) is an important policy instrument for addressing the environmental externalities associated with fashion production. However, its...",
+      "indexed_at": "2026-10-13T17:11:32+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607813",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T17:11:32+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607813"
+      ],
+      "fingerprint": "b0f844d42db0364e61ec24cff538265f7a9fa5e162fee80659fd80813f331d11"
+    },
+    {
+      "id": "7607158",
+      "doi": "10.2139/ssrn.7607158",
+      "title": "A Behavioral Foundation for the Investment Wedge",
+      "authors": [
+        "Jean-Paul L’Huillier",
+        "Pierlauro Lopez",
+        "Sanjay R. Singh"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607158",
+      "topics": [
+        "Industrial Organization Theory",
+        "Information & Contracts"
+      ],
+      "excerpt": "Motivated by behavioral evidence, we develop a tractable method for incorporating competition neglect into a general equilibrium firm investment problem...",
+      "indexed_at": "2026-10-13T16:09:15+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607158",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T16:09:15+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607158"
+      ],
+      "fingerprint": "d02c2a6905e9c0ab5f3f1bea76ae10b697ed48d89aa66266475e2df4faec77a4"
+    },
+    {
+      "id": "7607543",
+      "doi": "10.2139/ssrn.7607543",
+      "title": "Asset pricing and fuel taxation in production economies with the stochastic price of fossil fuel",
+      "authors": [
+        "Wu Wensheng",
+        "Haiying Liu",
+        "Jinqiang Yang",
+        "Zheng Shaojie"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607543",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study a continuous-time production economy with a household with re cursive preferences, a firm with convex adjustment costs, and...",
+      "indexed_at": "2026-10-13T16:07:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607543",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T16:10:44+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607543"
+      ],
+      "fingerprint": "386956446fae7ab5ea441f372311204f87aa75d31297300f97b3a696d0646f91"
+    },
+    {
+      "id": "7607058",
+      "doi": "10.2139/ssrn.7607058",
+      "title": "The Impact of Flexibility and Visibility Constraints on Product Ranking Management",
+      "authors": [
+        "Wentao Lu",
+        "Ozge Sahin",
+        "Ruxian Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607058",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Motivated by platform governance policies, regulatory scrutiny, and longrun marketplace management, we study ranking and assortment decisions under visibility and...",
+      "indexed_at": "2026-10-13T16:03:51+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607058",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T16:03:51+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607058"
+      ],
+      "fingerprint": "adbdce44edb8d08e46947c64227b8f16386763af792ac98806cf277d34127d72"
+    },
     {
       "id": "7605560",
       "doi": "10.2139/ssrn.7605560",
@@ -26,10 +261,14 @@
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605560",
       "topics": [
         "Mechanism & Market Design",
-        "Game Theory & Networks"
+        "Decision & Social Choice"
       ],
       "excerpt": "Many school admission systems give a higher priority to a student who ranks a school higher in his submitted preference...",
       "indexed_at": "2026-10-13T15:09:54+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7605560",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-13T15:20:11+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -40,6 +279,87 @@
       "fingerprint": "fa2a5be14d89e4692a23f5582249379b0e7dd6ce244baab31ca1217a4e5f49e7"
     },
     {
+      "id": "7605918",
+      "doi": "10.2139/ssrn.7605918",
+      "title": "Judicial Assignment against Judge Shopping",
+      "authors": [
+        "Hasan Tas",
+        "Jingui Xie",
+        "Galit Yom-Tov"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605918",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Judge shopping refers to litigants' strategic choice of filing venue to increase the chance that their case is assigned to...",
+      "indexed_at": "2026-10-13T14:54:48+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7605918",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T14:54:48+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7605918"
+      ],
+      "fingerprint": "89a3c53ef42e6ea2dde395da74cfde9549b7e1486b58c067b3f117b69e917782"
+    },
+    {
+      "id": "7603184",
+      "doi": "10.2139/ssrn.7603184",
+      "title": "Contradictory Contingent Commitments Do Not Eliminate States",
+      "authors": [
+        "Max von Holtzendorff"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7603184",
+      "topics": [
+        "Decision & Social Choice",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "This note considers a class of equilibrium-elimination arguments based on contingent policy commitments. I show that contradictions generated by contingent...",
+      "indexed_at": "2026-10-13T12:12:12+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7603184",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T12:12:12+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7603184"
+      ],
+      "fingerprint": "4089c836f809b42c5549a2ca21675124fb9db808e8776d928eacdc295298b079"
+    },
+    {
+      "id": "7603183",
+      "doi": "10.2139/ssrn.7603183",
+      "title": "Brick-and-Mortar Success -A Microeconomic Resonance Model, Strategic Supply Functions, and Reaction-Weighted Algorithmic Pricing",
+      "authors": [
+        "Lauri Tenhunen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7603183",
+      "topics": [
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "This paper presents an integrated microeconomic model to optimize small retail units, like kiosks or stores, under market uncertainty. First...",
+      "indexed_at": "2026-10-13T12:11:51+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7603183",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T16:55:01+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7603183"
+      ],
+      "fingerprint": "288f8234c8508b7f6fdc6c2c945ba990dc695d5bcd3dc8ae5a22c458f1fa6f66"
+    },
+    {
       "id": "7592999",
       "doi": "10.2139/ssrn.7592999",
       "title": "Generative Grammars and Games of Addition: Comparing Their Mathematical Structures and Applicability to Organizational Decision-Making",
@@ -48,10 +368,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7592999",
       "topics": [
-        "Game Theory & Networks"
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
       ],
       "excerpt": "This paper examines whether Barberà and Gerber’s framework of games of addition can provide a formal basis for analyzing organizational...",
       "indexed_at": "2026-10-13T05:32:25+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7592999",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-13T05:32:25+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -60,6 +385,35 @@
         "7592999"
       ],
       "fingerprint": "d36ec24490d2fe538ccf2f4def67afddc737853d3414774f68f37ce46cfa10bc"
+    },
+    {
+      "id": "7596278",
+      "doi": "10.2139/ssrn.7596278",
+      "title": "Multilateral Bargaining with Information Spillovers",
+      "authors": [
+        "Vladimir Asriyan",
+        "William Martin Fuchs",
+        "Caio Lorecchio"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596278",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study dynamic monopoly pricing with multiple buyers whose privately known valuations are correlated, so one buyer's purchase reveals information...",
+      "indexed_at": "2026-10-12T15:03:56+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596278",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T15:03:56+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7596278"
+      ],
+      "fingerprint": "2f447173a5b0a07048a56c51aa316ee465c2d8d4e0217c74d6e3935bea103feb"
     },
     {
       "id": "7596078",
@@ -73,10 +427,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078",
       "topics": [
+        "Decision & Social Choice",
         "Information & Contracts"
       ],
       "excerpt": "We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...",
       "indexed_at": "2026-10-12T14:55:05+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596078",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-12T14:55:05+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -87,27 +446,30 @@
       "fingerprint": "bee07884ce7e6a0b7cbd5057507e145c1f3d3f803378feeaa99a028550976bec"
     },
     {
-      "id": "7594618",
-      "doi": "10.2139/ssrn.7594618",
-      "title": "Three Essays on Personal Bankruptcy",
+      "id": "7594600",
+      "doi": "10.2139/ssrn.7594600",
+      "title": "Claim Discipline for Threshold-Based Economics",
       "authors": [
-        "Ioannis Kingdom"
+        "George Xiang"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7594618",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7594600",
       "topics": [
-        "Game Theory & Networks",
-        "Equilibrium & Mathematical Economics"
+        "Decision & Social Choice"
       ],
-      "excerpt": "This thesis presents three essays on the Öeld of personal bankruptcy. The research carried out is mostly, but not fully...",
-      "indexed_at": "2026-10-12T08:39:04+00:00",
+      "excerpt": "Economic decisions are often made near thresholds at which losses, feasibility, classification, or continuation values change sharply. A numerical distance...",
+      "indexed_at": "2026-10-12T08:36:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7594600",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T08:39:20+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-12T08:36:46+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7594618"
+        "7594600"
       ],
-      "fingerprint": "6caed27a936381364129acda56a412c7898110ac074412d14859564cb101030f"
+      "fingerprint": "11fbee24ae7bc5c907aa19a41d4c4c5af82514ae75a4ecd773ddd70ac3a088dd"
     },
     {
       "id": "7590660",
@@ -119,11 +481,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590660",
       "topics": [
-        "Information & Contracts",
-        "Equilibrium & Mathematical Economics"
+        "Industrial Organization Theory",
+        "Decision & Social Choice"
       ],
       "excerpt": "This paper compares allocations under monopoly and perfect competition in markets with adverse selection, such as insurance markets. We show...",
       "indexed_at": "2026-10-12T06:39:18+00:00",
+      "selection_reason": "Editorial inclusion",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7590660",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-12T06:39:18+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -134,6 +500,197 @@
       "fingerprint": "67d07654b8dbe5163c2fb8c4a9c1ce949d9454aaf7b9e6fe3e9fe6bfbcba6d77"
     },
     {
+      "id": "7591659",
+      "doi": "10.2139/ssrn.7591659",
+      "title": "Speed-for-Flexibility Contracts for AI Data-Center Interconnection under Private Information and Operational Uncertainty",
+      "authors": [
+        "Subham De"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7591659",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Flexible interconnection offers earlier electrical service in exchange for interruptible import rights, creating an operations-management problem in which the promised...",
+      "indexed_at": "2026-10-12T04:04:16+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7591659",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T04:04:16+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7591659"
+      ],
+      "fingerprint": "6817566ae1208aaca3556d762590bbf1ee0f561342f0f33514f32adffb8cf8c0"
+    },
+    {
+      "id": "7597409",
+      "doi": "10.2139/ssrn.7597409",
+      "title": "Robust Portfolio Choice under Business-Cycle Ambiguity",
+      "authors": [
+        "Xiaoshan Su",
+        "Yuhan Li",
+        "Jiandong Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597409",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "This paper studies robust consumption and portfolio choice under ambiguity regarding diffusion, disaster jump, and business-cycle transition risks in complete...",
+      "indexed_at": "2026-10-11T15:45:19+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7597409",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-11T15:47:08+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7597409"
+      ],
+      "fingerprint": "691a7f26cfad8f3d399c108ebb2329cfa28157a33ee7d32f8e6fbd805ee7426a"
+    },
+    {
+      "id": "7597177",
+      "doi": "10.2139/ssrn.7597177",
+      "title": "Unilateral Incentives and Informative Experimentationin Cournot Learning",
+      "authors": [
+        "S. S. Askar King Saud University"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597177",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Firms facing unknown demand must infer the effect of a unilateral quantity change from observations generated while their rivals also...",
+      "indexed_at": "2026-10-11T15:10:43+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7597177",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-11T15:15:18+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7597177"
+      ],
+      "fingerprint": "257fa06aeabd81b7ab15cf082681f22bd458986f86ecf660e7c9a1daae239e41"
+    },
+    {
+      "id": "7593809",
+      "doi": "10.2139/ssrn.7593809",
+      "title": "Coordinated Toll, Parking, and Ridesharing Pricing under Stochastic User Equilibrium: A Multi-Objective Optimization Approach",
+      "authors": [
+        "SeyedRoozbeh Mousavi",
+        "Yousef Shafahi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7593809",
+      "topics": [
+        "Decision & Social Choice",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Origin–destination tolls, destination-based parking charges, and regulated ridesharing fares are typically designed separately, although their effects on congestion and traveler...",
+      "indexed_at": "2026-10-10T17:08:57+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7593809",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T17:10:55+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7593809"
+      ],
+      "fingerprint": "7c3b4005975cb2fa699c76e18cf8ad116daba88f4d43aa31ac0bcd1b4d8ece6f"
+    },
+    {
+      "id": "7593808",
+      "doi": "10.2139/ssrn.7593808",
+      "title": "Dynamic Fragility of Informative Signaling in Mixed Autonomous–Human Traffic: A Coupled Signaling–Evolutionary Safety Model",
+      "authors": [
+        "mohammad reza omidi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7593808",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Autonomous vehicles (AVs) are increasingly interacting with human-driven vehicles (HVs), creating safety problems in which private information, human adaptation and...",
+      "indexed_at": "2026-10-10T17:08:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7593808",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T17:10:55+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7593808"
+      ],
+      "fingerprint": "42cde08ed420ebcc3f7fdb488c94e49e7855bcf15845b45a5b5c5f2193184974"
+    },
+    {
+      "id": "7591078",
+      "doi": "10.2139/ssrn.7591078",
+      "title": "Welfare Externalities and Optimal Headroom Regulation",
+      "authors": [
+        "George Xiang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7591078",
+      "topics": [
+        "Decision & Social Choice",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Regulators often condition policy on economic headroom, the distance between a consequential boundary and an institution's current position. Headroom is...",
+      "indexed_at": "2026-10-10T08:31:27+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7591078",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T08:31:27+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7591078"
+      ],
+      "fingerprint": "963b72b733ec33b60f350683fc2c3bc41ee160292e7a50c855eb11b0e4f17606"
+    },
+    {
+      "id": "7587019",
+      "doi": "10.2139/ssrn.7587019",
+      "title": "Combinatorial Arbitrage in Prediction Markets",
+      "authors": [
+        "Daojing Zhai",
+        "Hongjian Shi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587019",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "We develop a framework to identify and quantify arbitrage across logically related prediction-market contracts. We prove that prices outside the...",
+      "indexed_at": "2026-10-10T04:21:37+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7587019",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T22:00:07+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7587019"
+      ],
+      "fingerprint": "39b3e60d36fd347158f903609bd7df6096e05f4f6d6f4c131c118cc9a0987a66"
+    },
+    {
       "id": "7590419",
       "doi": "10.2139/ssrn.7590419",
       "title": "Shaping the Menu: Information Design under Screening",
@@ -142,10 +699,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590419",
       "topics": [
-        "Information & Contracts"
+        "Information & Contracts",
+        "Mechanism & Market Design"
       ],
       "excerpt": "How should consumers learn when a seller chooses a menu of product qualities and prices? We study information design when...",
       "indexed_at": "2026-10-09T18:17:17+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7590419",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-09T18:17:17+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -166,10 +728,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590261",
       "topics": [
-        "Game Theory & Networks"
+        "Industrial Organization Theory",
+        "Mechanism & Market Design"
       ],
       "excerpt": "Credit-based congestion pricing (CBCP) and discount-based congestion pricing (DBCP), which respectively allot travel credits and toll discounts to subsidize low-income...",
       "indexed_at": "2026-10-09T17:25:16+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7590261",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-09T17:27:47+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -180,50 +747,168 @@
       "fingerprint": "e9d26049cd899104953707eccd37cb0409566f8eaf0d92444c1d31a09108715f"
     },
     {
-      "id": "7589561",
-      "doi": "10.2139/ssrn.7589561",
-      "title": "Asking for the Right Signal: Information Design and Portfolio Choice",
+      "id": "7589886",
+      "doi": "10.2139/ssrn.7589886",
+      "title": "Bounded Stationary Discounted Utility",
       "authors": [
-        "Tingjin Yan",
-        "Yun Shi",
-        "Xiangyu Cui"
+        "Xiangyu Qu"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589561",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589886",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "tandard discounted utility rapidly suppresses distant future consequences, often making catastrophic losses or transformative gains nearly irrelevant for present decisions...",
+      "indexed_at": "2026-10-09T16:08:03+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7589886",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T16:10:40+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7589886"
+      ],
+      "fingerprint": "bc40201ad1bd419edcc27a2775031c8c46088571817c990e52c370272f0ed553"
+    },
+    {
+      "id": "7543298",
+      "doi": "10.2139/ssrn.7543298",
+      "title": "Progressive Taxation and Macroeconomic Stability with Non-Ricardian Households",
+      "authors": [
+        "Dou Jiang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543298",
+      "topics": [
+        "Other Economic Theory",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Using a one-sector model with household heterogeneity, I examine how the presence of non-Ricardian households affects the stabilizing role of...",
+      "indexed_at": "2026-10-09T07:56:06+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543298",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T08:00:00+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7543298"
+      ],
+      "fingerprint": "a99579766c56a95c9f9fe453408860329cfa841d3fc9bddeb1fc3dbe2b4827e0"
+    },
+    {
+      "id": "7587238",
+      "doi": "10.2139/ssrn.7587238",
+      "title": "Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies",
+      "authors": [
+        "Nick Arnosti",
+        "Rad Niazadeh",
+        "Pranav Nuti",
+        "Felipe Simon"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...",
+      "indexed_at": "2026-10-09T06:09:10+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7587238",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T06:09:10+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7587238"
+      ],
+      "fingerprint": "f1c0a07533679db0dafee0e72c193e5de7c15d9af4f46de8e46973fa4f68331e"
+    },
+    {
+      "id": "7574978",
+      "doi": "10.2139/ssrn.7574978",
+      "title": "Information Divergence and Endogenous Evolution of Asymmetric Information",
+      "authors": [
+        "Ratna Shrestha",
+        "Gaurav Subedi",
+        "Ayush Shrestha"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978",
       "topics": [
         "Information & Contracts"
       ],
-      "excerpt": "Investors choose not only how much information to acquire, but also how predictive information is represented for decisions. This paper...",
-      "indexed_at": "2026-10-09T14:34:29+00:00",
+      "excerpt": "Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...",
+      "indexed_at": "2026-10-09T04:47:40+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7574978",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-09T14:34:29+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-10T17:20:14+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7589561"
+        "7574978"
       ],
-      "fingerprint": "7fb8a55ff15a95b63a980746cfeb8a570c4be337227a1d92c1c69248fe805993"
+      "fingerprint": "7da0765a58476f3f300c200fbf0a342a6ae92bd09a0c1008de7f3219149276ad"
     },
     {
-      "id": "7576520",
-      "doi": "10.2139/ssrn.7576520",
-      "title": "Non-Nashian Game Theory",
+      "id": "7584739",
+      "doi": "10.2139/ssrn.7584739",
+      "title": "Deterministic Equal Sanctions under Shared Sanction Capacity: Strict Dominance, Unique Pure Nash, and a Mixed-Strategy Boundary",
       "authors": [
-        "Adrien Fabre"
+        "Teddy Lin"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7576520",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7584739",
       "topics": [
-        "Game Theory & Networks"
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
       ],
-      "excerpt": "The concepts I am sketching below are probably already known by game theorists, but I don't know them. I feel...",
-      "indexed_at": "2026-10-09T11:13:17+00:00",
+      "excerpt": "How does an enforcement-capacity problem change when the implementation objective is weakened while the enforcement technology is fixed? I study...",
+      "indexed_at": "2026-10-08T20:01:53+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7584739",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-09T11:13:17+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-08T20:01:54+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7576520"
+        "7584739"
       ],
-      "fingerprint": "76e89b5d62f96617e43f9bcd1d6a2ce2f93369339c8cf23f01cdddb2d11f6c7d"
+      "fingerprint": "b58825b3f33031016ca7a9f0135b90424eba8adcee611fa0ab853467ecf3ed95"
+    },
+    {
+      "id": "7581478",
+      "doi": "10.2139/ssrn.7581478",
+      "title": "Agency Conflicts and Data-Driven Capital Dynamics",
+      "authors": [
+        "Jiaxi Jiang",
+        "Pengfei Luo"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7581478",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "We develop a continuous-time agency model of a data-driven firm in which the principal hires a manager who privately controls...",
+      "indexed_at": "2026-10-08T14:57:10+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7581478",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T14:57:10+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7581478"
+      ],
+      "fingerprint": "d7f9f6f1d69f34f312a3a6a90d3f606203f188f98a9df42f286676b7f0627bd5"
     },
     {
       "id": "7580718",
@@ -238,6 +923,10 @@
       ],
       "excerpt": "This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...",
       "indexed_at": "2026-10-08T14:21:15+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7580718",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-10T23:50:10+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -248,6 +937,170 @@
       "fingerprint": "35ccc385e3390aba0c6dc9f0cf46a0f5796e237502a3e83f374f97d9430c100c"
     },
     {
+      "id": "7580218",
+      "doi": "10.2139/ssrn.7580218",
+      "title": "Promises To Whom: Identifying Personal Guilt And Partner-Specific Commitment Across Populations",
+      "authors": [
+        "Montserrat Ximena Hernández Gallegos"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580218",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Promises are kept even when keeping them no longer pays. Two motives predict this: personal guilt, which hurts when one...",
+      "indexed_at": "2026-10-08T13:54:01+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7580218",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T13:54:01+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7580218"
+      ],
+      "fingerprint": "eeb852d486e3d68405229fea4f48904dfdbf725f784a12974801890f2999abf0"
+    },
+    {
+      "id": "7579958",
+      "doi": "10.2139/ssrn.7579958",
+      "title": "Dynamic Economic Headroom: Recovery Timing, Active State Dimension, and Optimal Intervention",
+      "authors": [
+        "George Xiang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7579958",
+      "topics": [
+        "Other Economic Theory",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "A static distance to a boundary need not be a sufficient state for economic choice because committed recovery arrives at...",
+      "indexed_at": "2026-10-08T13:50:51+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7579958",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T13:50:51+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7579958"
+      ],
+      "fingerprint": "61ac09fb47fc808a3e2ee5f0a298a6b87ada10c3015d5bcbfda9cbb376d3a8ef"
+    },
+    {
+      "id": "7579458",
+      "doi": "10.2139/ssrn.7579458",
+      "title": "The Payoff Structure of Hedged Prop Firm Evaluation Accounts with Static Drawdown: A Closed-Form Analysis",
+      "authors": [
+        "Lennart Ruether"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7579458",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Proprietary trading firms (prop firms) sell access to evaluation accounts for a one-time fee. Profits on these accounts are partially...",
+      "indexed_at": "2026-10-08T13:36:18+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7579458",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T13:36:19+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7579458"
+      ],
+      "fingerprint": "3e5f55b461e36964b50f0b1d45e7b4dbd39508f5bfab67de32282bca9769b8f8"
+    },
+    {
+      "id": "7579198",
+      "doi": "10.2139/ssrn.7579198",
+      "title": "Transformation Carrying Capacity Theory (TCCT): A Formal Theory of Organizational Transformability under Structural, Temporal, Resource, and Uncertainty Constraints",
+      "authors": [
+        "Serkan Kara"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7579198",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Organizations increasingly face environments in which the ability to transform repeatedly determines survival. Existing theories explain why organizations change, how...",
+      "indexed_at": "2026-10-08T13:25:18+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7579198",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T12:25:04+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7579198"
+      ],
+      "fingerprint": "1312b3dfb88f17d419d7d1020a9aebe7e659aa8ff5c94e6928b207a973c59578"
+    },
+    {
+      "id": "7578558",
+      "doi": "10.2139/ssrn.7578558",
+      "title": "Economies of Scale in Service Systems",
+      "authors": [
+        "Benjamin Legros"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7578558",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Economies of scale are a fundamental principle in service operations, yet results characterizing their curvature are scarce. We establish such...",
+      "indexed_at": "2026-10-08T12:58:03+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7578558",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T12:58:03+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7578558"
+      ],
+      "fingerprint": "5e314c8fe0ddeb29a2809ec81c606888aeaccd9519d456ef7586c08270d2b75f"
+    },
+    {
+      "id": "7577539",
+      "doi": "10.2139/ssrn.7577539",
+      "title": "Optimal Line-Drawing for Legal Rules",
+      "authors": [
+        "Becker Friedman Institute for Economics RPS Submitter",
+        "Jacob Goldin",
+        "David Weisbach"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7577539",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "Line drawing is a pervasive feature of legal systems. Across many domains, the applicable legal treatment turns on whether an...",
+      "indexed_at": "2026-10-08T12:08:49+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7577539",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T12:08:49+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7577539"
+      ],
+      "fingerprint": "c730df96fbc853a0a0d4577e3630633015dbd7a30db77073dae875dfe19a7efa"
+    },
+    {
       "id": "7575099",
       "doi": "10.2139/ssrn.7575099",
       "title": "Knowing and Processing: Information Acquisition and Computation in General Equilibrium",
@@ -256,11 +1109,14 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7575099",
       "topics": [
-        "Information & Contracts",
-        "Equilibrium & Mathematical Economics"
+        "Information & Contracts"
       ],
       "excerpt": "Rational inattention prices what an agent knows and assumes she acts on it exactly and for free. This paper prices...",
       "indexed_at": "2026-10-08T08:50:52+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7575099",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-08T08:50:52+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -271,27 +1127,113 @@
       "fingerprint": "c2137e607822604cc046e61dd5f5c8b7de795ceea4e9cb4cb1b6671a97433d90"
     },
     {
-      "id": "7573458",
-      "doi": "10.2139/ssrn.7573458",
-      "title": "The False Allure of \"Security by Obscurity\": A Game-Theoretic Approach",
+      "id": "7575259",
+      "doi": "10.2139/ssrn.7575259",
+      "title": "Who Captures Platform-shaped Demand? Portability and the Appropriability of Platform-induced Preferences",
       "authors": [
-        "In-Uck Park",
-        "Sunoo Park"
+        "Maitreyi Gupta"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573458",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7575259",
       "topics": [
-        "Game Theory & Networks"
+        "Mechanism & Market Design"
       ],
-      "excerpt": "Security by obscurity,\" or the idea that hiding how a system works helps protect it from adversaries, has long been...",
-      "indexed_at": "2026-10-07T19:34:01+00:00",
+      "excerpt": "Digital platforms shape the preferences of the users they serve. Governance and curation decide what users encounter, and repeated encounters...",
+      "indexed_at": "2026-10-08T08:50:21+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7575259",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-07T19:34:01+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-08T08:50:21+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7573458"
+        "7575259"
       ],
-      "fingerprint": "872ba3766f92cef918fd15fdd8658a472d4c1ebd1e83db5223083532f163b233"
+      "fingerprint": "c7f83a2fb88e0b4cd320001da1ecd5d630ec65d94210dc3e68868d2ac2f6fa6b"
+    },
+    {
+      "id": "7571980",
+      "doi": "10.2139/ssrn.7571980",
+      "title": "Refusal Bites only up to Spare Cash: Who Must Hold the Budget When Public Services Turn Harmful",
+      "authors": [
+        "Hoang Tran"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7571980",
+      "topics": [
+        "Other Economic Theory",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "A right to refuse harmful terms is worth only what the buyer can afford. We study a deployed public service...",
+      "indexed_at": "2026-10-08T06:56:03+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7571980",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T06:56:03+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7571980"
+      ],
+      "fingerprint": "c7a50c32e32375700371e915506ed331fb925e4e8f614cd671d83684d50d416d"
+    },
+    {
+      "id": "7570198",
+      "doi": "10.2139/ssrn.7570198",
+      "title": "Vote Trading Without Negative Externalities: The Role of Electoral Systems",
+      "authors": [
+        "Nikolas Tsakas",
+        "Dimitrios Xefteris",
+        "Nicholas Ziros"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570198",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Can the voting rule make vote markets normatively safe? We study money-for-votes trade before a binary decision under qualified majority...",
+      "indexed_at": "2026-10-08T06:02:00+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7570198",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T06:02:00+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7570198"
+      ],
+      "fingerprint": "fcc8162a993a597a67543b7c06136ab141150023fa7ba9f0ac1bcd85eecbcd6c"
+    },
+    {
+      "id": "7568058",
+      "doi": "10.2139/ssrn.7568058",
+      "title": "Optimal Personalized Pricing under a Consumer Trust Constraint",
+      "authors": [
+        "Rajit Chatterjea",
+        "Jaymin Park"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7568058",
+      "topics": [
+        "Industrial Organization Theory",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study how intensely a monopolist should personalize prices when personalization erodes consumer trust. The firm chooses a scalar intensity...",
+      "indexed_at": "2026-10-08T05:00:11+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7568058",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T05:00:11+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7568058"
+      ],
+      "fingerprint": "4a1fda08f3fbf4f450dc0832a36f58b578027fcd647fb634c21f9e0c982897cd"
     },
     {
       "id": "7572678",
@@ -302,11 +1244,14 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7572678",
       "topics": [
-        "Information & Contracts",
-        "Decision & Social Choice"
+        "Information & Contracts"
       ],
       "excerpt": "Problem definition: Nonprofits recruiting skilled volunteers face a tradeoff in communicating task requirements. While more precise information about task requirements...",
       "indexed_at": "2026-10-07T19:24:55+00:00",
+      "selection_reason": "Editorial inclusion",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7572678",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-07T19:24:56+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -317,48 +1262,85 @@
       "fingerprint": "27fb41fae129ad77efc517dc469809f854e5e07548fd6a78e8f466805bccaa7e"
     },
     {
-      "id": "7573959",
-      "doi": "10.2139/ssrn.7573959",
-      "title": "Optimal Taxation of Cryptocurrency:Loss Relief, Concealment, and Enforcement",
+      "id": "7578411",
+      "doi": "10.2139/ssrn.7578411",
+      "title": "Topology-coupled evolutionary dynamics of cybersecurity investment in fast-moving consumer goods cold chains: exact degree-based reduction, threshold transitions and period-doubling",
       "authors": [
-        "Minwoo Song"
+        "Sina Keyhanian"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573959",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7578411",
       "topics": [
-        "Mechanism & Market Design"
+        "Game Theory & Networks"
       ],
-      "excerpt": "Crypto gains can be hidden in self-custodied or offshore wallets, but crypto losses are claimed by taxpayers and verified. We...",
-      "indexed_at": "2026-10-07T17:33:58+00:00",
+      "excerpt": "Cold chains for fast-moving consumer goods are vulnerable to interdependent cyber risks, where a breach at one firm can rapidly...",
+      "indexed_at": "2026-10-07T18:59:22+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7578411",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-07T17:33:58+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-07T19:00:49+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7573959"
+        "7578411"
       ],
-      "fingerprint": "a42fd17457f8e795d7f8fcca360c72fcb4e9eb33def9ac6cadafd702e315f249"
+      "fingerprint": "23c5c0ac217693f6be9c89a0a50eb9b36969425456e6526a1f2685a6749221bb"
     },
     {
-      "id": "7569799",
-      "doi": "10.2139/ssrn.7569799",
-      "title": "General Equilibrium Headroom: Endogenous Boundaries, Feedback, and Systemic Constraint",
+      "id": "7568820",
+      "doi": "10.2139/ssrn.7568820",
+      "title": "Loss Aversion and Interim Feedback in Tournaments",
       "authors": [
-        "George Xiang"
+        "Toshifumi Hagihara",
+        "Toshiki Miyashita"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7569799",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7568820",
       "topics": [
-        "Equilibrium & Mathematical Economics"
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
       ],
-      "excerpt": "Economic headroom is commonly evaluated at an individual position while prices, collateral values, regulatory rules, and other agents' actions are...",
-      "indexed_at": "2026-10-07T16:47:53+00:00",
+      "excerpt": "This paper examines how reference-dependent preferences affect effort incentives in a tournament with interim performance feedback. Feedback typically weakens effort...",
+      "indexed_at": "2026-10-07T15:38:56+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7568820",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-07T16:47:53+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-07T15:38:56+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7569799"
+        "7568820"
       ],
-      "fingerprint": "80a198a49d6494d1629187424917a4c7d725924b5f6208f833c52f7be59923dc"
+      "fingerprint": "92fe706aed8ed34c78e63e5464b74d15ebc3b334d7c3d91b4617ef217e02d00a"
+    },
+    {
+      "id": "7566822",
+      "doi": "10.2139/ssrn.7566822",
+      "title": "Bilateral Equilibrium in Two-Sided Exchange: Acyclicity, Existence, and Global Compatibility",
+      "authors": [
+        "Ivo Antonio Skolmen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7566822",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "This paper develops the static and dynamic foundations of bilateral equilibrium in two-sided exchange. Our main result identifies acyclicity of...",
+      "indexed_at": "2026-10-07T13:12:40+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7566822",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T13:12:41+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7566822"
+      ],
+      "fingerprint": "fb0583b02121e70db228e4ed6fa7cd97ce16182f628c3ff584ba531661366f5e"
     },
     {
       "id": "7570239",
@@ -374,6 +1356,10 @@
       ],
       "excerpt": "To meet their tax planning objectives, some firms rely mainly on internal tax expertise while others supplement in-house capabilities with...",
       "indexed_at": "2026-10-07T12:26:16+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7570239",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-12T07:40:09+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -384,26 +1370,111 @@
       "fingerprint": "05e508c26e68484efc452b9c261eb1f22c9fac99ba88eec3c522981c2973331b"
     },
     {
-      "id": "7556938",
-      "doi": "10.2139/ssrn.7556938",
-      "title": "Teaching Macroeconomic Dynamics: Analyzing the Carlin-Soskice Three-Equation Macro Model Using Matlab and the Routh-Hurwitz Criterion *",
+      "id": "7564638",
+      "doi": "10.2139/ssrn.7564638",
+      "title": "Fiscal Constraints and Information Value in Education Policy",
       "authors": [
-        "Christopher Herdelin"
+        "Haixiao Yu"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556938",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7564638",
       "topics": [
-        "Equilibrium & Mathematical Economics"
+        "Information & Contracts",
+        "Decision & Social Choice"
       ],
-      "excerpt": "This paper introduces a novel pedagogical and methodological framework defined by four key departures from the standard Three-Equation macroeconomic model...",
-      "indexed_at": "2026-10-07T03:13:20+00:00",
+      "excerpt": "Fiscal restrictions can limit the value of learning productive education returns. In an education economy with endogenous fertility and partially...",
+      "indexed_at": "2026-10-07T05:58:10+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7564638",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-07T03:13:20+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-07T18:15:14+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7556938"
+        "7564638"
       ],
-      "fingerprint": "7a2f553cd6e6473a858010fad619295e627b6a7979393acb08d5842b33db9297"
+      "fingerprint": "a410f641cd9fc328a472913ae5d5356fcf642f913eed9740ef7c124665a20efc"
+    },
+    {
+      "id": "7555719",
+      "doi": "10.2139/ssrn.7555719",
+      "title": "Systemic Realisability: A Budget-Neutral Architecture for Autocatalytic Public Services",
+      "authors": [
+        "Greg Lakatos"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555719",
+      "topics": [
+        "Mechanism & Market Design",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Eighty-five years of political-economic scholarship — from James Burnham’s account of the managerial revolution to János Kornai’s soft budget constraint...",
+      "indexed_at": "2026-10-07T02:27:32+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7555719",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T02:27:32+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7555719"
+      ],
+      "fingerprint": "6c1f5c35d7ad547a989d723e1bc3044f1a2a242d88d73e9788e12fb3452615b9"
+    },
+    {
+      "id": "7555700",
+      "doi": "10.2139/ssrn.7555700",
+      "title": "The Value of Information under Local Differential Privacy",
+      "authors": [
+        "Zhe Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555700",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study the value of optimally designed information under local differential privacy in a Bayesian decision problem. With finitely many...",
+      "indexed_at": "2026-10-07T02:26:06+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7555700",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T02:26:06+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7555700"
+      ],
+      "fingerprint": "142a98113f1e39c5d2e98e64e0de3b2f30144c1d251c4fa6ef2afd67c72aee0e"
+    },
+    {
+      "id": "7566458",
+      "doi": "10.2139/ssrn.7566458",
+      "title": "Operational Path Dependence and Capability Transformation in Adaptive Liquidity Systems",
+      "authors": [
+        "Petr Popov"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7566458",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "This paper establishes structural results on operational path dependence and the transformation of Redistribution Capability along trajectories of adaptive liquidity...",
+      "indexed_at": "2026-10-06T20:05:52+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7566458",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T20:05:52+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7566458"
+      ],
+      "fingerprint": "4ad3c81cdf0e0ec61a76bea3d0bd63ff67ecfd42f68201a9f0c22c8f83309b4b"
     },
     {
       "id": "7564558",
@@ -414,10 +1485,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7564558",
       "topics": [
+        "Decision & Social Choice",
         "Equilibrium & Mathematical Economics"
       ],
       "excerpt": "Standard competitive equilibrium fails in economies with lexicographic preferences. The failure is not a technical inconvenience but a fundamental obstruction...",
       "indexed_at": "2026-10-06T17:50:32+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7564558",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-06T17:50:32+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -426,6 +1502,88 @@
         "7564558"
       ],
       "fingerprint": "b96f9fd33bdfd6cacac2c599b4da9eb72acb8db76f5b7e254ffa58fa7cae4388"
+    },
+    {
+      "id": "7562479",
+      "doi": "10.2139/ssrn.7562479",
+      "title": "Tiered Assortment Optimization",
+      "authors": [
+        "Hongbin Zhang",
+        "Yanzhi Li",
+        "Woonghee Tim Huh"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7562479",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study tiered assortment optimization, in which a seller selects products from N candidates and assigns them to M ordered...",
+      "indexed_at": "2026-10-06T15:51:15+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7562479",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T15:51:15+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7562479"
+      ],
+      "fingerprint": "cfb2d3b97399af2327c56a8fe7baea428bbe2da91ce263f3ed4faec3fa234d5a"
+    },
+    {
+      "id": "7571118",
+      "doi": "10.2139/ssrn.7571118",
+      "title": "Public Information, Participation, and Equilibrium Polarization",
+      "authors": [
+        "David T. Yi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7571118",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "This paper examines how information disclosed during competitionaffects the positions competitors choose when participation isvoluntary. Two competitors choose their platforms...",
+      "indexed_at": "2026-10-06T15:06:06+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7571118",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T15:06:06+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7571118"
+      ],
+      "fingerprint": "e856a89cc0af0b168628f1ce961be0e4ec11d6865b517bf480540f8f0660d14c"
+    },
+    {
+      "id": "7571040",
+      "doi": "10.2139/ssrn.7571040",
+      "title": "Why Some Nations Innovate More: A Multifriction Theory of Innovation and Growth",
+      "authors": [
+        "Claudio Bravo-ortega"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7571040",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "I show that thirteen innovation frictions of different economic natures collapse, in the equilibrium of an expanding-variety economy, into two...",
+      "indexed_at": "2026-10-06T14:58:53+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7571040",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T14:58:53+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7571040"
+      ],
+      "fingerprint": "9fde5027dab9cb16c908ac16351eb27c8912c7f050a2e8e007dcf1fb0f8a5667"
     },
     {
       "id": "7559121",
@@ -439,12 +1597,14 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7559121",
       "topics": [
-        "Information & Contracts",
-        "Equilibrium & Mathematical Economics",
-        "Game Theory & Networks"
+        "Information & Contracts"
       ],
       "excerpt": "This paper examines how a government should strategically select an experimental design to assess a new crop variety's market potential...",
       "indexed_at": "2026-10-06T08:58:21+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7559121",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-06T08:58:21+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -455,50 +1615,111 @@
       "fingerprint": "1fd84617f8a950ec7df56dceb871bc5f6aaec9869c79a2d708fadc51c251a02c"
     },
     {
-      "id": "7552382",
-      "doi": "10.2139/ssrn.7552382",
-      "title": "The Impact of Sanctions and Pre-release Policies on Recidivism",
+      "id": "7559038",
+      "doi": "10.2139/ssrn.7559038",
+      "title": "Concentrated Liquidity Is a Lottery Blotto Game",
       "authors": [
-        "Ozlem Yasar",
-        "Mehmet Baran Dispence",
-        "Bilge Ozturk Goktuna"
+        "Taylor Canann"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552382",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7559038",
       "topics": [
-        "Game Theory & Networks"
+        "Industrial Organization Theory",
+        "Mechanism & Market Design"
       ],
-      "excerpt": "This paper provides an analytical model to study the effects of pre-release policies such as amnesties and pardons on crime...",
-      "indexed_at": "2026-10-06T03:05:11+00:00",
+      "excerpt": "Competition among liquidity providers on Uniswap v3 and its successors is a lottery Colonel Blotto game. Providers divide capital across...",
+      "indexed_at": "2026-10-05T17:31:33+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7559038",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-06T03:05:11+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-05T17:31:33+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7552382"
+        "7559038"
       ],
-      "fingerprint": "7743f50bcda30d2d77f085f6451ebe9b18aef6a4a26daf5f027d5f6e14c839a6"
+      "fingerprint": "c42784df90bec83122a3f91488174add3154f77cc504c58abc12183552ee61ba"
     },
     {
-      "id": "7557438",
-      "doi": "10.2139/ssrn.7557438",
-      "title": "Revealed Preference under Uniform Choice: Observation Rates and Budget Design",
+      "id": "7566480",
+      "doi": "10.2139/ssrn.7566480",
+      "title": "AI Outsourcing or In-House Development? Firms’ Digital-Intelligent Transformation under Data Circulation Regulation",
       "authors": [
-        "Hideyasu Sato"
+        "Zhaoying Hu",
+        "Shoufeng Ma",
+        "Shuai Ling"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7557438",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7566480",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "Non-technical firms (NTFs) accumulate rich proprietary operational data but lack the algorithmic capability to convert it into AI, and increasingly...",
+      "indexed_at": "2026-10-05T17:23:40+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7566480",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-05T17:23:41+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7566480"
+      ],
+      "fingerprint": "7278d754f093c99a297928535e1f3fdc69c3c6bd4ee8bb5e377fd61096f2f22f"
+    },
+    {
+      "id": "7557902",
+      "doi": "10.2139/ssrn.7557902",
+      "title": "Who Pays for the Grandchildren? Fertility Decline as a Supply-Revelation Problem",
+      "authors": [
+        "Philip E. Graves"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7557902",
       "topics": [
         "Decision & Social Choice"
       ],
-      "excerpt": "We study the number and composition of budgets needed to detect a fixed departure from revealed preference under independent uniform...",
-      "indexed_at": "2026-10-05T16:43:21+00:00",
+      "excerpt": "Kahn (2026) frames a birth as the private provision of a public good within the family, and notes that Becker's...",
+      "indexed_at": "2026-10-05T16:58:12+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7557902",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-05T16:43:21+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-13T20:18:11+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7557438"
+        "7557902"
       ],
-      "fingerprint": "58467812706dd3752c0b78cba1060aeaaffb1d8ad3cf0772158ad3f117d0b55b"
+      "fingerprint": "99bcd3478455290c70704f8d4745c185d894d3b601e740f454e31ae139165833"
+    },
+    {
+      "id": "7555438",
+      "doi": "10.2139/ssrn.7555438",
+      "title": "Falsifiability of Revealed Criterion Importance Under Value-Tree Refinement",
+      "authors": [
+        "Masahiro Asami"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555438",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Observed multi-criteria choices are often interpreted retrospectively as evidence about which criterion mattered most. Classical value analysis has long emphasized...",
+      "indexed_at": "2026-10-05T14:43:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7555438",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-05T14:43:46+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7555438"
+      ],
+      "fingerprint": "ced4e8fe5d4b5d548c186bd4f55200f60fb18347440351ed149895b5ac6e76ed"
     },
     {
       "id": "7560666",
@@ -510,10 +1731,14 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560666",
       "topics": [
-        "Mechanism & Market Design"
+        "Decision & Social Choice"
       ],
       "excerpt": "We study random assignment of indivisible objects among a set of agents with strictpreferences and outside options. When agents may...",
       "indexed_at": "2026-10-04T14:07:51+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7560666",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-04T14:07:51+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -524,26 +1749,85 @@
       "fingerprint": "384110be77652784ba413ef9a84f36178fac162e89f1f87cf59b1369b9d04ab4"
     },
     {
-      "id": "7556920",
-      "doi": "10.2139/ssrn.7556920",
-      "title": "Financial Globalization: Effects on Banks' Information Acquisition and Credit Risk",
+      "id": "7560665",
+      "doi": "10.2139/ssrn.7560665",
+      "title": "Existence of a majority equilibrium in the presence of a reference point",
       "authors": [
-        "Christopher Paik"
+        "Herve Cres",
+        "Mich Tvede"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556920",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560665",
       "topics": [
-        "Information & Contracts"
+        "Decision & Social Choice"
       ],
-      "excerpt": "Financial liberalization accelerates global banks' entry into new markets where host countries hope to spur investment and economic growth. However...",
-      "indexed_at": "2026-10-03T14:52:25+00:00",
+      "excerpt": "We study the existence of majority equilibria in multidimensional policy spaces when choices are made in the presence of a...",
+      "indexed_at": "2026-10-04T14:07:44+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7560665",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-03T14:52:25+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-04T14:07:44+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7556920"
+        "7560665"
       ],
-      "fingerprint": "e96a0bbb5d38432c9fcc4faf984cd06808817194cf67b515fd9a3b3cea73ece1"
+      "fingerprint": "b2b976c09550188010e0b0b4a4d30b3ed6ef533b21a7abe8ef88f9934ed9bc36"
+    },
+    {
+      "id": "7557341",
+      "doi": "10.2139/ssrn.7557341",
+      "title": "The Entry Effect: How Micro-Movements Convert Private Intention into Shared Social Constraint",
+      "authors": [
+        "George-Rubin Thomas"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7557341",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "This paper formalizes the Entry Effect: the bottom-up strategic mechanism by which an initiating agent converts a private intention into...",
+      "indexed_at": "2026-10-03T16:08:16+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7557341",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T16:08:16+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7557341"
+      ],
+      "fingerprint": "f910ea8233bec7a0fcbd13832b543ecaa3fbb330a9fd0f194ed588dd4c459289"
+    },
+    {
+      "id": "7556891",
+      "doi": "10.2139/ssrn.7556891",
+      "title": "Managing Strategic Communication for Monetary Transfers",
+      "authors": [
+        "Akifumi Ishihara"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556891",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We investigate a model of an informed expert and an uninformed decision maker, in which the expert sends cheap-talk messages...",
+      "indexed_at": "2026-10-03T14:50:29+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556891",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T14:50:29+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7556891"
+      ],
+      "fingerprint": "af1a5077fb1aade72ffb6420ce6ff1499c4fd43d5043bea9de9b585c841ca915"
     },
     {
       "id": "7556890",
@@ -558,6 +1842,10 @@
       ],
       "excerpt": "This paper develops a measure of preference for early resolution of uncertainty (PER) that parallels the Arrow-Pratt measure of risk...",
       "indexed_at": "2026-10-03T14:50:19+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556890",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-03T14:50:19+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -566,6 +1854,117 @@
         "7556890"
       ],
       "fingerprint": "f5651db11c3270c673e3100b705002b59caa985e9c2631039c0ead7e6327082b"
+    },
+    {
+      "id": "7551062",
+      "doi": "10.2139/ssrn.7551062",
+      "title": "Multilateral Bargaining With Caps",
+      "authors": [
+        "Diego Carrasco",
+        "John Hillas",
+        "Alfonso Dela Cruz"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7551062",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study the Baron-Ferejohn model of multilateral bargaining when each player's share is capped. The Baron-Ferejohn outcome remains the unique...",
+      "indexed_at": "2026-10-03T09:13:41+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7551062",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T09:13:41+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7551062"
+      ],
+      "fingerprint": "49456286d153a4a5b4790f8de2c0e52fea407c8fda9ce4b0af622f2c80e92f97"
+    },
+    {
+      "id": "7553563",
+      "doi": "10.2139/ssrn.7553563",
+      "title": "Designing the Right to Cooperate Participation and Costly Communication Networks",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553563",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...",
+      "indexed_at": "2026-10-02T21:26:37+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553563",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T21:26:37+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553563"
+      ],
+      "fingerprint": "0b8e60965ab4a9beecec32b0b3efd41b397b49148f9baf0ca36bab094c292677"
+    },
+    {
+      "id": "7553738",
+      "doi": "10.2139/ssrn.7553738",
+      "title": "The Value of Knowing a Coalition Allocation-Dependent Information and Stable Burden Sharing",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553738",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...",
+      "indexed_at": "2026-10-02T21:26:30+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553738",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T21:26:30+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553738"
+      ],
+      "fingerprint": "a9bf699772bb6d61571af8ac150645fc67bd2a83da23fd94202be6250a0c092a"
+    },
+    {
+      "id": "7553003",
+      "doi": "10.2139/ssrn.7553003",
+      "title": "Option Share and the Affordability of CEO Pay",
+      "authors": [
+        "Xiaohui Gao",
+        "Gurdip S. Bakshi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553003",
+      "topics": [
+        "Mechanism & Market Design",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We introduce an ex ante valuation budget into CEO compensation design with participation and incentive compatibility. With affine utility and...",
+      "indexed_at": "2026-10-02T19:24:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553003",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T19:24:46+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553003"
+      ],
+      "fingerprint": "8099bb132755f7db747661e182e03d5f64ca34c6cade71b13839296e6ba961dd"
     },
     {
       "id": "7552146",
@@ -581,6 +1980,10 @@
       ],
       "excerpt": "We derive sufficient conditions for the existence, non-existence, uniqueness and global attractivity of stochastic recursive utilities. Our approach uses abstract...",
       "indexed_at": "2026-10-02T16:32:36+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552146",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-02T16:32:36+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -599,11 +2002,14 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552140",
       "topics": [
-        "Mechanism & Market Design",
-        "Equilibrium & Mathematical Economics"
+        "Mechanism & Market Design"
       ],
       "excerpt": "The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...",
       "indexed_at": "2026-10-02T16:29:44+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552140",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-02T16:29:44+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -614,71 +2020,195 @@
       "fingerprint": "239ca6a45f42873bd1ab8c2a5e65c2f4be372c3669c4d65d5ffa5a92879b326d"
     },
     {
-      "id": "7548635",
-      "doi": "10.2139/ssrn.7548635",
-      "title": "The National Carbon Price and Welfare on Alternative Paths to Net Zero Emissions: Simple Versus Optimal Policy Rules",
+      "id": "7552832",
+      "doi": "10.2139/ssrn.7552832",
+      "title": "Distinguishing Bargaining from Competitive Supply through Joint Output Responses",
       "authors": [
-        "Rasmus Berg",
-        "Peter Birch Sorensen"
+        "Hyungjin Kim"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548635",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552832",
+      "topics": [
+        "Mechanism & Market Design",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Bargaining and competitive supply are hard to tell apart, because both can predict the same directions of output change after...",
+      "indexed_at": "2026-10-02T14:45:05+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552832",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T14:45:05+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7552832"
+      ],
+      "fingerprint": "5e6d883db30477368906ba0e88a6675b2d35f0ca97839214c340de29a9645702"
+    },
+    {
+      "id": "7550338",
+      "doi": "10.2139/ssrn.7550338",
+      "title": "Competition between the Creative Class and a Regional Government: A Firm Level Analysis",
+      "authors": [
+        "Amitrajeet A. Batabyal",
+        "Hamid Beladi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7550338",
+      "topics": [
+        "Industrial Organization Theory",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We provide a game-theoretic analysis of competition between a private firm started by a creative class member and a public...",
+      "indexed_at": "2026-10-02T11:25:33+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7550338",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T11:25:33+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7550338"
+      ],
+      "fingerprint": "070e102557fe76ea8e43f03d0ee2e976d1e78ff19ce13143fc119b555846b874"
+    },
+    {
+      "id": "7549998",
+      "doi": "10.2139/ssrn.7549998",
+      "title": "On the Cardinality of the Smith Set Under Impartial Culture with Many Alternatives",
+      "authors": [
+        "Zachary Berchenko",
+        "Kaizhao Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549998",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "For some integer ℓ ≥ 2, consider m = 2ℓ-1 voters, each of which has a preference ranking over n...",
+      "indexed_at": "2026-10-01T18:38:28+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T18:38:28+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7549998"
+      ],
+      "fingerprint": "b09397f9dd49eddbb00db4aa483f794aaa27be7558284fec7b75c90be094fe39"
+    },
+    {
+      "id": "7548278",
+      "doi": "10.2139/ssrn.7548278",
+      "title": "Tier-Aggregated Lexicographic Priority with Satiation: Recursive Budgeting Demand, Identification, and Welfare",
+      "authors": [
+        "Ayoub Zamaneh Najafabadi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7548278",
+      "topics": [
+        "Decision & Social Choice",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We develop a satiation-augmented tier-aggregated model in which the consumer has lexicographic priority over satiation-adjusted tiers: below satiation, higher tiers...",
+      "indexed_at": "2026-10-01T17:39:17+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7548278",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T17:39:17+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7548278"
+      ],
+      "fingerprint": "e33e1d2b0514869db3132a44ffc122afd4db8af4f674304d3c6a9e91524f8607"
+    },
+    {
+      "id": "7546719",
+      "doi": "10.2139/ssrn.7546719",
+      "title": "Elementary Closed-Form Equity Valuation under Alternative Mean-Reversion Paths",
+      "authors": [
+        "I-Cheng Yeh"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546719",
       "topics": [
         "Equilibrium & Mathematical Economics"
       ],
-      "excerpt": "To study the economic and welfare consequences of alternative time paths towards net zero CO2e emissions, we develop a multi-sector...",
-      "indexed_at": "2026-10-01T13:27:27+00:00",
+      "excerpt": "This paper examines which deterministic mean-reversion specifications permit elementary closed-form equity valuation under complete earnings retention. Valuation is defined as...",
+      "indexed_at": "2026-10-01T13:15:44+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7546719",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T13:27:27+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-01T13:15:44+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7548635"
+        "7546719"
       ],
-      "fingerprint": "257a6474da40375e3cb697d89446675c2ee6daea99f3c8d2e910c504cf7480b7"
+      "fingerprint": "98c9eb3d19e91374705e6413bd6775fa60a5707c7918b1dc6d9793fe2124d25f"
     },
     {
-      "id": "7544718",
-      "doi": "10.2139/ssrn.7544718",
-      "title": "Risk Substitution in Post-PSD2 Banking: A Game-theoretic Model and Empirical Simulation Framework",
+      "id": "7546440",
+      "doi": "10.2139/ssrn.7546440",
+      "title": "The Remarkable Efficiency of the Probabilistic Serial Mechanism",
       "authors": [
-        "Jennifer Santini"
+        "Josué Ortega",
+        "Geng Zhao"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544718",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546440",
       "topics": [
-        "Game Theory & Networks"
+        "Decision & Social Choice",
+        "Mechanism & Market Design"
       ],
-      "excerpt": "This paper analyzes the strategic displacement of financial fraud from technical infrastructures to human vulnerabilities following the enforcement of the...",
-      "indexed_at": "2026-10-01T10:28:27+00:00",
+      "excerpt": "Is the choice of allocation mechanism irrelevant in the random assignment problem? Existing results conflict: unlike Probabilistic Serial (PS), Random...",
+      "indexed_at": "2026-10-01T09:51:50+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7546440",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T10:28:27+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-08T13:50:04+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7544718"
+        "7546440"
       ],
-      "fingerprint": "c871ca7c204677be0305cf91df397cf19ad6b4b0037902f5706dec1de3dd651a"
+      "fingerprint": "4a1b09c9eab6e646d5d8e5a04747766ddda20c843fd6d02c3e4a330f1330bf37"
     },
     {
-      "id": "7546198",
-      "doi": "10.2139/ssrn.7546198",
-      "title": "Rational Inattention and Cooperation",
+      "id": "7544621",
+      "doi": "10.2139/ssrn.7544621",
+      "title": "Participation Security and Elementary Mechanisms",
       "authors": [
-        "Shabnam Rahimfallah"
+        "Benjamin Brooks",
+        "Songzi Du"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546198",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621",
       "topics": [
-        "Information & Contracts"
+        "Decision & Social Choice",
+        "Mechanism & Market Design"
       ],
-      "excerpt": "We computationally and experimentally study cooperation in the indefinitely repeated Prisoner's Dilemma when attention is costly. On the computational side...",
-      "indexed_at": "2026-10-01T09:17:21+00:00",
+      "excerpt": "A mechanism is participation secure if each agent has an action that guarantees them a payoff better than their outside...",
+      "indexed_at": "2026-10-01T06:08:10+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544621",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-07T17:20:12+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-10-01T06:08:10+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7546198"
+        "7544621"
       ],
-      "fingerprint": "dc3d1a32156bc731276b49b85bb2bf7bd5b4c447c55dace60ce3d445464c93ce"
+      "fingerprint": "b63bdbed5d3d8dae2a66dd8eb9ff0404b48c1468e9c4bcf42d9260a546597153"
     },
     {
       "id": "7544019",
@@ -693,10 +2223,14 @@
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544019",
       "topics": [
         "Information & Contracts",
-        "Decision & Social Choice"
+        "Mechanism & Market Design"
       ],
       "excerpt": "Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...",
       "indexed_at": "2026-10-01T05:40:27+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544019",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-01T05:40:27+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -720,6 +2254,10 @@
       ],
       "excerpt": "In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...",
       "indexed_at": "2026-10-01T05:33:08+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543808",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-01T05:33:08+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -730,49 +2268,59 @@
       "fingerprint": "3868214a9e302262de40b34970edb3c2dfae190db1ab7421d58c241bf0eb4c26"
     },
     {
-      "id": "7546026",
-      "doi": "10.2139/ssrn.7546026",
-      "title": "Charging-constrained fleet dispatching equilibrium in quota-regulated electrified ride-hailing markets: an aggregate game with endogenous charger queueing and nested-logit demand",
+      "id": "7545373",
+      "doi": "10.2139/ssrn.7545373",
+      "title": "Fair and Strategy-Proof Matching under Institutional Constraints",
       "authors": [
-        "Wei Zhang"
+        "Lizhong Chen"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546026",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545373",
       "topics": [
-        "Game Theory & Networks"
+        "Mechanism & Market Design",
+        "Decision & Social Choice"
       ],
-      "excerpt": "Electrified ride-hailing fleets in Chinese megacities operate under two constraints that conventional dispatching models treat separately, namely a municipal cap...",
-      "indexed_at": "2026-09-30T19:37:28+00:00",
+      "excerpt": "We study student welfare under fair and strategy-proof matching when schoolsface constraints beyond capacities. For separate hereditary constraints andfixed strict...",
+      "indexed_at": "2026-09-30T17:39:40+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7545373",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-04T14:39:37+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-09-30T17:39:41+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7546026",
-        "7560933"
+        "7545373"
       ],
-      "fingerprint": "831ddb732aace5287050f6d910e2f2c6ee5e9f8d115fd7a8eef367daef3db59d"
+      "fingerprint": "a2f8fc030b223bbd7a846f5c699a0030c68a74304fda8377b944caf0b30551e8"
     },
     {
-      "id": "7544603",
-      "doi": "10.2139/ssrn.7544603",
-      "title": "Correlated Equilibrium under Endogenous Feasibility: Tractability from Low-Dimensional Common Coupling",
+      "id": "7545346",
+      "doi": "10.2139/ssrn.7545346",
+      "title": "Innovation-induced Bank Runs: Run in and Run out",
       "authors": [
-        "Adam DeHollander"
+        "Xiangguo Zhang",
+        "Danxia Xie"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544603",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545346",
       "topics": [
-        "Game Theory & Networks"
+        "Industrial Organization Theory",
+        "Information & Contracts"
       ],
-      "excerpt": "Shared resource limits can make a player’s admissible responses depend on the correlation recommended by a mediator. We show that...",
-      "indexed_at": "2026-09-30T16:07:26+00:00",
+      "excerpt": "This paper examines how competition for scarce innovative projects can lead to premature adoption of financial innovations and increase systemic...",
+      "indexed_at": "2026-09-30T17:30:52+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7545346",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T16:07:26+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-09-30T17:30:52+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7544603"
+        "7545346"
       ],
-      "fingerprint": "96b360fe1703b2d6fa1d2c6d1fd207ecfbf8dfd8c62f5478ea2e0640cb6a3c69"
+      "fingerprint": "1a7ccac3844ff622d01742b381a81ca94cfdeda8fa1eae5a36fc1894d01da9de"
     },
     {
       "id": "7539620",
@@ -784,10 +2332,14 @@
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7539620",
       "topics": [
         "Mechanism & Market Design",
-        "Equilibrium & Mathematical Economics"
+        "Information & Contracts"
       ],
       "excerpt": "This paper studies the effects of permit market on transition risk, whether shift to a low carbon economy can be...",
       "indexed_at": "2026-09-30T14:48:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7539620",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-10-11T13:10:06+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -796,30 +2348,6 @@
         "7539620"
       ],
       "fingerprint": "56edb71b26435f77eef1c38a16c21f6cd8b4fb50e8ce4e006cbf09841df4c699"
-    },
-    {
-      "id": "7542940",
-      "doi": "10.2139/ssrn.7542940",
-      "title": "Optimal Catastrophe Bond Design and its Applications to Climate Change Risk",
-      "authors": [
-        "Andres Medina",
-        "Wei Wei"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542940",
-      "topics": [
-        "Information & Contracts",
-        "Equilibrium & Mathematical Economics"
-      ],
-      "excerpt": "Catastrophe bonds have become a central instrument for transferring catastrophic risk to capital markets, yet their payout structures are typically...",
-      "indexed_at": "2026-09-30T13:28:41+00:00",
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T13:28:41+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7542940"
-      ],
-      "fingerprint": "9c748daabc9b78a9c572f15d6e2daaf1aeacaf4cd715b53b07a8cba9f504612f"
     },
     {
       "id": "7541998",
@@ -833,11 +2361,15 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7541998",
       "topics": [
-        "Mechanism & Market Design",
-        "Information & Contracts"
+        "Information & Contracts",
+        "Mechanism & Market Design"
       ],
       "excerpt": "A large body of literature studies the fundamental trade-offs of product information provision. However, much of this work treats prices...",
       "indexed_at": "2026-09-30T12:26:40+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7541998",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-09-30T12:26:41+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -848,26 +2380,31 @@
       "fingerprint": "f4659acdaabbac758e75218fca2bb50aece3061ba90c31f12b53e5cc78088e07"
     },
     {
-      "id": "7537058",
-      "doi": "10.2139/ssrn.7537058",
-      "title": "Artificial Intelligence, Aging, And the Macroeconomy A Life-Cycle General Equilibrium Model with Endogenous Fertility, AI Capital, And Longevity",
+      "id": "7537904",
+      "doi": "10.2139/ssrn.7537904",
+      "title": "Supplier Diversification and Optimal Total Orders: Why the Type of Supply Risk Matters",
       "authors": [
-        "James Wabenga Yango"
+        "Michalis Deligiannis",
+        "Dimitrios G Pandelis"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537058",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537904",
       "topics": [
-        "Equilibrium & Mathematical Economics"
+        "Mechanism & Market Design"
       ],
-      "excerpt": "This paper studies artificial intelligence and rising longevity together, in a life-cycle general equilibrium model with endogenous fertility in which...",
-      "indexed_at": "2026-09-30T10:28:35+00:00",
+      "excerpt": "Supplier diversification can improve reliability, yet it may alter the optimal total order quantity. We examine how the supply-risk mechanism...",
+      "indexed_at": "2026-09-30T10:54:35+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7537904",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T10:28:35+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-09-30T10:54:35+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7537058"
+        "7537904"
       ],
-      "fingerprint": "e51e212c4185e6bdc6dd86ab2ed462e1b4f7c2ba8c02373ade26dd36a9cac52f"
+      "fingerprint": "6594d97bf0c14f2cd31863c1a231c110d5827c8f22a9db8c7f34ad0e6f0fa388"
     },
     {
       "id": "7537720",
@@ -880,11 +2417,14 @@
       ],
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537720",
       "topics": [
-        "Information & Contracts",
         "Decision & Social Choice"
       ],
       "excerpt": "This paper explains the long-standing low-deductible anomaly in insurance markets using a prior-free disappointment framework. Under this specification, the policyholder...",
       "indexed_at": "2026-09-30T09:16:24+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7537720",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-09-30T09:16:24+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -910,6 +2450,10 @@
       ],
       "excerpt": "We develop an equilibrium model of an index-based insurance market where a policyholder with private information interacts with an insurer...",
       "indexed_at": "2026-09-30T05:12:26+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7541180",
+      "jel_codes": [],
       "posted_date": null,
       "source_metadata_updated_at": "2026-09-30T05:12:26+00:00",
       "first_seen": "2026-10-14T07:29:52+00:00",
@@ -920,26 +2464,32 @@
       "fingerprint": "62997913fb74230dab1c739743da56868c097d54c3dc3e542f7766786627e446"
     },
     {
-      "id": "7527498",
-      "doi": "10.2139/ssrn.7527498",
-      "title": "From Coercion to Cooperation: Principal-Agent Dynamics in Ancient Mediterranean Enslavement",
+      "id": "7542541",
+      "doi": "10.2139/ssrn.7542541",
+      "title": "Liability for Rogue Behaviors of Agentic AI",
       "authors": [
-        "Micheal Duchesne"
+        "Gleb Papyshev",
+        "Keith Jin Deng Chan",
+        "Sara Migliorini"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7527498",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542541",
       "topics": [
         "Information & Contracts"
       ],
-      "excerpt": "Enslavement in the ancient Mediterranean was structured by a striking paradox: enslavers relied on violent coercion while simultaneously cultivating cooperative...",
-      "indexed_at": "2026-09-30T00:03:12+00:00",
+      "excerpt": "This article addresses liability for harm caused by rogue behaviors in agentic AI systems (AAI), such as specification gaming and...",
+      "indexed_at": "2026-09-30T03:19:46+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542541",
+      "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T00:03:12+00:00",
-      "first_seen": "2026-10-14T07:29:52+00:00",
+      "source_metadata_updated_at": "2026-09-30T03:19:46+00:00",
+      "first_seen": "2026-10-14T13:51:31+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7527498"
+        "7542541"
       ],
-      "fingerprint": "4afd405dccb1f457574e01996f59a5968206999ba55616ffbb363068bfacc2f7"
+      "fingerprint": "3bbd4a20fab3f995493f73d959efd6909c2e6d768078a37bd52c929aa73ea993"
     }
   ]
 }

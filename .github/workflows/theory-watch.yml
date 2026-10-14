@@ -17,7 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     permissions:
       contents: write
     steps:
@@ -40,11 +40,31 @@ jobs:
       - name: Check collector
         if: github.event_name != 'push'
         run: python -m unittest discover -s automation/tools/theory_watch -p 'test_*.py'
+      - name: Install semantic screening runtime
+        if: github.event_name != 'push'
+        run: pip install -r automation/tools/theory_watch/requirements.txt
+      - name: Restore public models and screening cache
+        if: github.event_name != 'push'
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/.cache/huggingface/hub
+            .cache/theory-watch
+          key: theory-watch-${{ runner.os }}-${{ hashFiles('automation/tools/theory_watch/semantic.json') }}-${{ github.run_id }}
+          restore-keys: |
+            theory-watch-${{ runner.os }}-${{ hashFiles('automation/tools/theory_watch/semantic.json') }}-
       - name: Collect and render papers
         if: github.event_name != 'push'
         env:
           CROSSREF_MAILTO: stillwang@bjtu.edu.cn
-        run: python automation/tools/theory_watch/update.py --site-dir site
+        run: python automation/tools/theory_watch/update.py --site-dir site --review-output review/pending.json
+      - name: Save borderline records for review
+        if: github.event_name != 'push'
+        uses: actions/upload-artifact@v7
+        with:
+          name: theory-watch-review
+          path: review
+          retention-days: 30
       - name: Save archive
         if: github.event_name != 'push'
         working-directory: site
