@@ -1,4 +1,4 @@
-"""Local, pinned ONNX models; complete abstracts are used but never cached here."""
+"""Semantic topic retrieval with auditable contribution/evidence checks."""
 
 import hashlib
 import json
@@ -8,6 +8,17 @@ import re
 
 ROOT = Path(__file__).resolve().parent
 CONFIG = json.loads((ROOT / "semantic.json").read_text())
+FORMAL = re.compile(r"\b(prov(?:e|es|ed|ing)|theorems?|lemmas?|necessary and sufficient|if and only if|"
+                    r"axiomati[cz]\w*|characteri[sz](?:e|es|ed|ation)|closed.form|fixed.point|"
+                    r"(?:existence|uniqueness|impossibility) (?:of|theorem|result)|"
+                    r"(?:equilibrium|equilibria) (?:exists?|coincide)|strategy.proof|incentive.compatib\w*)\b", re.I)
+MODEL = re.compile(r"\b(model|framework|game|economy|economies|preferences?|mechanism)\b", re.I)
+CLAIM = re.compile(r"\b((?:we|i) (?:show|derive|establish|solve|introduce)|"
+                   r"optimal (?:contract|policy|allocation|design|mechanism|learning)|"
+                   r"comparative statics|best response|stable matching|equilibrium conditions)\b", re.I)
+EMPIRICAL = re.compile(r"\b(empirical|regression|difference.in.differences|instrumental variables?|"
+                       r"field experiment|laboratory experiment|survey data|panel data|"
+                       r"(?:we|i) (?:estimate|document|measure)|(?:using|based on|calibrated to)\b.{0,55}\bdata)\b", re.I)
 
 
 def fingerprint(title, abstract, codes=()):
@@ -15,9 +26,7 @@ def fingerprint(title, abstract, codes=()):
 
 
 def explicit_jel(work, abstract):
-    # Require an explicit JEL label; a bare code in prose is not classification metadata.
-    values = work.get("subject") or []
-    labeled = " ".join(str(value) for value in values) + " " + abstract
+    labeled = " ".join(str(value) for value in work.get("subject") or []) + " " + abstract
     match = re.search(r"\b(?i:JEL(?:\s+(?:codes?|classification))?)\s*[:\-]\s*([A-Z0-9,;.\s]+)", labeled)
     return sorted(set(re.findall(r"\b[A-Z]\d{1,2}\b", match[1]))) if match else []
 
@@ -28,17 +37,27 @@ def supported_jel(codes):
 
 def chunks(title, abstract):
     words = abstract.split()
-    if not words:
-        return [title]
-    # Overlapping windows cover the whole abstract, not just the lead paragraph.
-    return [title + ". " + " ".join(words[start:start + 170]) for start in range(0, len(words), 140)]
+    return [title + ". " + " ".join(words[start:start + 170]) for start in range(0, len(words), 140)] or [title]
 
 
-def decide(theory, empirical, outside, has_abstract):
-    margin = theory - max(empirical, outside)
-    if has_abstract and theory >= CONFIG["include_minimum"] and margin >= CONFIG["include_margin"]:
-        return "include"
-    if theory >= CONFIG["review_minimum"]:
+def contribution(title, abstract):
+    from update import OUTSIDE_SCOPE, EMPIRICAL_TITLE
+    return {"formal": len(FORMAL.findall(abstract)), "model_and_claim": bool(MODEL.search(abstract) and CLAIM.search(abstract)),
+            "empirical": len(EMPIRICAL.findall(abstract)), "empirical_title": bool(EMPIRICAL_TITLE.search(title)),
+            "outside_title": bool(OUTSIDE_SCOPE.search(title))}
+
+
+def decide(score, margin, evidence, has_abstract):
+    if evidence["outside_title"]:
+        return "exclude"
+    relevant = score >= CONFIG["include_minimum"] and margin >= CONFIG["include_margin"]
+    formal, empirical = evidence["formal"], evidence["empirical"]
+    if has_abstract and relevant:
+        if formal and not evidence["empirical_title"] and empirical < max(3, 2 * formal):
+            return "include"
+        if evidence["model_and_claim"] and not empirical and not evidence["empirical_title"] and score >= .32 and margin >= -.02:
+            return "include"
+    if score >= CONFIG["review_minimum"] and (formal or evidence["model_and_claim"] or not has_abstract):
         return "review"
     return "exclude"
 
@@ -53,48 +72,43 @@ class SemanticSelector:
         self.cache = json.loads(self.cache_path.read_text()) if self.cache_path.exists() else {}
         self.decisions = {}
         self.stats = {"retrieved": 0, "included": 0, "review": 0, "excluded": 0, "cached": 0}
-        self.models = {}
-        for name in ("embedding", "nli"):
-            onnx_file = CONFIG["nli_onnx_file"] if name == "nli" else CONFIG["onnx_file"]
-            if model_dir:
-                directory = Path(model_dir) / ("minilm" if name == "embedding" else "nli")
-            else:
-                from huggingface_hub import snapshot_download
-                directory = Path(snapshot_download(
-                    CONFIG[name + "_model"], revision=CONFIG[name + "_revision"],
-                    allow_patterns=["tokenizer.json", "config.json", onnx_file],
-                ))
-            tokenizer = Tokenizer.from_file(str(directory / "tokenizer.json"))
-            tokenizer.enable_truncation(max_length=256 if name == "embedding" else 512,
-                                        strategy="longest_first" if name == "embedding" else "only_first")
-            tokenizer.enable_padding()
-            options = ort.SessionOptions()
-            options.intra_op_num_threads = int(os.environ.get("THEORY_WATCH_THREADS", "2"))
-            session = ort.InferenceSession(str(directory / onnx_file), sess_options=options,
-                                          providers=["CPUExecutionProvider"])
-            config = json.loads((directory / "config.json").read_text())
-            self.models[name] = (tokenizer, session, config)
-        label_map = self.models["nli"][2]["id2label"]
-        self.entailment = next(int(key) for key, value in label_map.items() if value.lower() == "entailment")
+        if model_dir:
+            directory = Path(model_dir) / "minilm"
+        else:
+            from huggingface_hub import snapshot_download
+            directory = Path(snapshot_download(CONFIG["embedding_model"], revision=CONFIG["embedding_revision"],
+                allow_patterns=["tokenizer.json", "config.json", CONFIG["onnx_file"]]))
+        self.tokenizer = Tokenizer.from_file(str(directory / "tokenizer.json"))
+        self.tokenizer.enable_truncation(max_length=256)
+        self.tokenizer.enable_padding()
+        self.full_tokenizer = Tokenizer.from_file(str(directory / "tokenizer.json"))
+        self.full_tokenizer.no_truncation()
+        self.full_tokenizer.no_padding()
+        options = ort.SessionOptions()
+        options.intra_op_num_threads = int(os.environ.get("THEORY_WATCH_THREADS", "2"))
+        self.session = ort.InferenceSession(str(directory / CONFIG["onnx_file"]), sess_options=options,
+                                            providers=["CPUExecutionProvider"])
         self.topic_names = list(CONFIG["topics"])
         self.prototypes = self.embed(list(CONFIG["topics"].values()) + CONFIG["negative_prototypes"])
 
-    def infer(self, name, texts):
-        tokenizer, session, _ = self.models[name]
-        tokens = tokenizer.encode_batch(texts)
-        arrays = {
-            "input_ids": self.np.asarray([token.ids for token in tokens], dtype="int64"),
-            "attention_mask": self.np.asarray([token.attention_mask for token in tokens], dtype="int64"),
-            "token_type_ids": self.np.asarray([token.type_ids for token in tokens], dtype="int64"),
-        }
-        output = session.run(None, {key.name: arrays[key.name] for key in session.get_inputs()})[0]
-        return output, arrays["attention_mask"]
+    def segments(self, title, abstract):
+        title_ids = self.full_tokenizer.encode(title, add_special_tokens=False).ids[:100]
+        title = self.full_tokenizer.decode(title_ids)
+        tokens = self.full_tokenizer.encode(abstract, add_special_tokens=False).ids
+        budget = 250 - len(title_ids)
+        # Token windows cover the complete abstract without silent truncation.
+        return [title + ". " + self.full_tokenizer.decode(tokens[start:start + budget])
+                for start in range(0, len(tokens), budget - 32)] or [title]
 
     def embed(self, texts):
         results = []
         for start in range(0, len(texts), 32):
-            output, mask = self.infer("embedding", texts[start:start + 32])
-            weights = mask[..., None]
+            tokens = self.tokenizer.encode_batch(texts[start:start + 32])
+            arrays = {"input_ids": self.np.asarray([t.ids for t in tokens], dtype="int64"),
+                      "attention_mask": self.np.asarray([t.attention_mask for t in tokens], dtype="int64"),
+                      "token_type_ids": self.np.asarray([t.type_ids for t in tokens], dtype="int64")}
+            output = self.session.run(None, {key.name: arrays[key.name] for key in self.session.get_inputs()})[0]
+            weights = arrays["attention_mask"][..., None]
             pooled = (output * weights).sum(axis=1) / weights.sum(axis=1).clip(min=1)
             pooled /= self.np.linalg.norm(pooled, axis=1, keepdims=True).clip(min=1e-9)
             results.append(pooled)
@@ -102,8 +116,7 @@ class SemanticSelector:
 
     def prepare(self, records):
         from update import plain
-        pending = []
-        texts, offsets = [], []
+        pending, texts, offsets = [], [], []
         for work in records:
             title = plain(" ".join(work.get("title") or []))
             abstract = plain(work.get("abstract", ""))
@@ -114,44 +127,30 @@ class SemanticSelector:
                 self.decisions[doi] = self.cache[key]
                 self.stats["cached"] += 1
                 continue
-            segments = chunks(title, abstract)
+            segments = self.segments(title, abstract)
             offsets.append((len(texts), len(segments)))
             texts.extend(segments)
             pending.append((doi, title, abstract, key, codes))
         print(f"Semantic screening: {len(pending)} uncached records, {len(texts)} abstract windows", flush=True)
         for start in range(0, len(pending), 128):
             end = min(start + 128, len(pending))
-            text_start = offsets[start][0]
-            text_end = sum(offsets[end - 1])
-            vectors = self.embed(texts[text_start:text_end])
-            similarities = vectors @ self.prototypes.T
+            text_start, text_end = offsets[start][0], sum(offsets[end - 1])
+            similarities = self.embed(texts[text_start:text_end]) @ self.prototypes.T
             for index in range(start, end):
                 doi, title, abstract, key, codes = pending[index]
                 offset, length = offsets[index]
                 scores = similarities[offset - text_start:offset - text_start + length].max(axis=0)
                 positive = float(scores[:len(self.topic_names)].max())
                 negative = float(scores[len(self.topic_names):].max())
-                selected = positive >= CONFIG["retrieval_minimum"] and positive - negative >= CONFIG["retrieval_margin"]
-                selected = selected or supported_jel(codes)
-                decision = {"decision": "exclude", "retrieval_score": round(positive, 4), "jel_codes": codes}
+                selected = (positive >= CONFIG["retrieval_minimum"] and positive - negative >= CONFIG["retrieval_margin"]) or supported_jel(codes)
+                evidence = contribution(title, abstract)
+                decision = {"decision": "exclude", "retrieval_score": round(positive, 4),
+                            "retrieval_margin": round(positive - negative, 4), "jel_codes": codes, "evidence": evidence}
                 if selected:
                     self.stats["retrieved"] += 1
-                    # Every window is checked. Strong empirical/outside evidence anywhere also counts.
-                    premises = chunks(title, abstract)
-                    pairs = [(text, hypothesis) for text in premises for hypothesis in CONFIG["hypotheses"]]
-                    logits = []
-                    for batch in range(0, len(pairs), 12):
-                        output, _ = self.infer("nli", pairs[batch:batch + 12])
-                        output = output - output.max(axis=1, keepdims=True)
-                        probabilities = self.np.exp(output)
-                        probabilities /= probabilities.sum(axis=1, keepdims=True)
-                        logits.extend(probabilities[:, self.entailment])
-                    theory, empirical, outside = self.np.asarray(logits).reshape(-1, 3).max(axis=0)
                     order = self.np.argsort(scores[:len(self.topic_names)])[::-1]
-                    topics = [self.topic_names[i] for i in order[:2] if scores[i] >= max(0.25, positive - 0.055)]
-                    decision.update({"decision": decide(float(theory), float(empirical), float(outside), bool(abstract)),
-                                     "scores": [round(float(value), 4) for value in (theory, empirical, outside)],
-                                     "topics": topics or [self.topic_names[order[0]]]})
+                    decision.update({"decision": decide(positive, positive - negative, evidence, bool(abstract)),
+                        "topics": [self.topic_names[i] for i in order[:2] if scores[i] >= max(.23, positive - .055)]})
                 self.decisions[doi] = decision
                 self.cache[key] = decision
             print(f"Screened {end}/{len(pending)}; retrieval candidates {self.stats['retrieved']}", flush=True)

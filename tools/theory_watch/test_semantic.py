@@ -21,10 +21,11 @@ class SemanticTests(unittest.TestCase):
         self.assertGreater(len(segments), 1)
 
     def test_conservative_decision_boundary(self):
-        self.assertEqual(semantic.decide(.95, .1, .1, True), "include")
-        self.assertEqual(semantic.decide(.8, .7, .1, True), "review")
-        self.assertEqual(semantic.decide(.95, .1, .1, False), "review")
-        self.assertEqual(semantic.decide(.2, .8, .1, True), "exclude")
+        evidence = semantic.contribution("Network Games", "We prove equilibrium uniqueness in a network game.")
+        self.assertEqual(semantic.decide(.5, .1, evidence, True), "include")
+        self.assertEqual(semantic.decide(.24, -.09, evidence, True), "review")
+        self.assertEqual(semantic.decide(.5, .1, evidence, False), "review")
+        self.assertEqual(semantic.decide(.2, -.1, evidence, True), "exclude")
 
     def test_rescreen_preserves_first_seen(self):
         first = update.merge({}, [work()], NOW, {})

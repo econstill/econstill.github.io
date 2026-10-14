@@ -65,10 +65,9 @@
         <h2 id="coverage-title">Coverage</h2>
         <p>Papers are discovered through public SSRN DOI records deposited with
           <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/">Crossref</a>.
-          Open-source <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">MiniLM</a> and
-          <a href="https://huggingface.co/MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33">DeBERTa</a> models
-          screen titles and available abstracts for economic-theory topics
-          and distinguish theoretical contributions from primarily empirical or unrelated work.
+          An open-source <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">MiniLM</a> model
+          retrieves candidates by title and abstract meaning, rather than author keywords.
+          Transparent text checks then look for formal theoretical contributions and empirical evidence.
           Borderline records are withheld for review. Explicit JEL codes are used when present in deposited metadata;
           this is not an official SSRN subject-category feed.
           This index can miss relevant papers and include false matches. Inclusion is not a quality assessment.</p>

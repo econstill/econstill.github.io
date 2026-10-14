@@ -315,7 +315,7 @@ def merge(previous, works, now, window, selector=None, rescreen=False):
     return {
         "schema_version": 1, "title": "Theory Watch", "home_page_url": BASE_URL,
         "source": "SSRN DOI metadata deposited with Crossref",
-        "selection": "Semantic topic retrieval and zero-shot theory screening; borderline records withheld for review" if selector else "Legacy topic matching",
+        "selection": "Semantic topic retrieval plus transparent formal-contribution and empirical-evidence checks; borderline records withheld for review" if selector else "Legacy topic matching",
         "rule_version": __import__("semantic").CONFIG["version"] if selector else RULES["version"],
         "last_successful_check": now.isoformat(),
         "screening": selector.stats if selector else {},

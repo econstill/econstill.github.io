@@ -4,36 +4,60 @@ on:
 permissions:
   contents: read
 jobs:
-  regression:
+  evaluate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v7
         with:
           ref: codex/theory-watch-semantic
+          path: automation
+          persist-credentials: false
+      - uses: actions/checkout@v7
+        with:
+          ref: gh-pages
+          path: site
           persist-credentials: false
       - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - run: pip install -r tools/theory_watch/requirements.txt
-      - name: Check real-paper regression cases
+      - run: python -m unittest discover -s automation/tools/theory_watch -p 'test_*.py'
+      - run: pip install -r automation/tools/theory_watch/requirements.txt
+      - name: Evaluate complete coverage window
+        env:
+          CROSSREF_MAILTO: stillwang@bjtu.edu.cn
+          THEORY_WATCH_THREADS: '4'
+        run: python automation/tools/theory_watch/update.py --site-dir site --rescreen --raw-output private/raw.json --review-output results/pending.json
+      - name: Summarize decisions
         run: |
           python - <<'PY'
-          import json, sys
-          from pathlib import Path
-          sys.path.insert(0, 'tools/theory_watch')
+          import json, sys, gzip, base64
+          sys.path.insert(0, 'automation/tools/theory_watch')
           import semantic, update
-          cases = json.loads(Path('tools/theory_watch/validation_cases.json').read_text())
-          works = []
-          for key in ('theory', 'not_theory'):
-              for identifier in cases[key]:
-                  works.append(update.request_json('https://api.crossref.org/works/10.2139/ssrn.' + identifier)['message'])
-          selector = semantic.SemanticSelector('.cache/decisions.json')
-          examples = [('A man is walking outside.', 'A man is walking outside.'), ('A man is walking outside.', 'There is nobody outside.')]
-          raw, _ = selector.infer('nli', examples)
-          print('SANITY ' + json.dumps({'labels': selector.models['nli'][2]['id2label'], 'logits': raw.tolist()}))
-          selector.prepare(works)
+          from pathlib import Path
+          data = json.loads(Path('site/theory-watch/papers.json').read_text())
+          cache = json.loads(Path('.cache/theory-watch/decisions.json').read_text())
+          works = json.loads(Path('private/raw.json').read_text())['works']
+          decisions = []
           for work in works:
-              doi = work['DOI'].lower()
-              print('RESULT ' + json.dumps({'doi': doi, 'title': update.plain(' '.join(work.get('title') or [])), **selector.decisions[doi]}))
+              title = update.plain(' '.join(work.get('title') or []))
+              abstract = update.plain(work.get('abstract', ''))
+              value = cache.get(semantic.fingerprint(title, abstract, semantic.explicit_jel(work, abstract)), {})
+              if value.get('topics'):
+                  decisions.append({'doi': work['DOI'], 'title': title, 'excerpt': update.shorten(abstract), **value})
+          Path('results/decisions.json').write_text(json.dumps(decisions, indent=2))
+          print(json.dumps({'screening': data['screening'], 'papers': [{'id': p['id'], 'title': p['title']} for p in data['papers']]}, indent=2))
+          for name, content in [('PAPERS', data), ('DECISIONS', decisions)]:
+              encoded = base64.b64encode(gzip.compress(json.dumps(content).encode())).decode()
+              for start in range(0, len(encoded), 8000):
+                  print('EXPORT_' + name + ' ' + str(start // 8000) + ' ' + encoded[start:start + 8000])
           PY
+      - uses: actions/upload-artifact@v7
+        with:
+          name: theory-watch-evaluation
+          path: |
+            results
+            site/theory-watch
+            .cache/theory-watch/decisions.json
+          include-hidden-files: true
+          retention-days: 3
