@@ -46,6 +46,7 @@ class SemanticTests(unittest.TestCase):
 
     def test_fingerprint_changes_with_abstract(self):
         self.assertNotEqual(semantic.fingerprint("Title", "First"), semantic.fingerprint("Title", "Second"))
+        self.assertNotEqual(semantic.fingerprint("Title", "First", ["C72"]), semantic.fingerprint("Title", "First", ["G12"]))
 
     def test_no_full_abstract_in_public_record(self):
         abstract = " ".join("word" + str(i) for i in range(100))

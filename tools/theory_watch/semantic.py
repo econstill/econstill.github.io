@@ -10,8 +10,8 @@ ROOT = Path(__file__).resolve().parent
 CONFIG = json.loads((ROOT / "semantic.json").read_text())
 
 
-def fingerprint(title, abstract):
-    return hashlib.sha256(json.dumps([CONFIG, title, abstract], sort_keys=True).encode()).hexdigest()
+def fingerprint(title, abstract, codes=()):
+    return hashlib.sha256(json.dumps([CONFIG, title, abstract, list(codes)], sort_keys=True).encode()).hexdigest()
 
 
 def explicit_jel(work, abstract):
@@ -107,7 +107,8 @@ class SemanticSelector:
         for work in records:
             title = plain(" ".join(work.get("title") or []))
             abstract = plain(work.get("abstract", ""))
-            key = fingerprint(title, abstract)
+            codes = explicit_jel(work, abstract)
+            key = fingerprint(title, abstract, codes)
             doi = str(work.get("DOI", "")).lower()
             if key in self.cache:
                 self.decisions[doi] = self.cache[key]
@@ -116,7 +117,7 @@ class SemanticSelector:
             segments = chunks(title, abstract)
             offsets.append((len(texts), len(segments)))
             texts.extend(segments)
-            pending.append((doi, title, abstract, key, explicit_jel(work, abstract)))
+            pending.append((doi, title, abstract, key, codes))
         print(f"Semantic screening: {len(pending)} uncached records, {len(texts)} abstract windows", flush=True)
         for start in range(0, len(pending), 128):
             end = min(start + 128, len(pending))

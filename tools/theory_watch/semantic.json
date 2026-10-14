@@ -12,9 +12,9 @@
   "include_margin": 0.20,
   "review_minimum": 0.35,
   "hypotheses": [
-    "This paper is about economic theory and mathematical economic models.",
-    "This paper reports empirical economic research using data.",
-    "This paper is about a subject other than economics."
+    "This study develops a theoretical model.",
+    "This study analyzes empirical data.",
+    "This study is unrelated to economics."
   ],
   "topics": {
     "Game Theory & Networks": "Economic theory of strategic interaction: Nash equilibrium, repeated and dynamic games, bargaining, cooperative games, network formation and network games.",

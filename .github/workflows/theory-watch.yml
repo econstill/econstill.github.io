@@ -29,6 +29,9 @@ jobs:
               for identifier in cases[key]:
                   works.append(update.request_json('https://api.crossref.org/works/10.2139/ssrn.' + identifier)['message'])
           selector = semantic.SemanticSelector('.cache/decisions.json')
+          examples = [('A man is walking outside.', 'A man is walking outside.'), ('A man is walking outside.', 'There is nobody outside.')]
+          raw, _ = selector.infer('nli', examples)
+          print('SANITY ' + json.dumps({'labels': selector.models['nli'][2]['id2label'], 'logits': raw.tolist()}))
           selector.prepare(works)
           for work in works:
               doi = work['DOI'].lower()
