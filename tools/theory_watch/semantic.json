@@ -3,7 +3,7 @@
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
   "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
   "nli_model": "MoritzLaurer/deberta-v3-xsmall-zeroshot-v1.1-all-33",
-  "nli_revision": "ebd4b8b0a8c32237bd4c2d0a5b1fda76428b714d",
+  "nli_revision": "262ae02f29173eec1c250f90804dc7edc677dcff",
   "onnx_file": "onnx/model_quint8_avx2.onnx",
   "nli_onnx_file": "onnx/model_quantized.onnx",
   "retrieval_minimum": 0.23,

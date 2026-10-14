@@ -75,7 +75,7 @@ class SemanticSelector:
             config = json.loads((directory / "config.json").read_text())
             self.models[name] = (tokenizer, session, config)
         label_map = self.models["nli"][2]["id2label"]
-        self.entailment = next(int(key) for key, value in label_map.items() if "entail" in value.lower())
+        self.entailment = next(int(key) for key, value in label_map.items() if value.lower() == "entailment")
         self.topic_names = list(CONFIG["topics"])
         self.prototypes = self.embed(list(CONFIG["topics"].values()) + CONFIG["negative_prototypes"])
 
