@@ -1,8 +1,18 @@
 {
-  "version": 1,
+  "version": 2,
   "registrations_from": "2026-09-30",
-  "include_dois": [],
-  "exclude_dois": [],
+  "include_dois": ["10.2139/ssrn.7572678", "10.2139/ssrn.7590660"],
+  "exclude_dois": ["10.2139/ssrn.7603958", "10.2139/ssrn.7593761", "10.2139/ssrn.7591658", "10.2139/ssrn.7582918", "10.2139/ssrn.7577740", "10.2139/ssrn.7547723"],
+  "editorial_notes": {
+    "10.2139/ssrn.7572678": "Reviewed: formal information-design contribution; retained despite a low semantic retrieval score.",
+    "10.2139/ssrn.7590660": "Reviewed: theoretical comparison of adverse-selection market allocations with a supplementary simulation.",
+    "10.2139/ssrn.7603958": "Computational psychiatry rather than economic theory.",
+    "10.2139/ssrn.7593761": "Primarily an empirical LLM preference benchmark.",
+    "10.2139/ssrn.7591658": "Business-practice position paper rather than a formal economic-theory contribution.",
+    "10.2139/ssrn.7582918": "Descriptive geopolitical network exercise rather than economic theory.",
+    "10.2139/ssrn.7577740": "Conceptual management typology rather than formal economic theory.",
+    "10.2139/ssrn.7547723": "Conceptual organizational technology essay rather than formal economic theory."
+  },
   "topics": {
     "Game Theory & Networks": [
       "game theor", "game-theoretic", "game theoretic", "network game", "nash equilibri",

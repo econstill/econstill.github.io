@@ -12,6 +12,63 @@ const pageSize = 50;
 let papers = [];
 let page = 0;
 let debounce;
+const abstracts = new Map();
+
+function plainAbstract(value) {
+  let text = String(value || "");
+  for (let i = 0; i < 4; i += 1) {
+    // An inert template never attaches source markup to the live document.
+    const template = document.createElement("template");
+    template.innerHTML = text;
+    template.content.querySelectorAll("script, style, iframe, object, embed").forEach((element) => element.remove());
+    template.content.querySelectorAll("p, div, br, li, jats\\:p").forEach((element) => element.prepend(" "));
+    const decoded = template.content.textContent || "";
+    if (decoded === text) break;
+    text = decoded;
+  }
+  return text.replace(/\s+/g, " ").trim();
+}
+
+async function readAbstract(details) {
+  if (!details.open || details.dataset.loaded || details.dataset.loading) return;
+  const doi = details.dataset.doi;
+  if (!/^10\.2139\/ssrn\.\d+$/.test(doi)) return;
+  const body = details.querySelector(".abstract-body");
+  details.dataset.loading = "true";
+  body.setAttribute("aria-busy", "true");
+  const message = node("p", "", "Loading abstract from Crossref...");
+  const source = node("p", "abstract-source", "Original abstract by the paper's authors. Source: ");
+  const link = node("a", "", "SSRN");
+  link.href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=" + doi.split(".").at(-1);
+  link.target = "_blank";
+  link.rel = "noopener";
+  source.append(link);
+  body.replaceChildren(message, source);
+  try {
+    let text = abstracts.get(doi);
+    if (text === undefined) {
+      const response = await fetch("https://api.crossref.org/works/" + encodeURIComponent(doi), {
+        signal: AbortSignal.timeout(15000), headers: { Accept: "application/json" },
+      });
+      if (!response.ok) throw new Error("Source unavailable");
+      const data = await response.json();
+      if (String(data.message?.DOI).toLowerCase() !== doi) throw new Error("Wrong source record");
+      text = plainAbstract(data.message.abstract);
+      abstracts.set(doi, text);
+    }
+    message.textContent = text || "No abstract is available in the Crossref record. Please read the original on SSRN.";
+    details.dataset.loaded = "true";
+  } catch {
+    message.textContent = "The abstract could not be retrieved. Read it on SSRN, or close and reopen to retry.";
+  } finally {
+    delete details.dataset.loading;
+    body.removeAttribute("aria-busy");
+  }
+}
+
+list.addEventListener("toggle", (event) => {
+  if (event.target.matches("details.abstract")) readAbstract(event.target);
+}, true);
 
 const dateLabel = (date) => new Intl.DateTimeFormat("en-GB", {
   day: "2-digit", month: "short", year: "numeric", timeZone: "UTC",
@@ -49,11 +106,19 @@ function paperElement(paper) {
     });
     item.append(alternates);
   }
-  if (paper.excerpt) {
-    const details = node("details", "");
-    details.append(node("summary", "", "Abstract excerpt"), node("p", "", paper.excerpt));
-    item.append(details);
-  }
+  const details = node("details", "abstract");
+  details.dataset.doi = paper.doi;
+  const body = node("div", "abstract-body");
+  body.append(node("p", "", paper.excerpt || "No abstract in the indexed record."));
+  const source = node("p", "abstract-source");
+  const original = node("a", "", "Read the abstract at SSRN");
+  original.href = paper.url;
+  original.target = "_blank";
+  original.rel = "noopener";
+  source.append(original);
+  body.append(source);
+  details.append(node("summary", "", "Abstract"), body);
+  item.append(details);
   return item;
 }
 

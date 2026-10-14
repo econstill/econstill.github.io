@@ -23,7 +23,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent
 BASE_URL = "https://econstill.github.io/theory-watch/"
 CROSSREF = "https://api.crossref.org/prefixes/10.2139/works"
-FIELDS = "DOI,title,author,abstract,created,posted,deposited,resource,type"
+FIELDS = "DOI,title,author,abstract,created,posted,deposited,resource,type,subject"
 RULES = json.loads((ROOT / "rules.json").read_text())
 DOI_PATTERN = re.compile(r"10\.2139/ssrn\.(\d+)", re.I)
 FORMAL = re.compile(
@@ -210,14 +210,18 @@ def shorten(text, limit=380):
     return excerpt.rstrip(".,;:") + "..."
 
 
-def normalize(work, now):
+def normalize(work, now, selector=None):
     doi = str(work.get("DOI", "")).lower()
     match = DOI_PATTERN.fullmatch(doi)
     if not match:
         return None
     title = plain(" ".join(work.get("title") or []))
     abstract = plain(work.get("abstract", ""))
-    topics = classify(title, abstract, doi)
+    topics = (selector.classify(title, abstract, doi) if selector else classify(title, abstract, doi))
+    if doi in RULES["exclude_dois"]:
+        topics = []
+    elif doi in RULES["include_dois"]:
+        topics = topics or (selector.decisions.get(doi, {}).get("topics") if selector else None) or ["Editor inclusion"]
     created = timestamp(work.get("created"))
     if not title or not topics or not created:
         return None
@@ -235,6 +239,10 @@ def normalize(work, now):
         "id": match[1], "doi": doi, "title": title, "authors": authors,
         "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=" + match[1],
         "topics": topics, "excerpt": shorten(abstract), "indexed_at": created,
+        "selection_reason": "Editorial inclusion" if doi in RULES["include_dois"] else "Automatic screening",
+        "has_abstract": bool(abstract),
+        "abstract_source": "https://api.crossref.org/works/" + doi,
+        "jel_codes": selector.decisions[doi].get("jel_codes", []) if selector else [],
         "posted_date": posted_date(work.get("posted")),
         "source_metadata_updated_at": timestamp(work.get("deposited")),
         "first_seen": now.isoformat(), "record_updated_at": None,
@@ -249,7 +257,7 @@ def identity(paper):
     return (title, authors) if authors else (paper["id"], ())
 
 
-def merge(previous, works, now, window):
+def merge(previous, works, now, window, selector=None, rescreen=False):
     coverage_start = previous.get("coverage_start", RULES["registrations_from"])
     existing = {paper["id"]: paper for paper in previous.get("papers", []) if paper["indexed_at"][:10] >= coverage_start}
     new_count = updated_count = 0
@@ -265,8 +273,16 @@ def merge(previous, works, now, window):
         registered = timestamp(work.get("created"))
         if not registered or registered[:10] < coverage_start:
             continue
-        paper = normalize(work, now)
+        paper = normalize(work, now, selector)
         if paper is None:
+            if selector and not rescreen and selector.decisions.get(str(work.get("DOI", "")).lower(), {}).get("decision") != "include":
+                source_match = DOI_PATTERN.fullmatch(str(work.get("DOI", "")).lower())
+                if source_match:
+                    canonical = aliases.get(source_match[1])
+                    if canonical in existing:
+                        old = existing[canonical]
+                        if len(old.get("ssrn_ids", [old["id"]])) == 1:
+                            del existing[canonical]
             continue
         source_id = paper["id"]
         canonical_id = aliases.get(source_id) or identities.get(identity(paper)) or source_id
@@ -289,13 +305,21 @@ def merge(previous, works, now, window):
         existing[paper["id"]] = paper
         aliases[source_id] = paper["id"]
         identities[identity(paper)] = paper["id"]
+    if rescreen:
+        accepted = {doi for doi, decision in selector.decisions.items() if decision["decision"] == "include"}
+        existing = {key: paper for key, paper in existing.items() if any(
+            "10.2139/ssrn." + alias in accepted or "10.2139/ssrn." + alias in RULES["include_dois"]
+            for alias in paper.get("ssrn_ids", [paper["id"]])
+        )}
     papers = [paper for paper in existing.values() if paper["doi"] not in RULES["exclude_dois"]]
     papers.sort(key=lambda paper: (paper["indexed_at"], int(paper["id"])), reverse=True)
     return {
         "schema_version": 1, "title": "Theory Watch", "home_page_url": BASE_URL,
         "source": "SSRN DOI metadata deposited with Crossref",
-        "selection": "Automatic title and abstract topic matching; not a complete SSRN feed",
-        "rule_version": RULES["version"], "last_successful_check": now.isoformat(),
+        "selection": "Semantic topic retrieval plus transparent formal-contribution and empirical-evidence checks; borderline records withheld for review" if selector else "Legacy topic matching",
+        "rule_version": __import__("semantic").CONFIG["version"] if selector else RULES["version"],
+        "last_successful_check": now.isoformat(),
+        "screening": selector.stats if selector else {},
         "coverage_start": coverage_start,
         "last_collection": {**window, "records_checked": len(unique_works), "new_matches": new_count,
                             "changed_matches": updated_count},
@@ -314,9 +338,9 @@ def paper_html(paper):
     changed = ""
     if paper.get("record_updated_at"):
         changed = " &middot; Record updated " + display_date(paper["record_updated_at"])
-    excerpt = ""
-    if paper["excerpt"]:
-        excerpt = "<details><summary>Abstract excerpt</summary><p>" + escape(paper["excerpt"]) + "</p></details>"
+    excerpt = ('<details class="abstract" data-doi="' + escape(paper["doi"], quote=True) + '">'
+               '<summary>Abstract</summary><div class="abstract-body"><p>' + escape(paper["excerpt"] or "No abstract in the indexed record.") + '</p>'
+               '<p class="abstract-source">Read the abstract at <a href="' + url + '" target="_blank" rel="noopener">SSRN</a>.</p></div></details>')
     alternate_ids = [value for value in paper.get("ssrn_ids", []) if value != paper["id"]]
     alternates = ""
     if alternate_ids:
@@ -357,7 +381,11 @@ def render(data, site):
     )
     write_text(output / "index.html", rendered)
     write_text(output / "papers.json", json.dumps(data, ensure_ascii=False, indent=2) + "\n")
-    write_text(output / "rules.json", json.dumps(RULES, ensure_ascii=False, indent=2) + "\n")
+    overrides = {key: RULES[key] for key in ("version", "registrations_from", "include_dois", "exclude_dois")}
+    overrides["note"] = "DOI-level editorial overrides only. See method.json and the screening source code for automatic selection."
+    overrides["editorial_notes"] = RULES.get("editorial_notes", {})
+    write_text(output / "rules.json", json.dumps(overrides, ensure_ascii=False, indent=2) + "\n")
+    write_text(output / "method.json", (ROOT / "semantic.json").read_text())
     for asset in ("watch.css", "watch.js"):
         write_text(output / asset, (ROOT / asset).read_text())
     rss = ET.Element("rss", {"version": "2.0"})
@@ -390,6 +418,10 @@ def main():
     parser.add_argument("--input", type=Path)
     parser.add_argument("--raw-output", type=Path)
     parser.add_argument("--render-only", action="store_true")
+    parser.add_argument("--rescreen", action="store_true", help="Re-screen the supplied complete coverage window")
+    parser.add_argument("--model-dir", type=Path)
+    parser.add_argument("--cache", type=Path, default=Path(".cache/theory-watch/decisions.json"))
+    parser.add_argument("--review-output", type=Path)
     args = parser.parse_args()
     path = args.site_dir / "theory-watch/papers.json"
     previous = json.loads(path.read_text()) if path.exists() else {}
@@ -403,11 +435,26 @@ def main():
             raw = json.loads(args.input.read_text())
             works, window = raw["works"], raw["window"]
         else:
-            works, window = collect(previous, now, args.bootstrap_days)
+            days = (now.date() - date.fromisoformat(previous.get("coverage_start", RULES["registrations_from"]))).days if args.rescreen else args.bootstrap_days
+            works, window = collect({} if args.rescreen else previous, now, days)
         if args.raw_output:
             write_text(args.raw_output, json.dumps({"works": works, "window": window}, ensure_ascii=False))
         completed = datetime.now(timezone.utc).replace(microsecond=0)
-        data = merge(previous, works, completed, window)
+        from semantic import SemanticSelector
+        if args.rescreen and (window.get("date_field") != "created" or window.get("from", "9999") > previous.get("coverage_start", RULES["registrations_from"])):
+            raise ValueError("Re-screening requires the complete archive coverage window")
+        works = [work for work in works if (timestamp(work.get("created")) or "")[:10] >= previous.get("coverage_start", RULES["registrations_from"])]
+        selector = SemanticSelector(args.cache, args.model_dir)
+        selector.prepare(works)
+        completed = datetime.now(timezone.utc).replace(microsecond=0)
+        data = merge(previous, works, completed, window, selector, args.rescreen)
+        if args.review_output:
+            review = [{"doi": work["DOI"], "title": plain(" ".join(work.get("title") or [])),
+                       "excerpt": shorten(plain(work.get("abstract", ""))),
+                       **selector.decisions[str(work["DOI"]).lower()]} for work in works
+                      if selector.decisions[str(work["DOI"]).lower()]["decision"] == "review"]
+            write_text(args.review_output, json.dumps(review, ensure_ascii=False, indent=2))
+        selector.save()
     render(data, args.site_dir)
 
 
