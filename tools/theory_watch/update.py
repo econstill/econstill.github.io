@@ -380,7 +380,9 @@ def render(data, site):
     )
     write_text(output / "index.html", rendered)
     write_text(output / "papers.json", json.dumps(data, ensure_ascii=False, indent=2) + "\n")
-    write_text(output / "rules.json", json.dumps(RULES, ensure_ascii=False, indent=2) + "\n")
+    overrides = {key: RULES[key] for key in ("version", "registrations_from", "include_dois", "exclude_dois")}
+    overrides["note"] = "DOI-level editorial overrides only. See method.json and the screening source code for automatic selection."
+    write_text(output / "rules.json", json.dumps(overrides, ensure_ascii=False, indent=2) + "\n")
     write_text(output / "method.json", (ROOT / "semantic.json").read_text())
     for asset in ("watch.css", "watch.js"):
         write_text(output / asset, (ROOT / asset).read_text())

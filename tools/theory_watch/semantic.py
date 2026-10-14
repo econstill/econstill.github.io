@@ -35,11 +35,6 @@ def supported_jel(codes):
     return any(code.startswith(prefix) for code in codes for prefix in CONFIG["jel_codes"])
 
 
-def chunks(title, abstract):
-    words = abstract.split()
-    return [title + ". " + " ".join(words[start:start + 170]) for start in range(0, len(words), 140)] or [title]
-
-
 def contribution(title, abstract):
     from update import OUTSIDE_SCOPE, EMPIRICAL_TITLE
     return {"formal": len(FORMAL.findall(abstract)), "model_and_claim": bool(MODEL.search(abstract) and CLAIM.search(abstract)),

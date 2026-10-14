@@ -1,4 +1,5 @@
 import unittest
+from types import SimpleNamespace
 from unittest.mock import Mock
 from datetime import timedelta
 
@@ -16,7 +17,9 @@ class SemanticTests(unittest.TestCase):
 
     def test_every_abstract_word_is_covered(self):
         words = [f"word{i}" for i in range(1300)]
-        segments = semantic.chunks("Title", " ".join(words))
+        selector = object.__new__(semantic.SemanticSelector)
+        selector.full_tokenizer = SimpleNamespace(encode=lambda text, **kw: SimpleNamespace(ids=text.split()), decode=lambda ids: " ".join(ids))
+        segments = selector.segments("Title", " ".join(words))
         self.assertTrue(all(word in " ".join(segments) for word in words))
         self.assertGreater(len(segments), 1)
 

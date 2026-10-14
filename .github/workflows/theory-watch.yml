@@ -2,62 +2,25 @@ name: Theory Watch and website
 on:
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
+  actions: read
 jobs:
-  evaluate:
+  export:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v7
         with:
           ref: codex/theory-watch-semantic
-          path: automation
-          persist-credentials: false
-      - uses: actions/checkout@v7
-        with:
-          ref: gh-pages
-          path: site
-          persist-credentials: false
-      - uses: actions/setup-python@v7
-        with:
-          python-version: '3.12'
-      - run: python -m unittest discover -s automation/tools/theory_watch -p 'test_*.py'
-      - run: pip install -r automation/tools/theory_watch/requirements.txt
-      - name: Evaluate complete coverage window
+      - name: Retrieve evaluated metadata
         env:
-          CROSSREF_MAILTO: stillwang@bjtu.edu.cn
-          THEORY_WATCH_THREADS: '4'
-        run: python automation/tools/theory_watch/update.py --site-dir site --rescreen --raw-output private/raw.json --review-output results/pending.json
-      - name: Summarize decisions
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 38571494354 --repo econstill/econstill.github.io --name theory-watch-evaluation --dir result
+      - name: Stage public preview data for review
         run: |
-          python - <<'PY'
-          import json, sys, gzip, base64
-          sys.path.insert(0, 'automation/tools/theory_watch')
-          import semantic, update
-          from pathlib import Path
-          data = json.loads(Path('site/theory-watch/papers.json').read_text())
-          cache = json.loads(Path('.cache/theory-watch/decisions.json').read_text())
-          works = json.loads(Path('private/raw.json').read_text())['works']
-          decisions = []
-          for work in works:
-              title = update.plain(' '.join(work.get('title') or []))
-              abstract = update.plain(work.get('abstract', ''))
-              value = cache.get(semantic.fingerprint(title, abstract, semantic.explicit_jel(work, abstract)), {})
-              if value.get('topics'):
-                  decisions.append({'doi': work['DOI'], 'title': title, 'excerpt': update.shorten(abstract), **value})
-          Path('results/decisions.json').write_text(json.dumps(decisions, indent=2))
-          print(json.dumps({'screening': data['screening'], 'papers': [{'id': p['id'], 'title': p['title']} for p in data['papers']]}, indent=2))
-          for name, content in [('PAPERS', data), ('DECISIONS', decisions)]:
-              encoded = base64.b64encode(gzip.compress(json.dumps(content).encode())).decode()
-              for start in range(0, len(encoded), 8000):
-                  print('EXPORT_' + name + ' ' + str(start // 8000) + ' ' + encoded[start:start + 8000])
-          PY
-      - uses: actions/upload-artifact@v7
-        with:
-          name: theory-watch-evaluation
-          path: |
-            results
-            site/theory-watch
-            .cache/theory-watch/decisions.json
-          include-hidden-files: true
-          retention-days: 3
+          mkdir -p evaluation
+          cp result/site/theory-watch/papers.json evaluation/papers.json
+          cp result/results/decisions.json evaluation/decisions.json
+          git add -- evaluation
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Save evaluated Theory Watch metadata for review'
+          git push origin HEAD:codex/theory-watch-semantic

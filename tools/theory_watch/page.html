@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Theory Watch | Theoretical Economics on SSRN</title>
-    <meta name="description" content="A daily discovery index of economic-theory papers on SSRN, maintained by Sijie Wang. Browse titles, authors, and source links or subscribe via RSS." />
+    <meta name="description" content="A public daily reading list of economic-theory papers on SSRN, maintained by Sijie Wang. Browse papers and abstracts or subscribe via RSS." />
     <link rel="canonical" href="https://econstill.github.io/theory-watch/" />
     <link rel="alternate" type="application/rss+xml" title="Theory Watch" href="feed.xml" />
     <link rel="stylesheet" href="watch.css?v=$css_version" />
@@ -68,7 +68,7 @@
           An open-source <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">MiniLM</a> model
           retrieves candidates by title and abstract meaning, rather than author keywords.
           Transparent text checks then look for formal theoretical contributions and empirical evidence.
-          Borderline records are withheld for review. Explicit JEL codes are used when present in deposited metadata;
+          Borderline records are held aside rather than automatically included. Explicit JEL codes are used when present in deposited metadata;
           this is not an official SSRN subject-category feed.
           This index can miss relevant papers and include false matches. Inclusion is not a quality assessment.</p>
         <p>Dates above refer to DOI registration in Crossref, not the day a paper first appeared on SSRN.
@@ -76,7 +76,9 @@
         <p>The archive tracks DOI registrations from $coverage_start onward.</p>
         <p>Abstracts are retrieved on request from Crossref, attributed to their authors, and not stored in this archive.
           Availability depends on the source record. Please consult SSRN for the latest version.</p>
-        <p><a href="method.json">Screening method</a> &middot; <a href="rules.json">Editorial overrides</a> &middot; <a href="papers.json">Data (JSON)</a> &middot;
+        <p><a href="method.json">Screening method</a> &middot;
+          <a href="https://github.com/econstill/econstill.github.io/tree/main/tools/theory_watch">Source code</a> &middot;
+          <a href="rules.json">Editorial overrides</a> &middot; <a href="papers.json">Data (JSON)</a> &middot;
           <a href="mailto:stillwang@bjtu.edu.cn?subject=Theory%20Watch%20correction">Corrections</a></p>
       </aside>
 
