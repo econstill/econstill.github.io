@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Theory Watch | Theoretical Economics on SSRN</title>
+    <meta name="description" content="A daily discovery index of economic-theory papers on SSRN, maintained by Sijie Wang. Browse titles, authors, and source links or subscribe via RSS." />
+    <link rel="canonical" href="https://econstill.github.io/theory-watch/" />
+    <link rel="alternate" type="application/rss+xml" title="Theory Watch" href="feed.xml" />
+    <link rel="stylesheet" href="watch.css?v=$css_version" />
+    <script defer src="watch.js?v=$js_version"></script>
+  </head>
+  <body>
+    <main>
+      <nav aria-label="Site navigation">
+        <a href="../">Sijie Wang</a>
+        <a href="feed.xml">RSS</a>
+      </nav>
+      <header>
+        <h1>Theory Watch</h1>
+        <p class="subtitle">Theoretical economics on SSRN</p>
+        <p class="status">$paper_count papers &middot; Checked daily &middot; Last successful check:
+          <time id="last-check" datetime="$checked_at">$checked_label</time>
+        </p>
+        <p id="stale-notice" class="notice" hidden>Updates are delayed. The archive below is from the last successful check.</p>
+      </header>
+
+      <form class="filters" role="search" id="filters">
+        <label class="search-field">Search
+          <input type="search" id="search" name="q" autocomplete="off" disabled />
+        </label>
+        <label>Topic
+          <select id="topic" name="topic" disabled>
+            <option value="">All topics</option>
+            $topics
+          </select>
+        </label>
+        <label>DOI registration
+          <select id="period" name="days" disabled>
+            <option value="all">All dates</option>
+            <option value="7">Past 7 days</option>
+            <option value="30">Past 30 days</option>
+          </select>
+        </label>
+      </form>
+
+      <p id="results-status" class="results-status" role="status">Showing $initial_count of $paper_count papers</p>
+      <p id="load-error" class="notice" hidden>The full archive could not be loaded. The most recent papers remain available below.</p>
+      <ul id="paper-list" class="paper-list">
+        $papers
+      </ul>
+      <p id="empty-state" class="empty-state" hidden>No matching papers.</p>
+      <nav id="pagination" class="pagination" aria-label="Paper results" hidden>
+        <button type="button" id="previous" aria-label="Previous page" title="Previous page">&larr;</button>
+        <span id="page-number"></span>
+        <button type="button" id="next" aria-label="Next page" title="Next page">&rarr;</button>
+      </nav>
+
+      <aside class="coverage" aria-labelledby="coverage-title">
+        <h2 id="coverage-title">Coverage</h2>
+        <p>Papers are discovered through public SSRN DOI records deposited with
+          <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/">Crossref</a>.
+          Titles and abstracts are matched automatically against economic-theory topics.
+          This index can miss relevant papers and include false matches. Inclusion is not a quality assessment.</p>
+        <p>Dates above refer to DOI registration in Crossref, not the day a paper first appeared on SSRN.
+          Indexing can be delayed. Changes to a record do not necessarily mean a new paper version.</p>
+        <p><a href="rules.json">Selection rules</a> &middot; <a href="papers.json">Data (JSON)</a> &middot;
+          <a href="mailto:stillwang@bjtu.edu.cn?subject=Theory%20Watch%20correction">Corrections</a></p>
+      </aside>
+
+      <footer>
+        <p>Maintained by <a href="../">Sijie Wang (Still)</a>. An independent academic resource, not affiliated with SSRN.</p>
+      </footer>
+    </main>
+  </body>
+</html>
