@@ -1,74 +1,37 @@
 name: Theory Watch and website
-
 on:
-  schedule:
-    - cron: '17 0 * * *'
   workflow_dispatch:
-  push:
-    branches: [gh-pages]
-
-concurrency:
-  group: website-and-theory-watch
-  cancel-in-progress: false
-
 permissions:
   contents: read
-
 jobs:
-  build:
+  models:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-    permissions:
-      contents: write
+    timeout-minutes: 15
     steps:
-      - name: Check out collector
-        uses: actions/checkout@v7
-        with:
-          ref: main
-          path: automation
-          persist-credentials: false
-      - name: Check out current website
-        uses: actions/checkout@v7
-        with:
-          ref: gh-pages
-          path: site
-      - name: Set up Python
-        if: github.event_name != 'push'
-        uses: actions/setup-python@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-      - name: Check collector
-        if: github.event_name != 'push'
-        run: python -m unittest discover -s automation/tools/theory_watch -p 'test_*.py'
-      - name: Collect and render papers
-        if: github.event_name != 'push'
-        env:
-          CROSSREF_MAILTO: stillwang@bjtu.edu.cn
-        run: python automation/tools/theory_watch/update.py --site-dir site
-      - name: Save archive
-        if: github.event_name != 'push'
-        working-directory: site
+      - run: pip install huggingface-hub==1.0.1
+      - name: Download public inference models
         run: |
-          git add -- theory-watch
-          if ! git diff --cached --quiet; then
-            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update Theory Watch archive'
-            git push origin HEAD:gh-pages
-          fi
-      - name: Package website
-        uses: actions/upload-pages-artifact@v5
+          python - <<'PY'
+          from huggingface_hub import HfApi, hf_hub_download
+          import json
+          from pathlib import Path
+          models = [('sentence-transformers/all-MiniLM-L6-v2', 'minilm'), ('cross-encoder/nli-deberta-v3-xsmall', 'nli')]
+          metadata = {}
+          for repo, directory in models:
+              info = HfApi().model_info(repo)
+              files = [file.rfilename for file in info.siblings]
+              print(repo, info.sha, files, flush=True)
+              metadata[directory] = {'repo': repo, 'revision': info.sha, 'files': files}
+              for filename in files:
+                  if '/' not in filename and (filename.endswith('.json') or filename.endswith('.model') or filename == 'vocab.txt') or filename == 'onnx/model_quint8_avx2.onnx':
+                      hf_hub_download(repo, filename, revision=info.sha, local_dir='models/' + directory)
+          Path('models/manifest.json').write_text(json.dumps(metadata, indent=2))
+          PY
+      - uses: actions/upload-artifact@v7
         with:
-          path: site
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Publish website
-        id: deployment
-        uses: actions/deploy-pages@v5
+          name: theory-watch-public-models
+          path: models
+          retention-days: 2
