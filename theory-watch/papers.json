@@ -3,24 +3,25 @@
   "title": "Theory Watch",
   "home_page_url": "https://econstill.github.io/theory-watch/",
   "source": "SSRN DOI metadata deposited with Crossref",
+  "archive_kind": "selected_papers",
   "selection": "Content-screened microeconomic-theory selections; automatic discovery alone never authorizes publication",
-  "rule_version": "semantic-2.3-hybrid",
-  "last_successful_check": "2026-10-15T04:46:53+00:00",
+  "rule_version": "semantic-3.0-micro-candidates",
+  "last_successful_check": "2026-10-15T11:48:21+00:00",
   "screening": {
-    "retrieved": 116,
-    "included": 24,
-    "review": 75,
-    "excluded": 3086,
-    "cached": 2461
+    "retrieved": 3060,
+    "included": 99,
+    "review": 278,
+    "excluded": 12857,
+    "cached": 0
   },
   "coverage_start": "2026-09-30",
   "last_collection": {
-    "from": "2026-10-12",
+    "from": "2026-09-30",
     "through": "2026-10-15",
-    "date_field": "deposit",
-    "records_checked": 3185,
-    "new_matches": 1,
-    "changed_matches": 0
+    "date_field": "created",
+    "records_checked": 13234,
+    "new_matches": 359,
+    "changed_matches": 3
   },
   "papers": [
     {
@@ -297,6 +298,5 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-15",
-  "archive_kind": "selected_papers"
+  "last_selection_review": "2026-10-15"
 }
