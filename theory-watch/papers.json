@@ -5,24 +5,50 @@
   "source": "SSRN DOI metadata deposited with Crossref",
   "selection": "Semantic topic retrieval plus transparent formal-contribution and empirical-evidence checks; borderline records withheld for review",
   "rule_version": "semantic-2.3-hybrid",
-  "last_successful_check": "2026-10-14T13:59:14+00:00",
+  "last_successful_check": "2026-10-15T04:46:53+00:00",
   "screening": {
-    "retrieved": 721,
-    "included": 23,
-    "review": 64,
-    "excluded": 2374,
-    "cached": 0
+    "retrieved": 116,
+    "included": 24,
+    "review": 75,
+    "excluded": 3086,
+    "cached": 2461
   },
   "coverage_start": "2026-09-30",
   "last_collection": {
     "from": "2026-10-12",
-    "through": "2026-10-14",
+    "through": "2026-10-15",
     "date_field": "deposit",
-    "records_checked": 2461,
-    "new_matches": 0,
+    "records_checked": 3185,
+    "new_matches": 1,
     "changed_matches": 0
   },
   "papers": [
+    {
+      "id": "7611439",
+      "doi": "10.2139/ssrn.7611439",
+      "title": "Mixed Bundling from Separate-Sales Data",
+      "authors": [
+        "Dingli Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611439",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "A seller has sold two goods separately at two price levels and knows, for each level, the shares of buyers...",
+      "indexed_at": "2026-10-14T16:42:44+00:00",
+      "selection_reason": "Automatic screening",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611439",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T16:45:07+00:00",
+      "first_seen": "2026-10-15T04:46:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611439"
+      ],
+      "fingerprint": "75129ca79324fa425c9a93b97f0abaf12a801045a22ab19d664af87b762ea1d0"
+    },
     {
       "id": "7609418",
       "doi": "10.2139/ssrn.7609418",
