@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Theory Watch | Theoretical Economics on SSRN</title>
-    <meta name="description" content="A public daily reading list of economic-theory papers on SSRN, maintained by Sijie Wang. Browse papers and abstracts or subscribe via RSS." />
+    <title>Theory Watch | Selected Microeconomic Theory on SSRN</title>
+    <meta name="description" content="A selected reading list of microeconomic-theory working papers on SSRN, maintained by Sijie Wang. Daily discovery, separate content screening, no publication quota." />
     <link rel="canonical" href="https://econstill.github.io/theory-watch/" />
     <link rel="alternate" type="application/rss+xml" title="Theory Watch" href="feed.xml" />
     <link rel="stylesheet" href="watch.css?v=$css_version" />
@@ -18,15 +18,18 @@
       </nav>
       <header>
         <h1>Theory Watch</h1>
-        <p class="subtitle">Theoretical economics on SSRN</p>
-        <p class="introduction">Theory Watch is a public reading list for researchers in economic theory.
+        <p class="subtitle">Selected microeconomic theory on SSRN</p>
+        <p class="introduction">Theory Watch is a public reading list for researchers in microeconomic theory.
           I built it to make new working papers on SSRN easier to discover and to complement
           arXiv-based theory feeds.</p>
-        <p class="introduction">It covers game theory, mechanism and market design, information and contracts,
-          decision and social choice, equilibrium theory, and related theoretical work.</p>
-        <p class="status">$paper_count papers &middot; Checked daily &middot; Last successful check:
+        <p class="introduction">The focus is on contributions to game theory and networks, mechanism and market design,
+          information and contracts, decision and social choice, general equilibrium foundations, and theoretical
+          industrial organization. Using a game, an equilibrium, or an optimization problem is not enough on its own.</p>
+        <p class="status">$paper_count selected papers &middot; Daily discovery &middot; Last successful check:
           <time id="last-check" datetime="$checked_at">$checked_label</time>
         </p>
+        <p class="status">Selections last screened: $reviewed_label. New candidates require a separate content review;
+          there is no daily publication quota.</p>
         <p id="stale-notice" class="notice" hidden>Updates are delayed. The archive below is from the last successful check.</p>
       </header>
 
@@ -63,23 +66,28 @@
 
       <aside class="coverage" aria-labelledby="coverage-title">
         <h2 id="coverage-title">Coverage</h2>
-        <p>Papers are discovered through public SSRN DOI records deposited with
+        <p>Discovery runs daily using public SSRN DOI records deposited with
           <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/">Crossref</a>.
           An open-source <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">MiniLM</a> model
-          retrieves candidates by title and abstract meaning, rather than author keywords.
-          Transparent text checks then look for formal theoretical contributions and empirical evidence.
-          Borderline records are held aside rather than automatically included. Explicit JEL codes are used when present in deposited metadata;
-          this is not an official SSRN subject-category feed.
-          This index can miss relevant papers and include false matches. Inclusion is not a quality assessment.</p>
+          and transparent text checks identify candidates, not public recommendations. Candidates do not automatically
+          appear here or in RSS. This is not an official SSRN subject-category feed.</p>
+        <p>Selection considers the research question, its connection to microeconomic theory, and the stated analytical
+          contribution. Brief contribution notes accompany the selections. Screening is Codex-assisted and its extent
+          is recorded in the <a href="curation.json">selection record</a>; it is not peer review, proof verification,
+          or a guarantee of novelty or quality. Author reputation and institutional affiliation are not admission rules.</p>
+        <p>The focus excludes primarily empirical, calibrated macro-finance, management, and engineering optimization
+          papers without a substantive microeconomic-theory contribution. Foundational work on preferences or general
+          equilibrium remains in scope even when it has macroeconomic or financial applications.
+          Coverage is selective and incomplete. Not being selected is not a judgment that a paper is poor research.</p>
         <p>Dates above refer to DOI registration in Crossref, not the day a paper first appeared on SSRN.
           Indexing can be delayed. Changes to a record do not necessarily mean a new paper version.</p>
-        <p>The archive tracks DOI registrations from $coverage_start onward.</p>
+        <p>Discovery tracks DOI registrations from $coverage_start onward. Collection dates are separate from selection reviews.</p>
         <p>Abstracts are retrieved on request from Crossref, attributed to their authors, and not stored in this archive.
           Availability depends on the source record. Please consult SSRN for the latest version.</p>
-        <p><a href="method.json">Screening method</a> &middot;
+        <p><a href="curation.json">Selection policy and records</a> &middot; <a href="method.json">Discovery method</a> &middot;
           <a href="https://github.com/econstill/econstill.github.io/tree/main/tools/theory_watch">Source code</a> &middot;
-          <a href="rules.json">Editorial overrides</a> &middot; <a href="papers.json">Data (JSON)</a> &middot;
-          <a href="mailto:stillwang@bjtu.edu.cn?subject=Theory%20Watch%20correction">Corrections</a></p>
+          <a href="rules.json">Discovery overrides</a> &middot; <a href="papers.json">Selected data (JSON)</a> &middot;
+          <a href="mailto:stillwang@bjtu.edu.cn?subject=Theory%20Watch%20suggestion">Suggestions and corrections</a></p>
       </aside>
 
       <footer>

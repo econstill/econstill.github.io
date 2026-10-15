@@ -36,6 +36,7 @@ button:disabled { cursor: default; opacity: 0.45; }
 .authors { margin: 4px 0; font-size: 0.95rem; }
 .paper-meta { margin: 5px 0 2px; }
 .paper-topics { margin: 2px 0; color: #28604a; }
+.selection-note { margin: 8px 0; max-width: 76ch; color: #333; font-size: 0.92rem; }
 details { margin-top: 8px; font-size: 0.93rem; }
 summary { display: list-item; width: fit-content; color: #555; cursor: pointer; font-size: 0.85rem; }
 details p { max-width: 76ch; color: #333; }

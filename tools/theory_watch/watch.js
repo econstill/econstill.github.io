@@ -93,6 +93,7 @@ function paperElement(paper) {
   if (paper.record_updated_at) meta.textContent += " \u00b7 Record updated " + dateLabel(paper.record_updated_at);
   item.append(title, node("p", "authors", paper.authors.join(", ") || "Authors unavailable in source metadata"),
     meta, node("p", "paper-topics", paper.topics.join(" / ")));
+  if (paper.selection_note) item.append(node("p", "selection-note", paper.selection_note));
   const alternateIds = (paper.ssrn_ids || []).filter((id) => id !== paper.id);
   if (alternateIds.length) {
     const alternates = node("p", "paper-meta", "Other SSRN record: ");
@@ -160,7 +161,7 @@ async function start() {
     const response = await fetch("papers.json?v=" + version, { cache: "no-cache" });
     if (!response.ok) throw new Error("Archive unavailable");
     const data = await response.json();
-    if (data.schema_version !== 1 || !Array.isArray(data.papers)) throw new Error("Unexpected archive format");
+    if (data.schema_version !== 1 || data.selection_mode !== "curated" || !Array.isArray(data.papers)) throw new Error("Unexpected archive format");
     papers = data.papers;
     const params = new URL(window.location.href).searchParams;
     search.value = params.get("q") || "";

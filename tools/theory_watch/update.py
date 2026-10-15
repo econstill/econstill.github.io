@@ -1,4 +1,4 @@
-"""Build a static economic-theory discovery feed from Crossref's SSRN records."""
+"""Discover SSRN candidates and publish separately approved microeconomic theory."""
 
 import argparse
 from collections import Counter
@@ -18,6 +18,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+
+from curation import POLICY, approval, review_report, select_public
 
 
 ROOT = Path(__file__).resolve().parent
@@ -210,23 +212,13 @@ def shorten(text, limit=380):
     return excerpt.rstrip(".,;:") + "..."
 
 
-def normalize(work, now, selector=None):
+def normalize(work, now, selector=None, candidates=False):
     doi = str(work.get("DOI", "")).lower()
     match = DOI_PATTERN.fullmatch(doi)
     if not match:
         return None
     title = plain(" ".join(work.get("title") or []))
     abstract = plain(work.get("abstract", ""))
-    topics = (selector.classify(title, abstract, doi) if selector else classify(title, abstract, doi))
-    if doi in RULES["exclude_dois"]:
-        topics = []
-    elif doi in RULES["include_dois"]:
-        topics = topics or (selector.decisions.get(doi, {}).get("topics") if selector else None) or ["Editor inclusion"]
-    created = timestamp(work.get("created"))
-    if not title or not topics or not created:
-        return None
-    if datetime.fromisoformat(created) > now + timedelta(hours=1):
-        return None
     authors = []
     for author in work.get("author") or []:
         name = plain(" ".join(filter(None, [author.get("given"), author.get("family")])) or author.get("name", ""))
@@ -235,6 +227,22 @@ def normalize(work, now, selector=None):
     fingerprint = hashlib.sha256(json.dumps(
         [title, authors, abstract], ensure_ascii=False, separators=(",", ":")
     ).encode()).hexdigest()
+    topics = (selector.classify(title, abstract, doi) if selector else classify(title, abstract, doi))
+    decision = selector.decisions.get(doi, {}) if selector else {}
+    if candidates and decision.get("decision") == "review":
+        topics = decision.get("topics", [])
+    if doi in RULES["exclude_dois"]:
+        topics = []
+    elif doi in RULES["include_dois"]:
+        topics = topics or (selector.decisions.get(doi, {}).get("topics") if selector else None) or ["Editor inclusion"]
+    entry = approval({"doi": doi, "fingerprint": fingerprint})
+    if entry and doi not in RULES["exclude_dois"]:
+        topics = entry["topics"]
+    created = timestamp(work.get("created"))
+    if not title or not topics or not created:
+        return None
+    if datetime.fromisoformat(created) > now + timedelta(hours=1):
+        return None
     return {
         "id": match[1], "doi": doi, "title": title, "authors": authors,
         "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=" + match[1],
@@ -248,6 +256,8 @@ def normalize(work, now, selector=None):
         "first_seen": now.isoformat(), "record_updated_at": None,
         "ssrn_ids": [match[1]],
         "fingerprint": fingerprint,
+        **({"candidate_decision": decision.get("decision", "legacy"),
+            "candidate_retrieval_score": decision.get("retrieval_score")} if candidates else {}),
     }
 
 
@@ -257,7 +267,7 @@ def identity(paper):
     return (title, authors) if authors else (paper["id"], ())
 
 
-def merge(previous, works, now, window, selector=None, rescreen=False):
+def merge(previous, works, now, window, selector=None, rescreen=False, candidates=False):
     coverage_start = previous.get("coverage_start", RULES["registrations_from"])
     existing = {paper["id"]: paper for paper in previous.get("papers", []) if paper["indexed_at"][:10] >= coverage_start}
     new_count = updated_count = 0
@@ -273,7 +283,7 @@ def merge(previous, works, now, window, selector=None, rescreen=False):
         registered = timestamp(work.get("created"))
         if not registered or registered[:10] < coverage_start:
             continue
-        paper = normalize(work, now, selector)
+        paper = normalize(work, now, selector, candidates)
         if paper is None:
             if selector and not rescreen and selector.decisions.get(str(work.get("DOI", "")).lower(), {}).get("decision") != "include":
                 source_match = DOI_PATTERN.fullmatch(str(work.get("DOI", "")).lower())
@@ -306,16 +316,18 @@ def merge(previous, works, now, window, selector=None, rescreen=False):
         aliases[source_id] = paper["id"]
         identities[identity(paper)] = paper["id"]
     if rescreen:
-        accepted = {doi for doi, decision in selector.decisions.items() if decision["decision"] == "include"}
+        accepted = {doi for doi, decision in selector.decisions.items()
+                    if decision["decision"] in (("include", "review") if candidates else ("include",))}
         existing = {key: paper for key, paper in existing.items() if any(
             "10.2139/ssrn." + alias in accepted or "10.2139/ssrn." + alias in RULES["include_dois"]
             for alias in paper.get("ssrn_ids", [paper["id"]])
-        )}
+        ) or approval(paper)}
     papers = [paper for paper in existing.values() if paper["doi"] not in RULES["exclude_dois"]]
     papers.sort(key=lambda paper: (paper["indexed_at"], int(paper["id"])), reverse=True)
     return {
         "schema_version": 1, "title": "Theory Watch", "home_page_url": BASE_URL,
         "source": "SSRN DOI metadata deposited with Crossref",
+        **({"archive_kind": "discovery_candidates"} if candidates else {}),
         "selection": "Semantic topic retrieval plus transparent formal-contribution and empirical-evidence checks; borderline records withheld for review" if selector else "Legacy topic matching",
         "rule_version": __import__("semantic").CONFIG["version"] if selector else RULES["version"],
         "last_successful_check": now.isoformat(),
@@ -349,10 +361,11 @@ def paper_html(paper):
             for value in alternate_ids
         )
         alternates = '<p class="paper-meta">Other SSRN record: ' + links + '</p>'
+    note = '<p class="selection-note">' + escape(paper["selection_note"]) + '</p>' if paper.get("selection_note") else ""
     return (f'<li class="paper"><h2><a href="{url}" target="_blank" rel="noopener">{title}</a></h2>'
             f'<p class="authors">{authors}</p><p class="paper-meta">DOI registered '
             f'<time datetime="{paper["indexed_at"][:10]}">{display_date(paper["indexed_at"])}</time>'
-            f'{changed}</p><p class="paper-topics">{topics}</p>{alternates}{excerpt}</li>')
+            f'{changed}</p><p class="paper-topics">{topics}</p>{note}{alternates}{excerpt}</li>')
 
 
 def write_text(path, content):
@@ -363,6 +376,8 @@ def write_text(path, content):
 
 
 def render(data, site):
+    # All public outputs use the same fail-closed approval gate, including static fallback and RSS.
+    data = select_public(data)
     output = site / "theory-watch"
     papers = data["papers"]
     topics = sorted({topic for paper in papers for topic in paper["topics"]})
@@ -375,6 +390,7 @@ def render(data, site):
         checked_label=datetime.fromisoformat(checked).strftime("%d %b %Y, %H:%M UTC"),
         topics=options, papers="\n".join(paper_html(paper) for paper in papers[:50]),
         initial_count=min(50, len(papers)),
+        reviewed_label=data.get("last_selection_review") or "No selections yet",
         css_version=hashlib.sha256((ROOT / "watch.css").read_bytes()).hexdigest()[:10],
         js_version=hashlib.sha256((ROOT / "watch.js").read_bytes()).hexdigest()[:10],
         coverage_start=datetime.fromisoformat(data.get("coverage_start", RULES["registrations_from"])).strftime("%d %b %Y"),
@@ -382,17 +398,20 @@ def render(data, site):
     write_text(output / "index.html", rendered)
     write_text(output / "papers.json", json.dumps(data, ensure_ascii=False, indent=2) + "\n")
     overrides = {key: RULES[key] for key in ("version", "registrations_from", "include_dois", "exclude_dois")}
-    overrides["note"] = "DOI-level editorial overrides only. See method.json and the screening source code for automatic selection."
+    overrides["note"] = "Discovery overrides only; these never bypass the separate curation.json publication gate."
     overrides["editorial_notes"] = RULES.get("editorial_notes", {})
     write_text(output / "rules.json", json.dumps(overrides, ensure_ascii=False, indent=2) + "\n")
-    write_text(output / "method.json", (ROOT / "semantic.json").read_text())
+    method = json.loads((ROOT / "semantic.json").read_text())
+    method["publication"] = {key: value for key, value in POLICY.items() if key != "approvals"}
+    write_text(output / "method.json", json.dumps(method, ensure_ascii=False, indent=2) + "\n")
+    write_text(output / "curation.json", json.dumps(POLICY, ensure_ascii=False, indent=2) + "\n")
     for asset in ("watch.css", "watch.js"):
         write_text(output / asset, (ROOT / asset).read_text())
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
     for tag, value in {
-        "title": "Theory Watch: Theoretical Economics on SSRN", "link": BASE_URL,
-        "description": "Automatically matched economic-theory papers from SSRN DOI metadata. Coverage is partial; dates are DOI registration dates.",
+        "title": "Theory Watch: Selected Microeconomic Theory on SSRN", "link": BASE_URL,
+        "description": "Content-screened microeconomic-theory selections. Discovery runs daily; selections have no daily quota. Not peer review. Dates are DOI registration dates.",
         "language": "en", "lastBuildDate": format_datetime(datetime.fromisoformat(checked)),
         "ttl": "1440",
     }.items():
@@ -411,6 +430,23 @@ def render(data, site):
     print(f"Rendered {len(papers)} papers; topic counts: {dict(counts)}", flush=True)
 
 
+def load_candidate_state(path, published):
+    from semantic import CONFIG
+    try:
+        previous = json.loads(path.read_text()) if path.exists() else {}
+    except (OSError, ValueError):
+        print("Candidate cache unavailable; rebuilding the complete discovery window", flush=True)
+        previous = {}
+    if not isinstance(previous, dict):
+        previous = {}
+    reusable = (isinstance(previous.get("papers"), list)
+                and previous.get("archive_kind") == "discovery_candidates"
+                and previous.get("rule_version") == CONFIG["version"]
+                and previous.get("coverage_start") == published.get("coverage_start", RULES["registrations_from"])
+                and previous.get("last_successful_check", "") >= published.get("last_successful_check", ""))
+    return (previous, True) if reusable else (published, False)
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--site-dir", type=Path, required=True)
@@ -422,40 +458,41 @@ def main():
     parser.add_argument("--model-dir", type=Path)
     parser.add_argument("--cache", type=Path, default=Path(".cache/theory-watch/decisions.json"))
     parser.add_argument("--review-output", type=Path)
+    parser.add_argument("--candidate-cache", type=Path, default=Path(".cache/theory-watch/candidates.json"))
     args = parser.parse_args()
     path = args.site_dir / "theory-watch/papers.json"
-    previous = json.loads(path.read_text()) if path.exists() else {}
+    published = json.loads(path.read_text()) if path.exists() else {}
+    previous, reusable = load_candidate_state(args.candidate_cache, published)
     if args.render_only:
         if not previous:
             raise ValueError("No existing feed to render")
         data = previous
     else:
         now = datetime.now(timezone.utc).replace(microsecond=0)
+        rebuild = args.rescreen or not reusable
         if args.input:
             raw = json.loads(args.input.read_text())
             works, window = raw["works"], raw["window"]
         else:
-            days = (now.date() - date.fromisoformat(previous.get("coverage_start", RULES["registrations_from"]))).days if args.rescreen else args.bootstrap_days
-            works, window = collect({} if args.rescreen else previous, now, days)
+            days = (now.date() - date.fromisoformat(previous.get("coverage_start", RULES["registrations_from"]))).days if rebuild else args.bootstrap_days
+            works, window = collect({} if rebuild else previous, now, days)
         if args.raw_output:
             write_text(args.raw_output, json.dumps({"works": works, "window": window}, ensure_ascii=False))
         completed = datetime.now(timezone.utc).replace(microsecond=0)
         from semantic import SemanticSelector
-        if args.rescreen and (window.get("date_field") != "created" or window.get("from", "9999") > previous.get("coverage_start", RULES["registrations_from"])):
+        if rebuild and (window.get("date_field") != "created" or window.get("from", "9999") > previous.get("coverage_start", RULES["registrations_from"])):
             raise ValueError("Re-screening requires the complete archive coverage window")
         works = [work for work in works if (timestamp(work.get("created")) or "")[:10] >= previous.get("coverage_start", RULES["registrations_from"])]
         selector = SemanticSelector(args.cache, args.model_dir)
         selector.prepare(works)
         completed = datetime.now(timezone.utc).replace(microsecond=0)
-        data = merge(previous, works, completed, window, selector, args.rescreen)
-        if args.review_output:
-            review = [{"doi": work["DOI"], "title": plain(" ".join(work.get("title") or [])),
-                       "excerpt": shorten(plain(work.get("abstract", ""))),
-                       **selector.decisions[str(work["DOI"]).lower()]} for work in works
-                      if selector.decisions[str(work["DOI"]).lower()]["decision"] == "review"]
-            write_text(args.review_output, json.dumps(review, ensure_ascii=False, indent=2))
-        selector.save()
+        data = merge(previous, works, completed, window, selector, rebuild, candidates=True)
     render(data, args.site_dir)
+    if args.review_output:
+        write_text(args.review_output, json.dumps(review_report(data), ensure_ascii=False, indent=2) + "\n")
+    if not args.render_only:
+        write_text(args.candidate_cache, json.dumps(data, ensure_ascii=False, indent=2) + "\n")
+        selector.save()
 
 
 if __name__ == "__main__":
