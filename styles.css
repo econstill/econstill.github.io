@@ -130,6 +130,11 @@ a:focus {
   border-radius: 4px;
 }
 
+.research-interests {
+  display: flow-root;
+  margin-top: 24px;
+}
+
 @media (max-width: 640px) {
   body {
     font-size: 16px;
