@@ -13,7 +13,7 @@
     "10.2139/ssrn.7577740",
     "10.2139/ssrn.7547723"
   ],
-  "note": "DOI-level editorial overrides only. See method.json and the screening source code for automatic selection.",
+  "note": "Discovery overrides only; these never bypass the separate curation.json publication gate.",
   "editorial_notes": {
     "10.2139/ssrn.7572678": "Reviewed: formal information-design contribution; retained despite a low semantic retrieval score.",
     "10.2139/ssrn.7590660": "Reviewed: theoretical comparison of adverse-selection market allocations with a supplementary simulation.",

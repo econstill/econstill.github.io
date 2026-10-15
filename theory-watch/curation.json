@@ -1,0 +1,119 @@
+{
+  "version": "micro-theory-curated-1",
+  "scope": "Microeconomic theory: game theory and networks; mechanism and market design; information and contracts; decision and social choice; general equilibrium foundations; theoretical industrial organization.",
+  "policy": "Daily discovery produces candidates, not automatic public recommendations. Publication requires a content-specific approval matching the current title, authors and abstract fingerprint. There is no daily publication quota.",
+  "limits": "Codex-assisted scope and contribution screening, not peer review, proof verification, a ranking, or a guarantee of novelty or quality. Author reputation and institutional affiliation are not admission rules. Papers not selected are not judged to be poor research.",
+  "outside_scope": [
+    "Empirical or calibrated macroeconomics, growth and asset-pricing exercises without a primary microeconomic-theory contribution",
+    "Engineering, transport and operational optimization whose principal contribution is an application or numerical procedure",
+    "Management frameworks, policy commentary and conceptual essays without a substantive microeconomic-theory contribution"
+  ],
+  "boundary_note": "Applications to macroeconomics, finance, public policy or technology do not disqualify a paper whose main contribution is to microeconomic-theory foundations.",
+  "approvals": {
+    "10.2139/ssrn.7609418": {
+      "fingerprint": "13243f3aae3c240f16d6e74d7e3a3bf6d451d3a532b1b8ebe7f7705ea891aa2f",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_source",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "reason": "General equilibrium foundations: allocation-dependent preferences, equilibrium existence, conditional welfare and implementation of tradable rights.",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7609418"
+      ]
+    },
+    "10.2139/ssrn.7596278": {
+      "fingerprint": "2f447173a5b0a07048a56c51aa316ee465c2d8d4e0217c74d6e3935bea103feb",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_main_results",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "reason": "Dynamic monopoly pricing: correlated buyer information creates strategic complementarities, equilibrium multiplicity and non-monotone welfare effects.",
+      "sources": [
+        "https://bse.eu/research/working-papers/multilateral-bargaining-with-information-spillovers",
+        "https://bw.bse.eu/wp-content/uploads/1598.pdf"
+      ]
+    },
+    "10.2139/ssrn.7590660": {
+      "fingerprint": "67d07654b8dbe5163c2fb8c4a9c1ce949d9454aaf7b9e6fe3e9fe6bfbcba6d77",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_main_results",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "reason": "Adverse-selection theory: monopoly and competition produce different coverage distortions. Supporting simulations do not replace the theoretical contribution.",
+      "sources": [
+        "https://www.fmg.ac.uk/cm/publications/discussion-papers/market-power-and-insurance-coverage",
+        "https://www.stern.nyu.edu/sites/default/files/2024-03/GottliebandMoreira_MarketPowerandInsuranceCoverage.pdf"
+      ]
+    },
+    "10.2139/ssrn.7590419": {
+      "fingerprint": "1d38420eb7322f54f192aa98cc30935d072855850094f3b376b211fff2602ee9",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_main_results",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "reason": "Information design and screening: characterizes optimal posterior distributions and how learning shapes product menus, exclusion and consumer surplus.",
+      "sources": [
+        "https://arxiv.org/html/2610.14225v1"
+      ]
+    },
+    "10.2139/ssrn.7589886": {
+      "fingerprint": "bc40201ad1bd419edcc27a2775031c8c46088571817c990e52c370272f0ed553",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_source",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "reason": "Intertemporal choice foundations: an axiomatic extension of discounted utility incorporating sensitivity to salient future outcomes.",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7589886",
+        "https://www.pantheonsorbonne.fr/page-perso/xiangyu.qu%40"
+      ]
+    },
+    "10.2139/ssrn.7560666": {
+      "fingerprint": "384110be77652784ba413ef9a84f36178fac162e89f1f87cf59b1369b9d04ab4",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_main_results",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "reason": "Random assignment: quantitative bounds describe the trade-off between strategy-proofness, equal treatment and avoiding waste.",
+      "sources": [
+        "https://arxiv.org/html/2608.27261v1"
+      ]
+    },
+    "10.2139/ssrn.7552146": {
+      "fingerprint": "9b6322c89901876929b1f02644e4fc78e923ddd7eae010a4344fdf541da10551",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_main_results",
+      "topics": [
+        "Decision & Social Choice",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "reason": "Preference foundations: existence and uniqueness of recursive utility with unbounded consumption. Macro-finance applications do not change its foundational contribution.",
+      "sources": [
+        "https://arxiv.org/html/2610.03157v1"
+      ]
+    },
+    "10.2139/ssrn.7544621": {
+      "fingerprint": "b63bdbed5d3d8dae2a66dd8eb9ff0404b48c1468e9c4bcf42d9260a546597153",
+      "reviewed_at": "2026-10-15",
+      "review_level": "abstract_and_source",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "reason": "Robust mechanism design: connects participation security, elementary mechanisms and interim participation across information structures.",
+      "sources": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621",
+        "https://benjaminbrooks.net/research.shtml"
+      ]
+    }
+  }
+}

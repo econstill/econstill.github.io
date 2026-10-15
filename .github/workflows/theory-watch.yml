@@ -58,7 +58,7 @@ jobs:
         env:
           CROSSREF_MAILTO: stillwang@bjtu.edu.cn
         run: python automation/tools/theory_watch/update.py --site-dir site --review-output review/pending.json
-      - name: Save borderline records for review
+      - name: Save unselected discovery candidates for review
         if: github.event_name != 'push'
         uses: actions/upload-artifact@v7
         with:

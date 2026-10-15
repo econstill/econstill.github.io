@@ -1,10 +1,10 @@
 {
-  "version": "semantic-2.3-hybrid",
+  "version": "semantic-3.0-micro-candidates",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
   "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
   "onnx_file": "onnx/model_quint8_avx2.onnx",
   "retrieval_minimum": 0.23,
-  "retrieval_margin": -0.10,
+  "retrieval_margin": -0.1,
   "include_minimum": 0.32,
   "include_margin": 0.02,
   "review_minimum": 0.23,
@@ -13,9 +13,8 @@
     "Mechanism & Market Design": "Economic theory of mechanism design, incentive compatibility, auctions, matching, allocation rules, and market design.",
     "Information & Contracts": "Economic theory of asymmetric information, information design, Bayesian persuasion, signaling, screening, principal-agent models and contract theory.",
     "Decision & Social Choice": "Economic theory of preferences, choice axioms, decisions under uncertainty, expected utility, voting, social choice, aggregation and welfare.",
-    "Equilibrium & Mathematical Economics": "Mathematical economic theory of competitive general equilibrium, production and exchange economies, equilibrium existence and uniqueness, prices and economic dynamics.",
-    "Industrial Organization Theory": "Economic theory of oligopoly, Cournot and Bertrand competition, monopoly pricing, market entry, search, platforms and strategic firm behavior.",
-    "Other Economic Theory": "A theoretical economic model with analytical results about public economics, political economy, international trade, economic growth or macroeconomics."
+    "Equilibrium & Mathematical Economics": "Microeconomic theory foundations of competitive general equilibrium, production and exchange economies, equilibrium existence and uniqueness, welfare theorems and mathematical foundations of preferences.",
+    "Industrial Organization Theory": "Microeconomic theory of oligopoly, Cournot and Bertrand competition, monopoly pricing, market entry, search, platforms and strategic firm behavior."
   },
   "negative_prototypes": [
     "An empirical economics paper estimating causal effects using regression, difference in differences, instrumental variables, survey data or field experiments.",
@@ -23,6 +22,29 @@
     "An engineering or computer science application optimizing wireless communications, energy systems, machine learning algorithms, security or vehicle routing.",
     "A legal, medical, management or historical paper reviewing policy, institutional practice or philosophical arguments."
   ],
-  "jel_codes": ["C7", "C62", "D5", "D44", "D47", "D71", "D81", "D82", "D85", "D86"],
-  "notes": "Semantic embedding retrieval followed by transparent checks for formal contributions and empirical evidence (patterns in semantic.py). No author-keyword gate or zero-shot LLM classification is used. Scores are cosine similarities, not probabilities or quality judgments. Borderline records are withheld for review. Explicit deposited JEL codes support retrieval only; no official SSRN category feed is claimed. Small zero-shot models were rejected after regression tests showed excessive false negatives."
+  "jel_codes": [
+    "C7",
+    "C62",
+    "D5",
+    "D44",
+    "D47",
+    "D71",
+    "D81",
+    "D82",
+    "D85",
+    "D86"
+  ],
+  "notes": "Discovery of microeconomic-theory candidates only. Semantic embedding retrieval and text checks never authorize publication. A separate content-fingerprint approval gate in curation.json controls the public page, JSON and RSS. Scores are cosine similarities, not quality judgments. Explicit deposited JEL codes support retrieval only; no official SSRN category feed is claimed.",
+  "publication": {
+    "version": "micro-theory-curated-1",
+    "scope": "Microeconomic theory: game theory and networks; mechanism and market design; information and contracts; decision and social choice; general equilibrium foundations; theoretical industrial organization.",
+    "policy": "Daily discovery produces candidates, not automatic public recommendations. Publication requires a content-specific approval matching the current title, authors and abstract fingerprint. There is no daily publication quota.",
+    "limits": "Codex-assisted scope and contribution screening, not peer review, proof verification, a ranking, or a guarantee of novelty or quality. Author reputation and institutional affiliation are not admission rules. Papers not selected are not judged to be poor research.",
+    "outside_scope": [
+      "Empirical or calibrated macroeconomics, growth and asset-pricing exercises without a primary microeconomic-theory contribution",
+      "Engineering, transport and operational optimization whose principal contribution is an application or numerical procedure",
+      "Management frameworks, policy commentary and conceptual essays without a substantive microeconomic-theory contribution"
+    ],
+    "boundary_note": "Applications to macroeconomics, finance, public policy or technology do not disqualify a paper whose main contribution is to microeconomic-theory foundations."
+  }
 }
