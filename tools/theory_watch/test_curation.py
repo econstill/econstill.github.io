@@ -30,12 +30,14 @@ class CurationTests(unittest.TestCase):
         self.assertEqual(curation.select_public(self.data, self.policy)["papers"], [])
 
     def test_exact_approval_has_contribution_and_review_extent(self):
+        self.data["papers"][0]["publication_status"] = "awaiting_content_review"
         selected = curation.select_public(self.data, self.policy)
         self.assertEqual(len(selected["papers"]), 1)
         self.assertEqual(selected["papers"][0]["selection_note"], "Equilibrium uniqueness in network games.")
         self.assertEqual(selected["last_selection_review"], "2026-10-14")
         self.assertEqual(selected["selection_mode"], "curated")
         self.assertNotIn("selection_note", self.data["papers"][0])
+        self.assertNotIn("publication_status", selected["papers"][0])
 
     def test_approval_expires_on_any_content_change(self):
         for content in [work(title="A different title"), work(abstract="We prove a new theorem on network games.")]:

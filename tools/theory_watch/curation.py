@@ -63,7 +63,8 @@ def select_public(candidates, policy=POLICY):
     for paper in candidates.get("papers", []):
         entry = approval(paper, policy)
         if entry:
-            selected = {key: value for key, value in paper.items() if not key.startswith("candidate_")}
+            selected = {key: value for key, value in paper.items()
+                        if not key.startswith("candidate_") and key != "publication_status"}
             selected.update(topics=entry["topics"], selection_reason="Content-screened selection",
                             selection_note=entry["reason"], reviewed_at=entry["reviewed_at"],
                             review_level=entry["review_level"], review_sources=entry["sources"])
