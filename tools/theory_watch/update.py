@@ -385,12 +385,21 @@ def render(data, site):
     counts = Counter(topic for paper in papers for topic in paper["topics"])
     template = Template((ROOT / "page.html").read_text())
     checked = data["last_successful_check"]
+    review = data.get("review_status", {})
+    reviewed_at = review.get("last_completed") or data.get("last_selection_review") or ""
+    review_summary = "No daily publication quota."
+    if review:
+        review_summary = (f'Last batch: {review["reviewed_count"]} screened, '
+                          f'{review["decisions"].get("include", 0)} approved; '
+                          f'{review["remaining_candidates"]} candidates still awaiting review.')
     rendered = template.substitute(
         paper_count=len(papers), checked_at=escape(checked, quote=True),
         checked_label=datetime.fromisoformat(checked).strftime("%d %b %Y, %H:%M UTC"),
         topics=options, papers="\n".join(paper_html(paper) for paper in papers[:50]),
         initial_count=min(50, len(papers)),
-        reviewed_label=data.get("last_selection_review") or "No selections yet",
+        reviewed_at=escape(reviewed_at, quote=True),
+        reviewed_label=datetime.fromisoformat(reviewed_at).strftime("%d %b %Y") if reviewed_at else "Not yet reviewed",
+        review_summary=escape(review_summary),
         css_version=hashlib.sha256((ROOT / "watch.css").read_bytes()).hexdigest()[:10],
         js_version=hashlib.sha256((ROOT / "watch.js").read_bytes()).hexdigest()[:10],
         coverage_start=datetime.fromisoformat(data.get("coverage_start", RULES["registrations_from"])).strftime("%d %b %Y"),

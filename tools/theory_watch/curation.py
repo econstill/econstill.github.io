@@ -1,7 +1,7 @@
 """A fail-closed publication gate, separate from automatic topic discovery."""
 
 from copy import deepcopy
-from datetime import date
+from datetime import date, datetime
 import json
 from pathlib import Path
 import re
@@ -14,6 +14,17 @@ EXCLUDED = set(json.loads((ROOT / "rules.json").read_text())["exclude_dois"])
 
 def validate(policy):
     topics = json.loads((ROOT / "semantic.json").read_text())["topics"]
+    for doi, entry in policy.get("decisions", {}).items():
+        if (not re.fullmatch(r"10\.2139/ssrn\.\d+", doi)
+                or not re.fullmatch(r"[a-f0-9]{64}", entry["fingerprint"])
+                or entry["decision"] not in ("include", "exclude", "defer")
+                or not entry["reason"].strip()):
+            raise ValueError("Invalid content-screening decision")
+        datetime.fromisoformat(entry["reviewed_at"])
+        if entry["decision"] == "defer":
+            datetime.fromisoformat(entry["retry_after"])
+    if policy.get("review_status"):
+        datetime.fromisoformat(policy["review_status"]["last_completed"])
     for doi, entry in policy["approvals"].items():
         if not re.fullmatch(r"10\.2139/ssrn\.\d+", doi):
             raise ValueError("Invalid approval DOI")
@@ -35,6 +46,9 @@ validate(POLICY)
 
 def approval(paper, policy=POLICY):
     entry = policy["approvals"].get(paper["doi"])
+    decision = policy.get("decisions", {}).get(paper["doi"], {})
+    if decision.get("fingerprint") == paper.get("fingerprint") and decision.get("decision") == "exclude":
+        return None
     return entry if entry and paper["doi"] not in EXCLUDED and entry["fingerprint"] == paper.get("fingerprint") else None
 
 
@@ -55,6 +69,7 @@ def select_public(candidates, policy=POLICY):
                             review_level=entry["review_level"], review_sources=entry["sources"])
             result["papers"].append(selected)
     result["last_selection_review"] = max((paper["reviewed_at"] for paper in result["papers"]), default=None)
+    result["review_status"] = deepcopy(policy.get("review_status", {}))
     return result
 
 
@@ -62,6 +77,9 @@ def review_report(candidates, policy=POLICY):
     pending = []
     for paper in candidates.get("papers", []):
         if not approval(paper, policy):
+            decision = policy.get("decisions", {}).get(paper["doi"], {})
+            if decision.get("fingerprint") == paper.get("fingerprint") and decision.get("decision") == "exclude":
+                continue
             changed = paper["doi"] in policy["approvals"]
             pending.append({**paper, "publication_status": "content_changed_requires_review" if changed else "awaiting_content_review"})
     return {"checked_at": candidates["last_successful_check"], "scope": policy["scope"],

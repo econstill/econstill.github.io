@@ -156,6 +156,9 @@ function render() {
 async function start() {
   const checked = new Date(document.querySelector("#last-check").dateTime);
   document.querySelector("#stale-notice").hidden = Date.now() - checked.getTime() < 3 * 86400000;
+  const reviewed = new Date(document.querySelector("#last-review").dateTime);
+  document.querySelector("#review-stale-notice").hidden = Number.isFinite(reviewed.getTime()) &&
+    Date.now() - reviewed.getTime() < 3 * 86400000;
   try {
     const version = encodeURIComponent(document.querySelector("#last-check").dateTime);
     const response = await fetch("papers.json?v=" + version, { cache: "no-cache" });

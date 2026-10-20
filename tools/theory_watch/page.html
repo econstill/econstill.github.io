@@ -28,9 +28,10 @@
         <p class="status">$paper_count selected papers &middot; Daily discovery &middot; Last successful check:
           <time id="last-check" datetime="$checked_at">$checked_label</time>
         </p>
-        <p class="status">Selections last screened: $reviewed_label. New candidates require a separate content review;
-          there is no daily publication quota.</p>
+        <p class="status">Last content review: <time id="last-review" datetime="$reviewed_at">$reviewed_label</time>.
+          $review_summary</p>
         <p id="stale-notice" class="notice" hidden>Updates are delayed. The archive below is from the last successful check.</p>
+        <p id="review-stale-notice" class="notice" hidden>Content screening is delayed. Discovery may continue, but unreviewed candidates remain unpublished.</p>
       </header>
 
       <form class="filters" role="search" id="filters">
@@ -75,6 +76,9 @@
           contribution. Brief contribution notes accompany the selections. Screening is Codex-assisted and its extent
           is recorded in the <a href="curation.json">selection record</a>; it is not peer review, proof verification,
           or a guarantee of novelty or quality. Author reputation and institutional affiliation are not admission rules.</p>
+        <p>AI-assisted content review is scheduled daily, separately from cloud-based collection. The review runs on
+          the maintainer's Codex host and requires it to be running. Each batch prioritizes recent candidates and also
+          works through the older backlog. Uncertain records are deferred; there is no daily publication quota.</p>
         <p>The focus excludes primarily empirical, calibrated macro-finance, management, and engineering optimization
           papers without a substantive microeconomic-theory contribution. Foundational work on preferences or general
           equilibrium remains in scope even when it has macroeconomic or financial applications.
