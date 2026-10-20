@@ -6,22 +6,22 @@
   "archive_kind": "selected_papers",
   "selection": "Content-screened microeconomic-theory selections; automatic discovery alone never authorizes publication",
   "rule_version": "semantic-3.0-micro-candidates",
-  "last_successful_check": "2026-10-20T04:57:10+00:00",
+  "last_successful_check": "2026-10-20T08:03:56+00:00",
   "screening": {
-    "retrieved": 233,
-    "included": 16,
-    "review": 40,
-    "excluded": 1929,
-    "cached": 1084
+    "retrieved": 49,
+    "included": 13,
+    "review": 30,
+    "excluded": 1367,
+    "cached": 1293
   },
   "coverage_start": "2026-09-30",
   "last_collection": {
-    "from": "2026-10-17",
+    "from": "2026-10-18",
     "through": "2026-10-20",
     "date_field": "deposit",
-    "records_checked": 1985,
-    "new_matches": 24,
-    "changed_matches": 2
+    "records_checked": 1410,
+    "new_matches": 6,
+    "changed_matches": 0
   },
   "papers": [
     {
@@ -50,7 +50,6 @@
         "7632058"
       ],
       "fingerprint": "da679168bad569e025890fcae3d64eacb9ddb5b85d7d6e6715f009bfa65b59c7",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Dynamic contracting with worker exit: jointly characterizes wage insurance and costly workload changes, including when a binding outside option changes resumption incentives.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -84,7 +83,6 @@
         "7635444"
       ],
       "fingerprint": "1690498ee668b861f45180d7b02b32c60d2250b053271f82a3041075ed29e999",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Multi-dimensional mechanism design: provides expectation-based tests for optimal grand bundling under rapidly decreasing value densities and an application to bounded Pareto values.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -120,7 +118,6 @@
         "7621761"
       ],
       "fingerprint": "9d9a36cc6a9be9107a160e909de0b6c3e6058208fb08bcf33ac082fd98580ef1",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Theoretical IO of AI intermediation: studies publisher licensing and entry choices, their effects on content creation, and the consequences of access-permission rules.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -154,7 +151,6 @@
         "7625276"
       ],
       "fingerprint": "3eacfb10f1be4dcd9124c182727ab872bde9c94b61afc24c6f189c49fc9ca962",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Principal-agent theory: characterizes how performance-contingent feedback can provide wage insurance with sparse reviews, contrasting its efficiency rate with fixed review schedules.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -188,7 +184,6 @@
         "7625275"
       ],
       "fingerprint": "1d887c1167ed2753453548b9959ef67d42c3703bb4ad5b326fed1275f004b020",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Strategic network formation: introduces sequential stability notions, identifies weighted-link cycles that obstruct existence, and gives conditions restoring foresighted stability.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -222,7 +217,6 @@
         "7619581"
       ],
       "fingerprint": "a0766fca130f4d46a5adaf625a395acc7dd8cf7943262508b5c79915b72154ca",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Information sales and competition: mixed-strategy price competition changes a broker's incentive to sell exclusively and yields an exact exclusivity-region characterization.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -258,7 +252,6 @@
         "7620880"
       ],
       "fingerprint": "9d84f885bbf10a4362d9efe3db695601d5a8df708365aaddc8506ce9a8ffc256",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Learning in price competition: characterizes how imperfect rival-price information biases demand learning and can raise prices, with endogenous incentives to acquire information.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
@@ -565,7 +558,6 @@
         "7537720"
       ],
       "fingerprint": "f6c48467807244e664617c9dbd5e0bfec07ccf7f5efd8bbb74119f448cad814b",
-      "publication_status": "awaiting_content_review",
       "selection_note": "Decision and insurance theory: a prior-free disappointment preference changes optimal deductibles and can make full insurance optimal despite actuarially unfair pricing.",
       "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
