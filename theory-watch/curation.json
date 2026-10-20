@@ -114,6 +114,559 @@
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621",
         "https://benjaminbrooks.net/research.shtml"
       ]
+    },
+    "10.2139/ssrn.7632058": {
+      "fingerprint": "da679168bad569e025890fcae3d64eacb9ddb5b85d7d6e6715f009bfa65b59c7",
+      "reason": "Dynamic contracting with worker exit: jointly characterizes wage insurance and costly workload changes, including when a binding outside option changes resumption incentives.",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7632058"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7635444": {
+      "fingerprint": "1690498ee668b861f45180d7b02b32c60d2250b053271f82a3041075ed29e999",
+      "reason": "Multi-dimensional mechanism design: provides expectation-based tests for optimal grand bundling under rapidly decreasing value densities and an application to bounded Pareto values.",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7635444"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7621761": {
+      "fingerprint": "9d9a36cc6a9be9107a160e909de0b6c3e6058208fb08bcf33ac082fd98580ef1",
+      "reason": "Theoretical IO of AI intermediation: studies publisher licensing and entry choices, their effects on content creation, and the consequences of access-permission rules.",
+      "topics": [
+        "Industrial Organization Theory",
+        "Information & Contracts"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7621761",
+        "https://business.wisc.edu/faculty-research/research-seminars/innovation-mini-conference/"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7625276": {
+      "fingerprint": "3eacfb10f1be4dcd9124c182727ab872bde9c94b61afc24c6f189c49fc9ca962",
+      "reason": "Principal-agent theory: characterizes how performance-contingent feedback can provide wage insurance with sparse reviews, contrasting its efficiency rate with fixed review schedules.",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7625276"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7625275": {
+      "fingerprint": "1d887c1167ed2753453548b9959ef67d42c3703bb4ad5b326fed1275f004b020",
+      "reason": "Strategic network formation: introduces sequential stability notions, identifies weighted-link cycles that obstruct existence, and gives conditions restoring foresighted stability.",
+      "topics": [
+        "Game Theory & Networks",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7625275"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7619581": {
+      "fingerprint": "a0766fca130f4d46a5adaf625a395acc7dd8cf7943262508b5c79915b72154ca",
+      "reason": "Information sales and competition: mixed-strategy price competition changes a broker's incentive to sell exclusively and yields an exact exclusivity-region characterization.",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7619581"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7620880": {
+      "fingerprint": "9d84f885bbf10a4362d9efe3db695601d5a8df708365aaddc8506ce9a8ffc256",
+      "reason": "Learning in price competition: characterizes how imperfect rival-price information biases demand learning and can raise prices, with endogenous incentives to acquire information.",
+      "topics": [
+        "Industrial Organization Theory",
+        "Information & Contracts"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7620880"
+      ],
+      "reviewed_at": "2026-10-20"
+    },
+    "10.2139/ssrn.7537720": {
+      "fingerprint": "f6c48467807244e664617c9dbd5e0bfec07ccf7f5efd8bbb74119f448cad814b",
+      "reason": "Decision and insurance theory: a prior-free disappointment preference changes optimal deductibles and can make full insurance optimal despite actuarially unfair pricing.",
+      "topics": [
+        "Decision & Social Choice",
+        "Information & Contracts"
+      ],
+      "review_level": "abstract_and_source",
+      "sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7537720"
+      ],
+      "reviewed_at": "2026-10-20"
     }
+  },
+  "decisions": {
+    "10.2139/ssrn.7632498": {
+      "fingerprint": "4ed4d4aa54eed9e1a113108a6229b26b542221db8cfa472f82649a7118e7b42c",
+      "decision": "exclude",
+      "reason": "A calibrated heterogeneous-firm bankruptcy model and aggregate productivity counterfactuals, rather than a primary contribution to microeconomic-theory foundations.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7632058": {
+      "fingerprint": "da679168bad569e025890fcae3d64eacb9ddb5b85d7d6e6715f009bfa65b59c7",
+      "decision": "include",
+      "reason": "Dynamic contracting with worker exit: jointly characterizes wage insurance and costly workload changes, including when a binding outside option changes resumption incentives.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7631798": {
+      "fingerprint": "eac56212b7b353d249fa243522418e5831a00f792df3c6e7f23ee974a2c19627",
+      "decision": "defer",
+      "reason": "The research-verification allocation model may fit information economics; inspect its incentive structure and analytical results before treating the verification-capacity framework as a theory contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7631638": {
+      "fingerprint": "d73323e68e522a4df720aa30d3a97763cbd9134beb75a8302706cb72a76c1661",
+      "decision": "exclude",
+      "reason": "A metric framework for organizational identity under perturbations, without an economic choice, incentive, or market-theoretic contribution in the abstract.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7630258": {
+      "fingerprint": "efac12c1275ffb85933f63b78ee458b1e66f9461f142944e0b0517212eeb31e9",
+      "decision": "exclude",
+      "reason": "Contraction bounds and compute-accuracy curves for AI reasoning are computational analysis, not microeconomic theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7630102": {
+      "fingerprint": "9e9a627e628a14aa320ea80d59d53fcecd29b6f099fffca3df3cf738d414f603",
+      "decision": "exclude",
+      "reason": "Factor estimation, asymptotic inference and international-stock prediction are econometric methodology, not the microeconomic-theory scope of this list.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7629019": {
+      "fingerprint": "ad96b9fe2d92f468fddb0489124a6017d6e86589590498918c40bb81f72511aa",
+      "decision": "defer",
+      "reason": "Joint price/payment-term bargaining is potentially theoretical IO; inspect the bargaining model and the scope of the markup identification result before admission.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7636333": {
+      "fingerprint": "da56d42e4781243e85ac3cadacda45dff87eaa7efe6379cb9bc742002e40d7b8",
+      "decision": "exclude",
+      "reason": "A nonlinear PDE existence and multiplicity paper in Minkowski geometry, with no economic model or microeconomic-theory application.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7628720": {
+      "fingerprint": "467ce1c1fa6dbc845239130614d072c711eefe1a13f3d7e4b4d5a43448b85e0b",
+      "decision": "defer",
+      "reason": "The household innovation-versus-waiting problem is microeconomic, but the abstract alone does not establish the scope of its theoretical advance; inspect the model/results.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7628500": {
+      "fingerprint": "73121aebeab2afd1509c78b7971b8e5733deceb91f48def1d77ed2662f56c396",
+      "decision": "exclude",
+      "reason": "The stated contribution is a tractable asset-pricing risk-premium application, not an axiomatic preference or general-equilibrium foundation.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7627698": {
+      "fingerprint": "e793f2352afb636c9ea854726ab8a785056ff38020711c0704dc9fc0c39c31e6",
+      "decision": "exclude",
+      "reason": "An OLG pension/fertility tax-reform exercise focused on cohort incidence and quantitative policy implementation rather than microeconomic-theory foundations.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7627919": {
+      "fingerprint": "6718b82991debf7780f286cab30404b421e7cb5a49f2acac1f69123106baeae4",
+      "decision": "exclude",
+      "reason": "Primarily empirical stock-return forecasting with a supporting calibrated labor-market mechanism.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7627358": {
+      "fingerprint": "07d64bc22919fae14454f61bfd3e2a26fbd93651ffada51a9dc1ca2c003731c3",
+      "decision": "defer",
+      "reason": "The dynamic policy/context results may contain a strategic-complementarity contribution; inspect the underlying choice model and the generality of the stated results.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7626438": {
+      "fingerprint": "352d00d71f0557abe0e07f9c283fd48bffe0eb012dccd0d0d6f3d159c0b9ab23",
+      "decision": "exclude",
+      "reason": "Primarily empirical evidence on distressed nonbank lending, with a screening model used to motivate and interpret the tests.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7635444": {
+      "fingerprint": "1690498ee668b861f45180d7b02b32c60d2250b053271f82a3041075ed29e999",
+      "decision": "include",
+      "reason": "Multi-dimensional mechanism design: provides expectation-based tests for optimal grand bundling under rapidly decreasing value densities and an application to bounded Pareto values.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7635443": {
+      "fingerprint": "80050aa6585d3a80c530014f0b55fde7d2187a42d64f00891ca430f3045c453c",
+      "decision": "defer",
+      "reason": "The source title/author/abstract fingerprint changed since collection. Wait for a current discovery record before making a content-specific decision.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7635249": {
+      "fingerprint": "8533da870f3299a6118a7e038b77aee30a369e16fdd3dc1c29802e116b216a63",
+      "decision": "exclude",
+      "reason": "Time-series symmetry-test identification and bootstrap inference are econometric methodology rather than microeconomic theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7630138": {
+      "fingerprint": "fe99ab87f43b590895f3578c365a92033eecbc17cc5612f64e86b98967f649d0",
+      "decision": "exclude",
+      "reason": "A quantitative portfolio/wealth-inequality model intended to replicate aggregate wealth-share dynamics, without a foundational preference or equilibrium result.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7623839": {
+      "fingerprint": "ffb50aebd7a7424a430a7f801602daddaf64d2b0e48172de9a3826e5933a4ca6",
+      "decision": "exclude",
+      "reason": "A consumption-based asset-valuation and production/VAR application; the abstract does not identify a primary microeconomic-theory foundations contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7621461": {
+      "fingerprint": "ca5d41b2f5eee318e2a5e9895a825ec56a9ba1b6716957b18ea19c4bb0f8b673",
+      "decision": "defer",
+      "reason": "No complete abstract is available in the verified Crossref record; the title alone is insufficient for content screening.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7621781": {
+      "fingerprint": "30fbf5c6df8bd8acbb9979819cfdd5bb63c07d9127c743e65d1bfaa3c23888a0",
+      "decision": "defer",
+      "reason": "A substantive resale contracting model, but inspect whether the contribution extends beyond the specific supply-channel governance application before admitting it to this selective theory list.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7621761": {
+      "fingerprint": "9d9a36cc6a9be9107a160e909de0b6c3e6058208fb08bcf33ac082fd98580ef1",
+      "decision": "include",
+      "reason": "Theoretical IO of AI intermediation: studies publisher licensing and entry choices, their effects on content creation, and the consequences of access-permission rules.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7623598": {
+      "fingerprint": "00afd670cdf7902fb1146d4c28f45c80f034e7f584a20f7c46033015302ddbcb",
+      "decision": "exclude",
+      "reason": "An empirical analysis of bidding and nomination records in petroleum licensing; auction terminology alone does not make it an auction-theory contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7623458": {
+      "fingerprint": "a5ab9351a08ff8641eba074c0e18b217d89f6f8b6a5e623fa349da82c25f3388",
+      "decision": "exclude",
+      "reason": "A philosophical and legal account of coexistence with machine intelligence, not a substantive microeconomic choice or mechanism-design analysis.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7629650": {
+      "fingerprint": "9b52c6f8a1513840b52025cf3dd9d9c26766db6f1665cb07b7a88839f86df8c1",
+      "decision": "exclude",
+      "reason": "A qualitative entrepreneurship case study using interviews and survey evidence, not a formal microeconomic-theory contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7629376": {
+      "fingerprint": "13bfd9dfbd498b90f5e8fd142f7b368466ca4809d18af46a648498a506ca15de",
+      "decision": "exclude",
+      "reason": "Quantitative structural-gravity estimation and alliance-policy counterfactuals, rather than foundational equilibrium or strategic-interaction theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7629374": {
+      "fingerprint": "5705bc86f55b4fa22e8b7ebc7d3c5156df0653479c041f96f7e50ae8badd67fa",
+      "decision": "defer",
+      "reason": "The robust contract/conditional-expectile results may qualify as insurance or decision theory; inspect their economic foundations beyond the catastrophe-risk optimization application.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7629111": {
+      "fingerprint": "f46199d748a0a0e539a84e1e3b2f8556a1bb4adc413e9aa959edd87f15d4c6a7",
+      "decision": "exclude",
+      "reason": "Risk-constrained machine-learning alarm design and statistical detector calibration are engineering/statistical methodology.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7625982": {
+      "fingerprint": "2fe2cb92aaaa503f03c570db4d6136b0ddde3a611ffa783690d6c3285c56a074",
+      "decision": "exclude",
+      "reason": "Empirical property-tax implementation and a constrained allocation algorithm, explicitly not a welfare characterization; no primary microeconomic-theory result is established here.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7625967": {
+      "fingerprint": "aba31b48ff342850edc300d21e5c4f35b04473932b57875189fbde4de635a048",
+      "decision": "exclude",
+      "reason": "Vehicle braking and takeover-distance control bounds are transport engineering, not economic strategic interaction.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7625276": {
+      "fingerprint": "3eacfb10f1be4dcd9124c182727ab872bde9c94b61afc24c6f189c49fc9ca962",
+      "decision": "include",
+      "reason": "Principal-agent theory: characterizes how performance-contingent feedback can provide wage insurance with sparse reviews, contrasting its efficiency rate with fixed review schedules.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7625275": {
+      "fingerprint": "1d887c1167ed2753453548b9959ef67d42c3703bb4ad5b326fed1275f004b020",
+      "decision": "include",
+      "reason": "Strategic network formation: introduces sequential stability notions, identifies weighted-link cycles that obstruct existence, and gives conditions restoring foresighted stability.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7625266": {
+      "fingerprint": "3534cadad22998b5d5fedff3fd8df2906f2c714b130aa71a64a38a63ecfaa766",
+      "decision": "exclude",
+      "reason": "A calibrated emissions-market pricing application centered on credibility-risk bounds, not a primary contribution to microeconomic-theory foundations.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7624678": {
+      "fingerprint": "e39e3b2113ecbce796fcdc82e8a64203779c0f874a189002aca3d5ba95247599",
+      "decision": "exclude",
+      "reason": "Missing-data identification and weak-shadow-variable inference are econometric/statistical methodology rather than microeconomic theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7624665": {
+      "fingerprint": "b464ff3d01a1e1546785c334a6f10ab1bd02d76ee9ae7800c53f538d1becd6de",
+      "decision": "defer",
+      "reason": "The environmental-tax duopoly has clear analytical comparative statics; inspect the model and results to assess whether its contribution is substantive theoretical IO beyond a policy-specific application.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7624586": {
+      "fingerprint": "ef73e118693f1d3f0575abf8e4f804274723c2bab071ec284fde3bdb52ad4219",
+      "decision": "exclude",
+      "reason": "Information-flow safety for coding-agent rewrites is computer-security/programming-language analysis, not economic information design.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7624457": {
+      "fingerprint": "149cbb31f63d7db0cbebeaa86c622e00be217aae35489a66c625b0fd7c8e384c",
+      "decision": "defer",
+      "reason": "Cooperation incentives and trust dynamics may fit game theory, but inspect the subsidy/choice assumptions and the stated threshold results before adding this dynamical-control model.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7624438": {
+      "fingerprint": "0d2cb1597b60ccd32c1aead49bb69b7a1b32960334b330f161e58d9e582dec1a",
+      "decision": "exclude",
+      "reason": "Competitive-ratio bounds for online appointment allocation concern an operational scheduling algorithm without strategic-agent or incentive constraints.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7624420": {
+      "fingerprint": "4e630d07c8e1dcfe48e501e453dde34522d53f0b943262cf3e59fd550df98be7",
+      "decision": "exclude",
+      "reason": "Cellular signaling and transcriptome information channels are biological/information-theoretic analysis, not economic signaling theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7620700": {
+      "fingerprint": "c94faf506a6aaf1466c82f5b7666ace02f10c1339f9efc477188e0b8b5f868a5",
+      "decision": "defer",
+      "reason": "A dissertation mixes empirical and theoretical chapters. Verify the standalone generic-stability results, their assumptions and the record's provenance before selecting the whole item.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7620359": {
+      "fingerprint": "5b83288a0483ce2bac0c0c31f9707b57bf13ba2362c405e430a7a273d7227991",
+      "decision": "exclude",
+      "reason": "A sourced AI infrastructure capital-carry and revenue-scenario assessment, not a microeconomic-theory contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7622618": {
+      "fingerprint": "b22e1d37d84adda9afa8edafba8e1b4ae4256d0a28fb70990be2a8548d1ee87f",
+      "decision": "exclude",
+      "reason": "Descriptive executive-pay data and governance benchmarks; incentive-compatibility terminology is not a formal contracting result.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7622079": {
+      "fingerprint": "dea6805a41a3140f651c2058a669234930c2ba09afc8ed7644507ba0b053eccc",
+      "decision": "defer",
+      "reason": "The price-impact conservation/stability results are mathematical market dynamics; inspect the economic trading/choice foundations before classifying this as microeconomic theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7622158": {
+      "fingerprint": "ce20a8d1fc84a925f661dee6630a3f875fc5c880ddff57ea21ff04e4f50ee9cd",
+      "decision": "defer",
+      "reason": "The compensation problem appears to involve private information and joint incentives, but the compressed abstract is insufficient to evaluate its model, primitives and analytical contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7621860": {
+      "fingerprint": "1375e2b78e4bace200d6feba5e4f71980c360cc3a24c2554fe10964975890c2e",
+      "decision": "defer",
+      "reason": "Affine maximizers are within market design, but the main stated advance is a computational optimizer; inspect which incentive/domain results constitute a general theoretical contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7619581": {
+      "fingerprint": "a0766fca130f4d46a5adaf625a395acc7dd8cf7943262508b5c79915b72154ca",
+      "decision": "include",
+      "reason": "Information sales and competition: mixed-strategy price competition changes a broker's incentive to sell exclusively and yields an exact exclusivity-region characterization.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7618223": {
+      "fingerprint": "0e3cbbbd48253763de1c4947763284daa733a2e17e2f5939fbe2dbe0a54a2ffe",
+      "decision": "exclude",
+      "reason": "Private-value density estimation and convergence rates for auction data are econometric methodology, not a new auction-theory result.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7620880": {
+      "fingerprint": "9d84f885bbf10a4362d9efe3db695601d5a8df708365aaddc8506ce9a8ffc256",
+      "decision": "include",
+      "reason": "Learning in price competition: characterizes how imperfect rival-price information biases demand learning and can raise prices, with endogenous incentives to acquire information.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7620900": {
+      "fingerprint": "1f0bcaaae2e902c63d662e35214f448ced3f274d1c4da702668c216fe4bfe13d",
+      "decision": "exclude",
+      "reason": "Inventory replenishment, shrinkage learning and audit regret bounds are operational learning/optimization, without strategic or microeconomic-theory foundations.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7619438": {
+      "fingerprint": "120925fb21b73a90ab85497e587c2baeeef90f4dd4d6ae4f542184e994acb053",
+      "decision": "defer",
+      "reason": "Narrative switching and belief feedback are potentially decision-theoretic; inspect whether the model contributes general belief/choice results beyond its natural-resource policy applications.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7537058": {
+      "fingerprint": "e51e212c4185e6bdc6dd86ab2ed462e1b4f7c2ba8c02373ade26dd36a9cac52f",
+      "decision": "exclude",
+      "reason": "A life-cycle macroeconomic AI/fertility model focused on elasticity identification and factor-share responses, rather than foundational microeconomic preference or equilibrium theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7536759": {
+      "fingerprint": "d7e6cfde142fde2947357a5423a6225167cd801bba0c18da221d9d64dcdb1033",
+      "decision": "exclude",
+      "reason": "G10 panel evidence on exchange-rate regime-dependent basis-swap spreads is empirical finance.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7536480": {
+      "fingerprint": "64996adb8eab689921cc27e3b1e5d20b292ee28aa7197ade47f72abb1a28f7f5",
+      "decision": "exclude",
+      "reason": "The abstract explicitly presents an ontological/metaphysical schema, not an economic choice or equilibrium theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7537720": {
+      "fingerprint": "f6c48467807244e664617c9dbd5e0bfec07ccf7f5efd8bbb74119f448cad814b",
+      "decision": "include",
+      "reason": "Decision and insurance theory: a prior-free disappointment preference changes optimal deductibles and can make full insurance optimal despite actuarially unfair pricing.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7535399": {
+      "fingerprint": "9ea410eaab9782220d32090685fa527aae7598a9beb016eb746b2cb2e929e0ae",
+      "decision": "exclude",
+      "reason": "Calibration and orientation of cartel-detection screens in pricing testbeds is primarily detector methodology, not a strategic-equilibrium or incentive-design contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7541180": {
+      "fingerprint": "62997913fb74230dab1c739743da56868c097d54c3dc3e542f7766786627e446",
+      "decision": "defer",
+      "reason": "Ambiguity-sensitive insurance equilibrium may be in scope, but inspect the foundations and main result beyond the regulatory-capital and climate-risk application.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7542541": {
+      "fingerprint": "3bbd4a20fab3f995493f73d959efd6909c2e6d768078a37bd52c929aa73ea993",
+      "decision": "defer",
+      "reason": "The liability/explainability incentive model could fit law-and-economics theory; inspect its primitives and analytical characterization rather than infer a theory contribution from policy conclusions.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening",
+      "retry_after": "2026-10-22T07:57:43+00:00"
+    },
+    "10.2139/ssrn.7540682": {
+      "fingerprint": "e030cffdba2afc890a82e709ee25e2c4a42641407db599f99c09467e359f9cad",
+      "decision": "exclude",
+      "reason": "A formal threshold clarification of an international-relations definition, without economic preferences, incentives or a strategic-equilibrium result.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7533298": {
+      "fingerprint": "539ab91066bedb0365c776f79ed2ee5586d16debcc82c4e244668d451f8ec726",
+      "decision": "exclude",
+      "reason": "Neural phase-coordination and memory dynamics are neuroscience modeling, not network economic theory.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    },
+    "10.2139/ssrn.7527498": {
+      "fingerprint": "4afd405dccb1f457574e01996f59a5968206999ba55616ffbb363068bfacc2f7",
+      "decision": "exclude",
+      "reason": "A historical dissertation applying principal-agent vocabulary to ancient enslavement, not a formal microeconomic-theory contribution.",
+      "reviewed_at": "2026-10-20T07:57:43+00:00",
+      "reviewer": "Codex-assisted content screening"
+    }
+  },
+  "review_status": {
+    "last_completed": "2026-10-20T07:57:43+00:00",
+    "candidates_checked_through": "2026-10-20T04:57:10+00:00",
+    "collection_run": 39372146644,
+    "reviewed_count": 60,
+    "decisions": {
+      "exclude": 35,
+      "include": 8,
+      "defer": 17
+    },
+    "remaining_candidates": 410
   }
 }

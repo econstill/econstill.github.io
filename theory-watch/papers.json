@@ -25,6 +25,248 @@
   },
   "papers": [
     {
+      "id": "7632058",
+      "doi": "10.2139/ssrn.7632058",
+      "title": "Workload and Wage Insurance When Workers Can Quit",
+      "authors": [
+        "Kyoung Jin Choi",
+        "Junkee Jeon"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632058",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "Firms cut hours or duties when demand stays weak and restore them when it recovers, while long term contracts insure...",
+      "indexed_at": "2026-10-20T02:46:51+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7632058",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-20T02:46:51+00:00",
+      "first_seen": "2026-10-20T04:57:10+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7632058"
+      ],
+      "fingerprint": "da679168bad569e025890fcae3d64eacb9ddb5b85d7d6e6715f009bfa65b59c7",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Dynamic contracting with worker exit: jointly characterizes wage insurance and costly workload changes, including when a binding outside option changes resumption incentives.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7632058"
+      ]
+    },
+    {
+      "id": "7635444",
+      "doi": "10.2139/ssrn.7635444",
+      "title": "Optimality of Grand Bundling Mechanism in the Two-Item Setting for Distributions with a Decreasing Density",
+      "authors": [
+        "Bharat Kumar",
+        "Thirumulanathan D"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7635444",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study the problem of designing revenue-optimal mechanisms for selling two items to a single buyer with additive valuations distributed...",
+      "indexed_at": "2026-10-19T15:07:53+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7635444",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-19T15:10:18+00:00",
+      "first_seen": "2026-10-20T04:57:10+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7635444"
+      ],
+      "fingerprint": "1690498ee668b861f45180d7b02b32c60d2250b053271f82a3041075ed29e999",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Multi-dimensional mechanism design: provides expectation-based tests for optimal grand bundling under rapidly decreasing value densities and an application to bounded Pareto values.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7635444"
+      ]
+    },
+    {
+      "id": "7621761",
+      "doi": "10.2139/ssrn.7621761",
+      "title": "Content Business Models in the Era of Large Language Models: Licensing, Creation, and Regulation",
+      "authors": [
+        "Yulin Hu",
+        "Mingliu Chen",
+        "Bin Hu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7621761",
+      "topics": [
+        "Industrial Organization Theory",
+        "Information & Contracts"
+      ],
+      "excerpt": "A prevalent Internet content business model allows publishers to let search engines index their content while monetizing the resulting site...",
+      "indexed_at": "2026-10-19T11:46:00+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7621761",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-19T11:46:00+00:00",
+      "first_seen": "2026-10-20T04:57:10+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7621761"
+      ],
+      "fingerprint": "9d9a36cc6a9be9107a160e909de0b6c3e6058208fb08bcf33ac082fd98580ef1",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Theoretical IO of AI intermediation: studies publisher licensing and entry choices, their effects on content creation, and the consequences of access-permission rules.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7621761",
+        "https://business.wisc.edu/faculty-research/research-seminars/innovation-mini-conference/"
+      ]
+    },
+    {
+      "id": "7625276",
+      "doi": "10.2139/ssrn.7625276",
+      "title": "Performance feedback and wage insurance",
+      "authors": [
+        "Toshihiko Nanba"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625276",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "I study the joint design of compensation and performance feedback for a risk-averse worker paid a nonnegative terminal wage. The...",
+      "indexed_at": "2026-10-17T15:27:17+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7625276",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-17T15:30:30+00:00",
+      "first_seen": "2026-10-18T04:40:02+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7625276"
+      ],
+      "fingerprint": "3eacfb10f1be4dcd9124c182727ab872bde9c94b61afc24c6f189c49fc9ca962",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Principal-agent theory: characterizes how performance-contingent feedback can provide wage insurance with sparse reviews, contrasting its efficiency rate with fixed review schedules.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7625276"
+      ]
+    },
+    {
+      "id": "7625275",
+      "doi": "10.2139/ssrn.7625275",
+      "title": "Internal Cycles and Foresight in Sequential Network Formation",
+      "authors": [
+        "Julien Fixary"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625275",
+      "topics": [
+        "Game Theory & Networks",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "This paper introduces a notion of sequentiality into strategic network formation theory. We construct the analogue of an extensive-form game...",
+      "indexed_at": "2026-10-17T15:27:07+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7625275",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-17T15:30:23+00:00",
+      "first_seen": "2026-10-18T04:40:02+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7625275"
+      ],
+      "fingerprint": "1d887c1167ed2753453548b9959ef67d42c3703bb4ad5b326fed1275f004b020",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Strategic network formation: introduces sequential stability notions, identifies weighted-link cycles that obstruct existence, and gives conditions restoring foresighted stability.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7625275"
+      ]
+    },
+    {
+      "id": "7619581",
+      "doi": "10.2139/ssrn.7619581",
+      "title": "Selling Customer Information to Competing Firms: Is Exclusivity Sensitive to Mixed Strategies?",
+      "authors": [
+        "Iñaki Aguirre"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7619581",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Clavorà Braulin and Valletti (2016) show, in an insightful analysis, that a data broker selling customer information to two vertically...",
+      "indexed_at": "2026-10-17T04:27:00+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7619581",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-17T04:27:00+00:00",
+      "first_seen": "2026-10-18T04:40:02+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7619581"
+      ],
+      "fingerprint": "a0766fca130f4d46a5adaf625a395acc7dd8cf7943262508b5c79915b72154ca",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Information sales and competition: mixed-strategy price competition changes a broker's incentive to sell exclusively and yields an exact exclusivity-region characterization.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7619581"
+      ]
+    },
+    {
+      "id": "7620880",
+      "doi": "10.2139/ssrn.7620880",
+      "title": "Partial Price Transparency and Demand Learning in Retail Price Competition",
+      "authors": [
+        "Junbo Jacob Lian",
+        "Hanzhang Qin",
+        "Chung-Piaw Teo"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620880",
+      "topics": [
+        "Industrial Organization Theory",
+        "Information & Contracts"
+      ],
+      "excerpt": "Problem definition: Many sellers reprice against rivals' prices, but the rival price they use is often inexact: matching rival offers...",
+      "indexed_at": "2026-10-16T17:34:36+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7620880",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-19T18:35:08+00:00",
+      "first_seen": "2026-10-17T04:34:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7620880"
+      ],
+      "fingerprint": "9d84f885bbf10a4362d9efe3db695601d5a8df708365aaddc8506ce9a8ffc256",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Learning in price competition: characterizes how imperfect rival-price information biases demand learning and can raise prices, with endogenous incentives to acquire information.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7620880"
+      ]
+    },
+    {
       "id": "7609418",
       "doi": "10.2139/ssrn.7609418",
       "title": "Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation",
@@ -294,9 +536,57 @@
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621",
         "https://benjaminbrooks.net/research.shtml"
       ]
+    },
+    {
+      "id": "7537720",
+      "doi": "10.2139/ssrn.7537720",
+      "title": "Optimal Insurance Under Disappointment Theory Without Prior Expectation",
+      "authors": [
+        "Yichun Chi",
+        "Wenjun Jiang",
+        "Tingdi Ren"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537720",
+      "topics": [
+        "Decision & Social Choice",
+        "Information & Contracts"
+      ],
+      "excerpt": "This paper explains the long-standing low-deductible anomaly in insurance markets using a prior-free disappointment framework. Under this specification, the policyholder...",
+      "indexed_at": "2026-09-30T09:16:24+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7537720",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T09:16:24+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7537720"
+      ],
+      "fingerprint": "f6c48467807244e664617c9dbd5e0bfec07ccf7f5efd8bbb74119f448cad814b",
+      "publication_status": "awaiting_content_review",
+      "selection_note": "Decision and insurance theory: a prior-free disappointment preference changes optimal deductibles and can make full insurance optimal despite actuarially unfair pricing.",
+      "reviewed_at": "2026-10-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7537720"
+      ]
     }
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-15"
+  "last_selection_review": "2026-10-20",
+  "review_status": {
+    "last_completed": "2026-10-20T07:57:43+00:00",
+    "candidates_checked_through": "2026-10-20T04:57:10+00:00",
+    "collection_run": 39372146644,
+    "reviewed_count": 60,
+    "decisions": {
+      "exclude": 35,
+      "include": 8,
+      "defer": 17
+    },
+    "remaining_candidates": 410
+  }
 }
