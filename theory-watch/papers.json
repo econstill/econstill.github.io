@@ -25,6 +25,208 @@
   },
   "papers": [
     {
+      "id": "7633842",
+      "doi": "10.2139/ssrn.7633842",
+      "title": "Sequential Selection of the Best Candidate with Multiple Conflicts of Interest",
+      "authors": [
+        "Tsuyoshi Adachi",
+        "Pablo Amoros"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7633842",
+      "topics": [
+        "Mechanism & Market Design",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "This paper studies a collective decision problem in which a group of judges must select the deserving winner from a...",
+      "indexed_at": "2026-10-21T04:24:45+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7633842",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T04:24:45+00:00",
+      "first_seen": "2026-10-21T04:56:08+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7633842"
+      ],
+      "fingerprint": "c1623cf48983c2cbee5e29d90e1355da02ff25e69f2ee75fe5a9e88f332c72a7",
+      "selection_note": "Implementation with conflicted judges: characterizes when impartial pairwise comparisons suffice for sequential mechanisms to select the deserving candidate in every backward-induction equilibrium.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7633842"
+      ]
+    },
+    {
+      "id": "7643244",
+      "doi": "10.2139/ssrn.7643244",
+      "title": "Coarse Revenue Guarantee in First Price Auction and Beyond",
+      "authors": [
+        "Linchen Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7643244",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "I study the coarse revenue guarantee (CRG) of the single-unit first-price auction with common values. The CRG is the minimum...",
+      "indexed_at": "2026-10-20T16:13:27+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7643244",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-20T16:15:41+00:00",
+      "first_seen": "2026-10-21T04:56:08+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7643244"
+      ],
+      "fingerprint": "fabc02cec84d14462ec086d13e718587ce3e0bca1863836aaa4b30ea0692fdd6",
+      "selection_note": "Robust auction theory: characterizes worst-case first-price revenue under Bayes coarse correlated equilibrium through identical bidding and compares its guarantee with the interim-rationality benchmark.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7643244",
+        "https://linchenzhang.github.io/",
+        "https://linchenzhang.github.io/files/CRG%20in%20FPA_Linchen_Zhang.pdf"
+      ]
+    },
+    {
+      "id": "7642377",
+      "doi": "10.2139/ssrn.7642377",
+      "title": "Unbundling Market Failures under Interdependent Cyber Risk: Externalities, Information, and Dynamic Adoption",
+      "authors": [
+        "Pengfei Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642377",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "Externalities and information asymmetry are two primary frictions in the market for information security. But which friction should government regulations...",
+      "indexed_at": "2026-10-20T14:55:28+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7642377",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-20T14:55:28+00:00",
+      "first_seen": "2026-10-21T04:56:08+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7642377"
+      ],
+      "fingerprint": "cd4811c98ea271d5a7e20059e54ca30e504fff1141f77e5a7de59e5518ebfd5d",
+      "selection_note": "Dynamic security adoption with interdependent risks: characterizes equilibrium investment timing and separates the welfare effects of externalities from those of imperfect information.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7642377"
+      ]
+    },
+    {
+      "id": "7642286",
+      "doi": "10.2139/ssrn.7642286",
+      "title": "Screening the Screeners: Performance Vesting in Delegated Investment",
+      "authors": [
+        "Bowen Guo",
+        "Zhaojun Yang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642286",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "We study managerial compensation when investors delegate project selection to privately informed intermediaries, as in venture capital and private equity...",
+      "indexed_at": "2026-10-20T14:52:22+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7642286",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-20T14:52:22+00:00",
+      "first_seen": "2026-10-21T04:56:08+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7642286"
+      ],
+      "fingerprint": "cfeb9b7ecddf28fe73bf97354267261d4e9e043099027f320e6b3dfa63c69c21",
+      "selection_note": "Delegated screening with hidden effort and private costs: characterizes pooling performance-vesting contracts and how relative impatience changes payment boundaries and expiration.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7642286"
+      ]
+    },
+    {
+      "id": "7631118",
+      "doi": "10.2139/ssrn.7631118",
+      "title": "Elasticity and Bargaining Power",
+      "authors": [
+        "Pedro Pablo Pérez Velasco"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7631118",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "This paper identifies a new source of bargaining power: the elasticity of a bargainer's utility, defined as the marginal value...",
+      "indexed_at": "2026-10-20T08:10:46+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7631118",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-20T08:10:46+00:00",
+      "first_seen": "2026-10-21T04:56:08+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7631118"
+      ],
+      "fingerprint": "2b95482691bd341b3f96746e5744bdcce1bef998c129acb82bf4027c5eccb0e8",
+      "selection_note": "Bargaining theory: relates surplus utility elasticity to outcomes in Nash and alternating-offers bargaining, distinguishing its comparative statics from risk aversion and connecting it to patience.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7631118",
+        "https://www.pedroperezvelasco.com/research"
+      ]
+    },
+    {
+      "id": "7632698",
+      "doi": "10.2139/ssrn.7632698",
+      "title": "Axiomatic Characterization of the Owen Index without Efficiency",
+      "authors": [
+        "Takaaki Abe",
+        "Miku Inagaki"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632698",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We provide an axiomatic characterization of the Owen index on voting games with coalition structures without imposing efficiency. Our characterization...",
+      "indexed_at": "2026-10-20T05:04:45+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7632698",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-20T05:04:45+00:00",
+      "first_seen": "2026-10-20T08:03:56+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7632698"
+      ],
+      "fingerprint": "1c4e4ca505e5346576c957c9d673a07cb6cf681db8720a8060902ea55bffe656",
+      "selection_note": "Cooperative game and voting theory: characterizes the Owen power index without imposing efficiency and separates local normalization from cross-game competition properties.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7632698"
+      ]
+    },
+    {
       "id": "7632058",
       "doi": "10.2139/ssrn.7632058",
       "title": "Workload and Wage Insurance When Workers Can Quit",
@@ -257,6 +459,41 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7620880"
+      ]
+    },
+    {
+      "id": "7620218",
+      "doi": "10.2139/ssrn.7620218",
+      "title": "Voluntary Partial Participation in Peer-to-Peer Insurance with Heterogeneous Risks",
+      "authors": [
+        "Tim J. Boonen",
+        "Ka Chun Cheung",
+        "Mai Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620218",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Heterogeneous risk affects not only who joins a peer-to-peer insurance pool but also how intensively participants share losses. We study...",
+      "indexed_at": "2026-10-16T14:48:03+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7620218",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-16T14:50:45+00:00",
+      "first_seen": "2026-10-17T04:34:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7620218"
+      ],
+      "fingerprint": "3a3fa8aef8f870336251ec5f81bba7c5aa85bbeec36858233511c7d86789c8bc",
+      "selection_note": "Insurance participation and incentives: compares constrained-efficient contributions with Nash pooling, identifying low-risk undercontribution and a threshold for optimal full pooling.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7620218"
       ]
     },
     {
@@ -531,6 +768,110 @@
       ]
     },
     {
+      "id": "7542625",
+      "doi": "10.2139/ssrn.7542625",
+      "title": "When Do Minimum Participation Constraints Improve International Public-Good Provision under Voluntary Participation and Strategic Delegation? *",
+      "authors": [
+        "Ryusuke Shinohara"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542625",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We examine the effectiveness of a minimum participation constraint (MPC) for international public-good provision when participation is voluntary and provision...",
+      "indexed_at": "2026-09-30T13:07:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542625",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T13:07:14+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7542625"
+      ],
+      "fingerprint": "91f28dd5743d88b5fe4ecbaee4b6ce0197066f79701c2cc0d7b6bcea11156303",
+      "selection_note": "Public-good games with strategic delegation: shows how minimum participation rules can worsen provision and characterizes when participant composition instead mitigates underprovision.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7542625"
+      ]
+    },
+    {
+      "id": "7542061",
+      "doi": "10.2139/ssrn.7542061",
+      "title": "Earned Access to Scarce Goods: Resale, Screening, and Relational Commitment",
+      "authors": [
+        "Yue Yuan",
+        "Xuecheng Yin"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542061",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Sellers of scarce goods often keep the price below the market-clearing level and let buyers earn the right to buy...",
+      "indexed_at": "2026-09-30T12:30:42+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542061",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T02:45:12+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7542061"
+      ],
+      "fingerprint": "a29759b82d7f53cdf1397bf5a24726cb5065f1ce9ec603e99f78c5800fa5a083",
+      "selection_note": "Scarce-good allocation with resale: characterizes screening through complementary purchases, its comparison with clearing prices, and relational commitment needed to sustain earned access.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7542061"
+      ]
+    },
+    {
+      "id": "7541998",
+      "doi": "10.2139/ssrn.7541998",
+      "title": "Prices as Signals: Joint Design of Information and Pricing",
+      "authors": [
+        "Zhicheng Du",
+        "Yanwei Sun",
+        "Zihe Wang",
+        "Jiahua Wu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7541998",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "A large body of literature studies the fundamental trade-offs of product information provision. However, much of this work treats prices...",
+      "indexed_at": "2026-09-30T12:26:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7541998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T12:26:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7541998"
+      ],
+      "fingerprint": "f4659acdaabbac758e75218fca2bb50aece3061ba90c31f12b53e5cc78088e07",
+      "selection_note": "Joint information and price design: characterizes revealing contingent-pricing responses and an efficient oligopoly equilibrium, linking price signaling to first-price-auction bidding.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7541998",
+        "https://yanwei-sun.github.io/research.html"
+      ]
+    },
+    {
       "id": "7537720",
       "doi": "10.2139/ssrn.7537720",
       "title": "Optimal Insurance Under Disappointment Theory Without Prior Expectation",
@@ -568,17 +909,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-20",
+  "last_selection_review": "2026-10-21",
   "review_status": {
-    "last_completed": "2026-10-20T07:57:43+00:00",
-    "candidates_checked_through": "2026-10-20T04:57:10+00:00",
-    "collection_run": 39372146644,
+    "last_completed": "2026-10-21T07:37:22+00:00",
+    "candidates_checked_through": "2026-10-21T04:56:08+00:00",
+    "collection_run": 39546587862,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 35,
-      "include": 8,
-      "defer": 17
+      "include": 10,
+      "exclude": 38,
+      "defer": 12
     },
-    "remaining_candidates": 410
+    "remaining_candidates": 393
   }
 }
