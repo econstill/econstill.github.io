@@ -643,11 +643,12 @@
         "retry_after": "2026-10-23T07:37:22+00:00"
       },
       "10.2139/ssrn.7627418": {
-        "fingerprint": "c38fae404e4c3472092cd4e094ef4b6c8e4fc0f7640a710d90da5c7afdf87dce",
-        "decision": "exclude",
-        "reason": "An integrated aerospace inventory, transshipment and lease-pricing decision-support system; the principal contribution is operational optimization.",
-        "reviewed_at": "2026-10-21T07:37:22+00:00",
-        "reviewer": "Codex-assisted content screening"
+        "fingerprint": "c05635fdb6fb7d9cc1f598445748954eb40997737419e3eee7bc35db35e08d3c",
+        "decision": "defer",
+        "reason": "The freshly fetched source fingerprint differs from the collection fingerprint, so the abstract evidence is not verified. Wait for refreshed discovery and do not transfer the mismatched abstract source or judge the unavailable content.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
       },
       "10.2139/ssrn.7630438": {
         "fingerprint": "41d2185739d99b82f275d526b3202e46e859e611d5ef056c8a187152ed3b6f71",
@@ -915,19 +916,448 @@
         "reason": "Extreme-value approximations of pickup times and traffic-throughput benchmarks are service/transport modeling rather than strategic matching or market design.",
         "reviewed_at": "2026-10-21T07:37:22+00:00",
         "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7643998": {
+        "fingerprint": "b18814c6bffc7a560651bdfafd9f8d2398502e39a9bdcb6d6aef1ec1c838aedb",
+        "decision": "defer",
+        "reason": "The authenticated-record audit model is potentially information economics, but the abstract leaves the career-payoff and audit-commitment assumptions unspecified. Read the acquisition and welfare results before selecting; the primary SSRN page was unavailable.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7651898": {
+        "fingerprint": "cd9057d380613396e2fdc2a0833595891dd0a6496f0b362048fce8f485478692",
+        "decision": "exclude",
+        "reason": "Develops doubly robust estimators and sensitivity bounds for clinical digital twins. Its mechanism is a physiological model, not an economic incentive or allocation mechanism; the contribution is causal statistical methodology.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7651798": {
+        "fingerprint": "2eeb21b2d0e359a37957db141aedf07e5f95e399e232fa52a841351c15f45582",
+        "decision": "include",
+        "reason": "Characterizes adoption calendars when waiting creates a learning externality, identifying when temporary access pauses accelerate completion and how faster adoption redistributes welfare.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7649319": {
+        "fingerprint": "ae116eaf0920cbe4b7909793fad7f99f61e7839cf084744d94842df5fe0a8a08",
+        "decision": "exclude",
+        "reason": "Uses a calibrated dairy-biogas production and investment model to compare environmental policy instruments. The abstract's main contribution is sectoral policy simulation, not a new equilibrium foundation or general microeconomic-theory result.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7648304": {
+        "fingerprint": "38e203722275090d3d20eb743e4fa3335c58eb65ca9213e61010684e6c790552",
+        "decision": "exclude",
+        "reason": "Presents a transdisciplinary generative-growth system and open-endedness regimes across mathematics, biology and technology. It does not specify economic preferences, incentives or a market-allocation theory.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7646798": {
+        "fingerprint": "8b0e3afe73be99ea2c2d020032de9b0f8340166709bdee8eee7a750da01fce83",
+        "decision": "include",
+        "reason": "Studies candidates choosing interval platforms and characterizes how voter ambiguity attitudes and voting rules determine platform breadth and pure-equilibrium existence.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7645718": {
+        "fingerprint": "8d2d295f8ea5306968fd642a4c789e0bb73b0b105bd45b47aee4ad9a19934a47",
+        "decision": "exclude",
+        "reason": "The main results are calibration algorithms and minimax regret bounds for combining synthetic and human bandit feedback. There is no substantive strategic-interaction, incentive-design or preference-foundation result in the abstract.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7645158": {
+        "fingerprint": "5c4ee5435644b7f0c6c4e4b46bfb13e13d47ad41162fbf53c62d2589bb589c83",
+        "decision": "exclude",
+        "reason": "Extends a CES water-demand calculation to heterogeneous households and balanced-budget block tariffs. The stated contribution is a sector-specific tariff-evaluation framework rather than a substantive new theory of choice, incentives or equilibrium.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7644181": {
+        "fingerprint": "f141ee19ecc172e169e5eb4554450766ba584896bff8f09b8099650309ae77b5",
+        "decision": "defer",
+        "reason": "The claim that capital charges can implement allocations otherwise supported by liquidity rules could be substantive financial allocation theory. Need the interbank trading constraints and implementation theorem to distinguish it from the quantitative banking application; no primary draft was accessible.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7649948": {
+        "fingerprint": "997b281a778d17cc986f066260e750372b399376da965d9f277c5628ee2dc33b",
+        "decision": "defer",
+        "reason": "The bargaining model links unilateral settlement to employers' dynamic inconsistency, alongside a retirement-reform empirical design. Need the bargaining protocol and theoretical conditions to assess the independent theory contribution before selecting.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7649947": {
+        "fingerprint": "cb512df39aaa6baf5763b939fa8672a553569c9bc0b84dfdcb100827f5e7adcc",
+        "decision": "exclude",
+        "reason": "Estimates a Ghana-specific two-agent New Keynesian model to compare exchange-rate management and fiscal transfers. The results concern quantitative monetary-policy welfare, not preference or general-equilibrium foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7649862": {
+        "fingerprint": "d13839e561fb1abe1c4279c324e8ad94d033106e12960b2fda14c8f49e43e2d3",
+        "decision": "exclude",
+        "reason": "Designs and numerically optimizes spouse-continuation tontines using neural-network controls and mortality pooling. Its results concern actuarial fairness, decumulation computation and calibrated costs rather than strategic contract incentives or microeconomic foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7644058": {
+        "fingerprint": "3384ecce846549f82e8bd711378bcd4743fab57abb6905bff88b7e711006fa97",
+        "decision": "defer",
+        "reason": "Derives cooperation thresholds from score-based grouping, but the abstract moves between a public-goods game and evolutionary selection. Need the behavioral dynamics and payoff derivation to assess the economic equilibrium contribution rather than admit solely for using a game.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7644003": {
+        "fingerprint": "9e0b9ada4966c4ab805682916b2fe21db032bea73b4b1c1725e5ab34826ee1bb",
+        "decision": "defer",
+        "reason": "Reports an implementation frontier for two specified history credits in a two-case evidence queue. Need the underlying information and transfer restrictions to assess the contribution beyond this restricted accounting class.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7644023": {
+        "fingerprint": "95192df74d56289cb2d73da9054f6f6b47dbd088cfa48b718a434d288a517722",
+        "decision": "defer",
+        "reason": "Reports model-specific pilot-cost and certificate-fee intervals for ordering experimentation and remediation. Need the decision primitives and dominance comparisons to assess a substantive information-economics contribution before selecting.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7649697": {
+        "fingerprint": "ed70364a22483e72e2fbd8749bea9e9c50b19340232967b28023e3376e51499f",
+        "decision": "exclude",
+        "reason": "Assumes anticipated credit expansion is capitalized into a continuous borrowing limit and quantifies consumption and portfolio responses. It is household-finance policy analysis without a stated new preference representation, equilibrium foundation or incentive mechanism.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7649588": {
+        "fingerprint": "dc83989b8bbe5a220c32c91a36305ce55fb00b34b161057163509418a682c98e",
+        "decision": "include",
+        "reason": "Provides an axiomatic characterization of noisy sequential search from lists, relating stochastic partition independence to a utility-threshold stopping representation with i.i.d. errors.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7644022": {
+        "fingerprint": "05633ed91a1e7d1ca563672038701b9533900289341a5aa5f298911d8e1f1102",
+        "decision": "defer",
+        "reason": "The model distinguishes truthful metric selection from falsification and optimizes auditing within uniform-cost regimes. Need the evidence menu and posterior-allocation equations to assess the incentive and welfare characterization.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7643999": {
+        "fingerprint": "ac6eff6d0f36a6d2c423635b70dd2ece39268926b560a645c0aa4f991b7a4da2",
+        "decision": "defer",
+        "reason": "Combines data investment, scarce downstream support and a restricted common-fee financing frontier. Need the producer incentive and participation constraints to assess the stated implementation result; the abstract alone is insufficient for selection.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7641659": {
+        "fingerprint": "3898695b2a08b06cea1e86e0696b6e65ddc63eb3f90e17d0608680ee59c1b57c",
+        "decision": "exclude",
+        "reason": "Develops adaptive evaluation-budget algorithms for identifying top items using ratings and comparisons. Consistency and simulated selection performance are statistical/operations results, not an economic theory of strategic evaluators or allocation incentives.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7641638": {
+        "fingerprint": "fe47669f4e51e795c8aa0ed2c07cf9a9fb1e77910a665cc3f56b58c86471f850",
+        "decision": "exclude",
+        "reason": "Proves finite-sample shrinkage and regret guarantees for multinomial-logit demand estimation across stores. The contribution is transfer-learning methodology for revenue management, not new choice axioms or strategic pricing theory.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7648874": {
+        "fingerprint": "d0ba13976a675c363f41a824024e84b1ee2de01ac45a379977be14c5e7ddd172",
+        "decision": "exclude",
+        "reason": "Applies decision trees, Monte Carlo risk measures and value-of-information calculations to a hypothetical hydrogen well. This is project appraisal using existing decision analysis, not a new theory of information or choice.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7647621": {
+        "fingerprint": "010214fc55fb075685b8e1b5360f3a48f4bf3b4aefc72b9c49ed05f8d361d9d3",
+        "decision": "exclude",
+        "reason": "Uses car-market data, structural estimation and a two-country RBC model to quantify exchange-rate pass-through mechanisms. It is empirical and quantitative trade-macro analysis, not an independent foundational microeconomic-theory contribution.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7641258": {
+        "fingerprint": "d638a8ed2d7610a47104077b461ecd8bb36c1c7523c63329b7bd2d981763d98d",
+        "decision": "exclude",
+        "reason": "Develops and estimates a stochastic-volatility model for commodity derivative pricing and hedging. The results concern asset-pricing computation and fit, without economic preference, incentive or equilibrium foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7646199": {
+        "fingerprint": "df73c4cb61ef2af2bffc1a3492d96e46b2bf66b8fff841d07cb3db13b5934e55",
+        "decision": "include",
+        "reason": "Establishes a distributionally robust revenue-guarantee equivalence: simple dominant-strategy second-price auctions attain the worst-case optimal revenue available to Bayesian mechanisms under the paper's limited-information setting.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7639720": {
+        "fingerprint": "8a350c82675c1dea1ceb4c2795c9c187b6e29fc5b7b7ad45624f1532b8901d90",
+        "decision": "exclude",
+        "reason": "Establishes stationary limits and a fixed-point characterization for a retrial queue with abandonment. The fixed point describes stochastic queue dynamics, not economic agents' preferences or strategic equilibrium.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7646098": {
+        "fingerprint": "bf3d9420ed22770e02b09c61d7cc471b7beda0e4fdd78a98019ec0335782329f",
+        "decision": "exclude",
+        "reason": "Proposes a quantum-cosmological account of observer existence and branching timelines. It has no economic decision, incentive, allocation or equilibrium contribution.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7639559": {
+        "fingerprint": "12b9d93142f0f1974888b957449e6b452093bb709d100c2b4ca06b78306cb094",
+        "decision": "defer",
+        "reason": "Analytical pension-adoption reversals in a fertility-constrained OLG economy may contain substantive welfare theory. Need the population-weighting assumptions and global bounds to separate general economic content from restricted policy-parameter examples.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7634779": {
+        "fingerprint": "2c51dc835ef731ea1635601c369d1c01c3e70820a8cb792afdd227e66ef7f46b",
+        "decision": "exclude",
+        "reason": "Compares curvature artifacts across Black-Scholes, SVI and SABR volatility constructions. The unstable preference is a ranking of numerical models, not an axiomatic or behavioral theory of economic preferences.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7634999": {
+        "fingerprint": "33c1fcf23616fe45b9b65b82dd94e41e8f2c47173c608e095682e72218da78f9",
+        "decision": "exclude",
+        "reason": "Empirically studies Chinese firms' generative-AI use and overseas expansion. Its labor-substitution and cultural-context hypotheses do not supply an analytical microeconomic model or theorem.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7618219": {
+        "fingerprint": "29ee3e32c6f0bd2cf8d4e3dccf655fd06d38c8acf32b237042c9fd006a9dacee",
+        "decision": "exclude",
+        "reason": "Optimizes group-fair priority admissions under uncertain ML scores and gives confidence-set disparity guarantees. The substantive contribution is robust statistical allocation control, not strategic admissions, incentive compatibility or social-choice foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7618079": {
+        "fingerprint": "27ceb1323f8beff786134cf14df44e34bbd3b2dd263077d58e132b17d73369ff",
+        "decision": "exclude",
+        "reason": "Uses linked address histories and an age-at-move design to estimate childhood exposure effects on neighborhood choice. This is empirical preference formation rather than a new formal choice representation.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7612538": {
+        "fingerprint": "40fa2c107441151eddd3d494580515e1fa330ec20839b556a9a146d92158ada3",
+        "decision": "include",
+        "reason": "Studies equivalence transformations of recursive-utility aggregators, showing when their Koopmans equations have corresponding solution sets and how the resulting utility representations are related.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7613300": {
+        "fingerprint": "b8e6dc20a2fefc7725bfea19c6be13b2a4d084cdaf7e02c754a71ddfca52191a",
+        "decision": "exclude",
+        "reason": "Combines Colombian import evidence with a dynamic inventory model to quantify faster shipping during congestion. Its main contribution is an applied supply-chain mechanism and counterfactual calculation, not microeconomic-theory foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7611762": {
+        "fingerprint": "1aff0242e226eb575dbe258114c9fd19136b6717730274c865dc47501cb369c5",
+        "decision": "exclude",
+        "reason": "Builds a bank balance-sheet state-space representation and estimates management-response matrices. The decomposition and convergence support empirical risk classification, not strategic behavior or preference/equilibrium foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7617858": {
+        "fingerprint": "cf8b4c65eeabd167ac7e0bd50e74d0d4eed3598181e4317e5c2aa6a39c893877",
+        "decision": "exclude",
+        "reason": "Analyzes how factor-counting conventions affect identification of technical-change directions from aggregate accounts. This is growth accounting and measurement, not a theory of economic preferences, incentives or competitive-equilibrium foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7609964": {
+        "fingerprint": "9020d401b3e8c71c7335b924ebd8946dfbc802f5b1cd03c7dc2bd9718c016238",
+        "decision": "include",
+        "reason": "Axiomatizes receiver inference that combines strategic and literal interpretations, connecting cheap talk with model persuasion and studying how semantic reliance changes communication equilibria.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7609820": {
+        "fingerprint": "5183fabfd2a0bd2ecfc8dd823ad784a214a9a7062383a8fced8aaccaaee3feb1",
+        "decision": "exclude",
+        "reason": "Maps ESG questionnaire scores into normalized ratings and probabilities with a small venture-capital application. A mathematical scoring transformation is not a microeconomic preference, incentive or market-allocation theory.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7616620": {
+        "fingerprint": "b30a766690fdfa6b18d60db4f5f9309020ac27144517094b820bda9fc1c3176e",
+        "decision": "exclude",
+        "reason": "Uses a quantitative two-sector firm-dynamics model to explain U.S. structural transformation and incumbent expansion. It does not state a new competitive-equilibrium existence, representation or welfare-foundation result.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7615562": {
+        "fingerprint": "d12ba5435323e37b5326b87b2e7ff0eb5b38b1052c5a9a3586510043314a0898",
+        "decision": "defer",
+        "reason": "Lexicographic demand and exchange-equilibrium foundations are in scope, including with monetary applications. Need the full-simplex UHC and satiation assumptions behind the conditional existence claims; the abstract notes unresolved cases and the primary paper was inaccessible.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7614998": {
+        "fingerprint": "7f9874ee05158a0dfa67c4da6864f98f3cd003c073dc2ce7dbfd22e638f72ac7",
+        "decision": "defer",
+        "reason": "Order allocation changes supplier compliance incentives in a buyer-supplier game. Need the strategic contracting and audit assumptions to establish a substantive incentive-theory contribution beyond application-specific sourcing comparisons.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7615881": {
+        "fingerprint": "aba1d8c9b34a4b114b89642948cb9320ac69eaacbb593ce3ed6e229c199cada3",
+        "decision": "exclude",
+        "reason": "Tests ESG disclosure and impression-management hypotheses using Chinese firm-year data. Its conceptual management framework is not a formal signaling or disclosure game.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7615768": {
+        "fingerprint": "da72d3da04ec605a26497204d34e0e4a0958023c944d0ec01de9a2e0c643ab90",
+        "decision": "defer",
+        "reason": "The private-investment capacity region and implementation test could constitute economic incentive theory despite the monetary application. Need the assessment-cap commitment and public-compliance constraints before selecting from the abstract's extensive claims.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7615221": {
+        "fingerprint": "8411d83cbcc363860523d89dbc708a1f0145419383501d024ed568bd1165326f",
+        "decision": "defer",
+        "reason": "A welfare-weighted sufficient statistic for environmental valuation may be substantive welfare theory, not merely an application. Need the second-best fiscal derivation and identification assumptions to assess the general contribution; the primary source was unavailable.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7615220": {
+        "fingerprint": "16f4b57f2120bff74469900c0511b7693551458c6129a6c65662eeb573e18658",
+        "decision": "defer",
+        "reason": "Comparative statics of Leontief-Fisher allocations are in scope. Need the regularity assumptions for the gainers' halfspace and equilibrium-path results, and their relation to the arithmetic claims; the primary SSRN page could not be retrieved.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7614238": {
+        "fingerprint": "4dc96fcc0fd46636d90418dba87196586cec0b43dbb885654cd98d5e6d5bc451",
+        "decision": "exclude",
+        "reason": "Documents nonrandom patent-examiner assignments using four million applications and a supporting investment model. The independent contribution is empirical identification of manipulation, not a new allocation mechanism or general strategic theorem.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7612338": {
+        "fingerprint": "be42e17cb201d52571793be5a1818129616d384990ccf40c2d228bf0ed4c98ee",
+        "decision": "exclude",
+        "reason": "Optimizes a scenario-specific emissions-abatement budget and benchmarks reinforcement learning against dynamic programming. Exact optimization and simulated climate costs alone do not constitute microeconomic theory.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7615485": {
+        "fingerprint": "2905d7b3cfc3a0a35cc17b55732d14b811e07809de6e70b1df65f523bc090995",
+        "decision": "defer",
+        "reason": "The lattice and multiplicity results for insurance-price generalized Nash equilibria may qualify as game theory. Need the payoff monotonicity and feasible-set assumptions to assess the equilibrium results independently of the approximation algorithm; the primary paper was unavailable.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
+      },
+      "10.2139/ssrn.7614139": {
+        "fingerprint": "3c0506aa3c73a8e624c0177e41bedafad0dd8a08eb23f7d9700ff48b6fc4bf2c",
+        "decision": "exclude",
+        "reason": "Optimizes an exogenously specified actuarial welfare-and-smoothness objective over retirement-age schedules. The stated contribution is an applied pension scheduling toolkit, without strategic behavior or a new welfare/choice foundation.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7544244": {
+        "fingerprint": "d61c190f88532b25bed2d9c6a887ede483956e65c8d46d386f05500188808915",
+        "decision": "exclude",
+        "reason": "Regularizes inverse price-impact statistics using tick-size rounding and validates the metric on cryptocurrency data. This is market-measurement methodology, not strategic microstructure or equilibrium theory.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7539620": {
+        "fingerprint": "56edb71b26435f77eef1c38a16c21f6cd8b4fb50e8ce4e006cbf09841df4c699",
+        "decision": "exclude",
+        "reason": "Compares emissions-permit allocation and macroprudential policies in an environmental DSGE model with financial frictions. The abstract offers quantitative transition-risk policy analysis rather than equilibrium or preference foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7540179": {
+        "fingerprint": "380edd12ffe37bb1d7e6f8f93f79a8f93935cb67b97df3711ba49022875e9f10",
+        "decision": "exclude",
+        "reason": "Combines descriptive macro-finance data, corporate leverage arithmetic and arguments about wealth compounding. It does not provide a specified microeconomic model with a substantive analytical result.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7543618": {
+        "fingerprint": "e1dc6d134a449a1352af42c6f3fb264abe56f17c26b94946293e272fecf8a9d6",
+        "decision": "exclude",
+        "reason": "Estimates schooling responses to Chinese sectoral reallocation and motivates them with a simple labor-demand model. The main contribution is an empirical development-labor mechanism, not an independent general theory result.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7543686": {
+        "fingerprint": "c8e5418eea601b7645fcd611ef5d79fb618b8e101c80aafef918daa14c5db481",
+        "decision": "exclude",
+        "reason": "Formalizes an agent-payment software gate, admission tokens and concurrent spending invariants. Its proofs concern protocol correctness, not economic incentive compatibility, preferences or allocation efficiency.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7543259": {
+        "fingerprint": "98eb472dd4f3c7bc2fa1c09ad1021c30b0baebe943deab72424ed53f22884c1c",
+        "decision": "exclude",
+        "reason": "Develops censored-likelihood estimation and regret bounds for learning markdown prices in a depleting customer pool. Its principal contribution is a revenue-management learning algorithm, not strategic demand or general pricing-equilibrium theory.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7543098": {
+        "fingerprint": "9b7dd2f82f8fe8515575f56e0f9f15ee1a03380d22803c13eaae4a470e8aeedb",
+        "decision": "exclude",
+        "reason": "Estimates heterogeneous domestic quality responses to Indian FDI liberalization. The proposed competition mechanism is not accompanied by a substantive independent analytical theory result in the abstract.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7543001": {
+        "fingerprint": "230deb16f9bfb1793e8be23cb6368bdaea47257e7f979a682f293ba7aaa4966d",
+        "decision": "exclude",
+        "reason": "Empirically compares volatility-surface calibration, arbitrage interpolation and derivative prices. It is quantitative derivative-model validation, not economic allocation or preference foundations.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7538920": {
+        "fingerprint": "4a0d8f06666125b79b0f896d399c782a7d9f4d9b50bda2acb471d4e5bffaa0e7",
+        "decision": "exclude",
+        "reason": "Benchmarks Q-learning against dynamic programming in an existing constrained life-cycle consumption model. Its results concern computational performance and calibrated welfare losses, not a new theory of preferences or equilibrium.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7542940": {
+        "fingerprint": "9c748daabc9b78a9c572f15d6e2daaf1aeacaf4cd715b53b07a8cba9f504612f",
+        "decision": "defer",
+        "reason": "Optimal indemnity shapes under several risk criteria may be substantive insurance-contract theory. Need the admissible contract class, sponsor objective and any incentive constraints to assess the design and moral-hazard claims before selection.",
+        "reviewed_at": "2026-10-22T13:08:00+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-10-24T13:08:00+00:00"
       }
     },
     "review_status": {
-      "last_completed": "2026-10-21T07:37:22+00:00",
-      "candidates_checked_through": "2026-10-21T04:56:08+00:00",
-      "collection_run": 39546587862,
+      "last_completed": "2026-10-22T13:08:00+00:00",
+      "candidates_checked_through": "2026-10-22T04:56:01+00:00",
+      "collection_run": 39724966338,
       "reviewed_count": 60,
       "decisions": {
-        "include": 10,
-        "exclude": 38,
-        "defer": 12
+        "defer": 17,
+        "exclude": 37,
+        "include": 6
       },
-      "remaining_candidates": 393
+      "remaining_candidates": 381
     }
   }
 }

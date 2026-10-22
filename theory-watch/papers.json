@@ -25,6 +25,140 @@
   },
   "papers": [
     {
+      "id": "7651798",
+      "doi": "10.2139/ssrn.7651798",
+      "title": "Staggered Rollout for Innovation Adoption",
+      "authors": [
+        "Ricardo Fonseca"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651798",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "A farmer considering a new perennial crop, or someone considering a new vaccine, may prefer to wait and learn from...",
+      "indexed_at": "2026-10-21T20:59:35+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7651798",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T21:00:34+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7651798"
+      ],
+      "fingerprint": "2eeb21b2d0e359a37957db141aedf07e5f95e399e232fa52a841351c15f45582",
+      "selection_note": "Characterizes adoption calendars when waiting creates a learning externality, identifying when temporary access pauses accelerate completion and how faster adoption redistributes welfare.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7651798"
+      ]
+    },
+    {
+      "id": "7646798",
+      "doi": "10.2139/ssrn.7646798",
+      "title": "Electoral Competition over Interval Platforms",
+      "authors": [
+        "Daeseok Kim"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646798",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Two candidates choose intervals evaluated by a Hurwicz criterion with worst-loss weight α. Under affine voting, the unique equilibrium is...",
+      "indexed_at": "2026-10-21T17:54:37+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7646798",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T17:54:37+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7646798"
+      ],
+      "fingerprint": "8b0e3afe73be99ea2c2d020032de9b0f8340166709bdee8eee7a750da01fce83",
+      "selection_note": "Studies candidates choosing interval platforms and characterizes how voter ambiguity attitudes and voting rules determine platform breadth and pure-equilibrium existence.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7646798"
+      ]
+    },
+    {
+      "id": "7649588",
+      "doi": "10.2139/ssrn.7649588",
+      "title": "Stochastic Sequential Choice from Lists",
+      "authors": [
+        "Mohammad Aksam"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649588",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "This paper provides an axiomatic foundation for Stochastic Sequential Choice fromLists. We model boundedly rational agents who evaluate alternatives from...",
+      "indexed_at": "2026-10-21T14:41:01+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7649588",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T14:43:36+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7649588"
+      ],
+      "fingerprint": "dc83989b8bbe5a220c32c91a36305ce55fb00b34b161057163509418a682c98e",
+      "selection_note": "Provides an axiomatic characterization of noisy sequential search from lists, relating stochastic partition independence to a utility-threshold stopping representation with i.i.d. errors.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7649588"
+      ]
+    },
+    {
+      "id": "7646199",
+      "doi": "10.2139/ssrn.7646199",
+      "title": "Revenue Guarantee Equivalence between Dominant-Strategy and Bayesian Mechanisms",
+      "authors": [
+        "Nir Bachrach",
+        "Yi-Chun Chen",
+        "Inbal Talgam-Cohen",
+        "Xiangqian Yang",
+        "Wanchang Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646199",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show...",
+      "indexed_at": "2026-10-21T07:19:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7646199",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T07:19:21+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7646199"
+      ],
+      "fingerprint": "df73c4cb61ef2af2bffc1a3492d96e46b2bf66b8fff841d07cb3db13b5934e55",
+      "selection_note": "Establishes a distributionally robust revenue-guarantee equivalence: simple dominant-strategy second-price auctions attain the worst-case optimal revenue available to Bayesian mechanisms under the paper's limited-information setting.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7646199"
+      ]
+    },
+    {
       "id": "7633842",
       "doi": "10.2139/ssrn.7633842",
       "title": "Sequential Selection of the Best Candidate with Multiple Conflicts of Interest",
@@ -497,6 +631,74 @@
       ]
     },
     {
+      "id": "7612538",
+      "doi": "10.2139/ssrn.7612538",
+      "title": "Equivalence Classes in Recursive utility",
+      "authors": [
+        "Robert A. Becker",
+        "Carlos Palmero",
+        "Juan Rincon-Zapatero"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7612538",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We introduce and analyze an equivalence relation on the set of aggregators in the context of recursive utility theory. We...",
+      "indexed_at": "2026-10-16T06:46:42+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7612538",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-16T06:46:42+00:00",
+      "first_seen": "2026-10-17T04:34:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7612538"
+      ],
+      "fingerprint": "40fa2c107441151eddd3d494580515e1fa330ec20839b556a9a146d92158ada3",
+      "selection_note": "Studies equivalence transformations of recursive-utility aggregators, showing when their Koopmans equations have corresponding solution sets and how the resulting utility representations are related.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7612538"
+      ]
+    },
+    {
+      "id": "7609964",
+      "doi": "10.2139/ssrn.7609964",
+      "title": "Credibility vs. Context",
+      "authors": [
+        "Mengxi Sun"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609964",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "How does a receiver integrate what a sender says with why she says it? When a sender interprets data to...",
+      "indexed_at": "2026-10-16T03:37:50+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609964",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-16T03:37:50+00:00",
+      "first_seen": "2026-10-16T04:37:24+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7609964"
+      ],
+      "fingerprint": "9020d401b3e8c71c7335b924ebd8946dfbc802f5b1cd03c7dc2bd9718c016238",
+      "selection_note": "Axiomatizes receiver inference that combines strategic and literal interpretations, connecting cheap talk with model persuasion and studying how semantic reliance changes communication equilibria.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7609964"
+      ]
+    },
+    {
       "id": "7609418",
       "doi": "10.2139/ssrn.7609418",
       "title": "Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation",
@@ -909,17 +1111,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-21",
+  "last_selection_review": "2026-10-22",
   "review_status": {
-    "last_completed": "2026-10-21T07:37:22+00:00",
-    "candidates_checked_through": "2026-10-21T04:56:08+00:00",
-    "collection_run": 39546587862,
+    "last_completed": "2026-10-22T13:08:00+00:00",
+    "candidates_checked_through": "2026-10-22T04:56:01+00:00",
+    "collection_run": 39724966338,
     "reviewed_count": 60,
     "decisions": {
-      "include": 10,
-      "exclude": 38,
-      "defer": 12
+      "defer": 17,
+      "exclude": 37,
+      "include": 6
     },
-    "remaining_candidates": 393
+    "remaining_candidates": 381
   }
 }
