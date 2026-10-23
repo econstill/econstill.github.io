@@ -25,6 +25,384 @@
   },
   "papers": [
     {
+      "id": "7640918",
+      "doi": "10.2139/ssrn.7640918",
+      "title": "Recommendations with Costly Verification *",
+      "authors": [
+        "Yingju Ma",
+        "Ying Gao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640918",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "A recommender faces consumers who can verify recommendations, but differ in their attention costs or in the salience of their...",
+      "indexed_at": "2026-10-23T04:01:11+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7640918",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-23T04:01:11+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7640918"
+      ],
+      "fingerprint": "c2ec3303c2d87638717619d2486b9fa4875da1a9789b064401d2e0448d5ac14f",
+      "selection_note": "Characterizes how cheaper consumer verification changes recommendation quality, showing that commitment can reverse transparency's welfare effects depending on the distribution of verification costs.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7640918"
+      ]
+    },
+    {
+      "id": "7655598",
+      "doi": "10.2139/ssrn.7655598",
+      "title": "Endogenous Fragmentation in Decentralized Exchanges",
+      "authors": [
+        "Jiawei Wang",
+        "Roman Kozhan",
+        "Zhengge Zhou"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7655598",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "This paper develops a game-theoretic model of endogenous liquidity fragmentation in decentralized exchanges with automated market makers. Liquidity providers strategically...",
+      "indexed_at": "2026-10-22T17:10:35+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7655598",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T17:10:35+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7655598"
+      ],
+      "fingerprint": "4353c4f61e2f994b1df3e963ec0c484097e97ac34b3345e297bc8eb6a3aa81df",
+      "selection_note": "Models strategic liquidity-pool entry and order splitting, characterizing how transaction fees determine nonexistence, multiplicity and concentration of decentralized-exchange equilibria, with front-running adding a fragmentation incentive.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7655598"
+      ]
+    },
+    {
+      "id": "7656768",
+      "doi": "10.2139/ssrn.7656768",
+      "title": "Stability and Institutional Power in the Allocation of Indivisible Goods",
+      "authors": [
+        "Clinton Gubong Gassi",
+        "Linus T. Nana Noumi",
+        "Rodrigue Tido Takeng"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656768",
+      "topics": [
+        "Decision & Social Choice",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "This paper studies the allocation of a fixed number of an indivisible and homogeneouscommodity among a set of agents. Each...",
+      "indexed_at": "2026-10-22T16:07:23+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7656768",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T16:10:49+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7656768"
+      ],
+      "fingerprint": "17d5d5a70a37fa673a41905e008467bcec65fe56d984dbb863d7bc8e36260d90",
+      "selection_note": "Introduces coalitional allocation stability with asymmetric institutional power and characterizes stable-allocation existence, including how single-peaked and single-dipped preferences shape feasible outcomes.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7656768"
+      ]
+    },
+    {
+      "id": "7656767",
+      "doi": "10.2139/ssrn.7656767",
+      "title": "Conditional Probability Spaces and the Structure of Agreement",
+      "authors": [
+        "Erya Yang",
+        "Adam M. Brandenburger"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656767",
+      "topics": [
+        "Information & Contracts",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We use the machinery of a conditional probability space (R´enyi 26, 1955) to obtain an Agreement Theorem (Aumann 1, 1976)...",
+      "indexed_at": "2026-10-22T16:07:11+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7656767",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T16:10:25+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7656767"
+      ],
+      "fingerprint": "38a61313ff599ab9b28174281a7024456ae0b596634b8e3efdb5097114fd9157",
+      "selection_note": "Derives agreement on finite conditional-probability spaces under certainty reflection, probability-one closure and local consistency, and constructs an augmentation that reconciles conditioning events with subjective certainty.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7656767",
+        "https://arxiv.org/html/2605.30017v1"
+      ]
+    },
+    {
+      "id": "7656766",
+      "doi": "10.2139/ssrn.7656766",
+      "title": "Robust Revenue Guarantees with Order Statistic Information",
+      "authors": [
+        "Bin Huang",
+        "Genjiu Xu",
+        "Wenzhong Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656766",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Auction records are often anonymous and reveal only transaction prices or selected ranked bids, leaving buyers' individual value distributions unidentified...",
+      "indexed_at": "2026-10-22T16:07:08+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7656766",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T16:10:44+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7656766"
+      ],
+      "fingerprint": "cbe286923ab6ae7e8f7296fadc50cb3f1b11f6dc422e2779aeae4ef53c440b85",
+      "selection_note": "Studies robust auction revenue when only an order-statistic distribution is known, bounding second-price reserve-auction performance and improving guarantees through a two-threshold design.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7656766"
+      ]
+    },
+    {
+      "id": "7654119",
+      "doi": "10.2139/ssrn.7654119",
+      "title": "When Can Coarse Categories Persuade? Monotone Partitions, Commitment, and Credibility",
+      "authors": [
+        "Yunchuan Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7654119",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "Institutions often disclose information through ordered categories, such as grades and pass or fail labels. This paper asks when such...",
+      "indexed_at": "2026-10-22T15:34:50+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7654119",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T16:40:56+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7654119"
+      ],
+      "fingerprint": "a0b3d0212e34a01d0b2aed01e525aee5fa483193a47b85f4d498e323df95c99c",
+      "selection_note": "Characterizes when monotone categorical disclosure cannot improve on pooling for any prior, connecting a state-comparison inequality with credible persuasion under supermodular sender stakes.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7654119"
+      ]
+    },
+    {
+      "id": "7656438",
+      "doi": "10.2139/ssrn.7656438",
+      "title": "Consumer captivity and the profitability of unauthorized resale",
+      "authors": [
+        "Alexander Senk"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656438",
+      "topics": [
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "This paper studies how the presence of captive consumers, who buy exclusively through a manufacturer's authorized sales channel, affects the...",
+      "indexed_at": "2026-10-22T15:09:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7656438",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T15:10:39+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7656438"
+      ],
+      "fingerprint": "f5e9d18eef010bcd36ed146df154f15a6e1c0a5402ed5f94a40fe973e45e951e",
+      "selection_note": "Shows how captive buyers can make unauthorized resale more profitable: manufacturers sustain wider cross-market price differences, raising arbitrage margins despite reducing the reseller's available customer base.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7656438"
+      ]
+    },
+    {
+      "id": "7656341",
+      "doi": "10.2139/ssrn.7656341",
+      "title": "Winning Voters or Winning Regions? Vote Aggregation, Ideology, and Regional Transfers *",
+      "authors": [
+        "Pablo Amoros",
+        "M. Socorro Puy"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656341",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Electoral systems differ in whether votes are pooled nationwide or aggregated within territorial units, such as regions. A common view...",
+      "indexed_at": "2026-10-22T15:04:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7656341",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T15:04:21+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7656341"
+      ],
+      "fingerprint": "960fd132c8eb8d815a0a8f4aae8a7d63bafaedbc081d114278b7f32841d8010c",
+      "selection_note": "Models electoral competition over national policy and regional transfers, explaining when territorial vote aggregation supports policy divergence while nationwide counting produces convergence or pure-equilibrium failure.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7656341"
+      ]
+    },
+    {
+      "id": "7653460",
+      "doi": "10.2139/ssrn.7653460",
+      "title": "Who Says What: Strategic Communication in Networks",
+      "authors": [
+        "Anuj Bhowmik",
+        "Saptarshi Prosonno Ghosh",
+        "Iman Kundu",
+        "Sandipan Saha"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7653460",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "We study a multi-player communication-coordnation game in which privately informed agents communicate through a social network and choose their optimal...",
+      "indexed_at": "2026-10-22T14:39:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7653460",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T14:39:21+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7653460"
+      ],
+      "fingerprint": "5332961e6422f72af6a067e7260ed76783562f762d38d551eb08c95e3c66d4ce",
+      "selection_note": "Studies private-information communication in coordination networks, linking equilibrium actions to centrality weights and showing how network position shapes misreporting incentives and information transmission.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7653460"
+      ]
+    },
+    {
+      "id": "7647640",
+      "doi": "10.2139/ssrn.7647640",
+      "title": "Stackelberg Stopping Games",
+      "authors": [
+        "Jingjie Zhang",
+        "Zhou Zhou"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7647640",
+      "topics": [
+        "Game Theory & Networks",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We study a Stackelberg variant of the classical discrete-time Dynkin game, in which Player 1 (the leader) commits to a...",
+      "indexed_at": "2026-10-22T09:45:09+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7647640",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T09:45:09+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7647640"
+      ],
+      "fingerprint": "0d9cb449bccae6a42b8753ef325ba786518b802dc5dd73f11b690393c1515bba",
+      "selection_note": "Studies time inconsistency in leader-follower stopping games, separating precommitment from equilibrium and using entropy-smoothed follower responses to obtain regular equilibria and approximate solutions to the original game.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7647640",
+        "https://arxiv.org/html/2507.19746v3"
+      ]
+    },
+    {
+      "id": "7649238",
+      "doi": "10.2139/ssrn.7649238",
+      "title": "Who Keeps a Bubble Alive? Skin in the Game and the Survival of Rational Bubbles",
+      "authors": [
+        "Feng Dong",
+        "Siqing Wang",
+        "Fan Wu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649238",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Information & Contracts"
+      ],
+      "excerpt": "We study how retained ownership supports the value of a zero-dividend asset held for resale. A sponsor chooses hidden maintenance...",
+      "indexed_at": "2026-10-22T05:26:20+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7649238",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T05:26:20+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7649238"
+      ],
+      "fingerprint": "ee07df68ee2bb8495e1d5f6e1531d7d99a4bcc6fe0852fe6c4491d5ec8aa3b3b",
+      "selection_note": "Endogenizes resale-market survival through sponsors' hidden maintenance in an exchange economy, deriving a retention threshold for bubble existence and explaining how anticipated ownership releases can unravel valuations.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7649238",
+        "https://arxiv.org/html/2610.19496v1"
+      ]
+    },
+    {
       "id": "7651798",
       "doi": "10.2139/ssrn.7651798",
       "title": "Staggered Rollout for Innovation Adoption",
@@ -970,6 +1348,38 @@
       ]
     },
     {
+      "id": "7545373",
+      "doi": "10.2139/ssrn.7545373",
+      "title": "Fair and Strategy-Proof Matching under Institutional Constraints",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545373",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study student welfare under fair and strategy-proof matching when schoolsface constraints beyond capacities. For separate hereditary constraints andfixed strict...",
+      "indexed_at": "2026-09-30T17:39:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7545373",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T17:39:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7545373"
+      ],
+      "fingerprint": "a2f8fc030b223bbd7a846f5c699a0030c68a74304fda8377b944caf0b30551e8",
+      "selection_note": "Characterizes welfare-maximal fair, strategy-proof matching under hereditary institutional constraints, relating student-optimal fairness to priority admissions satisfying aggregate-demand monotonicity and identifying failures when that condition breaks.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7545373"
+      ]
+    },
+    {
       "id": "7542625",
       "doi": "10.2139/ssrn.7542625",
       "title": "When Do Minimum Participation Constraints Improve International Public-Good Provision under Voluntary Participation and Strategic Delegation? *",
@@ -1111,17 +1521,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-22",
+  "last_selection_review": "2026-10-23",
   "review_status": {
-    "last_completed": "2026-10-22T13:08:00+00:00",
-    "candidates_checked_through": "2026-10-22T04:56:01+00:00",
-    "collection_run": 39724966338,
+    "last_completed": "2026-10-23T07:44:18+00:00",
+    "candidates_checked_through": "2026-10-23T04:58:19+00:00",
+    "collection_run": 39903029480,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 17,
-      "exclude": 37,
-      "include": 6
+      "exclude": 24,
+      "include": 12,
+      "defer": 24
     },
-    "remaining_candidates": 381
+    "remaining_candidates": 382
   }
 }
