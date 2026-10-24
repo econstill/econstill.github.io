@@ -25,6 +25,73 @@
   },
   "papers": [
     {
+      "id": "7659318",
+      "doi": "10.2139/ssrn.7659318",
+      "title": "Contagious vs. Fragile Equilibrium",
+      "authors": [
+        "Ehud Kalai",
+        "Julien Manili"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7659318",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "In many games, experiments show that the number of players determines play in ways that standard analysis misses. We introduce...",
+      "indexed_at": "2026-10-23T15:45:59+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7659318",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-23T15:45:59+00:00",
+      "first_seen": "2026-10-24T04:43:18+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7659318"
+      ],
+      "fingerprint": "185a62a7f998cc572b5ff44538b74be989255b5a911c15ab92fc1521a575df1b",
+      "selection_note": "Introduces contagious and fragile equilibria to study how unilateral adoption or deviation changes others' incentives, connecting group size with robustness to strategic uncertainty across several game classes.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7659318"
+      ]
+    },
+    {
+      "id": "7650061",
+      "doi": "10.2139/ssrn.7650061",
+      "title": "Bridging Social Norms: A Framework for Assessing Unjust Inequality",
+      "authors": [
+        "De Sandi Vito",
+        "Domenico Moramarco",
+        "Vito Peragine"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7650061",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Standard income inequality measures use perfect equality as a benchmark, but they do not distinguish inequalities that violate principles of...",
+      "indexed_at": "2026-10-23T05:03:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7650061",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-23T05:03:54+00:00",
+      "first_seen": "2026-10-24T04:43:18+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7650061"
+      ],
+      "fingerprint": "ec71d397c37faff2001036056236fe23f3570babccb26b89806da2e87eebba09",
+      "selection_note": "Characterizes norm-based income distributions that combine opportunity equality with poverty and richness bounds, identifying how reward-preservation principles constrain existence and uniqueness of socially acceptable benchmarks.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7650061"
+      ]
+    },
+    {
       "id": "7640918",
       "doi": "10.2139/ssrn.7640918",
       "title": "Recommendations with Costly Verification *",
@@ -1313,6 +1380,40 @@
       ]
     },
     {
+      "id": "7544225",
+      "doi": "10.2139/ssrn.7544225",
+      "title": "Stochastic Adaptive Learning in Dominance-Solvable Games",
+      "authors": [
+        "Naoki Funai"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544225",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We investigate whether a stochastic adaptive learning model that overlaps with experience-weighted attraction learning and stochastic fictitious play learning can...",
+      "indexed_at": "2026-10-01T06:15:28+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544225",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T06:15:28+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7544225"
+      ],
+      "fingerprint": "12428d6848d5b7cada23b7189de607c197159c6a400f468218a8dfb68bd8f007",
+      "selection_note": "Characterizes when noisy payoff-assessment learning approaches dominance-solvable outcomes, distinguishing the roles of logit precision, decreasing experience weights and incomplete counterfactual payoff observation.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7544225",
+        "https://www.econ.shiga-u.ac.jp/ebrisk/DPE50Funai.pdf"
+      ]
+    },
+    {
       "id": "7544621",
       "doi": "10.2139/ssrn.7544621",
       "title": "Participation Security and Elementary Mechanisms",
@@ -1345,6 +1446,108 @@
       "review_sources": [
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621",
         "https://benjaminbrooks.net/research.shtml"
+      ]
+    },
+    {
+      "id": "7543218",
+      "doi": "10.2139/ssrn.7543218",
+      "title": "Sorting Inefficiency and Firm Asymmetry in Selection Markets",
+      "authors": [
+        "Vishavdeep Sharma"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543218",
+      "topics": [
+        "Industrial Organization Theory",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Welfare analyses of selection markets use constrained planners to measure inefficient sorting and assess when mergers may benefit consumers. I...",
+      "indexed_at": "2026-10-01T06:02:12+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543218",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T18:20:03+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7543218"
+      ],
+      "fingerprint": "3682625a1aa54d3d9861e5740410bb5c9e0fd6abd0d29ef5ddd63675e18e89d8",
+      "selection_note": "Shows that aggregate-profit-constrained welfare benchmarks can mistake markup redistribution for inefficient sorting, and develops a firm-profit-preserving comparison to separate those channels in selection markets.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7543218"
+      ]
+    },
+    {
+      "id": "7544019",
+      "doi": "10.2139/ssrn.7544019",
+      "title": "Information Design in Research Funding",
+      "authors": [
+        "Mengyang Lin",
+        "Anran Li",
+        "Wenqi Lian",
+        "Zhe Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544019",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...",
+      "indexed_at": "2026-10-01T05:40:27+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544019",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T05:40:27+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7544019"
+      ],
+      "fingerprint": "6d7dc41c7fd414be4b44019f18d6c4687ce31ce0d5ab63d58b7e474729ddd754",
+      "selection_note": "Designs research-funding mechanisms under strategic disclosure and limited awards, establishing equilibrium and welfare guarantees for a threshold-plus-lottery rule when simple posterior rankings can fail.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7544019"
+      ]
+    },
+    {
+      "id": "7543808",
+      "doi": "10.2139/ssrn.7543808",
+      "title": "Dummy Agents in Allocation Mechanisms: Is Clearinghouse Manipulation Possible?",
+      "authors": [
+        "Ali Ghajari",
+        "Behrang Kamali-Shahdadi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543808",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...",
+      "indexed_at": "2026-10-01T05:33:08+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543808",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T05:33:08+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7543808"
+      ],
+      "fingerprint": "3868214a9e302262de40b34970edb3c2dfae190db1ab7421d58c241bf0eb4c26",
+      "selection_note": "Characterizes clearinghouse manipulation through an added unmatched agent, identifying which stable deferred-acceptance outcomes can be induced and comparing immunity across alternative allocation mechanisms.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7543808"
       ]
     },
     {
@@ -1521,17 +1724,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-23",
+  "last_selection_review": "2026-10-24",
   "review_status": {
-    "last_completed": "2026-10-23T07:44:18+00:00",
-    "candidates_checked_through": "2026-10-23T04:58:19+00:00",
-    "collection_run": 39903029480,
+    "last_completed": "2026-10-24T07:51:08+00:00",
+    "candidates_checked_through": "2026-10-24T04:43:18+00:00",
+    "collection_run": 40063351335,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 24,
-      "include": 12,
-      "defer": 24
+      "exclude": 37,
+      "defer": 17,
+      "include": 6
     },
-    "remaining_candidates": 382
+    "remaining_candidates": 364
   }
 }

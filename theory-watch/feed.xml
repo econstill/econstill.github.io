@@ -8,6 +8,20 @@
     <lastBuildDate>Sat, 24 Oct 2026 04:43:18 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>Contagious vs. Fragile Equilibrium</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7659318</link>
+      <guid isPermaLink="false">10.2139/ssrn.7659318</guid>
+      <pubDate>Fri, 23 Oct 2026 15:45:59 +0000</pubDate>
+      <description>Ehud Kalai, Julien Manili. Game Theory &amp; Networks. In many games, experiments show that the number of players determines play in ways that standard analysis misses. We introduce...</description>
+    </item>
+    <item>
+      <title>Bridging Social Norms: A Framework for Assessing Unjust Inequality</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7650061</link>
+      <guid isPermaLink="false">10.2139/ssrn.7650061</guid>
+      <pubDate>Fri, 23 Oct 2026 05:03:54 +0000</pubDate>
+      <description>De Sandi Vito, Domenico Moramarco, Vito Peragine. Decision &amp; Social Choice. Standard income inequality measures use perfect equality as a benchmark, but they do not distinguish inequalities that violate principles of...</description>
+    </item>
+    <item>
       <title>Recommendations with Costly Verification *</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640918</link>
       <guid isPermaLink="false">10.2139/ssrn.7640918</guid>
@@ -274,11 +288,39 @@
       <description>Lorenzo Maria Stanca, Luigi Montrucchio. Decision &amp; Social Choice / Equilibrium &amp; Mathematical Economics. We derive sufficient conditions for the existence, non-existence, uniqueness and global attractivity of stochastic recursive utilities. Our approach uses abstract...</description>
     </item>
     <item>
+      <title>Stochastic Adaptive Learning in Dominance-Solvable Games</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544225</link>
+      <guid isPermaLink="false">10.2139/ssrn.7544225</guid>
+      <pubDate>Thu, 01 Oct 2026 06:15:28 +0000</pubDate>
+      <description>Naoki Funai. Game Theory &amp; Networks / Decision &amp; Social Choice. We investigate whether a stochastic adaptive learning model that overlaps with experience-weighted attraction learning and stochastic fictitious play learning can...</description>
+    </item>
+    <item>
       <title>Participation Security and Elementary Mechanisms</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621</link>
       <guid isPermaLink="false">10.2139/ssrn.7544621</guid>
       <pubDate>Thu, 01 Oct 2026 06:08:10 +0000</pubDate>
       <description>Benjamin Brooks, Songzi Du. Mechanism &amp; Market Design / Information &amp; Contracts. A mechanism is participation secure if each agent has an action that guarantees them a payoff better than their outside...</description>
+    </item>
+    <item>
+      <title>Sorting Inefficiency and Firm Asymmetry in Selection Markets</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543218</link>
+      <guid isPermaLink="false">10.2139/ssrn.7543218</guid>
+      <pubDate>Thu, 01 Oct 2026 06:02:12 +0000</pubDate>
+      <description>Vishavdeep Sharma. Industrial Organization Theory / Decision &amp; Social Choice. Welfare analyses of selection markets use constrained planners to measure inefficient sorting and assess when mergers may benefit consumers. I...</description>
+    </item>
+    <item>
+      <title>Information Design in Research Funding</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544019</link>
+      <guid isPermaLink="false">10.2139/ssrn.7544019</guid>
+      <pubDate>Thu, 01 Oct 2026 05:40:27 +0000</pubDate>
+      <description>Mengyang Lin, Anran Li, Wenqi Lian, Zhe Liu. Information &amp; Contracts / Mechanism &amp; Market Design. Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...</description>
+    </item>
+    <item>
+      <title>Dummy Agents in Allocation Mechanisms: Is Clearinghouse Manipulation Possible?</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543808</link>
+      <guid isPermaLink="false">10.2139/ssrn.7543808</guid>
+      <pubDate>Thu, 01 Oct 2026 05:33:08 +0000</pubDate>
+      <description>Ali Ghajari, Behrang Kamali-Shahdadi. Mechanism &amp; Market Design. In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...</description>
     </item>
     <item>
       <title>Fair and Strategy-Proof Matching under Institutional Constraints</title>
