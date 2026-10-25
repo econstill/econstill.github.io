@@ -25,6 +25,174 @@
   },
   "papers": [
     {
+      "id": "7663738",
+      "doi": "10.2139/ssrn.7663738",
+      "title": "Complementary Coalitions and Three-Alternative Instability",
+      "authors": [
+        "Jin Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7663738",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Nakamura (1979) characterized when the core of a simple game is nonempty for every preference profile. We characterize the corresponding...",
+      "indexed_at": "2026-10-24T12:30:04+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7663738",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-24T12:30:04+00:00",
+      "first_seen": "2026-10-25T04:48:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7663738"
+      ],
+      "fingerprint": "a8580a18d941c133acc52df0c826fda7b2f1e304ab18315abf677557e73a2346",
+      "selection_note": "Characterizes when three alternatives destroy coalition-structure equilibrium in monotonic simple games, using a partition criterion that extends beyond quota games and distinguishes this stability notion from the classical core.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7663738"
+      ]
+    },
+    {
+      "id": "7661969",
+      "doi": "10.2139/ssrn.7661969",
+      "title": "Traders on GPT: AI and Cognitive Capital in Financial Markets",
+      "authors": [
+        "Andrea Barbon",
+        "Fayçal Drissi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969",
+      "topics": [
+        "Information & Contracts",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We study how traders’ use of AI affects financial markets in a rational expectations model with asymmetric information. Traders process...",
+      "indexed_at": "2026-10-24T11:11:59+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7661969",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-24T11:11:59+00:00",
+      "first_seen": "2026-10-25T04:48:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7661969"
+      ],
+      "fingerprint": "2e6ddd85c2b5b842b0d257b2b26f959571c6b431778ca1ad029154649854a1e9",
+      "selection_note": "Models traders' endogenous choice between AI and skill-based information processing, showing how equilibrium price informativeness can conceal depreciating expertise and vulnerability to a loss of AI access.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7661969"
+      ]
+    },
+    {
+      "id": "7662742",
+      "doi": "10.2139/ssrn.7662742",
+      "title": "First-price Principle and the Failure of Revenue Equivalence",
+      "authors": [
+        "Byeong-hyeon Jeong",
+        "Marek Pycia"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7662742",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We show that first-price auctions can maximize a wide variety of objectives, including revenue, welfare, bidder surplus, and equality, while...",
+      "indexed_at": "2026-10-24T06:30:16+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7662742",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-24T06:30:16+00:00",
+      "first_seen": "2026-10-25T04:48:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7662742"
+      ],
+      "fingerprint": "08bafd6b2a8ae9a328bd6d386f944508d056031ad043766f6e375a27c182cb35",
+      "selection_note": "Studies first-price auction design for several economic objectives without distributional restrictions, identifying the role of bid exclusions and conditions for equilibrium existence and uniqueness beyond standard revenue-equivalence comparisons.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7662742"
+      ]
+    },
+    {
+      "id": "7661381",
+      "doi": "10.2139/ssrn.7661381",
+      "title": "Optimal Random Taxation",
+      "authors": [
+        "Felix Kubler",
+        "Chengfeng Shen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661381",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We consider the Ramsey problem of optimal government policy and give examples where lotteries are essential for the optimal solution...",
+      "indexed_at": "2026-10-24T06:02:35+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7661381",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-24T06:02:35+00:00",
+      "first_seen": "2026-10-25T04:48:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7661381"
+      ],
+      "fingerprint": "75365755b426931c27071d64cd6067ebcb56d9ef293d5e86a9d0385df0094d41",
+      "selection_note": "Characterizes when lotteries improve Ramsey allocations and when deterministic policies can purify them, linking the value of policy randomization to market completeness, preference curvature and borrowing constraints.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7661381"
+      ]
+    },
+    {
+      "id": "7661964",
+      "doi": "10.2139/ssrn.7661964",
+      "title": "Disclosing Provider Quality on Service Marketplaces with Congestion",
+      "authors": [
+        "anon Chen",
+        "Zechao Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661964",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Digital service platforms increasingly use endorsement programs to help consumers identify high-quality providers. Motivated by this, we study whether and...",
+      "indexed_at": "2026-10-24T05:44:56+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7661964",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-24T05:44:56+00:00",
+      "first_seen": "2026-10-25T04:48:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7661964"
+      ],
+      "fingerprint": "8abe4fa91443f844bc0dd73b0a67f8f595bd9eb15205be9a1c2dd8e16f10ed2d",
+      "selection_note": "Analyzes quality disclosure when consumers choose congested providers, characterizing how matching gains and queue imbalance alter welfare and when coarse or absent disclosure is optimal.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7661964"
+      ]
+    },
+    {
       "id": "7659318",
       "doi": "10.2139/ssrn.7659318",
       "title": "Contagious vs. Fragile Equilibrium",
@@ -533,6 +701,73 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7646798"
+      ]
+    },
+    {
+      "id": "7649948",
+      "doi": "10.2139/ssrn.7649948",
+      "title": "Employers' Unilateral Settlement of Dismissal Disputes",
+      "authors": [
+        "Daisuke Adachi",
+        "Ryo Kambayashi",
+        "Kohei Kawaguchi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649948",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We study how the procedural design of dismissal dispute resolution affects firm-worker bargaining, focusing on \\textit{unilateral settlement}: an employer pays...",
+      "indexed_at": "2026-10-21T15:16:01+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7649948",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T15:18:07+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7649948"
+      ],
+      "fingerprint": "997b281a778d17cc986f066260e750372b399376da965d9f277c5628ee2dc33b",
+      "selection_note": "Studies how unilateral settlement changes bargaining threat points under litigation, linking employers' dynamic inconsistency to inefficient adjustments and identifying conditions under which the option can benefit workers.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7649948"
+      ]
+    },
+    {
+      "id": "7644058",
+      "doi": "10.2139/ssrn.7644058",
+      "title": "Score Errors Create Endogenous Assortment and Tipping Points in Public-Goods Games",
+      "authors": [
+        "Aaryan Niroula"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7644058",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Assortment is often imposed as an exogenous parameter in models of cooperation. We instead derive it from a common noisy...",
+      "indexed_at": "2026-10-21T15:05:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7644058",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T15:05:06+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7644058"
+      ],
+      "fingerprint": "3384ecce846549f82e8bd711378bcd4743fab57abb6905bff88b7e711006fa97",
+      "selection_note": "Derives assortment from noisy action scores in public-goods games, connecting score-support overlap and error types to invasion, full-cooperation stability and critical-mass thresholds rather than treating assortment as exogenous.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7644058"
       ]
     },
     {
@@ -1144,6 +1379,212 @@
       ]
     },
     {
+      "id": "7615220",
+      "doi": "10.2139/ssrn.7615220",
+      "title": "Capacity Expansion in Proportionally Fair Multi-Resource Allocation: Exact Outcomes and the Distribution of Gains",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615220",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "A facility allocates complementary resources among users with different input proportions, under the proportionally fair-equivalently weighted Nash, or Leontief-Fisher-allocation. Expanding...",
+      "indexed_at": "2026-10-15T14:30:38+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7615220",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-15T14:30:38+00:00",
+      "first_seen": "2026-10-16T04:37:24+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7615220"
+      ],
+      "fingerprint": "16f4b57f2120bff74469900c0511b7693551458c6129a6c65662eeb573e18658",
+      "selection_note": "Characterizes who gains or loses from capacity expansion under Leontief-Fisher allocation, showing why two-resource ranking rules and single-peaked service paths do not extend to higher-dimensional resource needs.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7615220"
+      ]
+    },
+    {
+      "id": "7615485",
+      "doi": "10.2139/ssrn.7615485",
+      "title": "Regulated Stochastic Insurance Pricing Game: An Equilibrium-Set Approach",
+      "authors": [
+        "Lihua Bai",
+        "Qiyang Zhao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615485",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "This paper studies a stochastic insurance pricing game with affinepremium bounds that depend on competitors' current average premiums.Regulation can lead...",
+      "indexed_at": "2026-10-15T13:59:58+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7615485",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-15T14:00:55+00:00",
+      "first_seen": "2026-10-16T04:37:24+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7615485"
+      ],
+      "fingerprint": "2905d7b3cfc3a0a35cc17b55732d14b811e07809de6e70b1df65f523bc090995",
+      "selection_note": "Studies the full generalized-Nash equilibrium set under competitor-linked insurance price bounds, characterizing lattice extrema, Pareto comparisons and isolated versus continuous equilibria rather than selecting a single numerical solution.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7615485"
+      ]
+    },
+    {
+      "id": "7611999",
+      "doi": "10.2139/ssrn.7611999",
+      "title": "On the Stability of Token Systems",
+      "authors": [
+        "Süleyman Kerimov"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611999",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Token systems offer a market solution for non-monetary economies, where monetary transactions are undesirable or restricted. In such systems, agents...",
+      "indexed_at": "2026-10-14T18:29:18+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611999",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T18:29:18+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611999"
+      ],
+      "fingerprint": "903be445570262b26a0d2f1c7755b34a09d9e4827cc35ec193a58d7fe6686b95",
+      "selection_note": "Characterizes the stability region for token-based service exchange and connects controlled balances to ex-ante participation, explicitly accounting for limited service availability and bounds on agents' risk sensitivity.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7611999",
+        "https://kerimovsuleyman.github.io/stabilityK.pdf"
+      ]
+    },
+    {
+      "id": "7611525",
+      "doi": "10.2139/ssrn.7611525",
+      "title": "Should Governments Tax Commodities Uniformly? Theory and Empirical Evidence from Brazil",
+      "authors": [
+        "Breno Albuquerque",
+        "Aloisio Araujo",
+        "Tiago Cavalcanti",
+        "Gil Navarro"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611525",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "In this paper, we investigate the optimal consumption tax structure in a general equi-librium model with tax evasion. We show...",
+      "indexed_at": "2026-10-14T16:50:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611525",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T16:51:54+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611525"
+      ],
+      "fingerprint": "0cb7debddcf6921f8863a600382e293a67ddbc9edf6afac5d36796a5323943bd",
+      "selection_note": "Revisits uniform commodity taxation when sectors differ in evasion, deriving a competitive-equilibrium welfare benchmark that equalizes effective rather than statutory rates before applying it to Brazilian data.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7611525",
+        "https://epge.fgv.br/files/default/should_governments_tax_commodities_uniformly_14.pdf"
+      ]
+    },
+    {
+      "id": "7611439",
+      "doi": "10.2139/ssrn.7611439",
+      "title": "Mixed Bundling from Separate-Sales Data",
+      "authors": [
+        "Dingli Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611439",
+      "topics": [
+        "Mechanism & Market Design",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "A seller has sold two goods separately at two price levels and knows, for each level, the shares of buyers...",
+      "indexed_at": "2026-10-14T16:42:44+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611439",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T16:45:07+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611439"
+      ],
+      "fingerprint": "75129ca79324fa425c9a93b97f0abaf12a801045a22ab19d664af87b762ea1d0",
+      "selection_note": "Characterizes when a mixed-bundling menu is robustly optimal using limited joint purchase data, identifying observable share restrictions and explaining why knowing which goods were bought together can outperform separate-sales information.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7611439"
+      ]
+    },
+    {
+      "id": "7609678",
+      "doi": "10.2139/ssrn.7609678",
+      "title": "Policy Making with an Informed Opposition",
+      "authors": [
+        "Álvaro Delgado-Vega",
+        "Wioletta Dziuda",
+        "Antoine Loeper"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609678",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "We develop a model of electoral competition that captures the dynamic interaction between the incumbent's policy making and the informed...",
+      "indexed_at": "2026-10-14T14:34:26+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609678",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T14:34:26+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7609678"
+      ],
+      "fingerprint": "fd6b9c6df94d81b3820ae19c6c6b8ac6dd867c0e774c34af24859bc7aa653b2b",
+      "selection_note": "Models how an informed opposition's repeal promises affect an incumbent's reform incentives, characterizing when electoral signaling produces voter-aligned convergence, gridlock or persistent partisan policy divergence.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7609678"
+      ]
+    },
+    {
       "id": "7609418",
       "doi": "10.2139/ssrn.7609418",
       "title": "Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation",
@@ -1724,17 +2165,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-24",
+  "last_selection_review": "2026-10-25",
   "review_status": {
-    "last_completed": "2026-10-24T07:51:08+00:00",
-    "candidates_checked_through": "2026-10-24T04:43:18+00:00",
-    "collection_run": 40063351335,
+    "last_completed": "2026-10-25T07:51:35+00:00",
+    "candidates_checked_through": "2026-10-25T04:48:22+00:00",
+    "collection_run": 40163147512,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 37,
-      "defer": 17,
-      "include": 6
+      "defer": 22,
+      "exclude": 25,
+      "include": 13
     },
-    "remaining_candidates": 364
+    "remaining_candidates": 342
   }
 }
