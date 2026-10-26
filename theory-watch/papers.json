@@ -6,21 +6,21 @@
   "archive_kind": "selected_papers",
   "selection": "Content-screened microeconomic-theory selections; automatic discovery alone never authorizes publication",
   "rule_version": "semantic-3.0-micro-candidates",
-  "last_successful_check": "2026-10-25T04:48:22+00:00",
+  "last_successful_check": "2026-10-26T04:53:22+00:00",
   "screening": {
-    "retrieved": 127,
-    "included": 27,
-    "review": 64,
-    "excluded": 2644,
-    "cached": 2092
+    "retrieved": 47,
+    "included": 14,
+    "review": 47,
+    "excluded": 2166,
+    "cached": 1803
   },
   "coverage_start": "2026-09-30",
   "last_collection": {
-    "from": "2026-10-22",
-    "through": "2026-10-25",
+    "from": "2026-10-23",
+    "through": "2026-10-26",
     "date_field": "deposit",
-    "records_checked": 2735,
-    "new_matches": 16,
+    "records_checked": 2227,
+    "new_matches": 6,
     "changed_matches": 0
   },
   "papers": [
@@ -211,7 +211,7 @@
       "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7659318",
       "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-23T15:45:59+00:00",
+      "source_metadata_updated_at": "2026-10-25T20:00:02+00:00",
       "first_seen": "2026-10-24T04:43:18+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
