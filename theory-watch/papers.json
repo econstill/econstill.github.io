@@ -25,6 +25,72 @@
   },
   "papers": [
     {
+      "id": "7669444",
+      "doi": "10.2139/ssrn.7669444",
+      "title": "Tail Structure and the Shape of Production",
+      "authors": [
+        "Paolo Riccardo Morganti"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7669444",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Which features of technological opportunities determine the aggregate production function that emerges from technology selection? We study an economy in...",
+      "indexed_at": "2026-10-25T14:00:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7669444",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-25T14:00:21+00:00",
+      "first_seen": "2026-10-26T04:53:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7669444"
+      ],
+      "fingerprint": "ad22c04d95e3084f73b890078f57f0fd45570da629fe6563d4b07c3c347660b7",
+      "selection_note": "Connects the tails of technological opportunity distributions to production-function shape, characterizing when firms' selection among ideas yields CES, single-factor or other limiting technologies and corresponding factor-use patterns.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7669444"
+      ]
+    },
+    {
+      "id": "7669145",
+      "doi": "10.2139/ssrn.7669145",
+      "title": "Demand prospects and nonmonotone welfare guarantees under public disclosure",
+      "authors": [
+        "Siwei Chen",
+        "Pengbo Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7669145",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Public forecasts inform competing suppliers, but equilibrium multiplicity complicates welfare guarantees. In a two-supplier contact model with asymmetric costs, we...",
+      "indexed_at": "2026-10-25T12:56:31+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7669145",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-25T12:57:31+00:00",
+      "first_seen": "2026-10-26T04:53:22+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7669145"
+      ],
+      "fingerprint": "e9cd83de6a311ede75c36f41a06dc3fd103b4a01cea707f36a073946773bd8de",
+      "selection_note": "Characterizes worst-equilibrium welfare under public demand disclosure in a two-supplier game, showing nonmonotone guarantees and contrasting the public frontier with uniquely implementing private experiments.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7669145"
+      ]
+    },
+    {
       "id": "7663738",
       "doi": "10.2139/ssrn.7663738",
       "title": "Complementary Coalitions and Three-Alternative Instability",
@@ -564,6 +630,40 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7653460"
+      ]
+    },
+    {
+      "id": "7652199",
+      "doi": "10.2139/ssrn.7652199",
+      "title": "Keeping up with the Joneses in a World of Misinformation: Probit Excess Payoff Dynamic",
+      "authors": [
+        "Ceili Kirkaldie"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652199",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "This paper introduces the Probit-Excess-Payoff Dynamic, a novel evolutionary dynamic that integrates excess-payoff revision protocols with probit-style stochastic choice. Agents...",
+      "indexed_at": "2026-10-22T13:36:02+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7652199",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T13:36:02+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7652199"
+      ],
+      "fingerprint": "243a4c5c4f2344ee5d51f7a807b8e68a0acbe847fe1f097f94883e443c897d19",
+      "selection_note": "Studies strategy revision under noisy relative-payoff comparisons, relating a probit-based evolutionary dynamic to perturbed stationary equilibria and showing how information quality affects selection and multiplicity.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7652199",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7652199.pdf?abstractid=7652199&mirid=1"
       ]
     },
     {
@@ -1617,6 +1717,75 @@
       ]
     },
     {
+      "id": "7601123",
+      "doi": "10.2139/ssrn.7601123",
+      "title": "Competing for Advertiser Spending: Optimal Allocation and Pricing on a Smaller Advertising Platform",
+      "authors": [
+        "Bar Light",
+        "Jussi Keppo",
+        "Zhengyuan Zhou",
+        "Xiaoyu Fan",
+        "Kerun Xu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7601123",
+      "topics": [
+        "Mechanism & Market Design",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Digital advertising markets often feature a large established platform and smaller platforms competing for advertiser spending. We study how a...",
+      "indexed_at": "2026-10-14T03:40:52+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7601123",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T03:40:52+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7601123"
+      ],
+      "fingerprint": "71feb36ca0e57a7992c653549b7fe86119a300e47c42730d3b659ebc647af27e",
+      "selection_note": "Designs allocation and payments when advertisers endogenously authorize spending in response to ROI, distinguishing optimal allocation and payment multipliers and identifying when a common-multiplier restriction yields first-price pacing.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7601123"
+      ]
+    },
+    {
+      "id": "7605560",
+      "doi": "10.2139/ssrn.7605560",
+      "title": "Incentives in School Choice with Rank-Dependent Priorities",
+      "authors": [
+        "Yusuke Iwase"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605560",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Many school admission systems give a higher priority to a student who ranks a school higher in his submitted preference...",
+      "indexed_at": "2026-10-13T15:09:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7605560",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T15:20:11+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7605560"
+      ],
+      "fingerprint": "fa2a5be14d89e4692a23f5582249379b0e7dd6ce244baab31ca1217a4e5f49e7",
+      "selection_note": "Characterizes strategy-proof deferred acceptance with rank-dependent priorities through acyclicity, and compares stable Nash outcomes and truthful implementation across immediate acceptance, deferred acceptance and trading cycles.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7605560"
+      ]
+    },
+    {
       "id": "7596278",
       "doi": "10.2139/ssrn.7596278",
       "title": "Multilateral Bargaining with Information Spillovers",
@@ -1818,6 +1987,40 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2610.03157v1"
+      ]
+    },
+    {
+      "id": "7549998",
+      "doi": "10.2139/ssrn.7549998",
+      "title": "On the Cardinality of the Smith Set Under Impartial Culture with Many Alternatives",
+      "authors": [
+        "Zachary Berchenko",
+        "Kaizhao Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549998",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "For some integer ℓ ≥ 2, consider m = 2ℓ-1 voters, each of which has a preference ranking over n...",
+      "indexed_at": "2026-10-01T18:38:28+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T18:38:28+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7549998"
+      ],
+      "fingerprint": "b09397f9dd49eddbb00db4aa483f794aaa27be7558284fec7b75c90be094fe39",
+      "selection_note": "Characterizes Smith-set size under uniformly random independent rankings with a fixed odd electorate, deriving probability rates and showing that the dominant majority set encompasses all alternatives with probability approaching one.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7549998",
+        "https://arxiv.org/html/2610.03814v1"
       ]
     },
     {
@@ -2165,17 +2368,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-25",
+  "last_selection_review": "2026-10-26",
   "review_status": {
-    "last_completed": "2026-10-25T07:51:35+00:00",
-    "candidates_checked_through": "2026-10-25T04:48:22+00:00",
-    "collection_run": 40163147512,
+    "last_completed": "2026-10-26T07:51:01+00:00",
+    "candidates_checked_through": "2026-10-26T04:53:22+00:00",
+    "collection_run": 40271296239,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 22,
-      "exclude": 25,
-      "include": 13
+      "exclude": 21,
+      "include": 6,
+      "defer": 33
     },
-    "remaining_candidates": 342
+    "remaining_candidates": 321
   }
 }
