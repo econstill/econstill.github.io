@@ -1822,6 +1822,43 @@
       ]
     },
     {
+      "id": "7596078",
+      "doi": "10.2139/ssrn.7596078",
+      "title": "Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences",
+      "authors": [
+        "Tim J. Boonen",
+        "Yilong Gong",
+        "Bin Li",
+        "Dongchen Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078",
+      "topics": [
+        "Decision & Social Choice",
+        "Information & Contracts"
+      ],
+      "excerpt": "We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...",
+      "indexed_at": "2026-10-12T14:55:05+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596078",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T14:55:05+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7596078"
+      ],
+      "fingerprint": "bee07884ce7e6a0b7cbd5057507e145c1f3d3f803378feeaa99a028550976bec",
+      "selection_note": "Characterizes insurance indemnities for risk- and ambiguity-averse preferences, identifying bang-bang coverage slopes and conditions for stop-loss contracts under pricing and no-sabotage restrictions.",
+      "reviewed_at": "2026-10-27",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7596078",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7596078.pdf?abstractid=7596078&mirid=1&type=2"
+      ]
+    },
+    {
       "id": "7590660",
       "doi": "10.2139/ssrn.7590660",
       "title": "Market Power and Insurance Coverage",
@@ -1987,6 +2024,76 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2610.03157v1"
+      ]
+    },
+    {
+      "id": "7550263",
+      "doi": "10.2139/ssrn.7550263",
+      "title": "Comment on \"Subgroup Decomposition of the Gini Coefficient: A New Solution to an Old Problem\" (Heikkuri and Schief, Econometrica, 2026)",
+      "authors": [
+        "Noriaki Okamoto"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7550263",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Heikkuri and Schief (2026) axiomatize a subgroup decomposition of the Gini coefficient and establish its uniqueness under eight axioms. We...",
+      "indexed_at": "2026-10-02T11:16:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7550263",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T11:16:54+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7550263"
+      ],
+      "fingerprint": "b6f284725cb208d2ce8b3039495ef5cc61c075efde31dd35066ae4d58631fd52",
+      "selection_note": "Revisits the domain dependence of axiomatic Gini decompositions, constructing an interior family and identifying invariance conditions that recover a unique member without relying on zero-population comparisons.",
+      "reviewed_at": "2026-10-27",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7550263",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7550263.pdf?abstractid=7550263&mirid=1"
+      ]
+    },
+    {
+      "id": "7549758",
+      "doi": "10.2139/ssrn.7549758",
+      "title": "Wealth Transfers and Runs on Unsophisticated Investors in Semi-Liquid Private Credit",
+      "authors": [
+        "Gregor Matvos",
+        "Tomasz Piskorski",
+        "Amit Seru",
+        "Chun Zhao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549758",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Private credit increasingly combines illiquid assets with periodic investor liquidity through capped share repurchase programs. We show that this structure...",
+      "indexed_at": "2026-10-01T19:29:09+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549758",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T19:29:09+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7549758"
+      ],
+      "fingerprint": "4d1d144f5ead857545a1ec7ee01538150ed21b73498571c5c8fb917c994df21d",
+      "selection_note": "Models endogenous valuation responsiveness and informed redemptions, showing how stale prices distort investment and crowd out liquidity-needy investors even with repurchase caps, creating a private-versus-social governance wedge.",
+      "reviewed_at": "2026-10-27",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7549758",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7549758.pdf?abstractid=7549758&mirid=1"
       ]
     },
     {
@@ -2368,17 +2475,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-26",
+  "last_selection_review": "2026-10-27",
   "review_status": {
-    "last_completed": "2026-10-26T07:51:01+00:00",
-    "candidates_checked_through": "2026-10-26T04:53:22+00:00",
-    "collection_run": 40271296239,
+    "last_completed": "2026-10-27T09:46:57+00:00",
+    "candidates_checked_through": "2026-10-27T05:11:27+00:00",
+    "collection_run": 40453823673,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 21,
-      "include": 6,
-      "defer": 33
+      "defer": 30,
+      "exclude": 27,
+      "include": 3
     },
-    "remaining_candidates": 321
+    "remaining_candidates": 292
   }
 }
