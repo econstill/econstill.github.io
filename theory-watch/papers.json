@@ -25,6 +25,40 @@
   },
   "papers": [
     {
+      "id": "7674783",
+      "doi": "10.2139/ssrn.7674783",
+      "title": "Loan Screening under Symmetrically Imperfect Information",
+      "authors": [
+        "Kenichi Ueda",
+        "Gao Yun"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7674783",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "We propose a canonical model of loan screening under symmetrically imperfect information. Project quality is unknown to both lender and...",
+      "indexed_at": "2026-10-27T13:48:15+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7674783",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-27T13:50:47+00:00",
+      "first_seen": "2026-10-28T05:48:23+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7674783"
+      ],
+      "fingerprint": "0d260511e2f319036326c01da82aef04a7740765e5b25a5077b7535c36f75d1b",
+      "selection_note": "In a credit market where both sides are initially unsure of project quality, characterizes costly-screening and non-screening contract equilibria and their constrained efficiency under committed signal-contingent lending.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7674783",
+        "https://www.carf.e.u-tokyo.ac.jp/wp/wp-content/uploads/2025/12/F614.pdf"
+      ]
+    },
+    {
       "id": "7669444",
       "doi": "10.2139/ssrn.7669444",
       "title": "Tail Structure and the Shape of Production",
@@ -1859,6 +1893,38 @@
       ]
     },
     {
+      "id": "7599299",
+      "doi": "10.2139/ssrn.7599299",
+      "title": "Stability Rigidity and Robust Minimal Instability of Top Trading Cycles with Mixed Capacities",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7599299",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We ask whether a Pareto-efficient and strategy-proof school assignment rule must coincide with top trading cycles if it is stable...",
+      "indexed_at": "2026-10-12T07:03:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7599299",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T07:10:06+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7599299"
+      ],
+      "fingerprint": "90733aa06114c77243f1e6782af84e40cadfe3f27b12e58201c8f4702d87b6d9",
+      "selection_note": "Characterizes priority restrictions linking efficient, strategy-proof school assignment to top trading cycles, and separates initial-stability rigidity from robust minimal instability once mixed capacities extend beyond two schools.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7599299"
+      ]
+    },
+    {
       "id": "7590660",
       "doi": "10.2139/ssrn.7590660",
       "title": "Market Power and Insurance Coverage",
@@ -1891,6 +1957,39 @@
       "review_sources": [
         "https://www.fmg.ac.uk/cm/publications/discussion-papers/market-power-and-insurance-coverage",
         "https://www.stern.nyu.edu/sites/default/files/2024-03/GottliebandMoreira_MarketPowerandInsuranceCoverage.pdf"
+      ]
+    },
+    {
+      "id": "7597177",
+      "doi": "10.2139/ssrn.7597177",
+      "title": "Unilateral Incentives and Informative Experimentationin Cournot Learning",
+      "authors": [
+        "S. S. Askar King Saud University"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597177",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Firms facing unknown demand must infer the effect of a unilateral quantity change from observations generated while their rivals also...",
+      "indexed_at": "2026-10-11T15:10:43+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7597177",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-11T15:15:18+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7597177"
+      ],
+      "fingerprint": "257fa06aeabd81b7ab15cf082681f22bd458986f86ecf660e7c9a1daae239e41",
+      "selection_note": "Separates identification of unilateral profit incentives from parameter and equilibrium identification in noisy Cournot learning, then supplies experimentation conditions for decentralized Nash convergence, including boundary equilibria.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7597177"
       ]
     },
     {
@@ -2024,6 +2123,43 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2610.03157v1"
+      ]
+    },
+    {
+      "id": "6723288",
+      "doi": "10.2139/ssrn.6723288",
+      "title": "On von Stackelberg Leadership in a Cartel-Fringe-Renewables' Model of Exhaustible Resource Extraction",
+      "authors": [
+        "Simon Elgersma",
+        "Hassan Benchekroun",
+        "Gerard van der Meijden",
+        "Cees Withagen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6723288",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "We characterize the time-consistent solution of a cartel--fringe model of exhaustible resource extraction in which the cartel credibly acts as...",
+      "indexed_at": "2026-10-02T13:09:03+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.6723288",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T13:09:03+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "6723288"
+      ],
+      "fingerprint": "7835ff2c3a6e47ed56ce8026ef58c90c46bef022dda1986b1e21a61f19cd525d",
+      "selection_note": "Characterizes time-consistent cartel-fringe extraction under stated cost and demand restrictions, distinguishing three feedback-leadership paths and showing how credible leadership changes the timing of joint supply relative to open-loop and Cournot play.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.6723288",
+        "https://www.ifo.de/DocDL/cesifo1_wp12648.pdf"
       ]
     },
     {
@@ -2475,17 +2611,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-27",
+  "last_selection_review": "2026-10-28",
   "review_status": {
-    "last_completed": "2026-10-27T09:46:57+00:00",
-    "candidates_checked_through": "2026-10-27T05:11:27+00:00",
-    "collection_run": 40453823673,
+    "last_completed": "2026-10-28T07:42:16+00:00",
+    "candidates_checked_through": "2026-10-28T05:48:23+00:00",
+    "collection_run": 40640006661,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 30,
-      "exclude": 27,
-      "include": 3
+      "exclude": 24,
+      "defer": 32,
+      "include": 4
     },
-    "remaining_candidates": 292
+    "remaining_candidates": 270
   }
 }
