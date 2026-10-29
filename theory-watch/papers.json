@@ -1788,6 +1788,42 @@
       ]
     },
     {
+      "id": "7607158",
+      "doi": "10.2139/ssrn.7607158",
+      "title": "A Behavioral Foundation for the Investment Wedge",
+      "authors": [
+        "Jean-Paul L’Huillier",
+        "Pierlauro Lopez",
+        "Sanjay R. Singh"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607158",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Motivated by behavioral evidence, we develop a tractable method for incorporating competition neglect into a general equilibrium firm investment problem...",
+      "indexed_at": "2026-10-13T16:09:15+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607158",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T16:09:15+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607158"
+      ],
+      "fingerprint": "d02c2a6905e9c0ab5f3f1bea76ae10b697ed48d89aa66266475e2df4faec77a4",
+      "selection_note": "Develops a belief-distorted firm problem with costly awareness and aggregate consistency, rather than imposing an investment wedge. A first-order equilibrium characterization derives the endogenous wedge; a restricted case establishes its boom-bust signs. The general-equilibrium construction is the selection basis, not the calibration.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7607158",
+        "https://www.frbsf.org/wp-content/uploads/wp2025-22.pdf"
+      ]
+    },
+    {
       "id": "7605560",
       "doi": "10.2139/ssrn.7605560",
       "title": "Incentives in School Choice with Rank-Dependent Priorities",
@@ -2026,6 +2062,78 @@
       ]
     },
     {
+      "id": "7590261",
+      "doi": "10.2139/ssrn.7590261",
+      "title": "Credit-Based vs. Discount-Based Congestion Pricing: A Comparison Study",
+      "authors": [
+        "Chih-Yuan Chiu",
+        "Devansh Jalota",
+        "Marco Pavone"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590261",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Credit-based congestion pricing (CBCP) and discount-based congestion pricing (DBCP), which respectively allot travel credits and toll discounts to subsidize low-income...",
+      "indexed_at": "2026-10-09T17:25:16+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7590261",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T17:27:47+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7590261"
+      ],
+      "fingerprint": "e9d26049cd899104953707eccd37cb0409566f8eaf0d92444c1d31a09108715f",
+      "selection_note": "Compares two subsidy mechanisms in a nonatomic congestion game through equilibrium allocation, not simulation alone. On chain networks with the stated eligibility and constraint restrictions, discounts weakly improve the planner's attainable objective when revenue receives at least the eligible-cost weight; the ranking can reverse otherwise.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7590261",
+        "https://arxiv.org/html/2602.11077v3"
+      ]
+    },
+    {
+      "id": "7589944",
+      "doi": "10.2139/ssrn.7589944",
+      "title": "Do Distributional Concerns Justify Lower Environmental Taxes?",
+      "authors": [
+        "Ashley Craig",
+        "Dylan Moore",
+        "Thomas Lloyd"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589944",
+      "topics": [
+        "Mechanism & Market Design",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Should externality taxes be reduced if they are regressive? We introduce a model in which the government raises revenue from...",
+      "indexed_at": "2026-10-09T16:20:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7589944",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T16:25:22+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7589944"
+      ],
+      "fingerprint": "1d093fb7437eb937289b51725c1d0ad46474b4d01ec3d3f256a54c08cbe8507b",
+      "selection_note": "Derives optimal corrective-tax conditions jointly with distortionary income taxation. Separating causal income effects from taste heterogeneity explains when redistribution changes the Pigouvian benchmark and yields sufficient-statistic restrictions, with extensions to within-income heterogeneity. The analytical tax characterization, not the carbon-data exercise, motivates inclusion.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7589944",
+        "https://thomaslloyd.me/pdf/externalities.pdf"
+      ]
+    },
+    {
       "id": "7589886",
       "doi": "10.2139/ssrn.7589886",
       "title": "Bounded Stationary Discounted Utility",
@@ -2123,6 +2231,41 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2610.03157v1"
+      ]
+    },
+    {
+      "id": "7552832",
+      "doi": "10.2139/ssrn.7552832",
+      "title": "Distinguishing Bargaining from Competitive Supply through Joint Output Responses",
+      "authors": [
+        "Hyungjin Kim"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552832",
+      "topics": [
+        "Industrial Organization Theory",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Bargaining and competitive supply are hard to tell apart, because both can predict the same directions of output change after...",
+      "indexed_at": "2026-10-02T14:45:05+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552832",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T14:45:05+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7552832"
+      ],
+      "fingerprint": "5e6d883db30477368906ba0e88a6675b2d35f0ca97839214c340de29a9645702",
+      "selection_note": "Links common-baseline output responses under fixed versus reset input prices to testable supply-conduct restrictions. With convex costs, common marginal-cost pricing and substitutable inputs, expenditure-weighted feedback must be reciprocal and positive semidefinite; bargaining need not obey those restrictions. These are necessary benchmark restrictions, not a sufficient test of bargaining.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7552832",
+        "https://hyungjinkim.com/",
+        "https://hyungjinkim.com/papers/paper_static.pdf?v=20260918-e81cccd2"
       ]
     },
     {
@@ -2611,17 +2754,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-28",
+  "last_selection_review": "2026-10-29",
   "review_status": {
-    "last_completed": "2026-10-28T07:42:16+00:00",
-    "candidates_checked_through": "2026-10-28T05:48:23+00:00",
-    "collection_run": 40640006661,
+    "last_completed": "2026-10-29T07:54:51+00:00",
+    "candidates_checked_through": "2026-10-29T05:53:41+00:00",
+    "collection_run": 40825946238,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 24,
-      "defer": 32,
+      "exclude": 19,
+      "defer": 37,
       "include": 4
     },
-    "remaining_candidates": 270
+    "remaining_candidates": 252
   }
 }
