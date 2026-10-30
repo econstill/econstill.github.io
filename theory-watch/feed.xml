@@ -449,6 +449,27 @@
       <description>Xiangyu Qu. Decision &amp; Social Choice. tandard discounted utility rapidly suppresses distant future consequences, often making catastrophic losses or transformative gains nearly irrelevant for present decisions...</description>
     </item>
     <item>
+      <title>Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238</link>
+      <guid isPermaLink="false">10.2139/ssrn.7587238</guid>
+      <pubDate>Fri, 09 Oct 2026 06:09:10 +0000</pubDate>
+      <description>Nick Arnosti, Rad Niazadeh, Pranav Nuti, Felipe Simon. Mechanism &amp; Market Design. We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...</description>
+    </item>
+    <item>
+      <title>Information Divergence and Endogenous Evolution of Asymmetric Information</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978</link>
+      <guid isPermaLink="false">10.2139/ssrn.7574978</guid>
+      <pubDate>Fri, 09 Oct 2026 04:47:40 +0000</pubDate>
+      <description>Ratna Shrestha, Gaurav Subedi, Ayush Shrestha. Information &amp; Contracts. Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...</description>
+    </item>
+    <item>
+      <title>Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580718</link>
+      <guid isPermaLink="false">10.2139/ssrn.7580718</guid>
+      <pubDate>Thu, 08 Oct 2026 14:21:15 +0000</pubDate>
+      <description>Guoqiang Tian. Mechanism &amp; Market Design / Information &amp; Contracts. This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...</description>
+    </item>
+    <item>
       <title>Strategy-Proof and Minimally Wasteful Random Assignment</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560666</link>
       <guid isPermaLink="false">10.2139/ssrn.7560666</guid>
@@ -456,11 +477,32 @@
       <description>Lars Ehlers, Christian Basteck. Mechanism &amp; Market Design. We study random assignment of indivisible objects among a set of agents with strictpreferences and outside options. When agents may...</description>
     </item>
     <item>
+      <title>Designing the Right to Cooperate Participation and Costly Communication Networks</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553563</link>
+      <guid isPermaLink="false">10.2139/ssrn.7553563</guid>
+      <pubDate>Fri, 02 Oct 2026 21:26:37 +0000</pubDate>
+      <description>Taylor Canann. Game Theory &amp; Networks / Mechanism &amp; Market Design. Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...</description>
+    </item>
+    <item>
+      <title>The Value of Knowing a Coalition Allocation-Dependent Information and Stable Burden Sharing</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553738</link>
+      <guid isPermaLink="false">10.2139/ssrn.7553738</guid>
+      <pubDate>Fri, 02 Oct 2026 21:26:30 +0000</pubDate>
+      <description>Taylor Canann. Game Theory &amp; Networks / Information &amp; Contracts. An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...</description>
+    </item>
+    <item>
       <title>Uniqueness of Recursive Utility with Unbounded Consumption and Non-Expected Utility</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552146</link>
       <guid isPermaLink="false">10.2139/ssrn.7552146</guid>
       <pubDate>Fri, 02 Oct 2026 16:32:36 +0000</pubDate>
       <description>Lorenzo Maria Stanca, Luigi Montrucchio. Decision &amp; Social Choice / Equilibrium &amp; Mathematical Economics. We derive sufficient conditions for the existence, non-existence, uniqueness and global attractivity of stochastic recursive utilities. Our approach uses abstract...</description>
+    </item>
+    <item>
+      <title>Social Welfare and Price Discovery in Double Auction Markets</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552140</link>
+      <guid isPermaLink="false">10.2139/ssrn.7552140</guid>
+      <pubDate>Fri, 02 Oct 2026 16:29:44 +0000</pubDate>
+      <description>Teemu Pennanen. Equilibrium &amp; Mathematical Economics / Mechanism &amp; Market Design. The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...</description>
     </item>
     <item>
       <title>Distinguishing Bargaining from Competitive Supply through Joint Output Responses</title>

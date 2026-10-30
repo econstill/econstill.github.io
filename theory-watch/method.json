@@ -368,10 +368,10 @@
       "10.2139/ssrn.7621860": {
         "fingerprint": "1375e2b78e4bace200d6feba5e4f71980c360cc3a24c2554fe10964975890c2e",
         "decision": "defer",
-        "reason": "Optimizing affine-maximizer mechanisms can be algorithmic mechanism design. Need the revenue-preserving finite-domain theorem and bounded weight-ratio assumptions to distinguish economic design content from improved global-solver implementation; renewed primary retrieval failed.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Affine-maximizer optimization can be algorithmic mechanism design. Need the revenue-preserving finite-domain theorem and bounded weight-ratio assumptions to assess design content separately from improved branch-and-bound implementation and solver benchmarks.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7619581": {
         "fingerprint": "a0766fca130f4d46a5adaf625a395acc7dd8cf7943262508b5c79915b72154ca",
@@ -404,10 +404,10 @@
       "10.2139/ssrn.7619438": {
         "fingerprint": "120925fb21b73a90ab85497e587c2baeeef90f4dd4d6ae4f542184e994acb053",
         "decision": "defer",
-        "reason": "Narrative switching may have decision-theoretic content. Need the belief-update and optimization rules to distinguish a behavioral foundation from imposed discrepancy thresholds calibrated to environmental policy observations.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Narrative switching may have decision-theoretic content. Need the belief and optimization rules to distinguish a behavioral foundation from an imposed discrepancy-triggered switching process applied to climate and fisheries.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7537058": {
         "fingerprint": "e51e212c4185e6bdc6dd86ab2ed462e1b4f7c2ba8c02373ade26dd36a9cac52f",
@@ -526,10 +526,10 @@
       "10.2139/ssrn.7638421": {
         "fingerprint": "f093f4305651f74e23d1b4bb10f2302696eeda5b39062543256d75c8366b86ee",
         "decision": "defer",
-        "reason": "Read the complete restricted-menu enforcement argument again. Need the dated funding, protected-wealth and punishment constraints to assess an independent contracting contribution; the abstract expressly does not establish general contract optimality.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Receipt timing and sanction capacity may constrain credible contracts. Need the dated funding, protected wealth and fee-priority primitives to assess the contribution within the prescribed menu; the abstract explicitly does not establish general contract optimality.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7644289": {
         "fingerprint": "31584aad504eabe4783c80a9bf1499ecaabe702b4dabe59287fa76483e3d97dd",
@@ -555,10 +555,10 @@
       "10.2139/ssrn.7636480": {
         "fingerprint": "71cd2b4ab577f691e813ee0117180e982ee19851d310d125ab409b780b1c781c",
         "decision": "defer",
-        "reason": "Reporting rewards can deter misappropriation even by raising bribes, a potentially relevant incentive result. Need the bargaining and enforcement primitives. Primary discovery also locates the same title under older SSRN 4337527; do not silently merge its version with this record.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Inspector rewards may deter corruption even while bribery survives, a potentially substantive incentive result. Need the bribery bargaining and enforcement game, and a version-consistent primary source rather than silently using the older same-title SSRN record.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7636458": {
         "fingerprint": "5923421d2b1f203605f55682370d1e461c9110eb978b92fea91c20b687c0d666",
@@ -577,10 +577,10 @@
       "10.2139/ssrn.7642794": {
         "fingerprint": "599c739315ca0847c5d3f003c6718623ad2c0a026ef1122c3beafa96df6cd43a",
         "decision": "defer",
-        "reason": "Filtered information as a reference standard may affect choice, but the abstract still does not specify preference, perception or information primitives. Need the formal discrimination conditions before judging a decision-theory contribution rather than a conceptual recommendation-design argument.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Reference information outside a recommendation set may affect choice, but the abstract does not specify preferences, perception or information primitives. Need the formal discrimination condition to distinguish decision theory from a conceptual design argument.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7642446": {
         "fingerprint": "4ce6e20f4bd136295a6164381f50666d585e35da41b5a062ec86dd9dc3cc0638",
@@ -677,18 +677,18 @@
       "10.2139/ssrn.7638998": {
         "fingerprint": "9382e482d85cec05468fa50815269d2c491bb397ec35e1d96b76d2f90e621800",
         "decision": "defer",
-        "reason": "The verified abstract describes correlated signals and forced exits in a Kyle market. Need equilibrium trading strategies and endogenous leverage or exit restrictions to separate a new information-market result from a quantitative extension of an existing crowding model.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Correlated private signals and forced exits may change Kyle-market equilibrium. Need trading strategies and the endogenous leverage/exit restrictions to assess the analytical contribution beyond the crowding and fire-sale simulations.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7626978": {
         "fingerprint": "b2928bcc8b93a62625c02eb2df5eb8a5e5d389f84335108b065b263aa4924d02",
         "decision": "defer",
-        "reason": "Representation choice, persistence and market clearing are potentially eligible foundations despite the finance setting. Need agents' objectives, the certified representation menu and transition map underlying observational equivalence and local stability.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Recursive representation choice and observationally indistinguishable market states could contribute to equilibrium foundations. Need the agents' objectives, certified representation menu and transition map behind the persistence and stability claims.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7626920": {
         "fingerprint": "9e0bc024c9385497b11dc3fe9f1e1a06608997140bca34674e7c46e31cb4ca20",
@@ -700,10 +700,10 @@
       "10.2139/ssrn.7625598": {
         "fingerprint": "98cb538e29f055af94a44d7127de84b31261b38bfbbc8ce8493d21c8eefdc337",
         "decision": "defer",
-        "reason": "An open-loop disclosure game may be theoretical IO; lack of feedback alone is not a scope rejection. Need payoff interaction and the information structure to assess the contribution beyond target-adjustment control under exogenous regulatory parameters.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "An open-loop disclosure game is not excluded merely for lacking feedback. Need the payoff interaction and information structure to assess whether the AI/regulatory parameters generate a substantive IO result beyond target-adjustment control.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7632698": {
         "fingerprint": "1c4e4ca505e5346576c957c9d673a07cb6cf681db8720a8060902ea55bffe656",
@@ -722,10 +722,10 @@
       "10.2139/ssrn.7618821": {
         "fingerprint": "5e8aea4f4eb5c4157c9cd03a115f13f860f6008689c72fd0b11efa24eacc6106",
         "decision": "defer",
-        "reason": "The cap can reverse acquisition choices in a finite dated information problem. Need admissible signals, reserve choices and cap alignment to assess the analytical information contribution rather than a particular cash-feasibility comparison.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "A funding cap can break information-cost equivalence in the stated finite decision problem. Need the signal, reserve and cap-alignment restrictions to assess the information-choice contribution beyond this cash-feasibility example.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7620239": {
         "fingerprint": "2c1d946fbf91e1c210c068273b3022626d3ed4c3faaf515d756a40af4d040530",
@@ -772,10 +772,10 @@
       "10.2139/ssrn.7618282": {
         "fingerprint": "1b9351bda5a909e9a21d69cf194c45b378b1282af952fd05abe65e97339978b9",
         "decision": "defer",
-        "reason": "Fresh content still fails the discovery fingerprint check and the stored abstract-source URL names a different DOI. Wait for consistent metadata; no content verdict is possible on the mismatched record.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Fresh source content fails the discovery fingerprint check and the stored abstract source identifies SSRN 7658319. The queue has no verified abstract; await consistent refreshed evidence rather than judge the mismatched money-fund record.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7618080": {
         "fingerprint": "b038e4ce504609828055aa1955df8bc73c5a02fc0709ce47dfbcd480acd4ab6d",
@@ -836,10 +836,10 @@
       "10.2139/ssrn.7618221": {
         "fingerprint": "7f69994a5345027eac98ac25181f6b496908a21bc059b17e55ee7a749943e912",
         "decision": "defer",
-        "reason": "The abstract supplies detailed reputational and cost-sharing results but ties several mechanisms to one scrutiny parameter. Need the payoff, commitment and feedback restrictions to assess a substantive IO contribution and distinguish baseline state-independent controls from its extension.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "The reputational and cost-sharing effects may contribute to IO, but several channels share one scrutiny parameter. Need the payoff, commitment and feedback restrictions behind the state-independent baseline and state-dependent extension before assessing the analytical contribution.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7542684": {
         "fingerprint": "a8cdaa2ff05b12d2749a78fe4217b1183da35daf146ba02dfe967c26339b2417",
@@ -1691,10 +1691,10 @@
       "10.2139/ssrn.7662372": {
         "fingerprint": "2f60b04471b714b0fb9a1634735f68cbe4cddfa9a471cfa8e7b63cf42b3ed833",
         "decision": "defer",
-        "reason": "Restricted-price implementation of Wardrop targets is potentially economic allocation theory. The complete abstract is verified again, but the primary text remains inaccessible; need path-cost assumptions and the minimax failure certificate before distinguishing implementation theory from traffic-optimization engineering.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Restricted-price implementation of Wardrop targets may be substantive allocation theory. Need the path-cost assumptions and uniform minimax failure certificate to distinguish an implementation characterization from traffic-optimization engineering; no primary model was located.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7662264": {
         "fingerprint": "c4bf4a3222fba648e0fc3a3dd658ac4cc7e2899ec54373e27127690557c287a0",
@@ -1797,10 +1797,10 @@
       "10.2139/ssrn.7652139": {
         "fingerprint": "7c35512838300504de67001dfbfd56820730e97d35507b46e3c362c0d8b5a1b8",
         "decision": "defer",
-        "reason": "Early trade guarantees and strategic submission timing may contribute to market design. The author's publication page confirms the record but supplies only the inaccessible SSRN link; need the auction and arbitrage welfare assumptions independently of protocol correctness.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Early execution guarantees and strategic submission timing may contribute to market design. The author publication page links only to SSRN; need the auction/arbitrage welfare assumptions separately from the Byzantine protocol's correctness before admission.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7648619": {
         "fingerprint": "352fdc560895008f3360f44cdf0b7d05c012746f80c1bc9acd177fecbdd2b12d",
@@ -1826,26 +1826,26 @@
       "10.2139/ssrn.7642818": {
         "fingerprint": "0082c14a0fdb8d74205dba600cdbe5d1f5303b037642e81d488ee2e5001cce2b",
         "decision": "defer",
-        "reason": "Spatial-equilibrium foundations remain eligible. Need the utility, technology and commuting assumptions behind the claim of exact power laws without additional restrictions; renewed retrieval did not expose the primary model.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Spatial equilibrium is eligible economic foundations. Need the utility, land/production and commuting restrictions behind exact and asymptotic power laws, particularly the assertion that no extra assumptions are required; the author listing did not expose those results.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7615289": {
         "fingerprint": "4349ebda1d826cb0ee55b10a2a2ec0a78750b688ebf77ebee060ed4e7004648b",
         "decision": "defer",
-        "reason": "Observability and constrained tipping menus may affect costly norms, but part of the stated result is conditional-mean composition. Need consumer utility and norm dynamics to assess an independent preference or social-incentive result.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Observability and constrained menus can affect social incentives. Need consumer utility and norm updating to determine whether the result goes beyond conditional-mean composition when small tippers leave.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7613778": {
         "fingerprint": "5df8cca22d68cc0ca3ab9d108105423e610d0f6e36ec76980f9b157dcc55ab72",
         "decision": "defer",
-        "reason": "The matching primary abstract confirms endogenous sequential search, pricing structure and operational algorithms. Need the information and utility model to assess search foundations separately from approximation guarantees and predictive fit; the full model was not available.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Endogenous sequential search and the within-store markup structure may be theoretical IO. Need the utility and information assumptions to distinguish the search/choice result from assortment algorithms, pricing computation and predictive fit.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7615079": {
         "fingerprint": "d1df1e62ea8ff8abb036968968c6c4e80b3e3d38eb73ca7d140ff4297374e9cf",
@@ -1955,10 +1955,10 @@
       "10.2139/ssrn.7542678": {
         "fingerprint": "c447e598ecd08ede1175ce8658ce0afaa2cdd31468a188d767a09d9380678425",
         "decision": "defer",
-        "reason": "Complementarity between individual and collective benefits may affect insurance participation. Need the renewal dynamics and functional assumptions behind the critical cross-partial and saddle-node claims; a positive cross-partial alone does not establish the stated universal threshold or transfer comparison.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Individual/collective benefit complementarity may affect insurance renewal. Need the participation dynamics and functional assumptions for the claimed critical cross-partial and transfer impossibility; a positive cross-partial alone does not establish a universal saddle-node or retention theorem.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7542158": {
         "fingerprint": "5d2199b4a51d6de1e12ea77bfc2e6c4225eca8bb278f33628ece1c16b3488670",
@@ -2554,10 +2554,10 @@
       "10.2139/ssrn.7672519": {
         "fingerprint": "4944b45262e44e040cf234d4bc891b0929e99fb297a0a3b093c5b8bc29657694",
         "decision": "defer",
-        "reason": "The critique of factor-augmenting production may concern economic foundations, but needs the actual technology and steady-state assumptions. An identical abstract and title appear in queued 7602562 with an additional author; resolve version identity before admission.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Factor-augmenting production and steady-state restrictions may concern economic foundations. Need the technology and stability assumptions; queued 7602562 has the identical title and abstract but an additional author, so version identity also needs resolution.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7603080": {
         "fingerprint": "8e3c6a3fb4b412e3d8f83ba231bce6449bf6a02b55a84d3b4df25e89ce9b5f7f",
@@ -2590,10 +2590,10 @@
       "10.2139/ssrn.7600298": {
         "fingerprint": "296c04b255d00235f82060f41d1b1e593e2ecec41ad319362c590396b9cb6b55",
         "decision": "defer",
-        "reason": "Robust fairness and voluntary exits in longevity pooling may contribute to risk-sharing theory. Need the transfer class, information restrictions and welfare interpretation of the sharp capacity frontier to assess the economic content beyond actuarial wealth-drift accounting.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Robust fairness and voluntary exits in longevity pools may provide risk-sharing foundations. Need the transfer class, information restrictions and welfare interpretation of the sharp death-benefit frontier beyond actuarial wealth-drift accounting.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7600258": {
         "fingerprint": "d218a693c5f0650963a739dbb904721978cca76064e02d1531e1f70a97077fb2",
@@ -2605,10 +2605,10 @@
       "10.2139/ssrn.7602562": {
         "fingerprint": "15ed64e2285caf71717eb7e3772dd2832590715cde7377d4610e56835e19a98d",
         "decision": "defer",
-        "reason": "The title and full abstract duplicate queued 7672519, but this version includes Jerry, QT Wei as an additional author. Resolve the two records and inspect the production assumptions before publishing or merging a growth-foundations claim.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "This duplicates the full abstract and title of queued 7672519 but adds an author. Resolve version identity and inspect the production and balanced-growth assumptions before assessing or merging the claimed foundations result.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7598658": {
         "fingerprint": "733430f96627c8a5d288557a7afd2e07cb42de6cd50ded008c1fee8104efba3e",
@@ -2620,26 +2620,26 @@
       "10.2139/ssrn.7598160": {
         "fingerprint": "3bee3ad4b0751e7905229556165a3dbe11db76d91055c45fcc7ef17362c2f6c7",
         "decision": "defer",
-        "reason": "Verification evidence under limited liability may change contract feasibility. Need the provider's action incentives, audit technology and certificate assumptions behind the liability regions before assessing a contracting result beyond an enterprise-AI governance proposal.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Auditable authorization under capped liability may change incentive-compatible contract feasibility. Need the action deviations, audit technology and certificate assumptions behind the liability regions before assessing a contracting result beyond the enterprise-AI governance proposal.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7597881": {
         "fingerprint": "fcda58a3dc46b63746cb950051a054ac4a825c79c305d19edbe93d920135303d",
         "decision": "defer",
-        "reason": "A no-manipulation characterization could be a market foundation. Need the admissible strategies, integrability and frequency-domain equivalence conditions to distinguish a substantive arbitrage restriction from applying passivity theory to an execution-calibration model.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "A necessary-and-sufficient no-manipulation condition may be a market foundation. Need admissible trading strategies, kernel integrability and frequency-domain equivalence assumptions to distinguish an arbitrage theorem from passivity-based execution calibration.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7597421": {
         "fingerprint": "4f70fda4e566660557d0cec47ebe995d1257653c3447c7e80cd76a5fc2a8d19b",
         "decision": "defer",
-        "reason": "Costly scrutiny and biased organizational learning may have information-economics content. Need the officials' choice problem and reliability-update law behind multiple equilibria and audit interventions rather than infer foundations from an organizational feedback narrative.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Costly scrutiny and endogenous evidence may contribute to information economics. Need the officials' optimization problem and organizational reliability-update law behind multiple equilibria and tipping rather than infer incentives from the feedback narrative.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7592999": {
         "fingerprint": "d36ec24490d2fe538ccf2f4def67afddc737853d3414774f68f37ce46cfa10bc",
@@ -2665,10 +2665,10 @@
       "10.2139/ssrn.7603698": {
         "fingerprint": "9e9d71f6e5225728347eaf9da5658fcc6c55ad18b60e342429f8e9b9065a1daa",
         "decision": "defer",
-        "reason": "Risk sharing and renegotiation of contract duration may contain contracting theory. Need the generator's risk preferences, disagreement values and admissible payment schedules to distinguish the analytical result from calibrated public-contract cost-benefit accounting.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Discounting, risk sharing and voluntary renegotiation may have contract-theory content. Need risk preferences, disagreement values and admissible payment schedules to separate the analytical contracting result from the calibrated renewable-contract cost-benefit exercise.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7603638": {
         "fingerprint": "6899a8758a3c7238ded6a11c1d04a99fbda5e9d3b422d4e0a1903aa46377f55b",
@@ -2701,10 +2701,10 @@
       "10.2139/ssrn.7598621": {
         "fingerprint": "f32b037082f42ca393755cf3cbec3d48edd0e88e4d6e0cd002c60c1dbd03e51e",
         "decision": "defer",
-        "reason": "Receiver obedience and shared enforcement capacity make this potentially substantive information design. Need the recognition technology and the two-context, three-action frontier before assessing the grading result; the primary paper was inaccessible.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Receiver obedience and shared testing capacity make this potentially substantive information design. Need the recognition technology and grading frontier; the institutional page confirms identity but provides no readable primary model.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7602717": {
         "fingerprint": "bf19141857a928c2aba3d9d4bc8a2de042a4fd78a436a736dbbaffc4f2bcbdf6",
@@ -2730,10 +2730,10 @@
       "10.2139/ssrn.7596842": {
         "fingerprint": "1c9edad2ec35d2bd3bd31029f0c74683a24150b83b7ab38537c95acc4d45541b",
         "decision": "defer",
-        "reason": "Conditional no-arbitrage and priced factor spans could have foundational finance content. Need the model's genericity and pricing-space restrictions to distinguish that contribution from covariance methodology; accessible primary abstracts matched, but the NBER full text returned 403.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Conditional no-arbitrage and priced factor spans remain eligible financial foundations. Need the genericity and pricing-space restrictions to distinguish this contribution from covariance methodology; the NBER primary source returned 403.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7596460": {
         "fingerprint": "f94fc567e605b99693a99302f62e8f20ca98a6229f0af88c9353d298d775d5ea",
@@ -2759,18 +2759,18 @@
       "10.2139/ssrn.7595039": {
         "fingerprint": "0bff230078c92ec189aa6b8fdba9b96c417803ecd16cd9cf89b0808019c72105",
         "decision": "defer",
-        "reason": "The fresh source failed the discovery fingerprint check, and the stored abstract-source URL identifies another DOI. Do not assess or publish the numerical-equilibrium claim until source identity is consistent.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Fresh evidence fails the discovery fingerprint check and the stored source identifies SSRN 7606859. No verified abstract is available in the queue, so defer rather than assess mismatched numerical-equilibrium content.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7594940": {
         "fingerprint": "d149bff70b87aaabd047d31a940808dd14b73db3df0fa2b248eb556a8a536edc",
         "decision": "defer",
-        "reason": "Collateral-backed execution rights involve potentially substantive security design and private information. Need the admissible exercise histories, allocation dual and competitive adverse-selection model to assess those results independently of a hypothetical contract product.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Collateral-backed execution rights may supply security-design and adverse-selection results. Need the exercise-history restrictions, allocation dual and competitive model before assessing the contribution independently of the hypothetical contract product.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7593198": {
         "fingerprint": "88a85047a2445bda26fb3a42eb87f943e8d37715592c8005467990ca745ecba2",
@@ -2789,10 +2789,10 @@
       "10.2139/ssrn.7594618": {
         "fingerprint": "6caed27a936381364129acda56a412c7898110ac074412d14859564cb101030f",
         "decision": "defer",
-        "reason": "The thesis contains eligible general-equilibrium default and punishment results, not merely a finance application. Need the dated primary chapters, preference and credit-market assumptions, and a clean version of the corrupted abstract before selecting a standalone contribution.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "The thesis includes eligible GE default, borrowing-limit and punishment results. Need the dated primary chapters, preference and credit-market assumptions, and a clean version of the corrupted abstract before admitting a standalone theoretical contribution.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7594600": {
         "fingerprint": "11fbee24ae7bc5c907aa19a41d4c4c5af82514ae75a4ecd773ddd70ac3a088dd",
@@ -2846,10 +2846,10 @@
       "10.2139/ssrn.7550194": {
         "fingerprint": "75436225b3fb5ccd8c98355db699df9edfdbfacd2ab7a2f12d4b7127034f24d2",
         "decision": "defer",
-        "reason": "Capacity can change participation-equilibrium existence and recovery in a network platform. Need the individual participation choice, performance-loss functions and shape restrictions behind scalar aggregation and critical-duration claims to assess a theory contribution beyond a prescribed feedback map.",
-        "reviewed_at": "2026-10-27T09:46:57+00:00",
+        "reason": "Capacity-dependent participation and coordination failure may contribute to platform theory. Need the individual choice and performance-loss primitives behind scalar aggregation and critical-duration claims to assess foundations separately from a stipulated feedback map.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
         "reviewer": "Codex-assisted content screening",
-        "retry_after": "2026-10-29T09:46:57+00:00"
+        "retry_after": "2026-11-01T07:50:35+00:00"
       },
       "10.2139/ssrn.7549758": {
         "fingerprint": "4d1d144f5ead857545a1ec7ee01538150ed21b73498571c5c8fb917c994df21d",
@@ -3337,19 +3337,237 @@
         "reason": "Links common-baseline output responses under fixed versus reset input prices to testable supply-conduct restrictions. With convex costs, common marginal-cost pricing and substitutable inputs, expenditure-weighted feedback must be reciprocal and positive semidefinite; bargaining need not obey those restrictions. These are necessary benchmark restrictions, not a sufficient test of bargaining.",
         "reviewed_at": "2026-10-29T07:54:51+00:00",
         "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7664661": {
+        "fingerprint": "a209a9a9db9ff16ee1e9ca37c288b74f739c205993b31ff0aee854853a62f071",
+        "decision": "exclude",
+        "reason": "The contribution attributes equity-premium movements to structural shocks in a restricted macroeconomic VAR and discount-factor accounting. The abstract does not establish a separate preference, incentive or equilibrium-foundations result beyond the macro-financial risk decomposition.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7679821": {
+        "fingerprint": "fc68864d5e1b6b821208bc556afe81252cd6bde294f26f97cb4151d2488012db",
+        "decision": "exclude",
+        "reason": "The paper compares performance metrics and compounding identities for leveraged ETFs. Its contribution is investment-return measurement, not an economic choice, incentive or market-equilibrium characterization.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7543298": {
+        "fingerprint": "a99579766c56a95c9f9fe453408860329cfa841d3fc9bddeb1fc3dbe2b4827e0",
+        "decision": "defer",
+        "reason": "Local determinacy in a heterogeneous-household economy is potentially equilibrium theory. Need the household constraints, tax-rule derivatives and production-externality restrictions behind the indeterminacy thresholds, rather than assess the result from the macro application alone.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7587238": {
+        "fingerprint": "f1c0a07533679db0dafee0e72c193e5de7c15d9af4f46de8e46973fa4f68331e",
+        "decision": "include",
+        "reason": "Establishes a sharp dynamic-allocation guarantee for heterogeneous matching markets with independent Poisson arrivals and exponential abandonment. Fixed priority rules attain half the omniscient long-run reward, and no online policy guarantees more. The contribution is a general matching-market information/performance frontier, not an application-specific routing or simulation algorithm.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7587139": {
+        "fingerprint": "d7be6231f62881b33ff5edb9f3407b1cad580d4d6babf842bd0aac86dd947078",
+        "decision": "exclude",
+        "reason": "The paper calibrates an issuer's Markov decision process and compares credit-card portfolio policies and Q-learning performance. It does not develop an independent preference, strategic-incentive or equilibrium-foundations result beyond the operational financial-control application.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7581239": {
+        "fingerprint": "ffdf4f3499cbe56a23e70241dfb09a8fc2566292aea0a986569b8fdae98c0a77",
+        "decision": "exclude",
+        "reason": "The contribution is a capability-agnostic AI governance architecture and proposed legislative mandates. The abstract offers no analytical economic choice, incentive or implementability result.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7574978": {
+        "fingerprint": "7da0765a58476f3f300c200fbf0a342a6ae92bd09a0c1008de7f3219149276ad",
+        "decision": "include",
+        "reason": "Connects information age to costly disclosure incentives. With mean-reverting Gaussian fundamentals, common staleness reduces forecast disagreement while increasing uncertainty; freshness certification supports partial-unraveling thresholds when payments reflect posterior forecasting value. This is an information-market result, not merely an asynchronous signal-processing observation.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7574618": {
+        "fingerprint": "c064a8e42aeef5e0442c01a8f9c323f74b2856c69ee2c68a05fb9f198c14b399",
+        "decision": "exclude",
+        "reason": "The formal results concern computational abstraction, communication bandwidth, decoding and model mismatch in artificial systems. They do not specify economic preferences, incentives or a market/allocation problem independent of computational coordination.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7585260": {
+        "fingerprint": "d13b895b7d8cddd3fa2cf910e055a3030dabf23fc8b749129c499bbd103e3c80",
+        "decision": "exclude",
+        "reason": "The paper derives currency-inversion quote identities and develops smile-asymmetry measurement and consistency checks. The abstract does not establish a further preference, incentive or asset-market equilibrium foundation beyond the pricing/quotation transformation.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7584739": {
+        "fingerprint": "b58825b3f33031016ca7a9f0135b90424eba8adcee611fa0ab853467ecf3ed95",
+        "decision": "defer",
+        "reason": "The distinction between dominance, unique pure Nash and full Nash implementation is clearly relevant. Need the binary-game payoffs, equal-sanction capacity rule and mixed-equilibrium construction to assess the nonmonotone implementation frontier; only a matching abstract was accessible.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7585316": {
+        "fingerprint": "704ba7ff7c2a1a1840c5bd951adc8b42242a4cd09e0d5323c7f16b84f3ce87e5",
+        "decision": "exclude",
+        "reason": "The paper estimates metro/ride-hailing mode substitution using Hangzhou mobility data and evaluates subsidy and feeder-service counterfactuals. Its contribution is empirical transport demand rather than independent microeconomic theory.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7585078": {
+        "fingerprint": "01edf69bde93e601b884df1459bac98403108e87c36bb3c9bbe4ea57ea26faca",
+        "decision": "exclude",
+        "reason": "The contribution is a reward-shaped reinforcement-learning hedging algorithm with regret and convergence analysis and market-data benchmarks. No economic preference, incentive or equilibrium characterization independent of the numerical method is developed.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7583759": {
+        "fingerprint": "ea5c90be795776558b33f299d145ee3698b17b6be30da7de3ab8ec452e082fa7",
+        "decision": "exclude",
+        "reason": "The monograph develops axiomatic ontology and arguments about phenomenal presence, computation and machine self-awareness. It does not provide an economic preference, strategic or resource-allocation theory.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7582499": {
+        "fingerprint": "0bd57358bd896edf12ebc641cdd064bfb45e0fb3ada58ff487c9897798aca88e",
+        "decision": "exclude",
+        "reason": "The paper estimates funding-output elasticities and calibrates a knowledge-diffusion network for research-funding counterfactuals. The stated contribution is empirical/quantitative allocation and GDP gains, not an independent microeconomic foundations result.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7584010": {
+        "fingerprint": "c042085f4842a9acb80dc509281e591221353478efb075404f3b5d7301a0aecb",
+        "decision": "defer",
+        "reason": "Endogenous subscriber/borrower sorting and provider entry could contribute to theoretical IO. Need the price setting, rental-market clearing and credit-constraint assumptions behind rental revenue dominating cannibalization, beyond the Togolese calibration.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7583739": {
+        "fingerprint": "efbfb13d66856158c9ac245fdb08ba69cdb11fd841d355eda9fb10c97f00078b",
+        "decision": "exclude",
+        "reason": "The paper estimates dynamic equity betas and quantile-regression responses to geopolitical shocks across utilities. It is empirical financial-risk analysis without a standalone economic theory contribution.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7581478": {
+        "fingerprint": "d7f9f6f1d69f34f312a3a6a90d3f606203f188f98a9df42f286676b7f0627bd5",
+        "decision": "defer",
+        "reason": "Private capital control and data accumulation may change dynamic agency incentives. Need the contract state, observability and promised-value constraints behind the state-dependent comparative statics to assess the contracting result beyond the specialized production technology.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7580859": {
+        "fingerprint": "7d587c29281d5b1efb8fc0efffec03e302aea6924bc4d795c2674e2e343db22b",
+        "decision": "exclude",
+        "reason": "The contribution is a semiotic/ontological framework and architecture for authorized cyber red-team investigation. Neither its strategic terminology nor its multi-agent architecture supplies an economic incentive or allocation theory.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7580718": {
+        "fingerprint": "35ccc385e3390aba0c6dc9f0cf46a0f5796e237502a3e83f374f97d9430c100c",
+        "decision": "include",
+        "reason": "Develops dynamic implementability with partially verifiable reports followed by privately chosen actions. A revelation formulation and recursive honesty, obedience and promise-consistency conditions evaluate false reports together with subsequent action reoptimization. The selection concerns this general agency framework, not AI branding or an unsupported claim of unconditional disclosure optimality.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7580658": {
+        "fingerprint": "17e2f9560ca139b5d5a8cac517b731bc8d7f30bcb2db0b98d7e8ae0c39f8aaf3",
+        "decision": "exclude",
+        "reason": "The paper proposes a thermodynamic and sociological framework for civilizational cycles, coherence and collapse. It does not derive an economic preference, incentive or market-equilibrium characterization from agents' choices.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7579958": {
+        "fingerprint": "61ac09fb47fc808a3e2ee5f0a298a6b87ada10c3015d5bcbfda9cbb376d3a8ef",
+        "decision": "defer",
+        "reason": "Minimal policy-preserving state dimension could contribute to economic decision foundations. Need the controlled-closure, threshold-completeness and instrument-rank assumptions behind the dimension theorem, separately from the explicitly uncertified grid diagnostics and bank surrogate policies.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7579818": {
+        "fingerprint": "917eaa8488479f120c80ea97430cc6f7c9ed678ffd469dd25ecf9a210fa27b12",
+        "decision": "defer",
+        "reason": "Boundary proximity and uncertainty may interact in choice, but the abstract gives only a conditional cross-derivative and protective specialization. Need the objective, feasible choices and uncertainty representation to assess more than a local comparative-statics restatement.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7553560": {
+        "fingerprint": "b4aa4572b82a287bb8f4370a1aec05b715fbc75997a46cf4175a2c424892a370",
+        "decision": "exclude",
+        "reason": "The paper estimates and predicts historical political-regime sequences using transition graphs and machine learning. It is computational historiography, not a model of strategic regime choice or economic equilibrium.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7553563": {
+        "fingerprint": "0b8e60965ab4a9beecec32b0b3efd41b397b49148f9baf0ca36bab094c292677",
+        "decision": "include",
+        "reason": "Studies costly cooperation rights with Myerson-value sharing and participation constraints. In convex communication games, a leaf-payoff frontier translates retention into network restrictions; link costs and limited side payments then alter optimal membership and architecture even after connectivity fixes total production. The analytical object is cooperative implementation, not a network-data application.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7553738": {
+        "fingerprint": "a9bf699772bb6d61571af8ac150645fc67bd2a83da23fd94202be6250a0c092a",
+        "decision": "include",
+        "reason": "Characterizes allocation-dependent information needed to block strictly profitable coalition deviations in an NTU burden-sharing game. Service caps determine which possible bypass coalitions require auditing; bounded coalition size changes certificate complexity, while costly acquisition changes optimal sharing. The contribution links cooperative stability, endogenous allocations and information requirements.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7553003": {
+        "fingerprint": "8099bb132755f7db747661e182e03d5f64ca34c6cade71b13839296e6ba961dd",
+        "decision": "defer",
+        "reason": "An ex ante valuation cap may change incentive allocation in CEO contracts. Need the action distribution, payoff bounds and incentive/participation restrictions behind the bang-bang result to distinguish a contracting characterization from linear-program geometry and pay-package calibration.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7552747": {
+        "fingerprint": "b4ae4e8c12594f4eaee6f6b1c030ca28f274dd51ffeb020347b900edfbda47e8",
+        "decision": "exclude",
+        "reason": "The contribution is a queueing-network and mixed-integer optimization model for e-bike battery replenishment, evaluated with bikeshare data. Rider preference inputs do not by themselves make its operational network-design comparisons microeconomic theory.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.7552580": {
+        "fingerprint": "907c17c6d7ce946110f363a752458a4cf7e809bb8dc2e220c28790bb8cbbf24e",
+        "decision": "exclude",
+        "reason": "The formal activation model and tension score concern artificial-system judgment architecture. They do not characterize economic preferences, information incentives or resource allocation despite decision-related language.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
+      },
+      "10.2139/ssrn.5210244": {
+        "fingerprint": "0086f7270d2ace12416659a9487324ea385e49be98692593f19f3af229d09ef4",
+        "decision": "defer",
+        "reason": "Strategic listing and pricing may generate a substantive platform-market collapse result. Need the host information, cancellation and customer-demand restrictions for finite-demand collapse and pricing autonomy; the retrieved SSRN abstract matches but does not expose those main-model conditions.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening",
+        "retry_after": "2026-11-01T07:50:35+00:00"
+      },
+      "10.2139/ssrn.7552140": {
+        "fingerprint": "239ca6a45f42873bd1ab8c2a5e65c2f4be372c3669c4d65d5ffa5a92879b326d",
+        "decision": "include",
+        "reason": "Relates indifference-price double auctions in a pure exchange economy to competitive welfare theory. Under the stated regularity and boundedness conditions, repeated auctions' allocation-price cluster points are Walras equilibria with transfers. This is an equilibrium-foundations result, not a claim that arbitrary strategic bidding always converges to a unique price.",
+        "reviewed_at": "2026-10-30T07:50:35+00:00",
+        "reviewer": "Codex-assisted content screening"
       }
     },
     "review_status": {
-      "last_completed": "2026-10-29T07:54:51+00:00",
-      "candidates_checked_through": "2026-10-29T05:53:41+00:00",
-      "collection_run": 40825946238,
+      "last_completed": "2026-10-30T07:50:35+00:00",
+      "candidates_checked_through": "2026-10-30T05:54:35+00:00",
+      "collection_run": 41010965585,
       "reviewed_count": 60,
       "decisions": {
-        "exclude": 19,
-        "defer": 37,
-        "include": 4
+        "exclude": 16,
+        "defer": 38,
+        "include": 6
       },
-      "remaining_candidates": 252
+      "remaining_candidates": 232
     }
   }
 }

@@ -2167,6 +2167,111 @@
       ]
     },
     {
+      "id": "7587238",
+      "doi": "10.2139/ssrn.7587238",
+      "title": "Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies",
+      "authors": [
+        "Nick Arnosti",
+        "Rad Niazadeh",
+        "Pranav Nuti",
+        "Felipe Simon"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...",
+      "indexed_at": "2026-10-09T06:09:10+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7587238",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T17:02:09+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7587238"
+      ],
+      "fingerprint": "f1c0a07533679db0dafee0e72c193e5de7c15d9af4f46de8e46973fa4f68331e",
+      "selection_note": "Establishes a sharp dynamic-allocation guarantee for heterogeneous matching markets with independent Poisson arrivals and exponential abandonment. Fixed priority rules attain half the omniscient long-run reward, and no online policy guarantees more. The contribution is a general matching-market information/performance frontier, not an application-specific routing or simulation algorithm.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7587238",
+        "https://arxiv.org/html/2610.12991v1"
+      ]
+    },
+    {
+      "id": "7574978",
+      "doi": "10.2139/ssrn.7574978",
+      "title": "Information Divergence and Endogenous Evolution of Asymmetric Information",
+      "authors": [
+        "Ratna Shrestha",
+        "Gaurav Subedi",
+        "Ayush Shrestha"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...",
+      "indexed_at": "2026-10-09T04:47:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7574978",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T17:20:14+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7574978"
+      ],
+      "fingerprint": "7da0765a58476f3f300c200fbf0a342a6ae92bd09a0c1008de7f3219149276ad",
+      "selection_note": "Connects information age to costly disclosure incentives. With mean-reverting Gaussian fundamentals, common staleness reduces forecast disagreement while increasing uncertainty; freshness certification supports partial-unraveling thresholds when payments reflect posterior forecasting value. This is an information-market result, not merely an asynchronous signal-processing observation.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7574978",
+        "https://arxiv.org/pdf/2610.11200"
+      ]
+    },
+    {
+      "id": "7580718",
+      "doi": "10.2139/ssrn.7580718",
+      "title": "Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework",
+      "authors": [
+        "Guoqiang Tian"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580718",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...",
+      "indexed_at": "2026-10-08T14:21:15+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7580718",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T23:50:10+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7580718"
+      ],
+      "fingerprint": "35ccc385e3390aba0c6dc9f0cf46a0f5796e237502a3e83f374f97d9430c100c",
+      "selection_note": "Develops dynamic implementability with partially verifiable reports followed by privately chosen actions. A revelation formulation and recursive honesty, obedience and promise-consistency conditions evaluate false reports together with subsequent action reoptimization. The selection concerns this general agency framework, not AI branding or an unsupported claim of unconditional disclosure optimality.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7580718",
+        "https://arxiv.org/html/2610.11177v1"
+      ]
+    },
+    {
       "id": "7560666",
       "doi": "10.2139/ssrn.7560666",
       "title": "Strategy-Proof and Minimally Wasteful Random Assignment",
@@ -2197,6 +2302,72 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2608.27261v1"
+      ]
+    },
+    {
+      "id": "7553563",
+      "doi": "10.2139/ssrn.7553563",
+      "title": "Designing the Right to Cooperate Participation and Costly Communication Networks",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553563",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...",
+      "indexed_at": "2026-10-02T21:26:37+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553563",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T21:26:37+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553563"
+      ],
+      "fingerprint": "0b8e60965ab4a9beecec32b0b3efd41b397b49148f9baf0ca36bab094c292677",
+      "selection_note": "Studies costly cooperation rights with Myerson-value sharing and participation constraints. In convex communication games, a leaf-payoff frontier translates retention into network restrictions; link costs and limited side payments then alter optimal membership and architecture even after connectivity fixes total production. The analytical object is cooperative implementation, not a network-data application.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7553563"
+      ]
+    },
+    {
+      "id": "7553738",
+      "doi": "10.2139/ssrn.7553738",
+      "title": "The Value of Knowing a Coalition Allocation-Dependent Information and Stable Burden Sharing",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553738",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...",
+      "indexed_at": "2026-10-02T21:26:30+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553738",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T21:26:30+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553738"
+      ],
+      "fingerprint": "a9bf699772bb6d61571af8ac150645fc67bd2a83da23fd94202be6250a0c092a",
+      "selection_note": "Characterizes allocation-dependent information needed to block strictly profitable coalition deviations in an NTU burden-sharing game. Service caps determine which possible bypass coalitions require auditing; bounded coalition size changes certificate complexity, while costly acquisition changes optimal sharing. The contribution links cooperative stability, endogenous allocations and information requirements.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7553738"
       ]
     },
     {
@@ -2231,6 +2402,40 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2610.03157v1"
+      ]
+    },
+    {
+      "id": "7552140",
+      "doi": "10.2139/ssrn.7552140",
+      "title": "Social Welfare and Price Discovery in Double Auction Markets",
+      "authors": [
+        "Teemu Pennanen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552140",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...",
+      "indexed_at": "2026-10-02T16:29:44+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552140",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T16:29:44+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7552140"
+      ],
+      "fingerprint": "239ca6a45f42873bd1ab8c2a5e65c2f4be372c3669c4d65d5ffa5a92879b326d",
+      "selection_note": "Relates indifference-price double auctions in a pure exchange economy to competitive welfare theory. Under the stated regularity and boundedness conditions, repeated auctions' allocation-price cluster points are Walras equilibria with transfers. This is an equilibrium-foundations result, not a claim that arbitrary strategic bidding always converges to a unique price.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7552140",
+        "https://arxiv.org/html/2610.01562v1"
       ]
     },
     {
@@ -2754,17 +2959,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-29",
+  "last_selection_review": "2026-10-30",
   "review_status": {
-    "last_completed": "2026-10-29T07:54:51+00:00",
-    "candidates_checked_through": "2026-10-29T05:53:41+00:00",
-    "collection_run": 40825946238,
+    "last_completed": "2026-10-30T07:50:35+00:00",
+    "candidates_checked_through": "2026-10-30T05:54:35+00:00",
+    "collection_run": 41010965585,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 19,
-      "defer": 37,
-      "include": 4
+      "exclude": 16,
+      "defer": 38,
+      "include": 6
     },
-    "remaining_candidates": 252
+    "remaining_candidates": 232
   }
 }
