@@ -2305,6 +2305,110 @@
       ]
     },
     {
+      "id": "7556891",
+      "doi": "10.2139/ssrn.7556891",
+      "title": "Managing Strategic Communication for Monetary Transfers",
+      "authors": [
+        "Akifumi Ishihara"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556891",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We investigate a model of an informed expert and an uninformed decision maker, in which the expert sends cheap-talk messages...",
+      "indexed_at": "2026-10-03T14:50:29+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556891",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T14:50:29+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7556891"
+      ],
+      "fingerprint": "af1a5077fb1aade72ffb6420ce6ff1499c4fd43d5043bea9de9b585c841ca915",
+      "selection_note": "Studies cheap talk with voluntary expert payments: withholding responsiveness can induce costly signals, and the uniform-quadratic optimum pools low types while separating high types. Screening is based on the verified abstract and matching author listing, not a full-proof review.",
+      "reviewed_at": "2026-10-31",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7556891",
+        "https://akishihara.github.io/research/index.html"
+      ]
+    },
+    {
+      "id": "7556890",
+      "doi": "10.2139/ssrn.7556890",
+      "title": "A Measure of Preference for Early Resolution of Uncertainty",
+      "authors": [
+        "Hengjie Ai"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556890",
+      "topics": [
+        "Decision & Social Choice",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "This paper develops a measure of preference for early resolution of uncertainty (PER) that parallels the Arrow-Pratt measure of risk...",
+      "indexed_at": "2026-10-03T14:50:19+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556890",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T14:50:19+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7556890"
+      ],
+      "fingerprint": "f5651db11c3270c673e3100b705002b59caa985e9c2631039c0ead7e6327082b",
+      "selection_note": "Within a recursive-preference specification, characterizes early-resolution preference by the gap between late- and early-resolution risk aversion. Propositions 1-2 give its sign characterization and an ordering conditional on equal late-resolution risk preferences; the model and these main results were read.",
+      "reviewed_at": "2026-10-31",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7556890",
+        "https://www.hengjieai.com/research.html",
+        "https://www.hengjieai.com/uploads/1/0/6/6/106628821/pertheorynew_aug2026.pdf"
+      ]
+    },
+    {
+      "id": "7551062",
+      "doi": "10.2139/ssrn.7551062",
+      "title": "Multilateral Bargaining With Caps",
+      "authors": [
+        "Diego Carrasco",
+        "John Hillas",
+        "Alfonso Dela Cruz"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7551062",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We study the Baron-Ferejohn model of multilateral bargaining when each player's share is capped. The Baron-Ferejohn outcome remains the unique...",
+      "indexed_at": "2026-10-03T09:13:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7551062",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T09:13:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7551062"
+      ],
+      "fingerprint": "49456286d153a4a5b4790f8de2c0e52fea407c8fda9ce4b0af622f2c80e92f97",
+      "selection_note": "Characterizes capped Baron-Ferejohn bargaining: the standard symmetric stationary outcome survives above the proposer-share threshold, while tighter caps generate multiplicity. Separating proposer and responder caps identifies the source of that multiplicity. Screening uses the verified abstract and matching author listing, not proof verification.",
+      "reviewed_at": "2026-10-31",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7551062",
+        "https://sites.google.com/view/dcarrasco/research"
+      ]
+    },
+    {
       "id": "7553563",
       "doi": "10.2139/ssrn.7553563",
       "title": "Designing the Right to Cooperate Participation and Costly Communication Networks",
@@ -2959,17 +3063,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-30",
+  "last_selection_review": "2026-10-31",
   "review_status": {
-    "last_completed": "2026-10-30T07:50:35+00:00",
-    "candidates_checked_through": "2026-10-30T05:54:35+00:00",
-    "collection_run": 41010965585,
+    "last_completed": "2026-10-31T07:47:57+00:00",
+    "candidates_checked_through": "2026-10-31T05:50:55+00:00",
+    "collection_run": 41174145346,
     "reviewed_count": 60,
     "decisions": {
       "exclude": 16,
-      "defer": 38,
-      "include": 6
+      "defer": 41,
+      "include": 3
     },
-    "remaining_candidates": 232
+    "remaining_candidates": 221
   }
 }
