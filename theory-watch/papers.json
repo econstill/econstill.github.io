@@ -25,6 +25,458 @@
   },
   "papers": [
     {
+      "id": "7556891",
+      "doi": "10.2139/ssrn.7556891",
+      "title": "Managing Strategic Communication for Monetary Transfers",
+      "authors": [
+        "Akifumi Ishihara"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556891",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We investigate a model of an informed expert and an uninformed decision maker, in which the expert sends cheap-talk messages...",
+      "indexed_at": "2026-10-03T14:50:29+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556891",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T14:50:29+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7556891"
+      ],
+      "fingerprint": "af1a5077fb1aade72ffb6420ce6ff1499c4fd43d5043bea9de9b585c841ca915",
+      "selection_note": "Studies cheap talk with voluntary expert payments: withholding responsiveness can induce costly signals, and the uniform-quadratic optimum pools low types while separating high types. Screening is based on the verified abstract and matching author listing, not a full-proof review.",
+      "reviewed_at": "2026-10-31",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7556891",
+        "https://akishihara.github.io/research/index.html"
+      ]
+    },
+    {
+      "id": "7556890",
+      "doi": "10.2139/ssrn.7556890",
+      "title": "A Measure of Preference for Early Resolution of Uncertainty",
+      "authors": [
+        "Hengjie Ai"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556890",
+      "topics": [
+        "Decision & Social Choice",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "This paper develops a measure of preference for early resolution of uncertainty (PER) that parallels the Arrow-Pratt measure of risk...",
+      "indexed_at": "2026-10-03T14:50:19+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556890",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T14:50:19+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7556890"
+      ],
+      "fingerprint": "f5651db11c3270c673e3100b705002b59caa985e9c2631039c0ead7e6327082b",
+      "selection_note": "Within a recursive-preference specification, characterizes early-resolution preference by the gap between late- and early-resolution risk aversion. Propositions 1-2 give its sign characterization and an ordering conditional on equal late-resolution risk preferences; the model and these main results were read.",
+      "reviewed_at": "2026-10-31",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7556890",
+        "https://www.hengjieai.com/research.html",
+        "https://www.hengjieai.com/uploads/1/0/6/6/106628821/pertheorynew_aug2026.pdf"
+      ]
+    },
+    {
+      "id": "7551062",
+      "doi": "10.2139/ssrn.7551062",
+      "title": "Multilateral Bargaining With Caps",
+      "authors": [
+        "Diego Carrasco",
+        "John Hillas",
+        "Alfonso Dela Cruz"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7551062",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We study the Baron-Ferejohn model of multilateral bargaining when each player's share is capped. The Baron-Ferejohn outcome remains the unique...",
+      "indexed_at": "2026-10-03T09:13:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7551062",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-03T09:13:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7551062"
+      ],
+      "fingerprint": "49456286d153a4a5b4790f8de2c0e52fea407c8fda9ce4b0af622f2c80e92f97",
+      "selection_note": "Characterizes capped Baron-Ferejohn bargaining: the standard symmetric stationary outcome survives above the proposer-share threshold, while tighter caps generate multiplicity. Separating proposer and responder caps identifies the source of that multiplicity. Screening uses the verified abstract and matching author listing, not proof verification.",
+      "reviewed_at": "2026-10-31",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7551062",
+        "https://sites.google.com/view/dcarrasco/research"
+      ]
+    },
+    {
+      "id": "7587238",
+      "doi": "10.2139/ssrn.7587238",
+      "title": "Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies",
+      "authors": [
+        "Nick Arnosti",
+        "Rad Niazadeh",
+        "Pranav Nuti",
+        "Felipe Simon"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...",
+      "indexed_at": "2026-10-09T06:09:10+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7587238",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T17:02:09+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7587238"
+      ],
+      "fingerprint": "f1c0a07533679db0dafee0e72c193e5de7c15d9af4f46de8e46973fa4f68331e",
+      "selection_note": "Establishes a sharp dynamic-allocation guarantee for heterogeneous matching markets with independent Poisson arrivals and exponential abandonment. Fixed priority rules attain half the omniscient long-run reward, and no online policy guarantees more. The contribution is a general matching-market information/performance frontier, not an application-specific routing or simulation algorithm.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7587238",
+        "https://arxiv.org/html/2610.12991v1"
+      ]
+    },
+    {
+      "id": "7574978",
+      "doi": "10.2139/ssrn.7574978",
+      "title": "Information Divergence and Endogenous Evolution of Asymmetric Information",
+      "authors": [
+        "Ratna Shrestha",
+        "Gaurav Subedi",
+        "Ayush Shrestha"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...",
+      "indexed_at": "2026-10-09T04:47:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7574978",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T17:20:14+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7574978"
+      ],
+      "fingerprint": "7da0765a58476f3f300c200fbf0a342a6ae92bd09a0c1008de7f3219149276ad",
+      "selection_note": "Connects information age to costly disclosure incentives. With mean-reverting Gaussian fundamentals, common staleness reduces forecast disagreement while increasing uncertainty; freshness certification supports partial-unraveling thresholds when payments reflect posterior forecasting value. This is an information-market result, not merely an asynchronous signal-processing observation.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7574978",
+        "https://arxiv.org/pdf/2610.11200"
+      ]
+    },
+    {
+      "id": "7580718",
+      "doi": "10.2139/ssrn.7580718",
+      "title": "Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework",
+      "authors": [
+        "Guoqiang Tian"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580718",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...",
+      "indexed_at": "2026-10-08T14:21:15+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7580718",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-10T23:50:10+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7580718"
+      ],
+      "fingerprint": "35ccc385e3390aba0c6dc9f0cf46a0f5796e237502a3e83f374f97d9430c100c",
+      "selection_note": "Develops dynamic implementability with partially verifiable reports followed by privately chosen actions. A revelation formulation and recursive honesty, obedience and promise-consistency conditions evaluate false reports together with subsequent action reoptimization. The selection concerns this general agency framework, not AI branding or an unsupported claim of unconditional disclosure optimality.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7580718",
+        "https://arxiv.org/html/2610.11177v1"
+      ]
+    },
+    {
+      "id": "7553563",
+      "doi": "10.2139/ssrn.7553563",
+      "title": "Designing the Right to Cooperate Participation and Costly Communication Networks",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553563",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...",
+      "indexed_at": "2026-10-02T21:26:37+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553563",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T21:26:37+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553563"
+      ],
+      "fingerprint": "0b8e60965ab4a9beecec32b0b3efd41b397b49148f9baf0ca36bab094c292677",
+      "selection_note": "Studies costly cooperation rights with Myerson-value sharing and participation constraints. In convex communication games, a leaf-payoff frontier translates retention into network restrictions; link costs and limited side payments then alter optimal membership and architecture even after connectivity fixes total production. The analytical object is cooperative implementation, not a network-data application.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7553563"
+      ]
+    },
+    {
+      "id": "7553738",
+      "doi": "10.2139/ssrn.7553738",
+      "title": "The Value of Knowing a Coalition Allocation-Dependent Information and Stable Burden Sharing",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553738",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...",
+      "indexed_at": "2026-10-02T21:26:30+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553738",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T21:26:30+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7553738"
+      ],
+      "fingerprint": "a9bf699772bb6d61571af8ac150645fc67bd2a83da23fd94202be6250a0c092a",
+      "selection_note": "Characterizes allocation-dependent information needed to block strictly profitable coalition deviations in an NTU burden-sharing game. Service caps determine which possible bypass coalitions require auditing; bounded coalition size changes certificate complexity, while costly acquisition changes optimal sharing. The contribution links cooperative stability, endogenous allocations and information requirements.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7553738"
+      ]
+    },
+    {
+      "id": "7552140",
+      "doi": "10.2139/ssrn.7552140",
+      "title": "Social Welfare and Price Discovery in Double Auction Markets",
+      "authors": [
+        "Teemu Pennanen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552140",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...",
+      "indexed_at": "2026-10-02T16:29:44+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552140",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T16:29:44+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7552140"
+      ],
+      "fingerprint": "239ca6a45f42873bd1ab8c2a5e65c2f4be372c3669c4d65d5ffa5a92879b326d",
+      "selection_note": "Relates indifference-price double auctions in a pure exchange economy to competitive welfare theory. Under the stated regularity and boundedness conditions, repeated auctions' allocation-price cluster points are Walras equilibria with transfers. This is an equilibrium-foundations result, not a claim that arbitrary strategic bidding always converges to a unique price.",
+      "reviewed_at": "2026-10-30",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7552140",
+        "https://arxiv.org/html/2610.01562v1"
+      ]
+    },
+    {
+      "id": "7607158",
+      "doi": "10.2139/ssrn.7607158",
+      "title": "A Behavioral Foundation for the Investment Wedge",
+      "authors": [
+        "Jean-Paul L’Huillier",
+        "Pierlauro Lopez",
+        "Sanjay R. Singh"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607158",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Motivated by behavioral evidence, we develop a tractable method for incorporating competition neglect into a general equilibrium firm investment problem...",
+      "indexed_at": "2026-10-13T16:09:15+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607158",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T16:09:15+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7607158"
+      ],
+      "fingerprint": "d02c2a6905e9c0ab5f3f1bea76ae10b697ed48d89aa66266475e2df4faec77a4",
+      "selection_note": "Develops a belief-distorted firm problem with costly awareness and aggregate consistency, rather than imposing an investment wedge. A first-order equilibrium characterization derives the endogenous wedge; a restricted case establishes its boom-bust signs. The general-equilibrium construction is the selection basis, not the calibration.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7607158",
+        "https://www.frbsf.org/wp-content/uploads/wp2025-22.pdf"
+      ]
+    },
+    {
+      "id": "7590261",
+      "doi": "10.2139/ssrn.7590261",
+      "title": "Credit-Based vs. Discount-Based Congestion Pricing: A Comparison Study",
+      "authors": [
+        "Chih-Yuan Chiu",
+        "Devansh Jalota",
+        "Marco Pavone"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590261",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Credit-based congestion pricing (CBCP) and discount-based congestion pricing (DBCP), which respectively allot travel credits and toll discounts to subsidize low-income...",
+      "indexed_at": "2026-10-09T17:25:16+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7590261",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T17:27:47+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7590261"
+      ],
+      "fingerprint": "e9d26049cd899104953707eccd37cb0409566f8eaf0d92444c1d31a09108715f",
+      "selection_note": "Compares two subsidy mechanisms in a nonatomic congestion game through equilibrium allocation, not simulation alone. On chain networks with the stated eligibility and constraint restrictions, discounts weakly improve the planner's attainable objective when revenue receives at least the eligible-cost weight; the ranking can reverse otherwise.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7590261",
+        "https://arxiv.org/html/2602.11077v3"
+      ]
+    },
+    {
+      "id": "7589944",
+      "doi": "10.2139/ssrn.7589944",
+      "title": "Do Distributional Concerns Justify Lower Environmental Taxes?",
+      "authors": [
+        "Ashley Craig",
+        "Dylan Moore",
+        "Thomas Lloyd"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589944",
+      "topics": [
+        "Mechanism & Market Design",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Should externality taxes be reduced if they are regressive? We introduce a model in which the government raises revenue from...",
+      "indexed_at": "2026-10-09T16:20:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7589944",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T16:25:22+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7589944"
+      ],
+      "fingerprint": "1d093fb7437eb937289b51725c1d0ad46474b4d01ec3d3f256a54c08cbe8507b",
+      "selection_note": "Derives optimal corrective-tax conditions jointly with distortionary income taxation. Separating causal income effects from taste heterogeneity explains when redistribution changes the Pigouvian benchmark and yields sufficient-statistic restrictions, with extensions to within-income heterogeneity. The analytical tax characterization, not the carbon-data exercise, motivates inclusion.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7589944",
+        "https://thomaslloyd.me/pdf/externalities.pdf"
+      ]
+    },
+    {
+      "id": "7552832",
+      "doi": "10.2139/ssrn.7552832",
+      "title": "Distinguishing Bargaining from Competitive Supply through Joint Output Responses",
+      "authors": [
+        "Hyungjin Kim"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552832",
+      "topics": [
+        "Industrial Organization Theory",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Bargaining and competitive supply are hard to tell apart, because both can predict the same directions of output change after...",
+      "indexed_at": "2026-10-02T14:45:05+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552832",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T14:45:05+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7552832"
+      ],
+      "fingerprint": "5e6d883db30477368906ba0e88a6675b2d35f0ca97839214c340de29a9645702",
+      "selection_note": "Links common-baseline output responses under fixed versus reset input prices to testable supply-conduct restrictions. With convex costs, common marginal-cost pricing and substitutable inputs, expenditure-weighted feedback must be reciprocal and positive semidefinite; bargaining need not obey those restrictions. These are necessary benchmark restrictions, not a sufficient test of bargaining.",
+      "reviewed_at": "2026-10-29",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7552832",
+        "https://hyungjinkim.com/",
+        "https://hyungjinkim.com/papers/paper_static.pdf?v=20260918-e81cccd2"
+      ]
+    },
+    {
       "id": "7674783",
       "doi": "10.2139/ssrn.7674783",
       "title": "Loan Screening under Symmetrically Imperfect Information",
@@ -56,6 +508,215 @@
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7674783",
         "https://www.carf.e.u-tokyo.ac.jp/wp/wp-content/uploads/2025/12/F614.pdf"
+      ]
+    },
+    {
+      "id": "7599299",
+      "doi": "10.2139/ssrn.7599299",
+      "title": "Stability Rigidity and Robust Minimal Instability of Top Trading Cycles with Mixed Capacities",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7599299",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We ask whether a Pareto-efficient and strategy-proof school assignment rule must coincide with top trading cycles if it is stable...",
+      "indexed_at": "2026-10-12T07:03:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7599299",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T07:10:06+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7599299"
+      ],
+      "fingerprint": "90733aa06114c77243f1e6782af84e40cadfe3f27b12e58201c8f4702d87b6d9",
+      "selection_note": "Characterizes priority restrictions linking efficient, strategy-proof school assignment to top trading cycles, and separates initial-stability rigidity from robust minimal instability once mixed capacities extend beyond two schools.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7599299"
+      ]
+    },
+    {
+      "id": "7597177",
+      "doi": "10.2139/ssrn.7597177",
+      "title": "Unilateral Incentives and Informative Experimentationin Cournot Learning",
+      "authors": [
+        "S. S. Askar King Saud University"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597177",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Firms facing unknown demand must infer the effect of a unilateral quantity change from observations generated while their rivals also...",
+      "indexed_at": "2026-10-11T15:10:43+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7597177",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-11T15:15:18+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7597177"
+      ],
+      "fingerprint": "257fa06aeabd81b7ab15cf082681f22bd458986f86ecf660e7c9a1daae239e41",
+      "selection_note": "Separates identification of unilateral profit incentives from parameter and equilibrium identification in noisy Cournot learning, then supplies experimentation conditions for decentralized Nash convergence, including boundary equilibria.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7597177"
+      ]
+    },
+    {
+      "id": "6723288",
+      "doi": "10.2139/ssrn.6723288",
+      "title": "On von Stackelberg Leadership in a Cartel-Fringe-Renewables' Model of Exhaustible Resource Extraction",
+      "authors": [
+        "Simon Elgersma",
+        "Hassan Benchekroun",
+        "Gerard van der Meijden",
+        "Cees Withagen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6723288",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "We characterize the time-consistent solution of a cartel--fringe model of exhaustible resource extraction in which the cartel credibly acts as...",
+      "indexed_at": "2026-10-02T13:09:03+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.6723288",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T13:09:03+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "6723288"
+      ],
+      "fingerprint": "7835ff2c3a6e47ed56ce8026ef58c90c46bef022dda1986b1e21a61f19cd525d",
+      "selection_note": "Characterizes time-consistent cartel-fringe extraction under stated cost and demand restrictions, distinguishing three feedback-leadership paths and showing how credible leadership changes the timing of joint supply relative to open-loop and Cournot play.",
+      "reviewed_at": "2026-10-28",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.6723288",
+        "https://www.ifo.de/DocDL/cesifo1_wp12648.pdf"
+      ]
+    },
+    {
+      "id": "7596078",
+      "doi": "10.2139/ssrn.7596078",
+      "title": "Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences",
+      "authors": [
+        "Tim J. Boonen",
+        "Yilong Gong",
+        "Bin Li",
+        "Dongchen Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078",
+      "topics": [
+        "Decision & Social Choice",
+        "Information & Contracts"
+      ],
+      "excerpt": "We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...",
+      "indexed_at": "2026-10-12T14:55:05+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596078",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T14:55:05+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7596078"
+      ],
+      "fingerprint": "bee07884ce7e6a0b7cbd5057507e145c1f3d3f803378feeaa99a028550976bec",
+      "selection_note": "Characterizes insurance indemnities for risk- and ambiguity-averse preferences, identifying bang-bang coverage slopes and conditions for stop-loss contracts under pricing and no-sabotage restrictions.",
+      "reviewed_at": "2026-10-27",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7596078",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7596078.pdf?abstractid=7596078&mirid=1&type=2"
+      ]
+    },
+    {
+      "id": "7550263",
+      "doi": "10.2139/ssrn.7550263",
+      "title": "Comment on \"Subgroup Decomposition of the Gini Coefficient: A New Solution to an Old Problem\" (Heikkuri and Schief, Econometrica, 2026)",
+      "authors": [
+        "Noriaki Okamoto"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7550263",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Heikkuri and Schief (2026) axiomatize a subgroup decomposition of the Gini coefficient and establish its uniqueness under eight axioms. We...",
+      "indexed_at": "2026-10-02T11:16:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7550263",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T11:16:54+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7550263"
+      ],
+      "fingerprint": "b6f284725cb208d2ce8b3039495ef5cc61c075efde31dd35066ae4d58631fd52",
+      "selection_note": "Revisits the domain dependence of axiomatic Gini decompositions, constructing an interior family and identifying invariance conditions that recover a unique member without relying on zero-population comparisons.",
+      "reviewed_at": "2026-10-27",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7550263",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7550263.pdf?abstractid=7550263&mirid=1"
+      ]
+    },
+    {
+      "id": "7549758",
+      "doi": "10.2139/ssrn.7549758",
+      "title": "Wealth Transfers and Runs on Unsophisticated Investors in Semi-Liquid Private Credit",
+      "authors": [
+        "Gregor Matvos",
+        "Tomasz Piskorski",
+        "Amit Seru",
+        "Chun Zhao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549758",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Private credit increasingly combines illiquid assets with periodic investor liquidity through capped share repurchase programs. We show that this structure...",
+      "indexed_at": "2026-10-01T19:29:09+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549758",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T19:29:09+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7549758"
+      ],
+      "fingerprint": "4d1d144f5ead857545a1ec7ee01538150ed21b73498571c5c8fb917c994df21d",
+      "selection_note": "Models endogenous valuation responsiveness and informed redemptions, showing how stale prices distort investment and crowd out liquidity-needy investors even with repurchase caps, creating a private-versus-social governance wedge.",
+      "reviewed_at": "2026-10-27",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7549758",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7549758.pdf?abstractid=7549758&mirid=1"
       ]
     },
     {
@@ -122,6 +783,143 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7669145"
+      ]
+    },
+    {
+      "id": "7652199",
+      "doi": "10.2139/ssrn.7652199",
+      "title": "Keeping up with the Joneses in a World of Misinformation: Probit Excess Payoff Dynamic",
+      "authors": [
+        "Ceili Kirkaldie"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652199",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "This paper introduces the Probit-Excess-Payoff Dynamic, a novel evolutionary dynamic that integrates excess-payoff revision protocols with probit-style stochastic choice. Agents...",
+      "indexed_at": "2026-10-22T13:36:02+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7652199",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-22T13:36:02+00:00",
+      "first_seen": "2026-10-23T04:58:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7652199"
+      ],
+      "fingerprint": "243a4c5c4f2344ee5d51f7a807b8e68a0acbe847fe1f097f94883e443c897d19",
+      "selection_note": "Studies strategy revision under noisy relative-payoff comparisons, relating a probit-based evolutionary dynamic to perturbed stationary equilibria and showing how information quality affects selection and multiplicity.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7652199",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7652199.pdf?abstractid=7652199&mirid=1"
+      ]
+    },
+    {
+      "id": "7601123",
+      "doi": "10.2139/ssrn.7601123",
+      "title": "Competing for Advertiser Spending: Optimal Allocation and Pricing on a Smaller Advertising Platform",
+      "authors": [
+        "Bar Light",
+        "Jussi Keppo",
+        "Zhengyuan Zhou",
+        "Xiaoyu Fan",
+        "Kerun Xu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7601123",
+      "topics": [
+        "Mechanism & Market Design",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Digital advertising markets often feature a large established platform and smaller platforms competing for advertiser spending. We study how a...",
+      "indexed_at": "2026-10-14T03:40:52+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7601123",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T03:40:52+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7601123"
+      ],
+      "fingerprint": "71feb36ca0e57a7992c653549b7fe86119a300e47c42730d3b659ebc647af27e",
+      "selection_note": "Designs allocation and payments when advertisers endogenously authorize spending in response to ROI, distinguishing optimal allocation and payment multipliers and identifying when a common-multiplier restriction yields first-price pacing.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7601123"
+      ]
+    },
+    {
+      "id": "7605560",
+      "doi": "10.2139/ssrn.7605560",
+      "title": "Incentives in School Choice with Rank-Dependent Priorities",
+      "authors": [
+        "Yusuke Iwase"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605560",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Many school admission systems give a higher priority to a student who ranks a school higher in his submitted preference...",
+      "indexed_at": "2026-10-13T15:09:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7605560",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-13T15:20:11+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7605560"
+      ],
+      "fingerprint": "fa2a5be14d89e4692a23f5582249379b0e7dd6ce244baab31ca1217a4e5f49e7",
+      "selection_note": "Characterizes strategy-proof deferred acceptance with rank-dependent priorities through acyclicity, and compares stable Nash outcomes and truthful implementation across immediate acceptance, deferred acceptance and trading cycles.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7605560"
+      ]
+    },
+    {
+      "id": "7549998",
+      "doi": "10.2139/ssrn.7549998",
+      "title": "On the Cardinality of the Smith Set Under Impartial Culture with Many Alternatives",
+      "authors": [
+        "Zachary Berchenko",
+        "Kaizhao Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549998",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "For some integer ℓ ≥ 2, consider m = 2ℓ-1 voters, each of which has a preference ranking over n...",
+      "indexed_at": "2026-10-01T18:38:28+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T18:38:28+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7549998"
+      ],
+      "fingerprint": "b09397f9dd49eddbb00db4aa483f794aaa27be7558284fec7b75c90be094fe39",
+      "selection_note": "Characterizes Smith-set size under uniformly random independent rankings with a fixed odd electorate, deriving probability rates and showing that the dominant majority set encompasses all alternatives with probability approaching one.",
+      "reviewed_at": "2026-10-26",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7549998",
+        "https://arxiv.org/html/2610.03814v1"
       ]
     },
     {
@@ -293,6 +1091,279 @@
       ]
     },
     {
+      "id": "7649948",
+      "doi": "10.2139/ssrn.7649948",
+      "title": "Employers' Unilateral Settlement of Dismissal Disputes",
+      "authors": [
+        "Daisuke Adachi",
+        "Ryo Kambayashi",
+        "Kohei Kawaguchi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649948",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We study how the procedural design of dismissal dispute resolution affects firm-worker bargaining, focusing on \\textit{unilateral settlement}: an employer pays...",
+      "indexed_at": "2026-10-21T15:16:01+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7649948",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T15:18:07+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7649948"
+      ],
+      "fingerprint": "997b281a778d17cc986f066260e750372b399376da965d9f277c5628ee2dc33b",
+      "selection_note": "Studies how unilateral settlement changes bargaining threat points under litigation, linking employers' dynamic inconsistency to inefficient adjustments and identifying conditions under which the option can benefit workers.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7649948"
+      ]
+    },
+    {
+      "id": "7644058",
+      "doi": "10.2139/ssrn.7644058",
+      "title": "Score Errors Create Endogenous Assortment and Tipping Points in Public-Goods Games",
+      "authors": [
+        "Aaryan Niroula"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7644058",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Assortment is often imposed as an exogenous parameter in models of cooperation. We instead derive it from a common noisy...",
+      "indexed_at": "2026-10-21T15:05:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7644058",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-21T15:05:06+00:00",
+      "first_seen": "2026-10-22T04:56:01+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7644058"
+      ],
+      "fingerprint": "3384ecce846549f82e8bd711378bcd4743fab57abb6905bff88b7e711006fa97",
+      "selection_note": "Derives assortment from noisy action scores in public-goods games, connecting score-support overlap and error types to invasion, full-cooperation stability and critical-mass thresholds rather than treating assortment as exogenous.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7644058"
+      ]
+    },
+    {
+      "id": "7615220",
+      "doi": "10.2139/ssrn.7615220",
+      "title": "Capacity Expansion in Proportionally Fair Multi-Resource Allocation: Exact Outcomes and the Distribution of Gains",
+      "authors": [
+        "Taylor Canann"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615220",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "A facility allocates complementary resources among users with different input proportions, under the proportionally fair-equivalently weighted Nash, or Leontief-Fisher-allocation. Expanding...",
+      "indexed_at": "2026-10-15T14:30:38+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7615220",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-15T14:30:38+00:00",
+      "first_seen": "2026-10-16T04:37:24+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7615220"
+      ],
+      "fingerprint": "16f4b57f2120bff74469900c0511b7693551458c6129a6c65662eeb573e18658",
+      "selection_note": "Characterizes who gains or loses from capacity expansion under Leontief-Fisher allocation, showing why two-resource ranking rules and single-peaked service paths do not extend to higher-dimensional resource needs.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7615220"
+      ]
+    },
+    {
+      "id": "7615485",
+      "doi": "10.2139/ssrn.7615485",
+      "title": "Regulated Stochastic Insurance Pricing Game: An Equilibrium-Set Approach",
+      "authors": [
+        "Lihua Bai",
+        "Qiyang Zhao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615485",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "This paper studies a stochastic insurance pricing game with affinepremium bounds that depend on competitors' current average premiums.Regulation can lead...",
+      "indexed_at": "2026-10-15T13:59:58+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7615485",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-15T14:00:55+00:00",
+      "first_seen": "2026-10-16T04:37:24+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7615485"
+      ],
+      "fingerprint": "2905d7b3cfc3a0a35cc17b55732d14b811e07809de6e70b1df65f523bc090995",
+      "selection_note": "Studies the full generalized-Nash equilibrium set under competitor-linked insurance price bounds, characterizing lattice extrema, Pareto comparisons and isolated versus continuous equilibria rather than selecting a single numerical solution.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7615485"
+      ]
+    },
+    {
+      "id": "7611999",
+      "doi": "10.2139/ssrn.7611999",
+      "title": "On the Stability of Token Systems",
+      "authors": [
+        "Süleyman Kerimov"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611999",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Token systems offer a market solution for non-monetary economies, where monetary transactions are undesirable or restricted. In such systems, agents...",
+      "indexed_at": "2026-10-14T18:29:18+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611999",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T18:29:18+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611999"
+      ],
+      "fingerprint": "903be445570262b26a0d2f1c7755b34a09d9e4827cc35ec193a58d7fe6686b95",
+      "selection_note": "Characterizes the stability region for token-based service exchange and connects controlled balances to ex-ante participation, explicitly accounting for limited service availability and bounds on agents' risk sensitivity.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7611999",
+        "https://kerimovsuleyman.github.io/stabilityK.pdf"
+      ]
+    },
+    {
+      "id": "7611525",
+      "doi": "10.2139/ssrn.7611525",
+      "title": "Should Governments Tax Commodities Uniformly? Theory and Empirical Evidence from Brazil",
+      "authors": [
+        "Breno Albuquerque",
+        "Aloisio Araujo",
+        "Tiago Cavalcanti",
+        "Gil Navarro"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611525",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "In this paper, we investigate the optimal consumption tax structure in a general equi-librium model with tax evasion. We show...",
+      "indexed_at": "2026-10-14T16:50:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611525",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T16:51:54+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611525"
+      ],
+      "fingerprint": "0cb7debddcf6921f8863a600382e293a67ddbc9edf6afac5d36796a5323943bd",
+      "selection_note": "Revisits uniform commodity taxation when sectors differ in evasion, deriving a competitive-equilibrium welfare benchmark that equalizes effective rather than statutory rates before applying it to Brazilian data.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7611525",
+        "https://epge.fgv.br/files/default/should_governments_tax_commodities_uniformly_14.pdf"
+      ]
+    },
+    {
+      "id": "7611439",
+      "doi": "10.2139/ssrn.7611439",
+      "title": "Mixed Bundling from Separate-Sales Data",
+      "authors": [
+        "Dingli Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611439",
+      "topics": [
+        "Mechanism & Market Design",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "A seller has sold two goods separately at two price levels and knows, for each level, the shares of buyers...",
+      "indexed_at": "2026-10-14T16:42:44+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611439",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T16:45:07+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7611439"
+      ],
+      "fingerprint": "75129ca79324fa425c9a93b97f0abaf12a801045a22ab19d664af87b762ea1d0",
+      "selection_note": "Characterizes when a mixed-bundling menu is robustly optimal using limited joint purchase data, identifying observable share restrictions and explaining why knowing which goods were bought together can outperform separate-sales information.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7611439"
+      ]
+    },
+    {
+      "id": "7609678",
+      "doi": "10.2139/ssrn.7609678",
+      "title": "Policy Making with an Informed Opposition",
+      "authors": [
+        "Álvaro Delgado-Vega",
+        "Wioletta Dziuda",
+        "Antoine Loeper"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609678",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "We develop a model of electoral competition that captures the dynamic interaction between the incumbent's policy making and the informed...",
+      "indexed_at": "2026-10-14T14:34:26+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609678",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-14T14:34:26+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7609678"
+      ],
+      "fingerprint": "fd6b9c6df94d81b3820ae19c6c6b8ac6dd867c0e774c34af24859bc7aa653b2b",
+      "selection_note": "Models how an informed opposition's repeal promises affect an incumbent's reform incentives, characterizing when electoral signaling produces voter-aligned convergence, gridlock or persistent partisan policy divergence.",
+      "reviewed_at": "2026-10-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7609678"
+      ]
+    },
+    {
       "id": "7659318",
       "doi": "10.2139/ssrn.7659318",
       "title": "Contagious vs. Fragile Equilibrium",
@@ -357,6 +1428,142 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7650061"
+      ]
+    },
+    {
+      "id": "7544225",
+      "doi": "10.2139/ssrn.7544225",
+      "title": "Stochastic Adaptive Learning in Dominance-Solvable Games",
+      "authors": [
+        "Naoki Funai"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544225",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We investigate whether a stochastic adaptive learning model that overlaps with experience-weighted attraction learning and stochastic fictitious play learning can...",
+      "indexed_at": "2026-10-01T06:15:28+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544225",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T06:15:28+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7544225"
+      ],
+      "fingerprint": "12428d6848d5b7cada23b7189de607c197159c6a400f468218a8dfb68bd8f007",
+      "selection_note": "Characterizes when noisy payoff-assessment learning approaches dominance-solvable outcomes, distinguishing the roles of logit precision, decreasing experience weights and incomplete counterfactual payoff observation.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7544225",
+        "https://www.econ.shiga-u.ac.jp/ebrisk/DPE50Funai.pdf"
+      ]
+    },
+    {
+      "id": "7543218",
+      "doi": "10.2139/ssrn.7543218",
+      "title": "Sorting Inefficiency and Firm Asymmetry in Selection Markets",
+      "authors": [
+        "Vishavdeep Sharma"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543218",
+      "topics": [
+        "Industrial Organization Theory",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Welfare analyses of selection markets use constrained planners to measure inefficient sorting and assess when mergers may benefit consumers. I...",
+      "indexed_at": "2026-10-01T06:02:12+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543218",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T18:20:03+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7543218"
+      ],
+      "fingerprint": "3682625a1aa54d3d9861e5740410bb5c9e0fd6abd0d29ef5ddd63675e18e89d8",
+      "selection_note": "Shows that aggregate-profit-constrained welfare benchmarks can mistake markup redistribution for inefficient sorting, and develops a firm-profit-preserving comparison to separate those channels in selection markets.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7543218"
+      ]
+    },
+    {
+      "id": "7544019",
+      "doi": "10.2139/ssrn.7544019",
+      "title": "Information Design in Research Funding",
+      "authors": [
+        "Mengyang Lin",
+        "Anran Li",
+        "Wenqi Lian",
+        "Zhe Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544019",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...",
+      "indexed_at": "2026-10-01T05:40:27+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544019",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T05:40:27+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7544019"
+      ],
+      "fingerprint": "6d7dc41c7fd414be4b44019f18d6c4687ce31ce0d5ab63d58b7e474729ddd754",
+      "selection_note": "Designs research-funding mechanisms under strategic disclosure and limited awards, establishing equilibrium and welfare guarantees for a threshold-plus-lottery rule when simple posterior rankings can fail.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7544019"
+      ]
+    },
+    {
+      "id": "7543808",
+      "doi": "10.2139/ssrn.7543808",
+      "title": "Dummy Agents in Allocation Mechanisms: Is Clearinghouse Manipulation Possible?",
+      "authors": [
+        "Ali Ghajari",
+        "Behrang Kamali-Shahdadi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543808",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...",
+      "indexed_at": "2026-10-01T05:33:08+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543808",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-01T05:33:08+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7543808"
+      ],
+      "fingerprint": "3868214a9e302262de40b34970edb3c2dfae190db1ab7421d58c241bf0eb4c26",
+      "selection_note": "Characterizes clearinghouse manipulation through an added unmatched agent, identifying which stable deferred-acceptance outcomes can be induced and comparing immunity across alternative allocation mechanisms.",
+      "reviewed_at": "2026-10-24",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7543808"
       ]
     },
     {
@@ -667,40 +1874,6 @@
       ]
     },
     {
-      "id": "7652199",
-      "doi": "10.2139/ssrn.7652199",
-      "title": "Keeping up with the Joneses in a World of Misinformation: Probit Excess Payoff Dynamic",
-      "authors": [
-        "Ceili Kirkaldie"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652199",
-      "topics": [
-        "Game Theory & Networks",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "This paper introduces the Probit-Excess-Payoff Dynamic, a novel evolutionary dynamic that integrates excess-payoff revision protocols with probit-style stochastic choice. Agents...",
-      "indexed_at": "2026-10-22T13:36:02+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7652199",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-22T13:36:02+00:00",
-      "first_seen": "2026-10-23T04:58:19+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7652199"
-      ],
-      "fingerprint": "243a4c5c4f2344ee5d51f7a807b8e68a0acbe847fe1f097f94883e443c897d19",
-      "selection_note": "Studies strategy revision under noisy relative-payoff comparisons, relating a probit-based evolutionary dynamic to perturbed stationary equilibria and showing how information quality affects selection and multiplicity.",
-      "reviewed_at": "2026-10-26",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7652199",
-        "https://papers.ssrn.com/sol3/Delivery.cfm/7652199.pdf?abstractid=7652199&mirid=1"
-      ]
-    },
-    {
       "id": "7647640",
       "doi": "10.2139/ssrn.7647640",
       "title": "Stackelberg Stopping Games",
@@ -772,6 +1945,38 @@
       ]
     },
     {
+      "id": "7545373",
+      "doi": "10.2139/ssrn.7545373",
+      "title": "Fair and Strategy-Proof Matching under Institutional Constraints",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545373",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study student welfare under fair and strategy-proof matching when schoolsface constraints beyond capacities. For separate hereditary constraints andfixed strict...",
+      "indexed_at": "2026-09-30T17:39:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7545373",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T17:39:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7545373"
+      ],
+      "fingerprint": "a2f8fc030b223bbd7a846f5c699a0030c68a74304fda8377b944caf0b30551e8",
+      "selection_note": "Characterizes welfare-maximal fair, strategy-proof matching under hereditary institutional constraints, relating student-optimal fairness to priority admissions satisfying aggregate-demand monotonicity and identifying failures when that condition breaks.",
+      "reviewed_at": "2026-10-23",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7545373"
+      ]
+    },
+    {
       "id": "7651798",
       "doi": "10.2139/ssrn.7651798",
       "title": "Staggered Rollout for Innovation Adoption",
@@ -835,73 +2040,6 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7646798"
-      ]
-    },
-    {
-      "id": "7649948",
-      "doi": "10.2139/ssrn.7649948",
-      "title": "Employers' Unilateral Settlement of Dismissal Disputes",
-      "authors": [
-        "Daisuke Adachi",
-        "Ryo Kambayashi",
-        "Kohei Kawaguchi"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649948",
-      "topics": [
-        "Information & Contracts",
-        "Game Theory & Networks"
-      ],
-      "excerpt": "We study how the procedural design of dismissal dispute resolution affects firm-worker bargaining, focusing on \\textit{unilateral settlement}: an employer pays...",
-      "indexed_at": "2026-10-21T15:16:01+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7649948",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-21T15:18:07+00:00",
-      "first_seen": "2026-10-22T04:56:01+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7649948"
-      ],
-      "fingerprint": "997b281a778d17cc986f066260e750372b399376da965d9f277c5628ee2dc33b",
-      "selection_note": "Studies how unilateral settlement changes bargaining threat points under litigation, linking employers' dynamic inconsistency to inefficient adjustments and identifying conditions under which the option can benefit workers.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7649948"
-      ]
-    },
-    {
-      "id": "7644058",
-      "doi": "10.2139/ssrn.7644058",
-      "title": "Score Errors Create Endogenous Assortment and Tipping Points in Public-Goods Games",
-      "authors": [
-        "Aaryan Niroula"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7644058",
-      "topics": [
-        "Game Theory & Networks"
-      ],
-      "excerpt": "Assortment is often imposed as an exogenous parameter in models of cooperation. We instead derive it from a common noisy...",
-      "indexed_at": "2026-10-21T15:05:06+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7644058",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-21T15:05:06+00:00",
-      "first_seen": "2026-10-22T04:56:01+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7644058"
-      ],
-      "fingerprint": "3384ecce846549f82e8bd711378bcd4743fab57abb6905bff88b7e711006fa97",
-      "selection_note": "Derives assortment from noisy action scores in public-goods games, connecting score-support overlap and error types to invasion, full-cooperation stability and critical-mass thresholds rather than treating assortment as exogenous.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7644058"
       ]
     },
     {
@@ -970,6 +2108,74 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7646199"
+      ]
+    },
+    {
+      "id": "7612538",
+      "doi": "10.2139/ssrn.7612538",
+      "title": "Equivalence Classes in Recursive utility",
+      "authors": [
+        "Robert A. Becker",
+        "Carlos Palmero",
+        "Juan Rincon-Zapatero"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7612538",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We introduce and analyze an equivalence relation on the set of aggregators in the context of recursive utility theory. We...",
+      "indexed_at": "2026-10-16T06:46:42+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7612538",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-16T06:46:42+00:00",
+      "first_seen": "2026-10-17T04:34:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7612538"
+      ],
+      "fingerprint": "40fa2c107441151eddd3d494580515e1fa330ec20839b556a9a146d92158ada3",
+      "selection_note": "Studies equivalence transformations of recursive-utility aggregators, showing when their Koopmans equations have corresponding solution sets and how the resulting utility representations are related.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7612538"
+      ]
+    },
+    {
+      "id": "7609964",
+      "doi": "10.2139/ssrn.7609964",
+      "title": "Credibility vs. Context",
+      "authors": [
+        "Mengxi Sun"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609964",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "How does a receiver integrate what a sender says with why she says it? When a sender interprets data to...",
+      "indexed_at": "2026-10-16T03:37:50+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609964",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-16T03:37:50+00:00",
+      "first_seen": "2026-10-16T04:37:24+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7609964"
+      ],
+      "fingerprint": "9020d401b3e8c71c7335b924ebd8946dfbc802f5b1cd03c7dc2bd9718c016238",
+      "selection_note": "Axiomatizes receiver inference that combines strategic and literal interpretations, connecting cheap talk with model persuasion and studying how semantic reliance changes communication equilibria.",
+      "reviewed_at": "2026-10-22",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7609964"
       ]
     },
     {
@@ -1172,6 +2378,145 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7632698"
+      ]
+    },
+    {
+      "id": "7620218",
+      "doi": "10.2139/ssrn.7620218",
+      "title": "Voluntary Partial Participation in Peer-to-Peer Insurance with Heterogeneous Risks",
+      "authors": [
+        "Tim J. Boonen",
+        "Ka Chun Cheung",
+        "Mai Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620218",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Heterogeneous risk affects not only who joins a peer-to-peer insurance pool but also how intensively participants share losses. We study...",
+      "indexed_at": "2026-10-16T14:48:03+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7620218",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-16T14:50:45+00:00",
+      "first_seen": "2026-10-17T04:34:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7620218"
+      ],
+      "fingerprint": "3a3fa8aef8f870336251ec5f81bba7c5aa85bbeec36858233511c7d86789c8bc",
+      "selection_note": "Insurance participation and incentives: compares constrained-efficient contributions with Nash pooling, identifying low-risk undercontribution and a threshold for optimal full pooling.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7620218"
+      ]
+    },
+    {
+      "id": "7542625",
+      "doi": "10.2139/ssrn.7542625",
+      "title": "When Do Minimum Participation Constraints Improve International Public-Good Provision under Voluntary Participation and Strategic Delegation? *",
+      "authors": [
+        "Ryusuke Shinohara"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542625",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We examine the effectiveness of a minimum participation constraint (MPC) for international public-good provision when participation is voluntary and provision...",
+      "indexed_at": "2026-09-30T13:07:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542625",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T13:07:14+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7542625"
+      ],
+      "fingerprint": "91f28dd5743d88b5fe4ecbaee4b6ce0197066f79701c2cc0d7b6bcea11156303",
+      "selection_note": "Public-good games with strategic delegation: shows how minimum participation rules can worsen provision and characterizes when participant composition instead mitigates underprovision.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7542625"
+      ]
+    },
+    {
+      "id": "7542061",
+      "doi": "10.2139/ssrn.7542061",
+      "title": "Earned Access to Scarce Goods: Resale, Screening, and Relational Commitment",
+      "authors": [
+        "Yue Yuan",
+        "Xuecheng Yin"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542061",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Sellers of scarce goods often keep the price below the market-clearing level and let buyers earn the right to buy...",
+      "indexed_at": "2026-09-30T12:30:42+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542061",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-09T02:45:12+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7542061"
+      ],
+      "fingerprint": "a29759b82d7f53cdf1397bf5a24726cb5065f1ce9ec603e99f78c5800fa5a083",
+      "selection_note": "Scarce-good allocation with resale: characterizes screening through complementary purchases, its comparison with clearing prices, and relational commitment needed to sustain earned access.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7542061"
+      ]
+    },
+    {
+      "id": "7541998",
+      "doi": "10.2139/ssrn.7541998",
+      "title": "Prices as Signals: Joint Design of Information and Pricing",
+      "authors": [
+        "Zhicheng Du",
+        "Yanwei Sun",
+        "Zihe Wang",
+        "Jiahua Wu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7541998",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "A large body of literature studies the fundamental trade-offs of product information provision. However, much of this work treats prices...",
+      "indexed_at": "2026-09-30T12:26:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7541998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-09-30T12:26:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7541998"
+      ],
+      "fingerprint": "f4659acdaabbac758e75218fca2bb50aece3061ba90c31f12b53e5cc78088e07",
+      "selection_note": "Joint information and price design: characterizes revealing contingent-pricing responses and an efficient oligopoly equilibrium, linking price signaling to first-price-auction bidding.",
+      "reviewed_at": "2026-10-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7541998",
+        "https://yanwei-sun.github.io/research.html"
       ]
     },
     {
@@ -1410,312 +2755,38 @@
       ]
     },
     {
-      "id": "7620218",
-      "doi": "10.2139/ssrn.7620218",
-      "title": "Voluntary Partial Participation in Peer-to-Peer Insurance with Heterogeneous Risks",
+      "id": "7537720",
+      "doi": "10.2139/ssrn.7537720",
+      "title": "Optimal Insurance Under Disappointment Theory Without Prior Expectation",
       "authors": [
-        "Tim J. Boonen",
-        "Ka Chun Cheung",
-        "Mai Zhang"
+        "Yichun Chi",
+        "Wenjun Jiang",
+        "Tingdi Ren"
       ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620218",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537720",
       "topics": [
-        "Information & Contracts",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "Heterogeneous risk affects not only who joins a peer-to-peer insurance pool but also how intensively participants share losses. We study...",
-      "indexed_at": "2026-10-16T14:48:03+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7620218",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-16T14:50:45+00:00",
-      "first_seen": "2026-10-17T04:34:09+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7620218"
-      ],
-      "fingerprint": "3a3fa8aef8f870336251ec5f81bba7c5aa85bbeec36858233511c7d86789c8bc",
-      "selection_note": "Insurance participation and incentives: compares constrained-efficient contributions with Nash pooling, identifying low-risk undercontribution and a threshold for optimal full pooling.",
-      "reviewed_at": "2026-10-21",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7620218"
-      ]
-    },
-    {
-      "id": "7612538",
-      "doi": "10.2139/ssrn.7612538",
-      "title": "Equivalence Classes in Recursive utility",
-      "authors": [
-        "Robert A. Becker",
-        "Carlos Palmero",
-        "Juan Rincon-Zapatero"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7612538",
-      "topics": [
-        "Equilibrium & Mathematical Economics",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "We introduce and analyze an equivalence relation on the set of aggregators in the context of recursive utility theory. We...",
-      "indexed_at": "2026-10-16T06:46:42+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7612538",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-16T06:46:42+00:00",
-      "first_seen": "2026-10-17T04:34:09+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7612538"
-      ],
-      "fingerprint": "40fa2c107441151eddd3d494580515e1fa330ec20839b556a9a146d92158ada3",
-      "selection_note": "Studies equivalence transformations of recursive-utility aggregators, showing when their Koopmans equations have corresponding solution sets and how the resulting utility representations are related.",
-      "reviewed_at": "2026-10-22",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7612538"
-      ]
-    },
-    {
-      "id": "7609964",
-      "doi": "10.2139/ssrn.7609964",
-      "title": "Credibility vs. Context",
-      "authors": [
-        "Mengxi Sun"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609964",
-      "topics": [
-        "Information & Contracts",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "How does a receiver integrate what a sender says with why she says it? When a sender interprets data to...",
-      "indexed_at": "2026-10-16T03:37:50+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609964",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-16T03:37:50+00:00",
-      "first_seen": "2026-10-16T04:37:24+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7609964"
-      ],
-      "fingerprint": "9020d401b3e8c71c7335b924ebd8946dfbc802f5b1cd03c7dc2bd9718c016238",
-      "selection_note": "Axiomatizes receiver inference that combines strategic and literal interpretations, connecting cheap talk with model persuasion and studying how semantic reliance changes communication equilibria.",
-      "reviewed_at": "2026-10-22",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7609964"
-      ]
-    },
-    {
-      "id": "7615220",
-      "doi": "10.2139/ssrn.7615220",
-      "title": "Capacity Expansion in Proportionally Fair Multi-Resource Allocation: Exact Outcomes and the Distribution of Gains",
-      "authors": [
-        "Taylor Canann"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615220",
-      "topics": [
-        "Equilibrium & Mathematical Economics",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "A facility allocates complementary resources among users with different input proportions, under the proportionally fair-equivalently weighted Nash, or Leontief-Fisher-allocation. Expanding...",
-      "indexed_at": "2026-10-15T14:30:38+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7615220",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-15T14:30:38+00:00",
-      "first_seen": "2026-10-16T04:37:24+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7615220"
-      ],
-      "fingerprint": "16f4b57f2120bff74469900c0511b7693551458c6129a6c65662eeb573e18658",
-      "selection_note": "Characterizes who gains or loses from capacity expansion under Leontief-Fisher allocation, showing why two-resource ranking rules and single-peaked service paths do not extend to higher-dimensional resource needs.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7615220"
-      ]
-    },
-    {
-      "id": "7615485",
-      "doi": "10.2139/ssrn.7615485",
-      "title": "Regulated Stochastic Insurance Pricing Game: An Equilibrium-Set Approach",
-      "authors": [
-        "Lihua Bai",
-        "Qiyang Zhao"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615485",
-      "topics": [
-        "Game Theory & Networks",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "This paper studies a stochastic insurance pricing game with affinepremium bounds that depend on competitors' current average premiums.Regulation can lead...",
-      "indexed_at": "2026-10-15T13:59:58+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7615485",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-15T14:00:55+00:00",
-      "first_seen": "2026-10-16T04:37:24+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7615485"
-      ],
-      "fingerprint": "2905d7b3cfc3a0a35cc17b55732d14b811e07809de6e70b1df65f523bc090995",
-      "selection_note": "Studies the full generalized-Nash equilibrium set under competitor-linked insurance price bounds, characterizing lattice extrema, Pareto comparisons and isolated versus continuous equilibria rather than selecting a single numerical solution.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7615485"
-      ]
-    },
-    {
-      "id": "7611999",
-      "doi": "10.2139/ssrn.7611999",
-      "title": "On the Stability of Token Systems",
-      "authors": [
-        "Süleyman Kerimov"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611999",
-      "topics": [
-        "Mechanism & Market Design",
-        "Game Theory & Networks"
-      ],
-      "excerpt": "Token systems offer a market solution for non-monetary economies, where monetary transactions are undesirable or restricted. In such systems, agents...",
-      "indexed_at": "2026-10-14T18:29:18+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611999",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-14T18:29:18+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7611999"
-      ],
-      "fingerprint": "903be445570262b26a0d2f1c7755b34a09d9e4827cc35ec193a58d7fe6686b95",
-      "selection_note": "Characterizes the stability region for token-based service exchange and connects controlled balances to ex-ante participation, explicitly accounting for limited service availability and bounds on agents' risk sensitivity.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7611999",
-        "https://kerimovsuleyman.github.io/stabilityK.pdf"
-      ]
-    },
-    {
-      "id": "7611525",
-      "doi": "10.2139/ssrn.7611525",
-      "title": "Should Governments Tax Commodities Uniformly? Theory and Empirical Evidence from Brazil",
-      "authors": [
-        "Breno Albuquerque",
-        "Aloisio Araujo",
-        "Tiago Cavalcanti",
-        "Gil Navarro"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611525",
-      "topics": [
-        "Equilibrium & Mathematical Economics",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "In this paper, we investigate the optimal consumption tax structure in a general equi-librium model with tax evasion. We show...",
-      "indexed_at": "2026-10-14T16:50:13+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611525",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-14T16:51:54+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7611525"
-      ],
-      "fingerprint": "0cb7debddcf6921f8863a600382e293a67ddbc9edf6afac5d36796a5323943bd",
-      "selection_note": "Revisits uniform commodity taxation when sectors differ in evasion, deriving a competitive-equilibrium welfare benchmark that equalizes effective rather than statutory rates before applying it to Brazilian data.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7611525",
-        "https://epge.fgv.br/files/default/should_governments_tax_commodities_uniformly_14.pdf"
-      ]
-    },
-    {
-      "id": "7611439",
-      "doi": "10.2139/ssrn.7611439",
-      "title": "Mixed Bundling from Separate-Sales Data",
-      "authors": [
-        "Dingli Wang"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611439",
-      "topics": [
-        "Mechanism & Market Design",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "A seller has sold two goods separately at two price levels and knows, for each level, the shares of buyers...",
-      "indexed_at": "2026-10-14T16:42:44+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7611439",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-14T16:45:07+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7611439"
-      ],
-      "fingerprint": "75129ca79324fa425c9a93b97f0abaf12a801045a22ab19d664af87b762ea1d0",
-      "selection_note": "Characterizes when a mixed-bundling menu is robustly optimal using limited joint purchase data, identifying observable share restrictions and explaining why knowing which goods were bought together can outperform separate-sales information.",
-      "reviewed_at": "2026-10-25",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7611439"
-      ]
-    },
-    {
-      "id": "7609678",
-      "doi": "10.2139/ssrn.7609678",
-      "title": "Policy Making with an Informed Opposition",
-      "authors": [
-        "Álvaro Delgado-Vega",
-        "Wioletta Dziuda",
-        "Antoine Loeper"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609678",
-      "topics": [
-        "Game Theory & Networks",
+        "Decision & Social Choice",
         "Information & Contracts"
       ],
-      "excerpt": "We develop a model of electoral competition that captures the dynamic interaction between the incumbent's policy making and the informed...",
-      "indexed_at": "2026-10-14T14:34:26+00:00",
+      "excerpt": "This paper explains the long-standing low-deductible anomaly in insurance markets using a prior-free disappointment framework. Under this specification, the policyholder...",
+      "indexed_at": "2026-09-30T09:16:24+00:00",
       "selection_reason": "Content-screened selection",
       "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7609678",
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7537720",
       "jel_codes": [],
       "posted_date": null,
-      "source_metadata_updated_at": "2026-10-14T14:34:26+00:00",
+      "source_metadata_updated_at": "2026-09-30T09:16:24+00:00",
       "first_seen": "2026-10-15T11:48:21+00:00",
       "record_updated_at": null,
       "ssrn_ids": [
-        "7609678"
+        "7537720"
       ],
-      "fingerprint": "fd6b9c6df94d81b3820ae19c6c6b8ac6dd867c0e774c34af24859bc7aa653b2b",
-      "selection_note": "Models how an informed opposition's repeal promises affect an incumbent's reform incentives, characterizing when electoral signaling produces voter-aligned convergence, gridlock or persistent partisan policy divergence.",
-      "reviewed_at": "2026-10-25",
+      "fingerprint": "f6c48467807244e664617c9dbd5e0bfec07ccf7f5efd8bbb74119f448cad814b",
+      "selection_note": "Decision and insurance theory: a prior-free disappointment preference changes optimal deductibles and can make full insurance optimal despite actuarially unfair pricing.",
+      "reviewed_at": "2026-10-20",
       "review_level": "abstract_and_source",
       "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7609678"
+        "https://api.crossref.org/works/10.2139/ssrn.7537720"
       ]
     },
     {
@@ -1748,111 +2819,6 @@
       "review_level": "abstract_and_source",
       "review_sources": [
         "https://api.crossref.org/works/10.2139/ssrn.7609418"
-      ]
-    },
-    {
-      "id": "7601123",
-      "doi": "10.2139/ssrn.7601123",
-      "title": "Competing for Advertiser Spending: Optimal Allocation and Pricing on a Smaller Advertising Platform",
-      "authors": [
-        "Bar Light",
-        "Jussi Keppo",
-        "Zhengyuan Zhou",
-        "Xiaoyu Fan",
-        "Kerun Xu"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7601123",
-      "topics": [
-        "Mechanism & Market Design",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "Digital advertising markets often feature a large established platform and smaller platforms competing for advertiser spending. We study how a...",
-      "indexed_at": "2026-10-14T03:40:52+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7601123",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-14T03:40:52+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7601123"
-      ],
-      "fingerprint": "71feb36ca0e57a7992c653549b7fe86119a300e47c42730d3b659ebc647af27e",
-      "selection_note": "Designs allocation and payments when advertisers endogenously authorize spending in response to ROI, distinguishing optimal allocation and payment multipliers and identifying when a common-multiplier restriction yields first-price pacing.",
-      "reviewed_at": "2026-10-26",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7601123"
-      ]
-    },
-    {
-      "id": "7607158",
-      "doi": "10.2139/ssrn.7607158",
-      "title": "A Behavioral Foundation for the Investment Wedge",
-      "authors": [
-        "Jean-Paul L’Huillier",
-        "Pierlauro Lopez",
-        "Sanjay R. Singh"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607158",
-      "topics": [
-        "Equilibrium & Mathematical Economics",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "Motivated by behavioral evidence, we develop a tractable method for incorporating competition neglect into a general equilibrium firm investment problem...",
-      "indexed_at": "2026-10-13T16:09:15+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7607158",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-13T16:09:15+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7607158"
-      ],
-      "fingerprint": "d02c2a6905e9c0ab5f3f1bea76ae10b697ed48d89aa66266475e2df4faec77a4",
-      "selection_note": "Develops a belief-distorted firm problem with costly awareness and aggregate consistency, rather than imposing an investment wedge. A first-order equilibrium characterization derives the endogenous wedge; a restricted case establishes its boom-bust signs. The general-equilibrium construction is the selection basis, not the calibration.",
-      "reviewed_at": "2026-10-29",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7607158",
-        "https://www.frbsf.org/wp-content/uploads/wp2025-22.pdf"
-      ]
-    },
-    {
-      "id": "7605560",
-      "doi": "10.2139/ssrn.7605560",
-      "title": "Incentives in School Choice with Rank-Dependent Priorities",
-      "authors": [
-        "Yusuke Iwase"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605560",
-      "topics": [
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "Many school admission systems give a higher priority to a student who ranks a school higher in his submitted preference...",
-      "indexed_at": "2026-10-13T15:09:54+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7605560",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-13T15:20:11+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7605560"
-      ],
-      "fingerprint": "fa2a5be14d89e4692a23f5582249379b0e7dd6ce244baab31ca1217a4e5f49e7",
-      "selection_note": "Characterizes strategy-proof deferred acceptance with rank-dependent priorities through acyclicity, and compares stable Nash outcomes and truthful implementation across immediate acceptance, deferred acceptance and trading cycles.",
-      "reviewed_at": "2026-10-26",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7605560"
       ]
     },
     {
@@ -1892,75 +2858,6 @@
       ]
     },
     {
-      "id": "7596078",
-      "doi": "10.2139/ssrn.7596078",
-      "title": "Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences",
-      "authors": [
-        "Tim J. Boonen",
-        "Yilong Gong",
-        "Bin Li",
-        "Dongchen Li"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078",
-      "topics": [
-        "Decision & Social Choice",
-        "Information & Contracts"
-      ],
-      "excerpt": "We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...",
-      "indexed_at": "2026-10-12T14:55:05+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596078",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T14:55:05+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7596078"
-      ],
-      "fingerprint": "bee07884ce7e6a0b7cbd5057507e145c1f3d3f803378feeaa99a028550976bec",
-      "selection_note": "Characterizes insurance indemnities for risk- and ambiguity-averse preferences, identifying bang-bang coverage slopes and conditions for stop-loss contracts under pricing and no-sabotage restrictions.",
-      "reviewed_at": "2026-10-27",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7596078",
-        "https://papers.ssrn.com/sol3/Delivery.cfm/7596078.pdf?abstractid=7596078&mirid=1&type=2"
-      ]
-    },
-    {
-      "id": "7599299",
-      "doi": "10.2139/ssrn.7599299",
-      "title": "Stability Rigidity and Robust Minimal Instability of Top Trading Cycles with Mixed Capacities",
-      "authors": [
-        "Lizhong Chen"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7599299",
-      "topics": [
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "We ask whether a Pareto-efficient and strategy-proof school assignment rule must coincide with top trading cycles if it is stable...",
-      "indexed_at": "2026-10-12T07:03:21+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7599299",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-12T07:10:06+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7599299"
-      ],
-      "fingerprint": "90733aa06114c77243f1e6782af84e40cadfe3f27b12e58201c8f4702d87b6d9",
-      "selection_note": "Characterizes priority restrictions linking efficient, strategy-proof school assignment to top trading cycles, and separates initial-stability rigidity from robust minimal instability once mixed capacities extend beyond two schools.",
-      "reviewed_at": "2026-10-28",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7599299"
-      ]
-    },
-    {
       "id": "7590660",
       "doi": "10.2139/ssrn.7590660",
       "title": "Market Power and Insurance Coverage",
@@ -1993,39 +2890,6 @@
       "review_sources": [
         "https://www.fmg.ac.uk/cm/publications/discussion-papers/market-power-and-insurance-coverage",
         "https://www.stern.nyu.edu/sites/default/files/2024-03/GottliebandMoreira_MarketPowerandInsuranceCoverage.pdf"
-      ]
-    },
-    {
-      "id": "7597177",
-      "doi": "10.2139/ssrn.7597177",
-      "title": "Unilateral Incentives and Informative Experimentationin Cournot Learning",
-      "authors": [
-        "S. S. Askar King Saud University"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597177",
-      "topics": [
-        "Game Theory & Networks",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "Firms facing unknown demand must infer the effect of a unilateral quantity change from observations generated while their rivals also...",
-      "indexed_at": "2026-10-11T15:10:43+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7597177",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-11T15:15:18+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7597177"
-      ],
-      "fingerprint": "257fa06aeabd81b7ab15cf082681f22bd458986f86ecf660e7c9a1daae239e41",
-      "selection_note": "Separates identification of unilateral profit incentives from parameter and equilibrium identification in noisy Cournot learning, then supplies experimentation conditions for decentralized Nash convergence, including boundary equilibria.",
-      "reviewed_at": "2026-10-28",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7597177"
       ]
     },
     {
@@ -2062,78 +2926,6 @@
       ]
     },
     {
-      "id": "7590261",
-      "doi": "10.2139/ssrn.7590261",
-      "title": "Credit-Based vs. Discount-Based Congestion Pricing: A Comparison Study",
-      "authors": [
-        "Chih-Yuan Chiu",
-        "Devansh Jalota",
-        "Marco Pavone"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590261",
-      "topics": [
-        "Game Theory & Networks",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "Credit-based congestion pricing (CBCP) and discount-based congestion pricing (DBCP), which respectively allot travel credits and toll discounts to subsidize low-income...",
-      "indexed_at": "2026-10-09T17:25:16+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7590261",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-09T17:27:47+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7590261"
-      ],
-      "fingerprint": "e9d26049cd899104953707eccd37cb0409566f8eaf0d92444c1d31a09108715f",
-      "selection_note": "Compares two subsidy mechanisms in a nonatomic congestion game through equilibrium allocation, not simulation alone. On chain networks with the stated eligibility and constraint restrictions, discounts weakly improve the planner's attainable objective when revenue receives at least the eligible-cost weight; the ranking can reverse otherwise.",
-      "reviewed_at": "2026-10-29",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7590261",
-        "https://arxiv.org/html/2602.11077v3"
-      ]
-    },
-    {
-      "id": "7589944",
-      "doi": "10.2139/ssrn.7589944",
-      "title": "Do Distributional Concerns Justify Lower Environmental Taxes?",
-      "authors": [
-        "Ashley Craig",
-        "Dylan Moore",
-        "Thomas Lloyd"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589944",
-      "topics": [
-        "Mechanism & Market Design",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "Should externality taxes be reduced if they are regressive? We introduce a model in which the government raises revenue from...",
-      "indexed_at": "2026-10-09T16:20:13+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7589944",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-09T16:25:22+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7589944"
-      ],
-      "fingerprint": "1d093fb7437eb937289b51725c1d0ad46474b4d01ec3d3f256a54c08cbe8507b",
-      "selection_note": "Derives optimal corrective-tax conditions jointly with distortionary income taxation. Separating causal income effects from taste heterogeneity explains when redistribution changes the Pigouvian benchmark and yields sufficient-statistic restrictions, with extensions to within-income heterogeneity. The analytical tax characterization, not the carbon-data exercise, motivates inclusion.",
-      "reviewed_at": "2026-10-29",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7589944",
-        "https://thomaslloyd.me/pdf/externalities.pdf"
-      ]
-    },
-    {
       "id": "7589886",
       "doi": "10.2139/ssrn.7589886",
       "title": "Bounded Stationary Discounted Utility",
@@ -2167,111 +2959,6 @@
       ]
     },
     {
-      "id": "7587238",
-      "doi": "10.2139/ssrn.7587238",
-      "title": "Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies",
-      "authors": [
-        "Nick Arnosti",
-        "Rad Niazadeh",
-        "Pranav Nuti",
-        "Felipe Simon"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238",
-      "topics": [
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...",
-      "indexed_at": "2026-10-09T06:09:10+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7587238",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-22T17:02:09+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7587238"
-      ],
-      "fingerprint": "f1c0a07533679db0dafee0e72c193e5de7c15d9af4f46de8e46973fa4f68331e",
-      "selection_note": "Establishes a sharp dynamic-allocation guarantee for heterogeneous matching markets with independent Poisson arrivals and exponential abandonment. Fixed priority rules attain half the omniscient long-run reward, and no online policy guarantees more. The contribution is a general matching-market information/performance frontier, not an application-specific routing or simulation algorithm.",
-      "reviewed_at": "2026-10-30",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7587238",
-        "https://arxiv.org/html/2610.12991v1"
-      ]
-    },
-    {
-      "id": "7574978",
-      "doi": "10.2139/ssrn.7574978",
-      "title": "Information Divergence and Endogenous Evolution of Asymmetric Information",
-      "authors": [
-        "Ratna Shrestha",
-        "Gaurav Subedi",
-        "Ayush Shrestha"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978",
-      "topics": [
-        "Information & Contracts"
-      ],
-      "excerpt": "Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...",
-      "indexed_at": "2026-10-09T04:47:40+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7574978",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-10T17:20:14+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7574978"
-      ],
-      "fingerprint": "7da0765a58476f3f300c200fbf0a342a6ae92bd09a0c1008de7f3219149276ad",
-      "selection_note": "Connects information age to costly disclosure incentives. With mean-reverting Gaussian fundamentals, common staleness reduces forecast disagreement while increasing uncertainty; freshness certification supports partial-unraveling thresholds when payments reflect posterior forecasting value. This is an information-market result, not merely an asynchronous signal-processing observation.",
-      "reviewed_at": "2026-10-30",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7574978",
-        "https://arxiv.org/pdf/2610.11200"
-      ]
-    },
-    {
-      "id": "7580718",
-      "doi": "10.2139/ssrn.7580718",
-      "title": "Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework",
-      "authors": [
-        "Guoqiang Tian"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580718",
-      "topics": [
-        "Mechanism & Market Design",
-        "Information & Contracts"
-      ],
-      "excerpt": "This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...",
-      "indexed_at": "2026-10-08T14:21:15+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7580718",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-10T23:50:10+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7580718"
-      ],
-      "fingerprint": "35ccc385e3390aba0c6dc9f0cf46a0f5796e237502a3e83f374f97d9430c100c",
-      "selection_note": "Develops dynamic implementability with partially verifiable reports followed by privately chosen actions. A revelation formulation and recursive honesty, obedience and promise-consistency conditions evaluate false reports together with subsequent action reoptimization. The selection concerns this general agency framework, not AI branding or an unsupported claim of unconditional disclosure optimality.",
-      "reviewed_at": "2026-10-30",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7580718",
-        "https://arxiv.org/html/2610.11177v1"
-      ]
-    },
-    {
       "id": "7560666",
       "doi": "10.2139/ssrn.7560666",
       "title": "Strategy-Proof and Minimally Wasteful Random Assignment",
@@ -2302,176 +2989,6 @@
       "review_level": "abstract_and_main_results",
       "review_sources": [
         "https://arxiv.org/html/2608.27261v1"
-      ]
-    },
-    {
-      "id": "7556891",
-      "doi": "10.2139/ssrn.7556891",
-      "title": "Managing Strategic Communication for Monetary Transfers",
-      "authors": [
-        "Akifumi Ishihara"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556891",
-      "topics": [
-        "Information & Contracts",
-        "Game Theory & Networks"
-      ],
-      "excerpt": "We investigate a model of an informed expert and an uninformed decision maker, in which the expert sends cheap-talk messages...",
-      "indexed_at": "2026-10-03T14:50:29+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556891",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-03T14:50:29+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7556891"
-      ],
-      "fingerprint": "af1a5077fb1aade72ffb6420ce6ff1499c4fd43d5043bea9de9b585c841ca915",
-      "selection_note": "Studies cheap talk with voluntary expert payments: withholding responsiveness can induce costly signals, and the uniform-quadratic optimum pools low types while separating high types. Screening is based on the verified abstract and matching author listing, not a full-proof review.",
-      "reviewed_at": "2026-10-31",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7556891",
-        "https://akishihara.github.io/research/index.html"
-      ]
-    },
-    {
-      "id": "7556890",
-      "doi": "10.2139/ssrn.7556890",
-      "title": "A Measure of Preference for Early Resolution of Uncertainty",
-      "authors": [
-        "Hengjie Ai"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556890",
-      "topics": [
-        "Decision & Social Choice",
-        "Equilibrium & Mathematical Economics"
-      ],
-      "excerpt": "This paper develops a measure of preference for early resolution of uncertainty (PER) that parallels the Arrow-Pratt measure of risk...",
-      "indexed_at": "2026-10-03T14:50:19+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7556890",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-03T14:50:19+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7556890"
-      ],
-      "fingerprint": "f5651db11c3270c673e3100b705002b59caa985e9c2631039c0ead7e6327082b",
-      "selection_note": "Within a recursive-preference specification, characterizes early-resolution preference by the gap between late- and early-resolution risk aversion. Propositions 1-2 give its sign characterization and an ordering conditional on equal late-resolution risk preferences; the model and these main results were read.",
-      "reviewed_at": "2026-10-31",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7556890",
-        "https://www.hengjieai.com/research.html",
-        "https://www.hengjieai.com/uploads/1/0/6/6/106628821/pertheorynew_aug2026.pdf"
-      ]
-    },
-    {
-      "id": "7551062",
-      "doi": "10.2139/ssrn.7551062",
-      "title": "Multilateral Bargaining With Caps",
-      "authors": [
-        "Diego Carrasco",
-        "John Hillas",
-        "Alfonso Dela Cruz"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7551062",
-      "topics": [
-        "Game Theory & Networks"
-      ],
-      "excerpt": "We study the Baron-Ferejohn model of multilateral bargaining when each player's share is capped. The Baron-Ferejohn outcome remains the unique...",
-      "indexed_at": "2026-10-03T09:13:41+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7551062",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-03T09:13:41+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7551062"
-      ],
-      "fingerprint": "49456286d153a4a5b4790f8de2c0e52fea407c8fda9ce4b0af622f2c80e92f97",
-      "selection_note": "Characterizes capped Baron-Ferejohn bargaining: the standard symmetric stationary outcome survives above the proposer-share threshold, while tighter caps generate multiplicity. Separating proposer and responder caps identifies the source of that multiplicity. Screening uses the verified abstract and matching author listing, not proof verification.",
-      "reviewed_at": "2026-10-31",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7551062",
-        "https://sites.google.com/view/dcarrasco/research"
-      ]
-    },
-    {
-      "id": "7553563",
-      "doi": "10.2139/ssrn.7553563",
-      "title": "Designing the Right to Cooperate Participation and Costly Communication Networks",
-      "authors": [
-        "Taylor Canann"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553563",
-      "topics": [
-        "Game Theory & Networks",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...",
-      "indexed_at": "2026-10-02T21:26:37+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553563",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-02T21:26:37+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7553563"
-      ],
-      "fingerprint": "0b8e60965ab4a9beecec32b0b3efd41b397b49148f9baf0ca36bab094c292677",
-      "selection_note": "Studies costly cooperation rights with Myerson-value sharing and participation constraints. In convex communication games, a leaf-payoff frontier translates retention into network restrictions; link costs and limited side payments then alter optimal membership and architecture even after connectivity fixes total production. The analytical object is cooperative implementation, not a network-data application.",
-      "reviewed_at": "2026-10-30",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7553563"
-      ]
-    },
-    {
-      "id": "7553738",
-      "doi": "10.2139/ssrn.7553738",
-      "title": "The Value of Knowing a Coalition Allocation-Dependent Information and Stable Burden Sharing",
-      "authors": [
-        "Taylor Canann"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553738",
-      "topics": [
-        "Game Theory & Networks",
-        "Information & Contracts"
-      ],
-      "excerpt": "An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...",
-      "indexed_at": "2026-10-02T21:26:30+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7553738",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-02T21:26:30+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7553738"
-      ],
-      "fingerprint": "a9bf699772bb6d61571af8ac150645fc67bd2a83da23fd94202be6250a0c092a",
-      "selection_note": "Characterizes allocation-dependent information needed to block strictly profitable coalition deviations in an NTU burden-sharing game. Service caps determine which possible bypass coalitions require auditing; bounded coalition size changes certificate complexity, while costly acquisition changes optimal sharing. The contribution links cooperative stability, endogenous allocations and information requirements.",
-      "reviewed_at": "2026-10-30",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7553738"
       ]
     },
     {
@@ -2509,250 +3026,6 @@
       ]
     },
     {
-      "id": "7552140",
-      "doi": "10.2139/ssrn.7552140",
-      "title": "Social Welfare and Price Discovery in Double Auction Markets",
-      "authors": [
-        "Teemu Pennanen"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552140",
-      "topics": [
-        "Equilibrium & Mathematical Economics",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...",
-      "indexed_at": "2026-10-02T16:29:44+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552140",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-02T16:29:44+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7552140"
-      ],
-      "fingerprint": "239ca6a45f42873bd1ab8c2a5e65c2f4be372c3669c4d65d5ffa5a92879b326d",
-      "selection_note": "Relates indifference-price double auctions in a pure exchange economy to competitive welfare theory. Under the stated regularity and boundedness conditions, repeated auctions' allocation-price cluster points are Walras equilibria with transfers. This is an equilibrium-foundations result, not a claim that arbitrary strategic bidding always converges to a unique price.",
-      "reviewed_at": "2026-10-30",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7552140",
-        "https://arxiv.org/html/2610.01562v1"
-      ]
-    },
-    {
-      "id": "7552832",
-      "doi": "10.2139/ssrn.7552832",
-      "title": "Distinguishing Bargaining from Competitive Supply through Joint Output Responses",
-      "authors": [
-        "Hyungjin Kim"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552832",
-      "topics": [
-        "Industrial Organization Theory",
-        "Equilibrium & Mathematical Economics"
-      ],
-      "excerpt": "Bargaining and competitive supply are hard to tell apart, because both can predict the same directions of output change after...",
-      "indexed_at": "2026-10-02T14:45:05+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7552832",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-02T14:45:05+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7552832"
-      ],
-      "fingerprint": "5e6d883db30477368906ba0e88a6675b2d35f0ca97839214c340de29a9645702",
-      "selection_note": "Links common-baseline output responses under fixed versus reset input prices to testable supply-conduct restrictions. With convex costs, common marginal-cost pricing and substitutable inputs, expenditure-weighted feedback must be reciprocal and positive semidefinite; bargaining need not obey those restrictions. These are necessary benchmark restrictions, not a sufficient test of bargaining.",
-      "reviewed_at": "2026-10-29",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7552832",
-        "https://hyungjinkim.com/",
-        "https://hyungjinkim.com/papers/paper_static.pdf?v=20260918-e81cccd2"
-      ]
-    },
-    {
-      "id": "6723288",
-      "doi": "10.2139/ssrn.6723288",
-      "title": "On von Stackelberg Leadership in a Cartel-Fringe-Renewables' Model of Exhaustible Resource Extraction",
-      "authors": [
-        "Simon Elgersma",
-        "Hassan Benchekroun",
-        "Gerard van der Meijden",
-        "Cees Withagen"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6723288",
-      "topics": [
-        "Game Theory & Networks",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "We characterize the time-consistent solution of a cartel--fringe model of exhaustible resource extraction in which the cartel credibly acts as...",
-      "indexed_at": "2026-10-02T13:09:03+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.6723288",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-02T13:09:03+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "6723288"
-      ],
-      "fingerprint": "7835ff2c3a6e47ed56ce8026ef58c90c46bef022dda1986b1e21a61f19cd525d",
-      "selection_note": "Characterizes time-consistent cartel-fringe extraction under stated cost and demand restrictions, distinguishing three feedback-leadership paths and showing how credible leadership changes the timing of joint supply relative to open-loop and Cournot play.",
-      "reviewed_at": "2026-10-28",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.6723288",
-        "https://www.ifo.de/DocDL/cesifo1_wp12648.pdf"
-      ]
-    },
-    {
-      "id": "7550263",
-      "doi": "10.2139/ssrn.7550263",
-      "title": "Comment on \"Subgroup Decomposition of the Gini Coefficient: A New Solution to an Old Problem\" (Heikkuri and Schief, Econometrica, 2026)",
-      "authors": [
-        "Noriaki Okamoto"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7550263",
-      "topics": [
-        "Decision & Social Choice"
-      ],
-      "excerpt": "Heikkuri and Schief (2026) axiomatize a subgroup decomposition of the Gini coefficient and establish its uniqueness under eight axioms. We...",
-      "indexed_at": "2026-10-02T11:16:54+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7550263",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-02T11:16:54+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7550263"
-      ],
-      "fingerprint": "b6f284725cb208d2ce8b3039495ef5cc61c075efde31dd35066ae4d58631fd52",
-      "selection_note": "Revisits the domain dependence of axiomatic Gini decompositions, constructing an interior family and identifying invariance conditions that recover a unique member without relying on zero-population comparisons.",
-      "reviewed_at": "2026-10-27",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7550263",
-        "https://papers.ssrn.com/sol3/Delivery.cfm/7550263.pdf?abstractid=7550263&mirid=1"
-      ]
-    },
-    {
-      "id": "7549758",
-      "doi": "10.2139/ssrn.7549758",
-      "title": "Wealth Transfers and Runs on Unsophisticated Investors in Semi-Liquid Private Credit",
-      "authors": [
-        "Gregor Matvos",
-        "Tomasz Piskorski",
-        "Amit Seru",
-        "Chun Zhao"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549758",
-      "topics": [
-        "Information & Contracts",
-        "Game Theory & Networks"
-      ],
-      "excerpt": "Private credit increasingly combines illiquid assets with periodic investor liquidity through capped share repurchase programs. We show that this structure...",
-      "indexed_at": "2026-10-01T19:29:09+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549758",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T19:29:09+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7549758"
-      ],
-      "fingerprint": "4d1d144f5ead857545a1ec7ee01538150ed21b73498571c5c8fb917c994df21d",
-      "selection_note": "Models endogenous valuation responsiveness and informed redemptions, showing how stale prices distort investment and crowd out liquidity-needy investors even with repurchase caps, creating a private-versus-social governance wedge.",
-      "reviewed_at": "2026-10-27",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7549758",
-        "https://papers.ssrn.com/sol3/Delivery.cfm/7549758.pdf?abstractid=7549758&mirid=1"
-      ]
-    },
-    {
-      "id": "7549998",
-      "doi": "10.2139/ssrn.7549998",
-      "title": "On the Cardinality of the Smith Set Under Impartial Culture with Many Alternatives",
-      "authors": [
-        "Zachary Berchenko",
-        "Kaizhao Liu"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549998",
-      "topics": [
-        "Decision & Social Choice"
-      ],
-      "excerpt": "For some integer ℓ ≥ 2, consider m = 2ℓ-1 voters, each of which has a preference ranking over n...",
-      "indexed_at": "2026-10-01T18:38:28+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7549998",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T18:38:28+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7549998"
-      ],
-      "fingerprint": "b09397f9dd49eddbb00db4aa483f794aaa27be7558284fec7b75c90be094fe39",
-      "selection_note": "Characterizes Smith-set size under uniformly random independent rankings with a fixed odd electorate, deriving probability rates and showing that the dominant majority set encompasses all alternatives with probability approaching one.",
-      "reviewed_at": "2026-10-26",
-      "review_level": "abstract_and_main_results",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7549998",
-        "https://arxiv.org/html/2610.03814v1"
-      ]
-    },
-    {
-      "id": "7544225",
-      "doi": "10.2139/ssrn.7544225",
-      "title": "Stochastic Adaptive Learning in Dominance-Solvable Games",
-      "authors": [
-        "Naoki Funai"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544225",
-      "topics": [
-        "Game Theory & Networks",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "We investigate whether a stochastic adaptive learning model that overlaps with experience-weighted attraction learning and stochastic fictitious play learning can...",
-      "indexed_at": "2026-10-01T06:15:28+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544225",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T06:15:28+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7544225"
-      ],
-      "fingerprint": "12428d6848d5b7cada23b7189de607c197159c6a400f468218a8dfb68bd8f007",
-      "selection_note": "Characterizes when noisy payoff-assessment learning approaches dominance-solvable outcomes, distinguishing the roles of logit precision, decreasing experience weights and incomplete counterfactual payoff observation.",
-      "reviewed_at": "2026-10-24",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7544225",
-        "https://www.econ.shiga-u.ac.jp/ebrisk/DPE50Funai.pdf"
-      ]
-    },
-    {
       "id": "7544621",
       "doi": "10.2139/ssrn.7544621",
       "title": "Participation Security and Elementary Mechanisms",
@@ -2785,279 +3058,6 @@
       "review_sources": [
         "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621",
         "https://benjaminbrooks.net/research.shtml"
-      ]
-    },
-    {
-      "id": "7543218",
-      "doi": "10.2139/ssrn.7543218",
-      "title": "Sorting Inefficiency and Firm Asymmetry in Selection Markets",
-      "authors": [
-        "Vishavdeep Sharma"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543218",
-      "topics": [
-        "Industrial Organization Theory",
-        "Decision & Social Choice"
-      ],
-      "excerpt": "Welfare analyses of selection markets use constrained planners to measure inefficient sorting and assess when mergers may benefit consumers. I...",
-      "indexed_at": "2026-10-01T06:02:12+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543218",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-06T18:20:03+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7543218"
-      ],
-      "fingerprint": "3682625a1aa54d3d9861e5740410bb5c9e0fd6abd0d29ef5ddd63675e18e89d8",
-      "selection_note": "Shows that aggregate-profit-constrained welfare benchmarks can mistake markup redistribution for inefficient sorting, and develops a firm-profit-preserving comparison to separate those channels in selection markets.",
-      "reviewed_at": "2026-10-24",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7543218"
-      ]
-    },
-    {
-      "id": "7544019",
-      "doi": "10.2139/ssrn.7544019",
-      "title": "Information Design in Research Funding",
-      "authors": [
-        "Mengyang Lin",
-        "Anran Li",
-        "Wenqi Lian",
-        "Zhe Liu"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544019",
-      "topics": [
-        "Information & Contracts",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...",
-      "indexed_at": "2026-10-01T05:40:27+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7544019",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T05:40:27+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7544019"
-      ],
-      "fingerprint": "6d7dc41c7fd414be4b44019f18d6c4687ce31ce0d5ab63d58b7e474729ddd754",
-      "selection_note": "Designs research-funding mechanisms under strategic disclosure and limited awards, establishing equilibrium and welfare guarantees for a threshold-plus-lottery rule when simple posterior rankings can fail.",
-      "reviewed_at": "2026-10-24",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7544019"
-      ]
-    },
-    {
-      "id": "7543808",
-      "doi": "10.2139/ssrn.7543808",
-      "title": "Dummy Agents in Allocation Mechanisms: Is Clearinghouse Manipulation Possible?",
-      "authors": [
-        "Ali Ghajari",
-        "Behrang Kamali-Shahdadi"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543808",
-      "topics": [
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...",
-      "indexed_at": "2026-10-01T05:33:08+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7543808",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-01T05:33:08+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7543808"
-      ],
-      "fingerprint": "3868214a9e302262de40b34970edb3c2dfae190db1ab7421d58c241bf0eb4c26",
-      "selection_note": "Characterizes clearinghouse manipulation through an added unmatched agent, identifying which stable deferred-acceptance outcomes can be induced and comparing immunity across alternative allocation mechanisms.",
-      "reviewed_at": "2026-10-24",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7543808"
-      ]
-    },
-    {
-      "id": "7545373",
-      "doi": "10.2139/ssrn.7545373",
-      "title": "Fair and Strategy-Proof Matching under Institutional Constraints",
-      "authors": [
-        "Lizhong Chen"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545373",
-      "topics": [
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "We study student welfare under fair and strategy-proof matching when schoolsface constraints beyond capacities. For separate hereditary constraints andfixed strict...",
-      "indexed_at": "2026-09-30T17:39:40+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7545373",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T17:39:41+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7545373"
-      ],
-      "fingerprint": "a2f8fc030b223bbd7a846f5c699a0030c68a74304fda8377b944caf0b30551e8",
-      "selection_note": "Characterizes welfare-maximal fair, strategy-proof matching under hereditary institutional constraints, relating student-optimal fairness to priority admissions satisfying aggregate-demand monotonicity and identifying failures when that condition breaks.",
-      "reviewed_at": "2026-10-23",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7545373"
-      ]
-    },
-    {
-      "id": "7542625",
-      "doi": "10.2139/ssrn.7542625",
-      "title": "When Do Minimum Participation Constraints Improve International Public-Good Provision under Voluntary Participation and Strategic Delegation? *",
-      "authors": [
-        "Ryusuke Shinohara"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542625",
-      "topics": [
-        "Game Theory & Networks",
-        "Mechanism & Market Design"
-      ],
-      "excerpt": "We examine the effectiveness of a minimum participation constraint (MPC) for international public-good provision when participation is voluntary and provision...",
-      "indexed_at": "2026-09-30T13:07:13+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542625",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T13:07:14+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7542625"
-      ],
-      "fingerprint": "91f28dd5743d88b5fe4ecbaee4b6ce0197066f79701c2cc0d7b6bcea11156303",
-      "selection_note": "Public-good games with strategic delegation: shows how minimum participation rules can worsen provision and characterizes when participant composition instead mitigates underprovision.",
-      "reviewed_at": "2026-10-21",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7542625"
-      ]
-    },
-    {
-      "id": "7542061",
-      "doi": "10.2139/ssrn.7542061",
-      "title": "Earned Access to Scarce Goods: Resale, Screening, and Relational Commitment",
-      "authors": [
-        "Yue Yuan",
-        "Xuecheng Yin"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542061",
-      "topics": [
-        "Information & Contracts",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "Sellers of scarce goods often keep the price below the market-clearing level and let buyers earn the right to buy...",
-      "indexed_at": "2026-09-30T12:30:42+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542061",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-10-09T02:45:12+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7542061"
-      ],
-      "fingerprint": "a29759b82d7f53cdf1397bf5a24726cb5065f1ce9ec603e99f78c5800fa5a083",
-      "selection_note": "Scarce-good allocation with resale: characterizes screening through complementary purchases, its comparison with clearing prices, and relational commitment needed to sustain earned access.",
-      "reviewed_at": "2026-10-21",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7542061"
-      ]
-    },
-    {
-      "id": "7541998",
-      "doi": "10.2139/ssrn.7541998",
-      "title": "Prices as Signals: Joint Design of Information and Pricing",
-      "authors": [
-        "Zhicheng Du",
-        "Yanwei Sun",
-        "Zihe Wang",
-        "Jiahua Wu"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7541998",
-      "topics": [
-        "Information & Contracts",
-        "Industrial Organization Theory"
-      ],
-      "excerpt": "A large body of literature studies the fundamental trade-offs of product information provision. However, much of this work treats prices...",
-      "indexed_at": "2026-09-30T12:26:40+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7541998",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T12:26:41+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7541998"
-      ],
-      "fingerprint": "f4659acdaabbac758e75218fca2bb50aece3061ba90c31f12b53e5cc78088e07",
-      "selection_note": "Joint information and price design: characterizes revealing contingent-pricing responses and an efficient oligopoly equilibrium, linking price signaling to first-price-auction bidding.",
-      "reviewed_at": "2026-10-21",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7541998",
-        "https://yanwei-sun.github.io/research.html"
-      ]
-    },
-    {
-      "id": "7537720",
-      "doi": "10.2139/ssrn.7537720",
-      "title": "Optimal Insurance Under Disappointment Theory Without Prior Expectation",
-      "authors": [
-        "Yichun Chi",
-        "Wenjun Jiang",
-        "Tingdi Ren"
-      ],
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537720",
-      "topics": [
-        "Decision & Social Choice",
-        "Information & Contracts"
-      ],
-      "excerpt": "This paper explains the long-standing low-deductible anomaly in insurance markets using a prior-free disappointment framework. Under this specification, the policyholder...",
-      "indexed_at": "2026-09-30T09:16:24+00:00",
-      "selection_reason": "Content-screened selection",
-      "has_abstract": true,
-      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7537720",
-      "jel_codes": [],
-      "posted_date": null,
-      "source_metadata_updated_at": "2026-09-30T09:16:24+00:00",
-      "first_seen": "2026-10-15T11:48:21+00:00",
-      "record_updated_at": null,
-      "ssrn_ids": [
-        "7537720"
-      ],
-      "fingerprint": "f6c48467807244e664617c9dbd5e0bfec07ccf7f5efd8bbb74119f448cad814b",
-      "selection_note": "Decision and insurance theory: a prior-free disappointment preference changes optimal deductibles and can make full insurance optimal despite actuarially unfair pricing.",
-      "reviewed_at": "2026-10-20",
-      "review_level": "abstract_and_source",
-      "review_sources": [
-        "https://api.crossref.org/works/10.2139/ssrn.7537720"
       ]
     }
   ],

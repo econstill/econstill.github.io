@@ -3,632 +3,632 @@
   <channel>
     <title>Theory Watch: Selected Microeconomic Theory on SSRN</title>
     <link>https://econstill.github.io/theory-watch/</link>
-    <description>Content-screened microeconomic-theory selections. Discovery runs daily; selections have no daily quota. Not peer review. Dates are DOI registration dates.</description>
+    <description>Content-screened microeconomic-theory selections, newest additions first. Feed publication dates are selection dates, not SSRN posting dates. Discovery runs daily; selections have no daily quota. Not peer review.</description>
     <language>en</language>
     <lastBuildDate>Sat, 31 Oct 2026 05:50:55 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
-      <title>Loan Screening under Symmetrically Imperfect Information</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7674783</link>
-      <guid isPermaLink="false">10.2139/ssrn.7674783</guid>
-      <pubDate>Tue, 27 Oct 2026 13:48:15 +0000</pubDate>
-      <description>Kenichi Ueda, Gao Yun. Information &amp; Contracts. We propose a canonical model of loan screening under symmetrically imperfect information. Project quality is unknown to both lender and...</description>
-    </item>
-    <item>
-      <title>Tail Structure and the Shape of Production</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7669444</link>
-      <guid isPermaLink="false">10.2139/ssrn.7669444</guid>
-      <pubDate>Sun, 25 Oct 2026 14:00:21 +0000</pubDate>
-      <description>Paolo Riccardo Morganti. Equilibrium &amp; Mathematical Economics. Which features of technological opportunities determine the aggregate production function that emerges from technology selection? We study an economy in...</description>
-    </item>
-    <item>
-      <title>Demand prospects and nonmonotone welfare guarantees under public disclosure</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7669145</link>
-      <guid isPermaLink="false">10.2139/ssrn.7669145</guid>
-      <pubDate>Sun, 25 Oct 2026 12:56:31 +0000</pubDate>
-      <description>Siwei Chen, Pengbo Wang. Information &amp; Contracts / Game Theory &amp; Networks. Public forecasts inform competing suppliers, but equilibrium multiplicity complicates welfare guarantees. In a two-supplier contact model with asymmetric costs, we...</description>
-    </item>
-    <item>
-      <title>Complementary Coalitions and Three-Alternative Instability</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7663738</link>
-      <guid isPermaLink="false">10.2139/ssrn.7663738</guid>
-      <pubDate>Sat, 24 Oct 2026 12:30:04 +0000</pubDate>
-      <description>Jin Li. Game Theory &amp; Networks / Decision &amp; Social Choice. Nakamura (1979) characterized when the core of a simple game is nonempty for every preference profile. We characterize the corresponding...</description>
-    </item>
-    <item>
-      <title>Traders on GPT: AI and Cognitive Capital in Financial Markets</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969</link>
-      <guid isPermaLink="false">10.2139/ssrn.7661969</guid>
-      <pubDate>Sat, 24 Oct 2026 11:11:59 +0000</pubDate>
-      <description>Andrea Barbon, Fayçal Drissi. Information &amp; Contracts / Equilibrium &amp; Mathematical Economics. We study how traders’ use of AI affects financial markets in a rational expectations model with asymmetric information. Traders process...</description>
-    </item>
-    <item>
-      <title>First-price Principle and the Failure of Revenue Equivalence</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7662742</link>
-      <guid isPermaLink="false">10.2139/ssrn.7662742</guid>
-      <pubDate>Sat, 24 Oct 2026 06:30:16 +0000</pubDate>
-      <description>Byeong-hyeon Jeong, Marek Pycia. Mechanism &amp; Market Design. We show that first-price auctions can maximize a wide variety of objectives, including revenue, welfare, bidder surplus, and equality, while...</description>
-    </item>
-    <item>
-      <title>Optimal Random Taxation</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661381</link>
-      <guid isPermaLink="false">10.2139/ssrn.7661381</guid>
-      <pubDate>Sat, 24 Oct 2026 06:02:35 +0000</pubDate>
-      <description>Felix Kubler, Chengfeng Shen. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. We consider the Ramsey problem of optimal government policy and give examples where lotteries are essential for the optimal solution...</description>
-    </item>
-    <item>
-      <title>Disclosing Provider Quality on Service Marketplaces with Congestion</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661964</link>
-      <guid isPermaLink="false">10.2139/ssrn.7661964</guid>
-      <pubDate>Sat, 24 Oct 2026 05:44:56 +0000</pubDate>
-      <description>anon Chen, Zechao Li. Information &amp; Contracts / Mechanism &amp; Market Design. Digital service platforms increasingly use endorsement programs to help consumers identify high-quality providers. Motivated by this, we study whether and...</description>
-    </item>
-    <item>
-      <title>Contagious vs. Fragile Equilibrium</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7659318</link>
-      <guid isPermaLink="false">10.2139/ssrn.7659318</guid>
-      <pubDate>Fri, 23 Oct 2026 15:45:59 +0000</pubDate>
-      <description>Ehud Kalai, Julien Manili. Game Theory &amp; Networks. In many games, experiments show that the number of players determines play in ways that standard analysis misses. We introduce...</description>
-    </item>
-    <item>
-      <title>Bridging Social Norms: A Framework for Assessing Unjust Inequality</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7650061</link>
-      <guid isPermaLink="false">10.2139/ssrn.7650061</guid>
-      <pubDate>Fri, 23 Oct 2026 05:03:54 +0000</pubDate>
-      <description>De Sandi Vito, Domenico Moramarco, Vito Peragine. Decision &amp; Social Choice. Standard income inequality measures use perfect equality as a benchmark, but they do not distinguish inequalities that violate principles of...</description>
-    </item>
-    <item>
-      <title>Recommendations with Costly Verification *</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640918</link>
-      <guid isPermaLink="false">10.2139/ssrn.7640918</guid>
-      <pubDate>Fri, 23 Oct 2026 04:01:11 +0000</pubDate>
-      <description>Yingju Ma, Ying Gao. Information &amp; Contracts / Industrial Organization Theory. A recommender faces consumers who can verify recommendations, but differ in their attention costs or in the salience of their...</description>
-    </item>
-    <item>
-      <title>Endogenous Fragmentation in Decentralized Exchanges</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7655598</link>
-      <guid isPermaLink="false">10.2139/ssrn.7655598</guid>
-      <pubDate>Thu, 22 Oct 2026 17:10:35 +0000</pubDate>
-      <description>Jiawei Wang, Roman Kozhan, Zhengge Zhou. Game Theory &amp; Networks / Industrial Organization Theory. This paper develops a game-theoretic model of endogenous liquidity fragmentation in decentralized exchanges with automated market makers. Liquidity providers strategically...</description>
-    </item>
-    <item>
-      <title>Stability and Institutional Power in the Allocation of Indivisible Goods</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656768</link>
-      <guid isPermaLink="false">10.2139/ssrn.7656768</guid>
-      <pubDate>Thu, 22 Oct 2026 16:07:23 +0000</pubDate>
-      <description>Clinton Gubong Gassi, Linus T. Nana Noumi, Rodrigue Tido Takeng. Decision &amp; Social Choice / Mechanism &amp; Market Design. This paper studies the allocation of a fixed number of an indivisible and homogeneouscommodity among a set of agents. Each...</description>
-    </item>
-    <item>
-      <title>Conditional Probability Spaces and the Structure of Agreement</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656767</link>
-      <guid isPermaLink="false">10.2139/ssrn.7656767</guid>
-      <pubDate>Thu, 22 Oct 2026 16:07:11 +0000</pubDate>
-      <description>Erya Yang, Adam M. Brandenburger. Information &amp; Contracts / Equilibrium &amp; Mathematical Economics. We use the machinery of a conditional probability space (R´enyi 26, 1955) to obtain an Agreement Theorem (Aumann 1, 1976)...</description>
-    </item>
-    <item>
-      <title>Robust Revenue Guarantees with Order Statistic Information</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656766</link>
-      <guid isPermaLink="false">10.2139/ssrn.7656766</guid>
-      <pubDate>Thu, 22 Oct 2026 16:07:08 +0000</pubDate>
-      <description>Bin Huang, Genjiu Xu, Wenzhong Li. Mechanism &amp; Market Design. Auction records are often anonymous and reveal only transaction prices or selected ranked bids, leaving buyers' individual value distributions unidentified...</description>
-    </item>
-    <item>
-      <title>When Can Coarse Categories Persuade? Monotone Partitions, Commitment, and Credibility</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7654119</link>
-      <guid isPermaLink="false">10.2139/ssrn.7654119</guid>
-      <pubDate>Thu, 22 Oct 2026 15:34:50 +0000</pubDate>
-      <description>Yunchuan Liu. Information &amp; Contracts. Institutions often disclose information through ordered categories, such as grades and pass or fail labels. This paper asks when such...</description>
-    </item>
-    <item>
-      <title>Consumer captivity and the profitability of unauthorized resale</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656438</link>
-      <guid isPermaLink="false">10.2139/ssrn.7656438</guid>
-      <pubDate>Thu, 22 Oct 2026 15:09:41 +0000</pubDate>
-      <description>Alexander Senk. Industrial Organization Theory. This paper studies how the presence of captive consumers, who buy exclusively through a manufacturer's authorized sales channel, affects the...</description>
-    </item>
-    <item>
-      <title>Winning Voters or Winning Regions? Vote Aggregation, Ideology, and Regional Transfers *</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656341</link>
-      <guid isPermaLink="false">10.2139/ssrn.7656341</guid>
-      <pubDate>Thu, 22 Oct 2026 15:04:21 +0000</pubDate>
-      <description>Pablo Amoros, M. Socorro Puy. Game Theory &amp; Networks / Decision &amp; Social Choice. Electoral systems differ in whether votes are pooled nationwide or aggregated within territorial units, such as regions. A common view...</description>
-    </item>
-    <item>
-      <title>Who Says What: Strategic Communication in Networks</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7653460</link>
-      <guid isPermaLink="false">10.2139/ssrn.7653460</guid>
-      <pubDate>Thu, 22 Oct 2026 14:39:21 +0000</pubDate>
-      <description>Anuj Bhowmik, Saptarshi Prosonno Ghosh, Iman Kundu, Sandipan Saha. Game Theory &amp; Networks / Information &amp; Contracts. We study a multi-player communication-coordnation game in which privately informed agents communicate through a social network and choose their optimal...</description>
-    </item>
-    <item>
-      <title>Keeping up with the Joneses in a World of Misinformation: Probit Excess Payoff Dynamic</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652199</link>
-      <guid isPermaLink="false">10.2139/ssrn.7652199</guid>
-      <pubDate>Thu, 22 Oct 2026 13:36:02 +0000</pubDate>
-      <description>Ceili Kirkaldie. Game Theory &amp; Networks / Decision &amp; Social Choice. This paper introduces the Probit-Excess-Payoff Dynamic, a novel evolutionary dynamic that integrates excess-payoff revision protocols with probit-style stochastic choice. Agents...</description>
-    </item>
-    <item>
-      <title>Stackelberg Stopping Games</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7647640</link>
-      <guid isPermaLink="false">10.2139/ssrn.7647640</guid>
-      <pubDate>Thu, 22 Oct 2026 09:45:09 +0000</pubDate>
-      <description>Jingjie Zhang, Zhou Zhou. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. We study a Stackelberg variant of the classical discrete-time Dynkin game, in which Player 1 (the leader) commits to a...</description>
-    </item>
-    <item>
-      <title>Who Keeps a Bubble Alive? Skin in the Game and the Survival of Rational Bubbles</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649238</link>
-      <guid isPermaLink="false">10.2139/ssrn.7649238</guid>
-      <pubDate>Thu, 22 Oct 2026 05:26:20 +0000</pubDate>
-      <description>Feng Dong, Siqing Wang, Fan Wu. Equilibrium &amp; Mathematical Economics / Information &amp; Contracts. We study how retained ownership supports the value of a zero-dividend asset held for resale. A sponsor chooses hidden maintenance...</description>
-    </item>
-    <item>
-      <title>Staggered Rollout for Innovation Adoption</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651798</link>
-      <guid isPermaLink="false">10.2139/ssrn.7651798</guid>
-      <pubDate>Wed, 21 Oct 2026 20:59:35 +0000</pubDate>
-      <description>Ricardo Fonseca. Mechanism &amp; Market Design / Information &amp; Contracts. A farmer considering a new perennial crop, or someone considering a new vaccine, may prefer to wait and learn from...</description>
-    </item>
-    <item>
-      <title>Electoral Competition over Interval Platforms</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646798</link>
-      <guid isPermaLink="false">10.2139/ssrn.7646798</guid>
-      <pubDate>Wed, 21 Oct 2026 17:54:37 +0000</pubDate>
-      <description>Daeseok Kim. Game Theory &amp; Networks / Decision &amp; Social Choice. Two candidates choose intervals evaluated by a Hurwicz criterion with worst-loss weight α. Under affine voting, the unique equilibrium is...</description>
-    </item>
-    <item>
-      <title>Employers' Unilateral Settlement of Dismissal Disputes</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649948</link>
-      <guid isPermaLink="false">10.2139/ssrn.7649948</guid>
-      <pubDate>Wed, 21 Oct 2026 15:16:01 +0000</pubDate>
-      <description>Daisuke Adachi, Ryo Kambayashi, Kohei Kawaguchi. Information &amp; Contracts / Game Theory &amp; Networks. We study how the procedural design of dismissal dispute resolution affects firm-worker bargaining, focusing on \textit{unilateral settlement}: an employer pays...</description>
-    </item>
-    <item>
-      <title>Score Errors Create Endogenous Assortment and Tipping Points in Public-Goods Games</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7644058</link>
-      <guid isPermaLink="false">10.2139/ssrn.7644058</guid>
-      <pubDate>Wed, 21 Oct 2026 15:05:06 +0000</pubDate>
-      <description>Aaryan Niroula. Game Theory &amp; Networks. Assortment is often imposed as an exogenous parameter in models of cooperation. We instead derive it from a common noisy...</description>
-    </item>
-    <item>
-      <title>Stochastic Sequential Choice from Lists</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649588</link>
-      <guid isPermaLink="false">10.2139/ssrn.7649588</guid>
-      <pubDate>Wed, 21 Oct 2026 14:41:01 +0000</pubDate>
-      <description>Mohammad Aksam. Decision &amp; Social Choice. This paper provides an axiomatic foundation for Stochastic Sequential Choice fromLists. We model boundedly rational agents who evaluate alternatives from...</description>
-    </item>
-    <item>
-      <title>Revenue Guarantee Equivalence between Dominant-Strategy and Bayesian Mechanisms</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646199</link>
-      <guid isPermaLink="false">10.2139/ssrn.7646199</guid>
-      <pubDate>Wed, 21 Oct 2026 07:19:21 +0000</pubDate>
-      <description>Nir Bachrach, Yi-Chun Chen, Inbal Talgam-Cohen, Xiangqian Yang, Wanchang Zhang. Mechanism &amp; Market Design. In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show...</description>
-    </item>
-    <item>
-      <title>Sequential Selection of the Best Candidate with Multiple Conflicts of Interest</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7633842</link>
-      <guid isPermaLink="false">10.2139/ssrn.7633842</guid>
-      <pubDate>Wed, 21 Oct 2026 04:24:45 +0000</pubDate>
-      <description>Tsuyoshi Adachi, Pablo Amoros. Mechanism &amp; Market Design / Decision &amp; Social Choice. This paper studies a collective decision problem in which a group of judges must select the deserving winner from a...</description>
-    </item>
-    <item>
-      <title>Coarse Revenue Guarantee in First Price Auction and Beyond</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7643244</link>
-      <guid isPermaLink="false">10.2139/ssrn.7643244</guid>
-      <pubDate>Tue, 20 Oct 2026 16:13:27 +0000</pubDate>
-      <description>Linchen Zhang. Mechanism &amp; Market Design / Game Theory &amp; Networks. I study the coarse revenue guarantee (CRG) of the single-unit first-price auction with common values. The CRG is the minimum...</description>
-    </item>
-    <item>
-      <title>Unbundling Market Failures under Interdependent Cyber Risk: Externalities, Information, and Dynamic Adoption</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642377</link>
-      <guid isPermaLink="false">10.2139/ssrn.7642377</guid>
-      <pubDate>Tue, 20 Oct 2026 14:55:28 +0000</pubDate>
-      <description>Pengfei Zhang. Game Theory &amp; Networks / Information &amp; Contracts. Externalities and information asymmetry are two primary frictions in the market for information security. But which friction should government regulations...</description>
-    </item>
-    <item>
-      <title>Screening the Screeners: Performance Vesting in Delegated Investment</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642286</link>
-      <guid isPermaLink="false">10.2139/ssrn.7642286</guid>
-      <pubDate>Tue, 20 Oct 2026 14:52:22 +0000</pubDate>
-      <description>Bowen Guo, Zhaojun Yang. Information &amp; Contracts. We study managerial compensation when investors delegate project selection to privately informed intermediaries, as in venture capital and private equity...</description>
-    </item>
-    <item>
-      <title>Elasticity and Bargaining Power</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7631118</link>
-      <guid isPermaLink="false">10.2139/ssrn.7631118</guid>
-      <pubDate>Tue, 20 Oct 2026 08:10:46 +0000</pubDate>
-      <description>Pedro Pablo Pérez Velasco. Game Theory &amp; Networks. This paper identifies a new source of bargaining power: the elasticity of a bargainer's utility, defined as the marginal value...</description>
-    </item>
-    <item>
-      <title>Axiomatic Characterization of the Owen Index without Efficiency</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632698</link>
-      <guid isPermaLink="false">10.2139/ssrn.7632698</guid>
-      <pubDate>Tue, 20 Oct 2026 05:04:45 +0000</pubDate>
-      <description>Takaaki Abe, Miku Inagaki. Game Theory &amp; Networks / Decision &amp; Social Choice. We provide an axiomatic characterization of the Owen index on voting games with coalition structures without imposing efficiency. Our characterization...</description>
-    </item>
-    <item>
-      <title>Workload and Wage Insurance When Workers Can Quit</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632058</link>
-      <guid isPermaLink="false">10.2139/ssrn.7632058</guid>
-      <pubDate>Tue, 20 Oct 2026 02:46:51 +0000</pubDate>
-      <description>Kyoung Jin Choi, Junkee Jeon. Information &amp; Contracts. Firms cut hours or duties when demand stays weak and restore them when it recovers, while long term contracts insure...</description>
-    </item>
-    <item>
-      <title>Optimality of Grand Bundling Mechanism in the Two-Item Setting for Distributions with a Decreasing Density</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7635444</link>
-      <guid isPermaLink="false">10.2139/ssrn.7635444</guid>
-      <pubDate>Mon, 19 Oct 2026 15:07:53 +0000</pubDate>
-      <description>Bharat Kumar, Thirumulanathan D. Mechanism &amp; Market Design. We study the problem of designing revenue-optimal mechanisms for selling two items to a single buyer with additive valuations distributed...</description>
-    </item>
-    <item>
-      <title>Content Business Models in the Era of Large Language Models: Licensing, Creation, and Regulation</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7621761</link>
-      <guid isPermaLink="false">10.2139/ssrn.7621761</guid>
-      <pubDate>Mon, 19 Oct 2026 11:46:00 +0000</pubDate>
-      <description>Yulin Hu, Mingliu Chen, Bin Hu. Industrial Organization Theory / Information &amp; Contracts. A prevalent Internet content business model allows publishers to let search engines index their content while monetizing the resulting site...</description>
-    </item>
-    <item>
-      <title>Performance feedback and wage insurance</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625276</link>
-      <guid isPermaLink="false">10.2139/ssrn.7625276</guid>
-      <pubDate>Sat, 17 Oct 2026 15:27:17 +0000</pubDate>
-      <description>Toshihiko Nanba. Information &amp; Contracts. I study the joint design of compensation and performance feedback for a risk-averse worker paid a nonnegative terminal wage. The...</description>
-    </item>
-    <item>
-      <title>Internal Cycles and Foresight in Sequential Network Formation</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625275</link>
-      <guid isPermaLink="false">10.2139/ssrn.7625275</guid>
-      <pubDate>Sat, 17 Oct 2026 15:27:07 +0000</pubDate>
-      <description>Julien Fixary. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. This paper introduces a notion of sequentiality into strategic network formation theory. We construct the analogue of an extensive-form game...</description>
-    </item>
-    <item>
-      <title>Selling Customer Information to Competing Firms: Is Exclusivity Sensitive to Mixed Strategies?</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7619581</link>
-      <guid isPermaLink="false">10.2139/ssrn.7619581</guid>
-      <pubDate>Sat, 17 Oct 2026 04:27:00 +0000</pubDate>
-      <description>Iñaki Aguirre. Information &amp; Contracts / Industrial Organization Theory. Clavorà Braulin and Valletti (2016) show, in an insightful analysis, that a data broker selling customer information to two vertically...</description>
-    </item>
-    <item>
-      <title>Partial Price Transparency and Demand Learning in Retail Price Competition</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620880</link>
-      <guid isPermaLink="false">10.2139/ssrn.7620880</guid>
-      <pubDate>Fri, 16 Oct 2026 17:34:36 +0000</pubDate>
-      <description>Junbo Jacob Lian, Hanzhang Qin, Chung-Piaw Teo. Industrial Organization Theory / Information &amp; Contracts. Problem definition: Many sellers reprice against rivals' prices, but the rival price they use is often inexact: matching rival offers...</description>
-    </item>
-    <item>
-      <title>Voluntary Partial Participation in Peer-to-Peer Insurance with Heterogeneous Risks</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620218</link>
-      <guid isPermaLink="false">10.2139/ssrn.7620218</guid>
-      <pubDate>Fri, 16 Oct 2026 14:48:03 +0000</pubDate>
-      <description>Tim J. Boonen, Ka Chun Cheung, Mai Zhang. Information &amp; Contracts / Mechanism &amp; Market Design. Heterogeneous risk affects not only who joins a peer-to-peer insurance pool but also how intensively participants share losses. We study...</description>
-    </item>
-    <item>
-      <title>Equivalence Classes in Recursive utility</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7612538</link>
-      <guid isPermaLink="false">10.2139/ssrn.7612538</guid>
-      <pubDate>Fri, 16 Oct 2026 06:46:42 +0000</pubDate>
-      <description>Robert A. Becker, Carlos Palmero, Juan Rincon-Zapatero. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. We introduce and analyze an equivalence relation on the set of aggregators in the context of recursive utility theory. We...</description>
-    </item>
-    <item>
-      <title>Credibility vs. Context</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609964</link>
-      <guid isPermaLink="false">10.2139/ssrn.7609964</guid>
-      <pubDate>Fri, 16 Oct 2026 03:37:50 +0000</pubDate>
-      <description>Mengxi Sun. Information &amp; Contracts / Decision &amp; Social Choice. How does a receiver integrate what a sender says with why she says it? When a sender interprets data to...</description>
-    </item>
-    <item>
-      <title>Capacity Expansion in Proportionally Fair Multi-Resource Allocation: Exact Outcomes and the Distribution of Gains</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615220</link>
-      <guid isPermaLink="false">10.2139/ssrn.7615220</guid>
-      <pubDate>Thu, 15 Oct 2026 14:30:38 +0000</pubDate>
-      <description>Taylor Canann. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. A facility allocates complementary resources among users with different input proportions, under the proportionally fair-equivalently weighted Nash, or Leontief-Fisher-allocation. Expanding...</description>
-    </item>
-    <item>
-      <title>Regulated Stochastic Insurance Pricing Game: An Equilibrium-Set Approach</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615485</link>
-      <guid isPermaLink="false">10.2139/ssrn.7615485</guid>
-      <pubDate>Thu, 15 Oct 2026 13:59:58 +0000</pubDate>
-      <description>Lihua Bai, Qiyang Zhao. Game Theory &amp; Networks / Industrial Organization Theory. This paper studies a stochastic insurance pricing game with affinepremium bounds that depend on competitors' current average premiums.Regulation can lead...</description>
-    </item>
-    <item>
-      <title>On the Stability of Token Systems</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611999</link>
-      <guid isPermaLink="false">10.2139/ssrn.7611999</guid>
-      <pubDate>Wed, 14 Oct 2026 18:29:18 +0000</pubDate>
-      <description>Süleyman Kerimov. Mechanism &amp; Market Design / Game Theory &amp; Networks. Token systems offer a market solution for non-monetary economies, where monetary transactions are undesirable or restricted. In such systems, agents...</description>
-    </item>
-    <item>
-      <title>Should Governments Tax Commodities Uniformly? Theory and Empirical Evidence from Brazil</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611525</link>
-      <guid isPermaLink="false">10.2139/ssrn.7611525</guid>
-      <pubDate>Wed, 14 Oct 2026 16:50:13 +0000</pubDate>
-      <description>Breno Albuquerque, Aloisio Araujo, Tiago Cavalcanti, Gil Navarro. Equilibrium &amp; Mathematical Economics / Mechanism &amp; Market Design. In this paper, we investigate the optimal consumption tax structure in a general equi-librium model with tax evasion. We show...</description>
-    </item>
-    <item>
-      <title>Mixed Bundling from Separate-Sales Data</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611439</link>
-      <guid isPermaLink="false">10.2139/ssrn.7611439</guid>
-      <pubDate>Wed, 14 Oct 2026 16:42:44 +0000</pubDate>
-      <description>Dingli Wang. Mechanism &amp; Market Design / Industrial Organization Theory. A seller has sold two goods separately at two price levels and knows, for each level, the shares of buyers...</description>
-    </item>
-    <item>
-      <title>Policy Making with an Informed Opposition</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609678</link>
-      <guid isPermaLink="false">10.2139/ssrn.7609678</guid>
-      <pubDate>Wed, 14 Oct 2026 14:34:26 +0000</pubDate>
-      <description>Álvaro Delgado-Vega, Wioletta Dziuda, Antoine Loeper. Game Theory &amp; Networks / Information &amp; Contracts. We develop a model of electoral competition that captures the dynamic interaction between the incumbent's policy making and the informed...</description>
-    </item>
-    <item>
-      <title>Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609418</link>
-      <guid isPermaLink="false">10.2139/ssrn.7609418</guid>
-      <pubDate>Wed, 14 Oct 2026 08:45:36 +0000</pubDate>
-      <description>Anuj Bhowmik. Equilibrium &amp; Mathematical Economics. This paper develops a general equilibrium model of tradable licenses by considering an economy with a continuum of agents who...</description>
-    </item>
-    <item>
-      <title>Competing for Advertiser Spending: Optimal Allocation and Pricing on a Smaller Advertising Platform</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7601123</link>
-      <guid isPermaLink="false">10.2139/ssrn.7601123</guid>
-      <pubDate>Wed, 14 Oct 2026 03:40:52 +0000</pubDate>
-      <description>Bar Light, Jussi Keppo, Zhengyuan Zhou, Xiaoyu Fan, Kerun Xu. Mechanism &amp; Market Design / Industrial Organization Theory. Digital advertising markets often feature a large established platform and smaller platforms competing for advertiser spending. We study how a...</description>
-    </item>
-    <item>
-      <title>A Behavioral Foundation for the Investment Wedge</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607158</link>
-      <guid isPermaLink="false">10.2139/ssrn.7607158</guid>
-      <pubDate>Tue, 13 Oct 2026 16:09:15 +0000</pubDate>
-      <description>Jean-Paul L’Huillier, Pierlauro Lopez, Sanjay R. Singh. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. Motivated by behavioral evidence, we develop a tractable method for incorporating competition neglect into a general equilibrium firm investment problem...</description>
-    </item>
-    <item>
-      <title>Incentives in School Choice with Rank-Dependent Priorities</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605560</link>
-      <guid isPermaLink="false">10.2139/ssrn.7605560</guid>
-      <pubDate>Tue, 13 Oct 2026 15:09:54 +0000</pubDate>
-      <description>Yusuke Iwase. Mechanism &amp; Market Design. Many school admission systems give a higher priority to a student who ranks a school higher in his submitted preference...</description>
-    </item>
-    <item>
-      <title>Multilateral Bargaining with Information Spillovers</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596278</link>
-      <guid isPermaLink="false">10.2139/ssrn.7596278</guid>
-      <pubDate>Mon, 12 Oct 2026 15:03:56 +0000</pubDate>
-      <description>Vladimir Asriyan, William Martin Fuchs, Caio Lorecchio. Information &amp; Contracts / Industrial Organization Theory. We study dynamic monopoly pricing with multiple buyers whose privately known valuations are correlated, so one buyer's purchase reveals information...</description>
-    </item>
-    <item>
-      <title>Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078</link>
-      <guid isPermaLink="false">10.2139/ssrn.7596078</guid>
-      <pubDate>Mon, 12 Oct 2026 14:55:05 +0000</pubDate>
-      <description>Tim J. Boonen, Yilong Gong, Bin Li, Dongchen Li. Decision &amp; Social Choice / Information &amp; Contracts. We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...</description>
-    </item>
-    <item>
-      <title>Stability Rigidity and Robust Minimal Instability of Top Trading Cycles with Mixed Capacities</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7599299</link>
-      <guid isPermaLink="false">10.2139/ssrn.7599299</guid>
-      <pubDate>Mon, 12 Oct 2026 07:03:21 +0000</pubDate>
-      <description>Lizhong Chen. Mechanism &amp; Market Design. We ask whether a Pareto-efficient and strategy-proof school assignment rule must coincide with top trading cycles if it is stable...</description>
-    </item>
-    <item>
-      <title>Market Power and Insurance Coverage</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590660</link>
-      <guid isPermaLink="false">10.2139/ssrn.7590660</guid>
-      <pubDate>Mon, 12 Oct 2026 06:39:18 +0000</pubDate>
-      <description>Daniel Gottlieb, Humberto Moreira. Information &amp; Contracts / Industrial Organization Theory. This paper compares allocations under monopoly and perfect competition in markets with adverse selection, such as insurance markets. We show...</description>
-    </item>
-    <item>
-      <title>Unilateral Incentives and Informative Experimentationin Cournot Learning</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597177</link>
-      <guid isPermaLink="false">10.2139/ssrn.7597177</guid>
-      <pubDate>Sun, 11 Oct 2026 15:10:43 +0000</pubDate>
-      <description>S. S. Askar King Saud University. Game Theory &amp; Networks / Industrial Organization Theory. Firms facing unknown demand must infer the effect of a unilateral quantity change from observations generated while their rivals also...</description>
-    </item>
-    <item>
-      <title>Shaping the Menu: Information Design under Screening</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590419</link>
-      <guid isPermaLink="false">10.2139/ssrn.7590419</guid>
-      <pubDate>Fri, 09 Oct 2026 18:17:17 +0000</pubDate>
-      <description>Panagiotis Kyriazis. Information &amp; Contracts / Mechanism &amp; Market Design. How should consumers learn when a seller chooses a menu of product qualities and prices? We study information design when...</description>
-    </item>
-    <item>
-      <title>Credit-Based vs. Discount-Based Congestion Pricing: A Comparison Study</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590261</link>
-      <guid isPermaLink="false">10.2139/ssrn.7590261</guid>
-      <pubDate>Fri, 09 Oct 2026 17:25:16 +0000</pubDate>
-      <description>Chih-Yuan Chiu, Devansh Jalota, Marco Pavone. Game Theory &amp; Networks / Mechanism &amp; Market Design. Credit-based congestion pricing (CBCP) and discount-based congestion pricing (DBCP), which respectively allot travel credits and toll discounts to subsidize low-income...</description>
-    </item>
-    <item>
-      <title>Do Distributional Concerns Justify Lower Environmental Taxes?</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589944</link>
-      <guid isPermaLink="false">10.2139/ssrn.7589944</guid>
-      <pubDate>Fri, 09 Oct 2026 16:20:13 +0000</pubDate>
-      <description>Ashley Craig, Dylan Moore, Thomas Lloyd. Mechanism &amp; Market Design / Decision &amp; Social Choice. Should externality taxes be reduced if they are regressive? We introduce a model in which the government raises revenue from...</description>
-    </item>
-    <item>
-      <title>Bounded Stationary Discounted Utility</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589886</link>
-      <guid isPermaLink="false">10.2139/ssrn.7589886</guid>
-      <pubDate>Fri, 09 Oct 2026 16:08:03 +0000</pubDate>
-      <description>Xiangyu Qu. Decision &amp; Social Choice. tandard discounted utility rapidly suppresses distant future consequences, often making catastrophic losses or transformative gains nearly irrelevant for present decisions...</description>
-    </item>
-    <item>
-      <title>Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238</link>
-      <guid isPermaLink="false">10.2139/ssrn.7587238</guid>
-      <pubDate>Fri, 09 Oct 2026 06:09:10 +0000</pubDate>
-      <description>Nick Arnosti, Rad Niazadeh, Pranav Nuti, Felipe Simon. Mechanism &amp; Market Design. We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...</description>
-    </item>
-    <item>
-      <title>Information Divergence and Endogenous Evolution of Asymmetric Information</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978</link>
-      <guid isPermaLink="false">10.2139/ssrn.7574978</guid>
-      <pubDate>Fri, 09 Oct 2026 04:47:40 +0000</pubDate>
-      <description>Ratna Shrestha, Gaurav Subedi, Ayush Shrestha. Information &amp; Contracts. Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...</description>
-    </item>
-    <item>
-      <title>Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580718</link>
-      <guid isPermaLink="false">10.2139/ssrn.7580718</guid>
-      <pubDate>Thu, 08 Oct 2026 14:21:15 +0000</pubDate>
-      <description>Guoqiang Tian. Mechanism &amp; Market Design / Information &amp; Contracts. This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...</description>
-    </item>
-    <item>
-      <title>Strategy-Proof and Minimally Wasteful Random Assignment</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560666</link>
-      <guid isPermaLink="false">10.2139/ssrn.7560666</guid>
-      <pubDate>Sun, 04 Oct 2026 14:07:51 +0000</pubDate>
-      <description>Lars Ehlers, Christian Basteck. Mechanism &amp; Market Design. We study random assignment of indivisible objects among a set of agents with strictpreferences and outside options. When agents may...</description>
-    </item>
-    <item>
       <title>Managing Strategic Communication for Monetary Transfers</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556891</link>
       <guid isPermaLink="false">10.2139/ssrn.7556891</guid>
-      <pubDate>Sat, 03 Oct 2026 14:50:29 +0000</pubDate>
-      <description>Akifumi Ishihara. Information &amp; Contracts / Game Theory &amp; Networks. We investigate a model of an informed expert and an uninformed decision maker, in which the expert sends cheap-talk messages...</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Akifumi Ishihara. Added 31 Oct 2026. DOI registered 03 Oct 2026. Information &amp; Contracts / Game Theory &amp; Networks. We investigate a model of an informed expert and an uninformed decision maker, in which the expert sends cheap-talk messages...</description>
     </item>
     <item>
       <title>A Measure of Preference for Early Resolution of Uncertainty</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7556890</link>
       <guid isPermaLink="false">10.2139/ssrn.7556890</guid>
-      <pubDate>Sat, 03 Oct 2026 14:50:19 +0000</pubDate>
-      <description>Hengjie Ai. Decision &amp; Social Choice / Equilibrium &amp; Mathematical Economics. This paper develops a measure of preference for early resolution of uncertainty (PER) that parallels the Arrow-Pratt measure of risk...</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hengjie Ai. Added 31 Oct 2026. DOI registered 03 Oct 2026. Decision &amp; Social Choice / Equilibrium &amp; Mathematical Economics. This paper develops a measure of preference for early resolution of uncertainty (PER) that parallels the Arrow-Pratt measure of risk...</description>
     </item>
     <item>
       <title>Multilateral Bargaining With Caps</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7551062</link>
       <guid isPermaLink="false">10.2139/ssrn.7551062</guid>
-      <pubDate>Sat, 03 Oct 2026 09:13:41 +0000</pubDate>
-      <description>Diego Carrasco, John Hillas, Alfonso Dela Cruz. Game Theory &amp; Networks. We study the Baron-Ferejohn model of multilateral bargaining when each player's share is capped. The Baron-Ferejohn outcome remains the unique...</description>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Diego Carrasco, John Hillas, Alfonso Dela Cruz. Added 31 Oct 2026. DOI registered 03 Oct 2026. Game Theory &amp; Networks. We study the Baron-Ferejohn model of multilateral bargaining when each player's share is capped. The Baron-Ferejohn outcome remains the unique...</description>
+    </item>
+    <item>
+      <title>Dynamic Matching with Abandonment: Optimal Guarantees via Static Priority Policies</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7587238</link>
+      <guid isPermaLink="false">10.2139/ssrn.7587238</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Nick Arnosti, Rad Niazadeh, Pranav Nuti, Felipe Simon. Added 30 Oct 2026. DOI registered 09 Oct 2026. Mechanism &amp; Market Design. We study stochastic dynamic matching with abandonment, a fundamental model in which agents of different types arrive over time, may...</description>
+    </item>
+    <item>
+      <title>Information Divergence and Endogenous Evolution of Asymmetric Information</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7574978</link>
+      <guid isPermaLink="false">10.2139/ssrn.7574978</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ratna Shrestha, Gaurav Subedi, Ayush Shrestha. Added 30 Oct 2026. DOI registered 09 Oct 2026. Information &amp; Contracts. Standard theories trace information asymmetry to privately held information, heterogeneous signals, or costly information acquisition. We identify a distinct mechanism...</description>
+    </item>
+    <item>
+      <title>Dynamic Mechanism and Information Design in AI-Agent Environments: A General Analytical Framework</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7580718</link>
+      <guid isPermaLink="false">10.2139/ssrn.7580718</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Guoqiang Tian. Added 30 Oct 2026. DOI registered 08 Oct 2026. Mechanism &amp; Market Design / Information &amp; Contracts. This paper develops a general framework for dynamic mechanism and information design with AI agents, encompassing optimal contracting and integrating...</description>
     </item>
     <item>
       <title>Designing the Right to Cooperate Participation and Costly Communication Networks</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553563</link>
       <guid isPermaLink="false">10.2139/ssrn.7553563</guid>
-      <pubDate>Fri, 02 Oct 2026 21:26:37 +0000</pubDate>
-      <description>Taylor Canann. Game Theory &amp; Networks / Mechanism &amp; Market Design. Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Taylor Canann. Added 30 Oct 2026. DOI registered 02 Oct 2026. Game Theory &amp; Networks / Mechanism &amp; Market Design. Institutions can control who may cooperate even when they cannot freely rewrite how cooperative surplus is shared. We study a...</description>
     </item>
     <item>
       <title>The Value of Knowing a Coalition Allocation-Dependent Information and Stable Burden Sharing</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7553738</link>
       <guid isPermaLink="false">10.2139/ssrn.7553738</guid>
-      <pubDate>Fri, 02 Oct 2026 21:26:30 +0000</pubDate>
-      <description>Taylor Canann. Game Theory &amp; Networks / Information &amp; Contracts. An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...</description>
-    </item>
-    <item>
-      <title>Uniqueness of Recursive Utility with Unbounded Consumption and Non-Expected Utility</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552146</link>
-      <guid isPermaLink="false">10.2139/ssrn.7552146</guid>
-      <pubDate>Fri, 02 Oct 2026 16:32:36 +0000</pubDate>
-      <description>Lorenzo Maria Stanca, Luigi Montrucchio. Decision &amp; Social Choice / Equilibrium &amp; Mathematical Economics. We derive sufficient conditions for the existence, non-existence, uniqueness and global attractivity of stochastic recursive utilities. Our approach uses abstract...</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Taylor Canann. Added 30 Oct 2026. DOI registered 02 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. An institution must choose both a cooperative allocation and which coalition technologies to verify. We study this joint decision in...</description>
     </item>
     <item>
       <title>Social Welfare and Price Discovery in Double Auction Markets</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552140</link>
       <guid isPermaLink="false">10.2139/ssrn.7552140</guid>
-      <pubDate>Fri, 02 Oct 2026 16:29:44 +0000</pubDate>
-      <description>Teemu Pennanen. Equilibrium &amp; Mathematical Economics / Mechanism &amp; Market Design. The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Teemu Pennanen. Added 30 Oct 2026. DOI registered 02 Oct 2026. Equilibrium &amp; Mathematical Economics / Mechanism &amp; Market Design. The tendency of the double auction mechanism to drive prices to competitive equilibrium has been well documented in laboratory experiments...</description>
+    </item>
+    <item>
+      <title>A Behavioral Foundation for the Investment Wedge</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7607158</link>
+      <guid isPermaLink="false">10.2139/ssrn.7607158</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Jean-Paul L’Huillier, Pierlauro Lopez, Sanjay R. Singh. Added 29 Oct 2026. DOI registered 13 Oct 2026. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. Motivated by behavioral evidence, we develop a tractable method for incorporating competition neglect into a general equilibrium firm investment problem...</description>
+    </item>
+    <item>
+      <title>Credit-Based vs. Discount-Based Congestion Pricing: A Comparison Study</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590261</link>
+      <guid isPermaLink="false">10.2139/ssrn.7590261</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Chih-Yuan Chiu, Devansh Jalota, Marco Pavone. Added 29 Oct 2026. DOI registered 09 Oct 2026. Game Theory &amp; Networks / Mechanism &amp; Market Design. Credit-based congestion pricing (CBCP) and discount-based congestion pricing (DBCP), which respectively allot travel credits and toll discounts to subsidize low-income...</description>
+    </item>
+    <item>
+      <title>Do Distributional Concerns Justify Lower Environmental Taxes?</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589944</link>
+      <guid isPermaLink="false">10.2139/ssrn.7589944</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ashley Craig, Dylan Moore, Thomas Lloyd. Added 29 Oct 2026. DOI registered 09 Oct 2026. Mechanism &amp; Market Design / Decision &amp; Social Choice. Should externality taxes be reduced if they are regressive? We introduce a model in which the government raises revenue from...</description>
     </item>
     <item>
       <title>Distinguishing Bargaining from Competitive Supply through Joint Output Responses</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552832</link>
       <guid isPermaLink="false">10.2139/ssrn.7552832</guid>
-      <pubDate>Fri, 02 Oct 2026 14:45:05 +0000</pubDate>
-      <description>Hyungjin Kim. Industrial Organization Theory / Equilibrium &amp; Mathematical Economics. Bargaining and competitive supply are hard to tell apart, because both can predict the same directions of output change after...</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Hyungjin Kim. Added 29 Oct 2026. DOI registered 02 Oct 2026. Industrial Organization Theory / Equilibrium &amp; Mathematical Economics. Bargaining and competitive supply are hard to tell apart, because both can predict the same directions of output change after...</description>
+    </item>
+    <item>
+      <title>Loan Screening under Symmetrically Imperfect Information</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7674783</link>
+      <guid isPermaLink="false">10.2139/ssrn.7674783</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Kenichi Ueda, Gao Yun. Added 28 Oct 2026. DOI registered 27 Oct 2026. Information &amp; Contracts. We propose a canonical model of loan screening under symmetrically imperfect information. Project quality is unknown to both lender and...</description>
+    </item>
+    <item>
+      <title>Stability Rigidity and Robust Minimal Instability of Top Trading Cycles with Mixed Capacities</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7599299</link>
+      <guid isPermaLink="false">10.2139/ssrn.7599299</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Lizhong Chen. Added 28 Oct 2026. DOI registered 12 Oct 2026. Mechanism &amp; Market Design. We ask whether a Pareto-efficient and strategy-proof school assignment rule must coincide with top trading cycles if it is stable...</description>
+    </item>
+    <item>
+      <title>Unilateral Incentives and Informative Experimentationin Cournot Learning</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7597177</link>
+      <guid isPermaLink="false">10.2139/ssrn.7597177</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>S. S. Askar King Saud University. Added 28 Oct 2026. DOI registered 11 Oct 2026. Game Theory &amp; Networks / Industrial Organization Theory. Firms facing unknown demand must infer the effect of a unilateral quantity change from observations generated while their rivals also...</description>
     </item>
     <item>
       <title>On von Stackelberg Leadership in a Cartel-Fringe-Renewables' Model of Exhaustible Resource Extraction</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6723288</link>
       <guid isPermaLink="false">10.2139/ssrn.6723288</guid>
-      <pubDate>Fri, 02 Oct 2026 13:09:03 +0000</pubDate>
-      <description>Simon Elgersma, Hassan Benchekroun, Gerard van der Meijden, Cees Withagen. Game Theory &amp; Networks / Industrial Organization Theory. We characterize the time-consistent solution of a cartel--fringe model of exhaustible resource extraction in which the cartel credibly acts as...</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Simon Elgersma, Hassan Benchekroun, Gerard van der Meijden, Cees Withagen. Added 28 Oct 2026. DOI registered 02 Oct 2026. Game Theory &amp; Networks / Industrial Organization Theory. We characterize the time-consistent solution of a cartel--fringe model of exhaustible resource extraction in which the cartel credibly acts as...</description>
+    </item>
+    <item>
+      <title>Optimal Insurance With Ambiguity Under Mean-Variance-Variance Preferences</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596078</link>
+      <guid isPermaLink="false">10.2139/ssrn.7596078</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Tim J. Boonen, Yilong Gong, Bin Li, Dongchen Li. Added 27 Oct 2026. DOI registered 12 Oct 2026. Decision &amp; Social Choice / Information &amp; Contracts. We study the optimal design of insurance contracts for a decision maker who is both risk-and ambiguity-averse and whose preferences...</description>
     </item>
     <item>
       <title>Comment on "Subgroup Decomposition of the Gini Coefficient: A New Solution to an Old Problem" (Heikkuri and Schief, Econometrica, 2026)</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7550263</link>
       <guid isPermaLink="false">10.2139/ssrn.7550263</guid>
-      <pubDate>Fri, 02 Oct 2026 11:16:54 +0000</pubDate>
-      <description>Noriaki Okamoto. Decision &amp; Social Choice. Heikkuri and Schief (2026) axiomatize a subgroup decomposition of the Gini coefficient and establish its uniqueness under eight axioms. We...</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Noriaki Okamoto. Added 27 Oct 2026. DOI registered 02 Oct 2026. Decision &amp; Social Choice. Heikkuri and Schief (2026) axiomatize a subgroup decomposition of the Gini coefficient and establish its uniqueness under eight axioms. We...</description>
     </item>
     <item>
       <title>Wealth Transfers and Runs on Unsophisticated Investors in Semi-Liquid Private Credit</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549758</link>
       <guid isPermaLink="false">10.2139/ssrn.7549758</guid>
-      <pubDate>Thu, 01 Oct 2026 19:29:09 +0000</pubDate>
-      <description>Gregor Matvos, Tomasz Piskorski, Amit Seru, Chun Zhao. Information &amp; Contracts / Game Theory &amp; Networks. Private credit increasingly combines illiquid assets with periodic investor liquidity through capped share repurchase programs. We show that this structure...</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Gregor Matvos, Tomasz Piskorski, Amit Seru, Chun Zhao. Added 27 Oct 2026. DOI registered 01 Oct 2026. Information &amp; Contracts / Game Theory &amp; Networks. Private credit increasingly combines illiquid assets with periodic investor liquidity through capped share repurchase programs. We show that this structure...</description>
+    </item>
+    <item>
+      <title>Tail Structure and the Shape of Production</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7669444</link>
+      <guid isPermaLink="false">10.2139/ssrn.7669444</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Paolo Riccardo Morganti. Added 26 Oct 2026. DOI registered 25 Oct 2026. Equilibrium &amp; Mathematical Economics. Which features of technological opportunities determine the aggregate production function that emerges from technology selection? We study an economy in...</description>
+    </item>
+    <item>
+      <title>Demand prospects and nonmonotone welfare guarantees under public disclosure</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7669145</link>
+      <guid isPermaLink="false">10.2139/ssrn.7669145</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Siwei Chen, Pengbo Wang. Added 26 Oct 2026. DOI registered 25 Oct 2026. Information &amp; Contracts / Game Theory &amp; Networks. Public forecasts inform competing suppliers, but equilibrium multiplicity complicates welfare guarantees. In a two-supplier contact model with asymmetric costs, we...</description>
+    </item>
+    <item>
+      <title>Keeping up with the Joneses in a World of Misinformation: Probit Excess Payoff Dynamic</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652199</link>
+      <guid isPermaLink="false">10.2139/ssrn.7652199</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ceili Kirkaldie. Added 26 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. This paper introduces the Probit-Excess-Payoff Dynamic, a novel evolutionary dynamic that integrates excess-payoff revision protocols with probit-style stochastic choice. Agents...</description>
+    </item>
+    <item>
+      <title>Competing for Advertiser Spending: Optimal Allocation and Pricing on a Smaller Advertising Platform</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7601123</link>
+      <guid isPermaLink="false">10.2139/ssrn.7601123</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Bar Light, Jussi Keppo, Zhengyuan Zhou, Xiaoyu Fan, Kerun Xu. Added 26 Oct 2026. DOI registered 14 Oct 2026. Mechanism &amp; Market Design / Industrial Organization Theory. Digital advertising markets often feature a large established platform and smaller platforms competing for advertiser spending. We study how a...</description>
+    </item>
+    <item>
+      <title>Incentives in School Choice with Rank-Dependent Priorities</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7605560</link>
+      <guid isPermaLink="false">10.2139/ssrn.7605560</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Yusuke Iwase. Added 26 Oct 2026. DOI registered 13 Oct 2026. Mechanism &amp; Market Design. Many school admission systems give a higher priority to a student who ranks a school higher in his submitted preference...</description>
     </item>
     <item>
       <title>On the Cardinality of the Smith Set Under Impartial Culture with Many Alternatives</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549998</link>
       <guid isPermaLink="false">10.2139/ssrn.7549998</guid>
-      <pubDate>Thu, 01 Oct 2026 18:38:28 +0000</pubDate>
-      <description>Zachary Berchenko, Kaizhao Liu. Decision &amp; Social Choice. For some integer ℓ ≥ 2, consider m = 2ℓ-1 voters, each of which has a preference ranking over n...</description>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Zachary Berchenko, Kaizhao Liu. Added 26 Oct 2026. DOI registered 01 Oct 2026. Decision &amp; Social Choice. For some integer ℓ ≥ 2, consider m = 2ℓ-1 voters, each of which has a preference ranking over n...</description>
+    </item>
+    <item>
+      <title>Complementary Coalitions and Three-Alternative Instability</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7663738</link>
+      <guid isPermaLink="false">10.2139/ssrn.7663738</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Jin Li. Added 25 Oct 2026. DOI registered 24 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. Nakamura (1979) characterized when the core of a simple game is nonempty for every preference profile. We characterize the corresponding...</description>
+    </item>
+    <item>
+      <title>Traders on GPT: AI and Cognitive Capital in Financial Markets</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661969</link>
+      <guid isPermaLink="false">10.2139/ssrn.7661969</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Andrea Barbon, Fayçal Drissi. Added 25 Oct 2026. DOI registered 24 Oct 2026. Information &amp; Contracts / Equilibrium &amp; Mathematical Economics. We study how traders’ use of AI affects financial markets in a rational expectations model with asymmetric information. Traders process...</description>
+    </item>
+    <item>
+      <title>First-price Principle and the Failure of Revenue Equivalence</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7662742</link>
+      <guid isPermaLink="false">10.2139/ssrn.7662742</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Byeong-hyeon Jeong, Marek Pycia. Added 25 Oct 2026. DOI registered 24 Oct 2026. Mechanism &amp; Market Design. We show that first-price auctions can maximize a wide variety of objectives, including revenue, welfare, bidder surplus, and equality, while...</description>
+    </item>
+    <item>
+      <title>Optimal Random Taxation</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661381</link>
+      <guid isPermaLink="false">10.2139/ssrn.7661381</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Felix Kubler, Chengfeng Shen. Added 25 Oct 2026. DOI registered 24 Oct 2026. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. We consider the Ramsey problem of optimal government policy and give examples where lotteries are essential for the optimal solution...</description>
+    </item>
+    <item>
+      <title>Disclosing Provider Quality on Service Marketplaces with Congestion</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7661964</link>
+      <guid isPermaLink="false">10.2139/ssrn.7661964</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>anon Chen, Zechao Li. Added 25 Oct 2026. DOI registered 24 Oct 2026. Information &amp; Contracts / Mechanism &amp; Market Design. Digital service platforms increasingly use endorsement programs to help consumers identify high-quality providers. Motivated by this, we study whether and...</description>
+    </item>
+    <item>
+      <title>Employers' Unilateral Settlement of Dismissal Disputes</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649948</link>
+      <guid isPermaLink="false">10.2139/ssrn.7649948</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Daisuke Adachi, Ryo Kambayashi, Kohei Kawaguchi. Added 25 Oct 2026. DOI registered 21 Oct 2026. Information &amp; Contracts / Game Theory &amp; Networks. We study how the procedural design of dismissal dispute resolution affects firm-worker bargaining, focusing on \textit{unilateral settlement}: an employer pays...</description>
+    </item>
+    <item>
+      <title>Score Errors Create Endogenous Assortment and Tipping Points in Public-Goods Games</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7644058</link>
+      <guid isPermaLink="false">10.2139/ssrn.7644058</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Aaryan Niroula. Added 25 Oct 2026. DOI registered 21 Oct 2026. Game Theory &amp; Networks. Assortment is often imposed as an exogenous parameter in models of cooperation. We instead derive it from a common noisy...</description>
+    </item>
+    <item>
+      <title>Capacity Expansion in Proportionally Fair Multi-Resource Allocation: Exact Outcomes and the Distribution of Gains</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615220</link>
+      <guid isPermaLink="false">10.2139/ssrn.7615220</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Taylor Canann. Added 25 Oct 2026. DOI registered 15 Oct 2026. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. A facility allocates complementary resources among users with different input proportions, under the proportionally fair-equivalently weighted Nash, or Leontief-Fisher-allocation. Expanding...</description>
+    </item>
+    <item>
+      <title>Regulated Stochastic Insurance Pricing Game: An Equilibrium-Set Approach</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7615485</link>
+      <guid isPermaLink="false">10.2139/ssrn.7615485</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Lihua Bai, Qiyang Zhao. Added 25 Oct 2026. DOI registered 15 Oct 2026. Game Theory &amp; Networks / Industrial Organization Theory. This paper studies a stochastic insurance pricing game with affinepremium bounds that depend on competitors' current average premiums.Regulation can lead...</description>
+    </item>
+    <item>
+      <title>On the Stability of Token Systems</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611999</link>
+      <guid isPermaLink="false">10.2139/ssrn.7611999</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Süleyman Kerimov. Added 25 Oct 2026. DOI registered 14 Oct 2026. Mechanism &amp; Market Design / Game Theory &amp; Networks. Token systems offer a market solution for non-monetary economies, where monetary transactions are undesirable or restricted. In such systems, agents...</description>
+    </item>
+    <item>
+      <title>Should Governments Tax Commodities Uniformly? Theory and Empirical Evidence from Brazil</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611525</link>
+      <guid isPermaLink="false">10.2139/ssrn.7611525</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Breno Albuquerque, Aloisio Araujo, Tiago Cavalcanti, Gil Navarro. Added 25 Oct 2026. DOI registered 14 Oct 2026. Equilibrium &amp; Mathematical Economics / Mechanism &amp; Market Design. In this paper, we investigate the optimal consumption tax structure in a general equi-librium model with tax evasion. We show...</description>
+    </item>
+    <item>
+      <title>Mixed Bundling from Separate-Sales Data</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7611439</link>
+      <guid isPermaLink="false">10.2139/ssrn.7611439</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Dingli Wang. Added 25 Oct 2026. DOI registered 14 Oct 2026. Mechanism &amp; Market Design / Industrial Organization Theory. A seller has sold two goods separately at two price levels and knows, for each level, the shares of buyers...</description>
+    </item>
+    <item>
+      <title>Policy Making with an Informed Opposition</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609678</link>
+      <guid isPermaLink="false">10.2139/ssrn.7609678</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Álvaro Delgado-Vega, Wioletta Dziuda, Antoine Loeper. Added 25 Oct 2026. DOI registered 14 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. We develop a model of electoral competition that captures the dynamic interaction between the incumbent's policy making and the informed...</description>
+    </item>
+    <item>
+      <title>Contagious vs. Fragile Equilibrium</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7659318</link>
+      <guid isPermaLink="false">10.2139/ssrn.7659318</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ehud Kalai, Julien Manili. Added 24 Oct 2026. DOI registered 23 Oct 2026. Game Theory &amp; Networks. In many games, experiments show that the number of players determines play in ways that standard analysis misses. We introduce...</description>
+    </item>
+    <item>
+      <title>Bridging Social Norms: A Framework for Assessing Unjust Inequality</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7650061</link>
+      <guid isPermaLink="false">10.2139/ssrn.7650061</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>De Sandi Vito, Domenico Moramarco, Vito Peragine. Added 24 Oct 2026. DOI registered 23 Oct 2026. Decision &amp; Social Choice. Standard income inequality measures use perfect equality as a benchmark, but they do not distinguish inequalities that violate principles of...</description>
     </item>
     <item>
       <title>Stochastic Adaptive Learning in Dominance-Solvable Games</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544225</link>
       <guid isPermaLink="false">10.2139/ssrn.7544225</guid>
-      <pubDate>Thu, 01 Oct 2026 06:15:28 +0000</pubDate>
-      <description>Naoki Funai. Game Theory &amp; Networks / Decision &amp; Social Choice. We investigate whether a stochastic adaptive learning model that overlaps with experience-weighted attraction learning and stochastic fictitious play learning can...</description>
-    </item>
-    <item>
-      <title>Participation Security and Elementary Mechanisms</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621</link>
-      <guid isPermaLink="false">10.2139/ssrn.7544621</guid>
-      <pubDate>Thu, 01 Oct 2026 06:08:10 +0000</pubDate>
-      <description>Benjamin Brooks, Songzi Du. Mechanism &amp; Market Design / Information &amp; Contracts. A mechanism is participation secure if each agent has an action that guarantees them a payoff better than their outside...</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Naoki Funai. Added 24 Oct 2026. DOI registered 01 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. We investigate whether a stochastic adaptive learning model that overlaps with experience-weighted attraction learning and stochastic fictitious play learning can...</description>
     </item>
     <item>
       <title>Sorting Inefficiency and Firm Asymmetry in Selection Markets</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543218</link>
       <guid isPermaLink="false">10.2139/ssrn.7543218</guid>
-      <pubDate>Thu, 01 Oct 2026 06:02:12 +0000</pubDate>
-      <description>Vishavdeep Sharma. Industrial Organization Theory / Decision &amp; Social Choice. Welfare analyses of selection markets use constrained planners to measure inefficient sorting and assess when mergers may benefit consumers. I...</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Vishavdeep Sharma. Added 24 Oct 2026. DOI registered 01 Oct 2026. Industrial Organization Theory / Decision &amp; Social Choice. Welfare analyses of selection markets use constrained planners to measure inefficient sorting and assess when mergers may benefit consumers. I...</description>
     </item>
     <item>
       <title>Information Design in Research Funding</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544019</link>
       <guid isPermaLink="false">10.2139/ssrn.7544019</guid>
-      <pubDate>Thu, 01 Oct 2026 05:40:27 +0000</pubDate>
-      <description>Mengyang Lin, Anran Li, Wenqi Lian, Zhe Liu. Information &amp; Contracts / Mechanism &amp; Market Design. Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Mengyang Lin, Anran Li, Wenqi Lian, Zhe Liu. Added 24 Oct 2026. DOI registered 01 Oct 2026. Information &amp; Contracts / Mechanism &amp; Market Design. Research funding rules affect both which projects receive support and how researchers disclose information. We study a competitive information design...</description>
     </item>
     <item>
       <title>Dummy Agents in Allocation Mechanisms: Is Clearinghouse Manipulation Possible?</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7543808</link>
       <guid isPermaLink="false">10.2139/ssrn.7543808</guid>
-      <pubDate>Thu, 01 Oct 2026 05:33:08 +0000</pubDate>
-      <description>Ali Ghajari, Behrang Kamali-Shahdadi. Mechanism &amp; Market Design. In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ali Ghajari, Behrang Kamali-Shahdadi. Added 24 Oct 2026. DOI registered 01 Oct 2026. Mechanism &amp; Market Design. In a school choice setting, we study a clearinghouse that runs the announced mechanism but adds a participant who remains...</description>
+    </item>
+    <item>
+      <title>Recommendations with Costly Verification *</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7640918</link>
+      <guid isPermaLink="false">10.2139/ssrn.7640918</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Yingju Ma, Ying Gao. Added 23 Oct 2026. DOI registered 23 Oct 2026. Information &amp; Contracts / Industrial Organization Theory. A recommender faces consumers who can verify recommendations, but differ in their attention costs or in the salience of their...</description>
+    </item>
+    <item>
+      <title>Endogenous Fragmentation in Decentralized Exchanges</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7655598</link>
+      <guid isPermaLink="false">10.2139/ssrn.7655598</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Jiawei Wang, Roman Kozhan, Zhengge Zhou. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Industrial Organization Theory. This paper develops a game-theoretic model of endogenous liquidity fragmentation in decentralized exchanges with automated market makers. Liquidity providers strategically...</description>
+    </item>
+    <item>
+      <title>Stability and Institutional Power in the Allocation of Indivisible Goods</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656768</link>
+      <guid isPermaLink="false">10.2139/ssrn.7656768</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Clinton Gubong Gassi, Linus T. Nana Noumi, Rodrigue Tido Takeng. Added 23 Oct 2026. DOI registered 22 Oct 2026. Decision &amp; Social Choice / Mechanism &amp; Market Design. This paper studies the allocation of a fixed number of an indivisible and homogeneouscommodity among a set of agents. Each...</description>
+    </item>
+    <item>
+      <title>Conditional Probability Spaces and the Structure of Agreement</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656767</link>
+      <guid isPermaLink="false">10.2139/ssrn.7656767</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Erya Yang, Adam M. Brandenburger. Added 23 Oct 2026. DOI registered 22 Oct 2026. Information &amp; Contracts / Equilibrium &amp; Mathematical Economics. We use the machinery of a conditional probability space (R´enyi 26, 1955) to obtain an Agreement Theorem (Aumann 1, 1976)...</description>
+    </item>
+    <item>
+      <title>Robust Revenue Guarantees with Order Statistic Information</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656766</link>
+      <guid isPermaLink="false">10.2139/ssrn.7656766</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Bin Huang, Genjiu Xu, Wenzhong Li. Added 23 Oct 2026. DOI registered 22 Oct 2026. Mechanism &amp; Market Design. Auction records are often anonymous and reveal only transaction prices or selected ranked bids, leaving buyers' individual value distributions unidentified...</description>
+    </item>
+    <item>
+      <title>When Can Coarse Categories Persuade? Monotone Partitions, Commitment, and Credibility</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7654119</link>
+      <guid isPermaLink="false">10.2139/ssrn.7654119</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Yunchuan Liu. Added 23 Oct 2026. DOI registered 22 Oct 2026. Information &amp; Contracts. Institutions often disclose information through ordered categories, such as grades and pass or fail labels. This paper asks when such...</description>
+    </item>
+    <item>
+      <title>Consumer captivity and the profitability of unauthorized resale</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656438</link>
+      <guid isPermaLink="false">10.2139/ssrn.7656438</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Alexander Senk. Added 23 Oct 2026. DOI registered 22 Oct 2026. Industrial Organization Theory. This paper studies how the presence of captive consumers, who buy exclusively through a manufacturer's authorized sales channel, affects the...</description>
+    </item>
+    <item>
+      <title>Winning Voters or Winning Regions? Vote Aggregation, Ideology, and Regional Transfers *</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656341</link>
+      <guid isPermaLink="false">10.2139/ssrn.7656341</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Pablo Amoros, M. Socorro Puy. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. Electoral systems differ in whether votes are pooled nationwide or aggregated within territorial units, such as regions. A common view...</description>
+    </item>
+    <item>
+      <title>Who Says What: Strategic Communication in Networks</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7653460</link>
+      <guid isPermaLink="false">10.2139/ssrn.7653460</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Anuj Bhowmik, Saptarshi Prosonno Ghosh, Iman Kundu, Sandipan Saha. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. We study a multi-player communication-coordnation game in which privately informed agents communicate through a social network and choose their optimal...</description>
+    </item>
+    <item>
+      <title>Stackelberg Stopping Games</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7647640</link>
+      <guid isPermaLink="false">10.2139/ssrn.7647640</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Jingjie Zhang, Zhou Zhou. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. We study a Stackelberg variant of the classical discrete-time Dynkin game, in which Player 1 (the leader) commits to a...</description>
+    </item>
+    <item>
+      <title>Who Keeps a Bubble Alive? Skin in the Game and the Survival of Rational Bubbles</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649238</link>
+      <guid isPermaLink="false">10.2139/ssrn.7649238</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Feng Dong, Siqing Wang, Fan Wu. Added 23 Oct 2026. DOI registered 22 Oct 2026. Equilibrium &amp; Mathematical Economics / Information &amp; Contracts. We study how retained ownership supports the value of a zero-dividend asset held for resale. A sponsor chooses hidden maintenance...</description>
     </item>
     <item>
       <title>Fair and Strategy-Proof Matching under Institutional Constraints</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7545373</link>
       <guid isPermaLink="false">10.2139/ssrn.7545373</guid>
-      <pubDate>Wed, 30 Sep 2026 17:39:40 +0000</pubDate>
-      <description>Lizhong Chen. Mechanism &amp; Market Design. We study student welfare under fair and strategy-proof matching when schoolsface constraints beyond capacities. For separate hereditary constraints andfixed strict...</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Lizhong Chen. Added 23 Oct 2026. DOI registered 30 Sep 2026. Mechanism &amp; Market Design. We study student welfare under fair and strategy-proof matching when schoolsface constraints beyond capacities. For separate hereditary constraints andfixed strict...</description>
+    </item>
+    <item>
+      <title>Staggered Rollout for Innovation Adoption</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7651798</link>
+      <guid isPermaLink="false">10.2139/ssrn.7651798</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ricardo Fonseca. Added 22 Oct 2026. DOI registered 21 Oct 2026. Mechanism &amp; Market Design / Information &amp; Contracts. A farmer considering a new perennial crop, or someone considering a new vaccine, may prefer to wait and learn from...</description>
+    </item>
+    <item>
+      <title>Electoral Competition over Interval Platforms</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646798</link>
+      <guid isPermaLink="false">10.2139/ssrn.7646798</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Daeseok Kim. Added 22 Oct 2026. DOI registered 21 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. Two candidates choose intervals evaluated by a Hurwicz criterion with worst-loss weight α. Under affine voting, the unique equilibrium is...</description>
+    </item>
+    <item>
+      <title>Stochastic Sequential Choice from Lists</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649588</link>
+      <guid isPermaLink="false">10.2139/ssrn.7649588</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Mohammad Aksam. Added 22 Oct 2026. DOI registered 21 Oct 2026. Decision &amp; Social Choice. This paper provides an axiomatic foundation for Stochastic Sequential Choice fromLists. We model boundedly rational agents who evaluate alternatives from...</description>
+    </item>
+    <item>
+      <title>Revenue Guarantee Equivalence between Dominant-Strategy and Bayesian Mechanisms</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646199</link>
+      <guid isPermaLink="false">10.2139/ssrn.7646199</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Nir Bachrach, Yi-Chun Chen, Inbal Talgam-Cohen, Xiangqian Yang, Wanchang Zhang. Added 22 Oct 2026. DOI registered 21 Oct 2026. Mechanism &amp; Market Design. In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show...</description>
+    </item>
+    <item>
+      <title>Equivalence Classes in Recursive utility</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7612538</link>
+      <guid isPermaLink="false">10.2139/ssrn.7612538</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Robert A. Becker, Carlos Palmero, Juan Rincon-Zapatero. Added 22 Oct 2026. DOI registered 16 Oct 2026. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. We introduce and analyze an equivalence relation on the set of aggregators in the context of recursive utility theory. We...</description>
+    </item>
+    <item>
+      <title>Credibility vs. Context</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609964</link>
+      <guid isPermaLink="false">10.2139/ssrn.7609964</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Mengxi Sun. Added 22 Oct 2026. DOI registered 16 Oct 2026. Information &amp; Contracts / Decision &amp; Social Choice. How does a receiver integrate what a sender says with why she says it? When a sender interprets data to...</description>
+    </item>
+    <item>
+      <title>Sequential Selection of the Best Candidate with Multiple Conflicts of Interest</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7633842</link>
+      <guid isPermaLink="false">10.2139/ssrn.7633842</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Tsuyoshi Adachi, Pablo Amoros. Added 21 Oct 2026. DOI registered 21 Oct 2026. Mechanism &amp; Market Design / Decision &amp; Social Choice. This paper studies a collective decision problem in which a group of judges must select the deserving winner from a...</description>
+    </item>
+    <item>
+      <title>Coarse Revenue Guarantee in First Price Auction and Beyond</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7643244</link>
+      <guid isPermaLink="false">10.2139/ssrn.7643244</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Linchen Zhang. Added 21 Oct 2026. DOI registered 20 Oct 2026. Mechanism &amp; Market Design / Game Theory &amp; Networks. I study the coarse revenue guarantee (CRG) of the single-unit first-price auction with common values. The CRG is the minimum...</description>
+    </item>
+    <item>
+      <title>Unbundling Market Failures under Interdependent Cyber Risk: Externalities, Information, and Dynamic Adoption</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642377</link>
+      <guid isPermaLink="false">10.2139/ssrn.7642377</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Pengfei Zhang. Added 21 Oct 2026. DOI registered 20 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. Externalities and information asymmetry are two primary frictions in the market for information security. But which friction should government regulations...</description>
+    </item>
+    <item>
+      <title>Screening the Screeners: Performance Vesting in Delegated Investment</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642286</link>
+      <guid isPermaLink="false">10.2139/ssrn.7642286</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Bowen Guo, Zhaojun Yang. Added 21 Oct 2026. DOI registered 20 Oct 2026. Information &amp; Contracts. We study managerial compensation when investors delegate project selection to privately informed intermediaries, as in venture capital and private equity...</description>
+    </item>
+    <item>
+      <title>Elasticity and Bargaining Power</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7631118</link>
+      <guid isPermaLink="false">10.2139/ssrn.7631118</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Pedro Pablo Pérez Velasco. Added 21 Oct 2026. DOI registered 20 Oct 2026. Game Theory &amp; Networks. This paper identifies a new source of bargaining power: the elasticity of a bargainer's utility, defined as the marginal value...</description>
+    </item>
+    <item>
+      <title>Axiomatic Characterization of the Owen Index without Efficiency</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632698</link>
+      <guid isPermaLink="false">10.2139/ssrn.7632698</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Takaaki Abe, Miku Inagaki. Added 21 Oct 2026. DOI registered 20 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. We provide an axiomatic characterization of the Owen index on voting games with coalition structures without imposing efficiency. Our characterization...</description>
+    </item>
+    <item>
+      <title>Voluntary Partial Participation in Peer-to-Peer Insurance with Heterogeneous Risks</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620218</link>
+      <guid isPermaLink="false">10.2139/ssrn.7620218</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Tim J. Boonen, Ka Chun Cheung, Mai Zhang. Added 21 Oct 2026. DOI registered 16 Oct 2026. Information &amp; Contracts / Mechanism &amp; Market Design. Heterogeneous risk affects not only who joins a peer-to-peer insurance pool but also how intensively participants share losses. We study...</description>
     </item>
     <item>
       <title>When Do Minimum Participation Constraints Improve International Public-Good Provision under Voluntary Participation and Strategic Delegation? *</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542625</link>
       <guid isPermaLink="false">10.2139/ssrn.7542625</guid>
-      <pubDate>Wed, 30 Sep 2026 13:07:13 +0000</pubDate>
-      <description>Ryusuke Shinohara. Game Theory &amp; Networks / Mechanism &amp; Market Design. We examine the effectiveness of a minimum participation constraint (MPC) for international public-good provision when participation is voluntary and provision...</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Ryusuke Shinohara. Added 21 Oct 2026. DOI registered 30 Sep 2026. Game Theory &amp; Networks / Mechanism &amp; Market Design. We examine the effectiveness of a minimum participation constraint (MPC) for international public-good provision when participation is voluntary and provision...</description>
     </item>
     <item>
       <title>Earned Access to Scarce Goods: Resale, Screening, and Relational Commitment</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542061</link>
       <guid isPermaLink="false">10.2139/ssrn.7542061</guid>
-      <pubDate>Wed, 30 Sep 2026 12:30:42 +0000</pubDate>
-      <description>Yue Yuan, Xuecheng Yin. Information &amp; Contracts / Industrial Organization Theory. Sellers of scarce goods often keep the price below the market-clearing level and let buyers earn the right to buy...</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Yue Yuan, Xuecheng Yin. Added 21 Oct 2026. DOI registered 30 Sep 2026. Information &amp; Contracts / Industrial Organization Theory. Sellers of scarce goods often keep the price below the market-clearing level and let buyers earn the right to buy...</description>
     </item>
     <item>
       <title>Prices as Signals: Joint Design of Information and Pricing</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7541998</link>
       <guid isPermaLink="false">10.2139/ssrn.7541998</guid>
-      <pubDate>Wed, 30 Sep 2026 12:26:40 +0000</pubDate>
-      <description>Zhicheng Du, Yanwei Sun, Zihe Wang, Jiahua Wu. Information &amp; Contracts / Industrial Organization Theory. A large body of literature studies the fundamental trade-offs of product information provision. However, much of this work treats prices...</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Zhicheng Du, Yanwei Sun, Zihe Wang, Jiahua Wu. Added 21 Oct 2026. DOI registered 30 Sep 2026. Information &amp; Contracts / Industrial Organization Theory. A large body of literature studies the fundamental trade-offs of product information provision. However, much of this work treats prices...</description>
+    </item>
+    <item>
+      <title>Workload and Wage Insurance When Workers Can Quit</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632058</link>
+      <guid isPermaLink="false">10.2139/ssrn.7632058</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Kyoung Jin Choi, Junkee Jeon. Added 20 Oct 2026. DOI registered 20 Oct 2026. Information &amp; Contracts. Firms cut hours or duties when demand stays weak and restore them when it recovers, while long term contracts insure...</description>
+    </item>
+    <item>
+      <title>Optimality of Grand Bundling Mechanism in the Two-Item Setting for Distributions with a Decreasing Density</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7635444</link>
+      <guid isPermaLink="false">10.2139/ssrn.7635444</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Bharat Kumar, Thirumulanathan D. Added 20 Oct 2026. DOI registered 19 Oct 2026. Mechanism &amp; Market Design. We study the problem of designing revenue-optimal mechanisms for selling two items to a single buyer with additive valuations distributed...</description>
+    </item>
+    <item>
+      <title>Content Business Models in the Era of Large Language Models: Licensing, Creation, and Regulation</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7621761</link>
+      <guid isPermaLink="false">10.2139/ssrn.7621761</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Yulin Hu, Mingliu Chen, Bin Hu. Added 20 Oct 2026. DOI registered 19 Oct 2026. Industrial Organization Theory / Information &amp; Contracts. A prevalent Internet content business model allows publishers to let search engines index their content while monetizing the resulting site...</description>
+    </item>
+    <item>
+      <title>Performance feedback and wage insurance</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625276</link>
+      <guid isPermaLink="false">10.2139/ssrn.7625276</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Toshihiko Nanba. Added 20 Oct 2026. DOI registered 17 Oct 2026. Information &amp; Contracts. I study the joint design of compensation and performance feedback for a risk-averse worker paid a nonnegative terminal wage. The...</description>
+    </item>
+    <item>
+      <title>Internal Cycles and Foresight in Sequential Network Formation</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625275</link>
+      <guid isPermaLink="false">10.2139/ssrn.7625275</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Julien Fixary. Added 20 Oct 2026. DOI registered 17 Oct 2026. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. This paper introduces a notion of sequentiality into strategic network formation theory. We construct the analogue of an extensive-form game...</description>
+    </item>
+    <item>
+      <title>Selling Customer Information to Competing Firms: Is Exclusivity Sensitive to Mixed Strategies?</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7619581</link>
+      <guid isPermaLink="false">10.2139/ssrn.7619581</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Iñaki Aguirre. Added 20 Oct 2026. DOI registered 17 Oct 2026. Information &amp; Contracts / Industrial Organization Theory. Clavorà Braulin and Valletti (2016) show, in an insightful analysis, that a data broker selling customer information to two vertically...</description>
+    </item>
+    <item>
+      <title>Partial Price Transparency and Demand Learning in Retail Price Competition</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620880</link>
+      <guid isPermaLink="false">10.2139/ssrn.7620880</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Junbo Jacob Lian, Hanzhang Qin, Chung-Piaw Teo. Added 20 Oct 2026. DOI registered 16 Oct 2026. Industrial Organization Theory / Information &amp; Contracts. Problem definition: Many sellers reprice against rivals' prices, but the rival price they use is often inexact: matching rival offers...</description>
     </item>
     <item>
       <title>Optimal Insurance Under Disappointment Theory Without Prior Expectation</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537720</link>
       <guid isPermaLink="false">10.2139/ssrn.7537720</guid>
-      <pubDate>Wed, 30 Sep 2026 09:16:24 +0000</pubDate>
-      <description>Yichun Chi, Wenjun Jiang, Tingdi Ren. Decision &amp; Social Choice / Information &amp; Contracts. This paper explains the long-standing low-deductible anomaly in insurance markets using a prior-free disappointment framework. Under this specification, the policyholder...</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Yichun Chi, Wenjun Jiang, Tingdi Ren. Added 20 Oct 2026. DOI registered 30 Sep 2026. Decision &amp; Social Choice / Information &amp; Contracts. This paper explains the long-standing low-deductible anomaly in insurance markets using a prior-free disappointment framework. Under this specification, the policyholder...</description>
+    </item>
+    <item>
+      <title>Tradable Licenses in Large Economies: Equilibrium, Welfare, and Policy Implementation</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609418</link>
+      <guid isPermaLink="false">10.2139/ssrn.7609418</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Anuj Bhowmik. Added 15 Oct 2026. DOI registered 14 Oct 2026. Equilibrium &amp; Mathematical Economics. This paper develops a general equilibrium model of tradable licenses by considering an economy with a continuum of agents who...</description>
+    </item>
+    <item>
+      <title>Multilateral Bargaining with Information Spillovers</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596278</link>
+      <guid isPermaLink="false">10.2139/ssrn.7596278</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Vladimir Asriyan, William Martin Fuchs, Caio Lorecchio. Added 15 Oct 2026. DOI registered 12 Oct 2026. Information &amp; Contracts / Industrial Organization Theory. We study dynamic monopoly pricing with multiple buyers whose privately known valuations are correlated, so one buyer's purchase reveals information...</description>
+    </item>
+    <item>
+      <title>Market Power and Insurance Coverage</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590660</link>
+      <guid isPermaLink="false">10.2139/ssrn.7590660</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Daniel Gottlieb, Humberto Moreira. Added 15 Oct 2026. DOI registered 12 Oct 2026. Information &amp; Contracts / Industrial Organization Theory. This paper compares allocations under monopoly and perfect competition in markets with adverse selection, such as insurance markets. We show...</description>
+    </item>
+    <item>
+      <title>Shaping the Menu: Information Design under Screening</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7590419</link>
+      <guid isPermaLink="false">10.2139/ssrn.7590419</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Panagiotis Kyriazis. Added 15 Oct 2026. DOI registered 09 Oct 2026. Information &amp; Contracts / Mechanism &amp; Market Design. How should consumers learn when a seller chooses a menu of product qualities and prices? We study information design when...</description>
+    </item>
+    <item>
+      <title>Bounded Stationary Discounted Utility</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7589886</link>
+      <guid isPermaLink="false">10.2139/ssrn.7589886</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Xiangyu Qu. Added 15 Oct 2026. DOI registered 09 Oct 2026. Decision &amp; Social Choice. tandard discounted utility rapidly suppresses distant future consequences, often making catastrophic losses or transformative gains nearly irrelevant for present decisions...</description>
+    </item>
+    <item>
+      <title>Strategy-Proof and Minimally Wasteful Random Assignment</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560666</link>
+      <guid isPermaLink="false">10.2139/ssrn.7560666</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Lars Ehlers, Christian Basteck. Added 15 Oct 2026. DOI registered 04 Oct 2026. Mechanism &amp; Market Design. We study random assignment of indivisible objects among a set of agents with strictpreferences and outside options. When agents may...</description>
+    </item>
+    <item>
+      <title>Uniqueness of Recursive Utility with Unbounded Consumption and Non-Expected Utility</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7552146</link>
+      <guid isPermaLink="false">10.2139/ssrn.7552146</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Lorenzo Maria Stanca, Luigi Montrucchio. Added 15 Oct 2026. DOI registered 02 Oct 2026. Decision &amp; Social Choice / Equilibrium &amp; Mathematical Economics. We derive sufficient conditions for the existence, non-existence, uniqueness and global attractivity of stochastic recursive utilities. Our approach uses abstract...</description>
+    </item>
+    <item>
+      <title>Participation Security and Elementary Mechanisms</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7544621</link>
+      <guid isPermaLink="false">10.2139/ssrn.7544621</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Benjamin Brooks, Songzi Du. Added 15 Oct 2026. DOI registered 01 Oct 2026. Mechanism &amp; Market Design / Information &amp; Contracts. A mechanism is participation secure if each agent has an action that guarantees them a payoff better than their outside...</description>
     </item>
   </channel>
 </rss>

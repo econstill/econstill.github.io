@@ -89,7 +89,8 @@ function paperElement(paper) {
   link.target = "_blank";
   link.rel = "noopener";
   title.append(link);
-  const meta = node("p", "paper-meta", "DOI registered " + dateLabel(paper.indexed_at));
+  const added = paper.reviewed_at ? "Added " + dateLabel(paper.reviewed_at) + " \u00b7 " : "";
+  const meta = node("p", "paper-meta", added + "DOI registered " + dateLabel(paper.indexed_at));
   if (paper.record_updated_at) meta.textContent += " \u00b7 Record updated " + dateLabel(paper.record_updated_at);
   item.append(title, node("p", "authors", paper.authors.join(", ") || "Authors unavailable in source metadata"),
     meta, node("p", "paper-topics", paper.topics.join(" / ")));
@@ -138,7 +139,7 @@ function render() {
   const filtered = papers.filter((paper) => {
     const text = [paper.title, ...paper.authors, paper.excerpt, paper.doi].join(" ").toLocaleLowerCase();
     return words.every((word) => text.includes(word)) && (!topic.value || paper.topics.includes(topic.value)) &&
-      new Date(paper.indexed_at).getTime() >= cutoff;
+      new Date(paper.reviewed_at || paper.indexed_at).getTime() >= cutoff;
   });
   const pages = Math.max(1, Math.ceil(filtered.length / pageSize));
   page = Math.min(page, pages - 1);
@@ -160,7 +161,8 @@ async function start() {
   document.querySelector("#review-stale-notice").hidden = Number.isFinite(reviewed.getTime()) &&
     Date.now() - reviewed.getTime() < 3 * 86400000;
   try {
-    const version = encodeURIComponent(document.querySelector("#last-check").dateTime);
+    const version = encodeURIComponent(document.querySelector("#last-check").dateTime + ":" +
+      document.querySelector("#last-review").dateTime);
     const response = await fetch("papers.json?v=" + version, { cache: "no-cache" });
     if (!response.ok) throw new Error("Archive unavailable");
     const data = await response.json();
