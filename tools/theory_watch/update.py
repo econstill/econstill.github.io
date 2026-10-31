@@ -347,6 +347,10 @@ def paper_html(paper):
     title, url = escape(paper["title"]), escape(paper["url"], quote=True)
     authors = escape(", ".join(paper["authors"]) or "Authors unavailable in source metadata")
     topics = escape(" / ".join(paper["topics"]))
+    added = ""
+    if paper.get("reviewed_at"):
+        added = (f'Added <time datetime="{escape(paper["reviewed_at"], quote=True)}">'
+                 f'{display_date(paper["reviewed_at"])}</time> &middot; ')
     changed = ""
     if paper.get("record_updated_at"):
         changed = " &middot; Record updated " + display_date(paper["record_updated_at"])
@@ -363,7 +367,7 @@ def paper_html(paper):
         alternates = '<p class="paper-meta">Other SSRN record: ' + links + '</p>'
     note = '<p class="selection-note">' + escape(paper["selection_note"]) + '</p>' if paper.get("selection_note") else ""
     return (f'<li class="paper"><h2><a href="{url}" target="_blank" rel="noopener">{title}</a></h2>'
-            f'<p class="authors">{authors}</p><p class="paper-meta">DOI registered '
+            f'<p class="authors">{authors}</p><p class="paper-meta">{added}DOI registered '
             f'<time datetime="{paper["indexed_at"][:10]}">{display_date(paper["indexed_at"])}</time>'
             f'{changed}</p><p class="paper-topics">{topics}</p>{note}{alternates}{excerpt}</li>')
 
@@ -420,7 +424,7 @@ def render(data, site):
     channel = ET.SubElement(rss, "channel")
     for tag, value in {
         "title": "Theory Watch: Selected Microeconomic Theory on SSRN", "link": BASE_URL,
-        "description": "Content-screened microeconomic-theory selections. Discovery runs daily; selections have no daily quota. Not peer review. Dates are DOI registration dates.",
+        "description": "Content-screened microeconomic-theory selections, newest additions first. Feed publication dates are selection dates, not SSRN posting dates. Discovery runs daily; selections have no daily quota. Not peer review.",
         "language": "en", "lastBuildDate": format_datetime(datetime.fromisoformat(checked)),
         "ttl": "1440",
     }.items():
@@ -430,9 +434,12 @@ def render(data, site):
         ET.SubElement(item, "title").text = paper["title"]
         ET.SubElement(item, "link").text = paper["url"]
         ET.SubElement(item, "guid", {"isPermaLink": "false"}).text = paper["doi"]
-        ET.SubElement(item, "pubDate").text = format_datetime(datetime.fromisoformat(paper["indexed_at"]))
+        selected_at = datetime.fromisoformat(paper["reviewed_at"]).replace(tzinfo=timezone.utc)
+        ET.SubElement(item, "pubDate").text = format_datetime(selected_at)
         ET.SubElement(item, "description").text = (
-            ", ".join(paper["authors"]) + ". " + " / ".join(paper["topics"]) + ". " + paper["excerpt"]
+            ", ".join(paper["authors"]) + ". Added " + display_date(paper["reviewed_at"])
+            + ". DOI registered " + display_date(paper["indexed_at"]) + ". "
+            + " / ".join(paper["topics"]) + ". " + paper["excerpt"]
         )
     ET.indent(rss)
     write_text(output / "feed.xml", '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode") + "\n")

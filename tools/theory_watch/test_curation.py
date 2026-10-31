@@ -1,4 +1,5 @@
 from copy import deepcopy
+from email.utils import parsedate_to_datetime
 import json
 from pathlib import Path
 import tempfile
@@ -24,6 +25,59 @@ class CurationTests(unittest.TestCase):
             "reason": "Equilibrium uniqueness in network games.",
             "sources": ["https://api.crossref.org/works/" + self.paper["doi"]],
         }}
+
+    def selection_fixture(self):
+        data, policy = deepcopy(self.data), deepcopy(self.policy)
+        data["papers"], policy["approvals"] = [], {}
+        for identifier, registered, selected in [
+            ("2345678", "2026-10-13", "2026-10-14"),
+            ("3456789", "2026-10-01", "2026-10-15"),
+            ("4567890", "2026-10-02", "2026-10-15"),
+        ]:
+            item = work(title="Equilibrium theorem " + identifier)
+            item["DOI"] = "10.2139/ssrn." + identifier
+            item["created"] = {"date-time": registered + "T12:00:00Z"}
+            paper = update.normalize(item, NOW)
+            data["papers"].append(paper)
+            policy["approvals"][paper["doi"]] = {
+                **next(iter(self.policy["approvals"].values())),
+                "fingerprint": paper["fingerprint"], "reviewed_at": selected,
+            }
+        return data, policy
+
+    def test_latest_selections_precede_later_ssrn_registrations(self):
+        data, policy = self.selection_fixture()
+        before = deepcopy(data)
+        selected = curation.select_public(data, policy)
+        self.assertEqual([p["id"] for p in selected["papers"]], ["4567890", "3456789", "2345678"])
+        self.assertEqual(data, before)
+        data["last_successful_check"] = "2026-10-30T00:00:00+00:00"
+        policy["review_status"] = {"last_completed": "2026-10-30T01:00:00+00:00"}
+        refreshed = curation.select_public(data, policy)
+        self.assertEqual(refreshed["papers"], selected["papers"])
+
+    def test_json_static_fallback_and_rss_share_selection_order_and_dates(self):
+        data, policy = self.selection_fixture()
+        with tempfile.TemporaryDirectory() as directory, patch.object(
+            update, "select_public", side_effect=lambda value: curation.select_public(value, policy)
+        ):
+            update.render(data, Path(directory))
+            output = Path(directory) / "theory-watch"
+            papers = json.loads((output / "papers.json").read_text())["papers"]
+            self.assertEqual([p["id"] for p in papers], ["4567890", "3456789", "2345678"])
+            html = (output / "index.html").read_text()
+            offsets = [html.index('data-doi="' + p["doi"] + '"') for p in papers]
+            self.assertEqual(offsets, sorted(offsets))
+            self.assertIn('Added <time datetime="2026-10-15">15 Oct 2026</time>', html)
+            self.assertIn('DOI registered <time datetime="2026-10-02">02 Oct 2026</time>', html)
+            self.assertIn("Added to this list", html)
+            items = ET.parse(output / "feed.xml").findall("./channel/item")
+            self.assertEqual([item.findtext("guid") for item in items], [p["doi"] for p in papers])
+            for item, paper in zip(items, papers):
+                self.assertEqual(parsedate_to_datetime(item.findtext("pubDate")).date().isoformat(),
+                                 paper["reviewed_at"])
+                self.assertIn("DOI registered " + update.display_date(paper["indexed_at"]),
+                              item.findtext("description"))
 
     def test_unapproved_automatic_match_is_not_published(self):
         self.policy["approvals"] = {}

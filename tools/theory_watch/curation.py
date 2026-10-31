@@ -69,6 +69,8 @@ def select_public(candidates, policy=POLICY):
                             selection_note=entry["reason"], reviewed_at=entry["reviewed_at"],
                             review_level=entry["review_level"], review_sources=entry["sources"])
             result["papers"].append(selected)
+    result["papers"].sort(key=lambda paper: (paper["reviewed_at"], paper["indexed_at"], int(paper["id"])),
+                          reverse=True)
     result["last_selection_review"] = max((paper["reviewed_at"] for paper in result["papers"]), default=None)
     result["review_status"] = deepcopy(policy.get("review_status", {}))
     return result
