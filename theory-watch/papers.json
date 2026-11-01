@@ -25,6 +25,113 @@
   },
   "papers": [
     {
+      "id": "7668702",
+      "doi": "10.2139/ssrn.7668702",
+      "title": "Robustness and Separation in Mechanism Design under Approximate Incentive Compatibility",
+      "authors": [
+        "Feng Liu",
+        "Zhi Chen",
+        "Zhenyu Hu",
+        "Shuming Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7668702",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study a multidimensional mechanism design problem where a seller offers multiple products to a single buyer. The seller possesses...",
+      "indexed_at": "2026-10-31T06:37:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7668702",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-31T06:37:41+00:00",
+      "first_seen": "2026-11-01T06:13:25+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7668702"
+      ],
+      "fingerprint": "ba93847c39d69fa59c4e20280dd7bacb765d18fa24834af12db41429ec2a1413",
+      "selection_note": "Studies robust multi-product screening with satisficing buyers: utility tolerance is allocated across separate product mechanisms, and their loss relative to nonseparable screening is bounded. Multidimensional duality is another analytical contribution. Screening covers the verified current abstract and matching author listing, not full proofs.",
+      "reviewed_at": "2026-11-01",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7668702",
+        "https://sites.google.com/view/z-chen/research"
+      ]
+    },
+    {
+      "id": "7570198",
+      "doi": "10.2139/ssrn.7570198",
+      "title": "Vote Trading Without Negative Externalities: The Role of Electoral Systems",
+      "authors": [
+        "Nikolas Tsakas",
+        "Dimitrios Xefteris",
+        "Nicholas Ziros"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570198",
+      "topics": [
+        "Decision & Social Choice",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Can the voting rule make vote markets normatively safe? We study money-for-votes trade before a binary decision under qualified majority...",
+      "indexed_at": "2026-10-08T06:02:00+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7570198",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T06:02:00+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7570198"
+      ],
+      "fingerprint": "fcc8162a993a597a67543b7c06136ab141150023fa7ba9f0ac1bcd85eecbcd6c",
+      "selection_note": "Characterizes unanimity as the qualified-majority rule eliminating negative externalities in binary vote markets; other supermajorities can admit interim payoff losses in equilibrium. The contribution is a normative voting-rule comparison, not a claim of universal individual gains in the laboratory. Review covers the verified abstract and matching primary record, not proofs.",
+      "reviewed_at": "2026-11-01",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7570198",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7570198"
+      ]
+    },
+    {
+      "id": "7573458",
+      "doi": "10.2139/ssrn.7573458",
+      "title": "The False Allure of \"Security by Obscurity\": A Game-Theoretic Approach",
+      "authors": [
+        "In-Uck Park",
+        "Sunoo Park"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7573458",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "Security by obscurity,\" or the idea that hiding how a system works helps protect it from adversaries, has long been...",
+      "indexed_at": "2026-10-07T19:34:01+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7573458",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T19:34:01+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7573458"
+      ],
+      "fingerprint": "872ba3766f92cef918fd15fdd8658a472d4c1ebd1e83db5223083532f163b233",
+      "selection_note": "Models target choice in Bayesian contests: with costless open-system scrutiny, higher malicious-reward distributions, and the stated tail and large-population conditions, symmetric equilibria sort malicious participants toward obscured systems. The model and main comparisons were read; the result is not an unconditional claim that openness always improves security.",
+      "reviewed_at": "2026-11-01",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7573458",
+        "https://arxiv.org/html/2610.12858v1"
+      ]
+    },
+    {
       "id": "7556891",
       "doi": "10.2139/ssrn.7556891",
       "title": "Managing Strategic Communication for Monetary Transfers",
@@ -3063,17 +3170,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-10-31",
+  "last_selection_review": "2026-11-01",
   "review_status": {
-    "last_completed": "2026-10-31T07:47:57+00:00",
-    "candidates_checked_through": "2026-10-31T05:50:55+00:00",
-    "collection_run": 41174145346,
+    "last_completed": "2026-11-01T07:48:11+00:00",
+    "candidates_checked_through": "2026-11-01T06:13:25+00:00",
+    "collection_run": 41279904158,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 16,
-      "defer": 41,
-      "include": 3
+      "include": 3,
+      "defer": 46,
+      "exclude": 11
     },
-    "remaining_candidates": 221
+    "remaining_candidates": 210
   }
 }
