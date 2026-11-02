@@ -25,6 +25,144 @@
   },
   "papers": [
     {
+      "id": "7572678",
+      "doi": "10.2139/ssrn.7572678",
+      "title": "Good-Fit Signals: Information Design for Skills-Based Volunteer Engagement",
+      "authors": [
+        "Mehdi H. Farahani"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7572678",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Problem definition: Nonprofits recruiting skilled volunteers face a tradeoff in communicating task requirements. While more precise information about task requirements...",
+      "indexed_at": "2026-10-07T19:24:55+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7572678",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T19:24:56+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7572678"
+      ],
+      "fingerprint": "27fb41fae129ad77efc517dc469809f854e5e07548fd6a78e8f466805bccaa7e",
+      "selection_note": "Characterizes personalized interval disclosure for a participation decision with skill-task matching, then studies incentive-compatible invitation policies when skills are private. The private-information result is restricted to the stated invitation-only class, not unrestricted mechanism optimality. Screening covers the verified abstract and matching university listing, not proof verification.",
+      "reviewed_at": "2026-11-02",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7572678",
+        "https://www.bauer.uh.edu/directory/profile.asp?firstname=Mehdi&lastname=Farahani"
+      ]
+    },
+    {
+      "id": "7568820",
+      "doi": "10.2139/ssrn.7568820",
+      "title": "Loss Aversion and Interim Feedback in Tournaments",
+      "authors": [
+        "Toshifumi Hagihara",
+        "Toshiki Miyashita"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7568820",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "This paper examines how reference-dependent preferences affect effort incentives in a tournament with interim performance feedback. Feedback typically weakens effort...",
+      "indexed_at": "2026-10-07T15:38:56+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7568820",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T15:38:56+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7568820"
+      ],
+      "fingerprint": "92fe706aed8ed34c78e63e5464b74d15ebc3b334d7c3d91b4617ef217e02d00a",
+      "selection_note": "Studies reference-dependent effort in tournaments with interim feedback. Loss aversion strengthens the leader's incentive but weakens the laggard's; when only the leader is reference dependent, it can reverse feedback's usual discouragement effect. Admission is based on the verified complete abstract, not a review of the full model or proofs.",
+      "reviewed_at": "2026-11-02",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7568820"
+      ]
+    },
+    {
+      "id": "7557978",
+      "doi": "10.2139/ssrn.7557978",
+      "title": "Expected Representative-Utility Sufficientarianism: A Characterization",
+      "authors": [
+        "Matthew D. Adler",
+        "Walter Bossert",
+        "Susumu Cato",
+        "Kohei Kamaga"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7557978",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We develop an ex post approach to sufficientarianism under risk that is based on the notion of expected representative utility...",
+      "indexed_at": "2026-10-05T03:08:01+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7557978",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-05T03:08:01+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7557978"
+      ],
+      "fingerprint": "8ba9c9c90a43844374fbc5112341256ba6aae1f4a9a85bc0b596614c1655adfd",
+      "selection_note": "Axiomatizes risky social-welfare orderings that give absolute priority below a sufficiency threshold. Restricted Pareto and continuity conditions accommodate that priority, while further independence conditions narrow the admissible aggregators. Screening covers the verified abstract and matching author publication record, not full-proof verification.",
+      "reviewed_at": "2026-11-02",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7557978",
+        "https://law.duke.edu/fac/adler/publications"
+      ]
+    },
+    {
+      "id": "7560665",
+      "doi": "10.2139/ssrn.7560665",
+      "title": "Existence of a majority equilibrium in the presence of a reference point",
+      "authors": [
+        "Herve Cres",
+        "Mich Tvede"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7560665",
+      "topics": [
+        "Decision & Social Choice",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We study the existence of majority equilibria in multidimensional policy spaces when choices are made in the presence of a...",
+      "indexed_at": "2026-10-04T14:07:44+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7560665",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-04T14:07:44+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7560665"
+      ],
+      "fingerprint": "b2b976c09550188010e0b0b4a4d30b3ed6ef533b21a7abe8ef88f9934ed9bc36",
+      "selection_note": "Geometric restrictions on reference-dependent preference correspondences yield majority-equilibrium existence in multidimensional policy spaces, with a separate high-dimensional result for random Euclidean electorates. Screening is based on the verified current abstract; the older differently titled working paper is not treated as proof of this version.",
+      "reviewed_at": "2026-11-02",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7560665"
+      ]
+    },
+    {
       "id": "7668702",
       "doi": "10.2139/ssrn.7668702",
       "title": "Robustness and Separation in Mechanism Design under Approximate Incentive Compatibility",
@@ -3170,17 +3308,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-01",
+  "last_selection_review": "2026-11-02",
   "review_status": {
-    "last_completed": "2026-11-01T07:48:11+00:00",
-    "candidates_checked_through": "2026-11-01T06:13:25+00:00",
-    "collection_run": 41279904158,
+    "last_completed": "2026-11-02T08:56:09+00:00",
+    "candidates_checked_through": "2026-11-02T06:14:13+00:00",
+    "collection_run": 41398581190,
     "reviewed_count": 60,
     "decisions": {
-      "include": 3,
-      "defer": 46,
-      "exclude": 11
+      "defer": 44,
+      "include": 4,
+      "exclude": 12
     },
-    "remaining_candidates": 210
+    "remaining_candidates": 194
   }
 }
