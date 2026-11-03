@@ -25,6 +25,110 @@
   },
   "papers": [
     {
+      "id": "7666319",
+      "doi": "10.2139/ssrn.7666319",
+      "title": "Due Diligence Regulation in Informal Auctions",
+      "authors": [
+        "Orestis Vravosinos"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7666319",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "A house purchase is for many people the largest financial decision of their lives. Yet 15-30% of American homebuyers waive...",
+      "indexed_at": "2026-10-30T05:35:27+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7666319",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-30T05:35:27+00:00",
+      "first_seen": "2026-10-31T05:50:55+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7666319"
+      ],
+      "fingerprint": "7a7639f67bb46187096188d3f7f4f5b24c08482e192a68ab49a1742fd27c879e",
+      "selection_note": "Models inspection contingencies as a risk-sharing contract in a two-dimensional auction. In the mean-variance baseline, preventing inspection waivers reduces total and seller surplus while redistributing buyer surplus; aggregate buyer losses require additional dependence and log-concavity conditions.",
+      "reviewed_at": "2026-11-03",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7666319",
+        "https://orestisvravosinos.netlify.app/uploads/Due%20diligence%20regulation%20in%20informal%20auctions.pdf"
+      ]
+    },
+    {
+      "id": "7577079",
+      "doi": "10.2139/ssrn.7577079",
+      "title": "Speed of Intervention in Algorithmic Markets: Controlling Collusion and Stability",
+      "authors": [
+        "Tong Xie",
+        "Rene Caldentey",
+        "Martin B. Haugh"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7577079",
+      "topics": [
+        "Game Theory & Networks",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Algorithmic pricing is prevalent in online marketplaces, raising concerns that learning algorithms may sustain supracompetitive outcomes. We study two sellers...",
+      "indexed_at": "2026-10-08T11:44:37+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7577079",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T11:44:37+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7577079"
+      ],
+      "fingerprint": "4012cfb59bd258a1ab2b9958614ec8effe32974b9b2bc35298d528739119a671",
+      "selection_note": "Studies how demand steering affects memoryless learners in a repeated Prisoner's Dilemma. In the fluid model, stronger intervention can destabilize an interior fixed point; near a subcritical Hopf point, a local normal-form speed bound preserves a buffered reduced basin. Persistent outer oscillations are numerical, not a global theorem.",
+      "reviewed_at": "2026-11-03",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7577079",
+        "https://tongxie17.github.io/Speed_of_Intervention.pdf"
+      ]
+    },
+    {
+      "id": "7546440",
+      "doi": "10.2139/ssrn.7546440",
+      "title": "The Remarkable Efficiency of the Probabilistic Serial Mechanism",
+      "authors": [
+        "Josué Ortega",
+        "Geng Zhao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546440",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Is the choice of allocation mechanism irrelevant in the random assignment problem? Existing results conflict: unlike Probabilistic Serial (PS), Random...",
+      "indexed_at": "2026-10-01T09:51:50+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7546440",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T13:50:04+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7546440"
+      ],
+      "fingerprint": "4a1b09c9eab6e646d5d8e5a04747766ddda20c843fd6d02c3e4a330f1330bf37",
+      "selection_note": "Compares probabilistic serial with random priority in replicated random assignment markets. With independent uniform rankings, serial allocation has an iterated-logarithmic expected-rank bound; as object types grow, the expected-rank gap vanishes exactly when copies per type outgrow their logarithm.",
+      "reviewed_at": "2026-11-03",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7546440",
+        "https://www.josueortega.com/PS_versus_RP_simplified.pdf"
+      ]
+    },
+    {
       "id": "7572678",
       "doi": "10.2139/ssrn.7572678",
       "title": "Good-Fit Signals: Information Design for Skills-Based Volunteer Engagement",
@@ -3308,17 +3412,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-02",
+  "last_selection_review": "2026-11-03",
   "review_status": {
-    "last_completed": "2026-11-02T08:56:09+00:00",
-    "candidates_checked_through": "2026-11-02T06:14:13+00:00",
-    "collection_run": 41398581190,
+    "last_completed": "2026-11-03T07:56:46+00:00",
+    "candidates_checked_through": "2026-11-03T06:53:28+00:00",
+    "collection_run": 41592677227,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 44,
-      "include": 4,
-      "exclude": 12
+      "exclude": 16,
+      "defer": 41,
+      "include": 3
     },
-    "remaining_candidates": 194
+    "remaining_candidates": 182
   }
 }
