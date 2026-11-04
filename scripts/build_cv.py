@@ -1,10 +1,12 @@
-"""Build the academic CV from index.html (requires reportlab and lxml)."""
+"""Build the CV from the homepage and CV-only education (reportlab and lxml)."""
 
 from datetime import date
 from html import escape
 from pathlib import Path
+import json
 import os
 import re
+from urllib.parse import urljoin
 
 from lxml import html
 from reportlab.lib import colors
@@ -20,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "output/pdf/Sijie-Wang-CV.pdf"
 PAGE_WIDTH, PAGE_HEIGHT = A4
 LINK_COLOR = "#164F77"
+WEBSITE = "https://econstill.github.io/"
 
 
 def clean(text):
@@ -35,7 +38,7 @@ def inline(element):
     for child in element:
         content = inline(child)
         if child.tag == "a":
-            href = escape(child.get("href", ""), quote=True)
+            href = escape(urljoin(WEBSITE, child.get("href", "")), quote=True)
             result += f'<a href="{href}" color="{LINK_COLOR}">{content}</a>'
         elif child.tag in ("strong", "em"):
             tag = "b" if child.tag == "strong" else "i"
@@ -50,6 +53,25 @@ def link(label, url):
     return f'<a href="{escape(url, quote=True)}" color="{LINK_COLOR}">{escape(label)}</a>'
 
 
+def load_content(root):
+    page = html.parse(str(root / "index.html"))
+    sections = {clean(h.text_content()).strip(): h.getparent()
+                for h in page.xpath("//main//h2")}
+    if "Education" in sections:
+        education = [inline(item) for item in sections["Education"].xpath("./ul/li")]
+    else:
+        records = json.loads((root / "scripts/cv_education.json").read_text())
+        education = [escape(clean(record).strip()) for record in records]
+    interests = [clean(item.text_content()).strip()
+                 for item in sections["Research Interests"].xpath("./ul/li")]
+    if not education or not interests:
+        raise ValueError("CV education and research interests must not be empty")
+    for name in ("Publications", "Working Papers", "Work in Progress"):
+        if not sections[name].xpath("./ol/li"):
+            raise ValueError("Missing paper list: " + name)
+    return page, sections, education, interests
+
+
 def build():
     font_dir = Path(os.environ.get("CV_FONT_DIR", "/System/Library/Fonts/Supplemental"))
     for name, suffix in (("Times-Roman", ""), ("Times-Bold", " Bold"),
@@ -59,8 +81,7 @@ def build():
             pdfmetrics.registerFont(TTFont(name, str(font)))
     pdfmetrics.registerFontFamily("Times-Roman", normal="Times-Roman", bold="Times-Bold",
                                   italic="Times-Italic", boldItalic="Times-BoldItalic")
-    page = html.parse(str(ROOT / "index.html"))
-    sections = {s.find("h2").text: s for s in page.xpath("//main/section")}
+    page, sections, education, interests = load_content(ROOT)
     body = ParagraphStyle("body", fontName="Times-Roman", fontSize=10.5,
                           leading=13.3, textColor=colors.HexColor("#171717"), spaceAfter=5)
     heading = ParagraphStyle("section", parent=body, fontName="Times-Bold",
@@ -89,15 +110,13 @@ def build():
 
     story.append(Paragraph("Education", heading))
     advisor = sections["About"].xpath('.//a[contains(@href,"scholar.google.com")]')[0]
-    for i, item in enumerate(sections["Education"].xpath("./ul/li")):
-        text = inline(item)
+    for i, text in enumerate(education):
         if i == 0:
             text = text.replace("Ph.D. in Applied Economics", "Ph.D. student in Applied Economics")
             text += "<br/>Advisor: " + link(clean(advisor.text_content()).strip(), advisor.get("href")) + "."
         story.append(Paragraph(text, body))
 
     story.append(Paragraph("Research Interests", heading))
-    interests = [clean(x.text_content()).strip() for x in sections["Research Interests"].xpath("./ul/li")]
     story.append(Paragraph(escape("; ".join(interests)) + ".", body))
 
     for name in ("Publications", "Working Papers", "Work in Progress"):
@@ -109,8 +128,16 @@ def build():
 
     story.append(Paragraph("Academic Service", heading))
     seminar = sections["Seminar"].find("p")
-    text = inline(seminar).replace("I co-organize the", "Co-organizer of the")
+    first_sentence = html.fromstring(html.tostring(seminar))
+    for anchor in first_sentence.xpath('./a[starts-with(@href,"mailto:")]'):
+        anchor.drop_tree()
+    text = inline(first_sentence).split("If you would like to join", 1)[0].strip()
+    text = text.replace("I co-organize the", "Co-organizer of the")
     story.append(Paragraph(text, body))
+    if "Academic Resources" in sections:
+        resource = sections["Academic Resources"].xpath('.//a[normalize-space(.)="Theory Watch"]')[0]
+        story.append(Paragraph("Maintainer of " + link("Theory Watch", urljoin(website, resource.get("href")))
+                               + ", a curated index of economic-theory papers on SSRN.", body))
 
     def footer(canvas, doc):
         canvas.saveState()
