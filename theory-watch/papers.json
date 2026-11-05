@@ -25,6 +25,77 @@
   },
   "papers": [
     {
+      "id": "7676358",
+      "doi": "10.2139/ssrn.7676358",
+      "title": "Forecasts and Conditionally I.I.D. Models",
+      "authors": [
+        "Drew Fudenberg",
+        "Giacomo Lanzani"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7676358",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We characterize when one-step-ahead forecasts are consistent with Bayesian learning about a fixed, unknown outcome distribution. With two periods of...",
+      "indexed_at": "2026-11-04T07:42:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7676358",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-04T07:42:41+00:00",
+      "first_seen": "2026-11-05T06:54:13+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7676358"
+      ],
+      "fingerprint": "c247b9e0b6d52ed9d71c757b70889fe1ac82d560793d1e3f9d232c3e41577c81",
+      "selection_note": "Characterizes when finite-outcome forecasts admit Bayesian learning about a fixed unknown distribution. With two periods, complete positivity of the joint-probability matrix is necessary and sufficient; for binary outcomes this reduces to symmetry and reinforcement. These restrictions test rationalizability without necessarily identifying a unique prior.",
+      "reviewed_at": "2026-11-05",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7676358",
+        "https://economics.mit.edu/sites/default/files/inline-files/psd_decisiontheory_drew_giacomo-70.pdf"
+      ]
+    },
+    {
+      "id": "5210244",
+      "doi": "10.2139/ssrn.5210244",
+      "title": "The Empty Promise: When Do P2P Platforms Fail to Serve Advance-Booking Customers?",
+      "authors": [
+        "Neha Sharma",
+        "Sumanta Singha",
+        "Milind G. Sohoni",
+        "Achal Bassamboo"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5210244",
+      "topics": [
+        "Industrial Organization Theory",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Peer-to-peer (P2P) reservation platforms allow customers to make reservations ahead of time. However, the assets are provided by independent \\emph{hosts}...",
+      "indexed_at": "2026-10-02T16:42:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.5210244",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-02T16:42:41+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "5210244"
+      ],
+      "fingerprint": "0086f7270d2ace12416659a9487324ea385e49be98692593f19f3af229d09ef4",
+      "selection_note": "Analyzes advance-booking market collapse when hosts choose listing times under private costs and availability risk. Early prices must satisfy both host participation and customer demand; sufficiently attractive just-in-time demand can make this impossible. Finite collapse and the failure of host pricing autonomy depend on stated penalty, willingness-to-pay and other model conditions.",
+      "reviewed_at": "2026-11-05",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.5210244",
+        "https://neha-sharma-research.github.io/research/the-empty-promise/"
+      ]
+    },
+    {
       "id": "7678181",
       "doi": "10.2139/ssrn.7678181",
       "title": "Optimal Information Disclosure in Classic Auctions Revisited: Endogenous Information Acquisition and Costly Verification",
@@ -3611,16 +3682,16 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-04",
+  "last_selection_review": "2026-11-05",
   "review_status": {
-    "last_completed": "2026-11-04T08:53:58+00:00",
-    "candidates_checked_through": "2026-11-04T06:31:34+00:00",
-    "collection_run": 41785987779,
+    "last_completed": "2026-11-05T08:26:48+00:00",
+    "candidates_checked_through": "2026-11-05T06:54:13+00:00",
+    "collection_run": 41983469115,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 13,
-      "include": 6,
-      "defer": 41
+      "defer": 57,
+      "include": 2,
+      "exclude": 1
     },
     "remaining_candidates": 184
   }
