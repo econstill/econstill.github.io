@@ -25,6 +25,78 @@
   },
   "papers": [
     {
+      "id": "7679884",
+      "doi": "10.2139/ssrn.7679884",
+      "title": "Constrained Pareto-Optimal Reinsurance under Heterogeneous Pricing Principles",
+      "authors": [
+        "Tim J. Boonen",
+        "Fangda Liu",
+        "Samuel Solgon Santos",
+        "Liwei Zheng"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7679884",
+      "topics": [
+        "Information & Contracts",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "This paper studies Pareto-optimal reinsurance contracts when the insurer and the reinsurer use different pricing principles to determine admissible premiums...",
+      "indexed_at": "2026-11-05T12:42:55+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7679884",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-05T12:42:55+00:00",
+      "first_seen": "2026-11-06T06:53:19+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7679884"
+      ],
+      "fingerprint": "a2f2ecddd45848aae54bd063e8a3538b6db5098576f615faad1155409e03f3b8",
+      "selection_note": "Studies bilateral risk sharing under different premium-admissibility rules. Characterizes constrained Pareto optima, including weighted risk minimization under comonotonic convexity and suitable pricing assumptions. Consistent pricing preserves admissibility under risk reduction; with premium bounds, Pareto and Bowley optima need not agree.",
+      "reviewed_at": "2026-11-06",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7679884"
+      ]
+    },
+    {
+      "id": "7577539",
+      "doi": "10.2139/ssrn.7577539",
+      "title": "Optimal Line-Drawing for Legal Rules",
+      "authors": [
+        "Becker Friedman Institute for Economics RPS Submitter",
+        "Jacob Goldin",
+        "David Weisbach"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7577539",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Line drawing is a pervasive feature of legal systems. Across many domains, the applicable legal treatment turns on whether an...",
+      "indexed_at": "2026-10-08T12:08:49+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7577539",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-08T12:08:49+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7577539"
+      ],
+      "fingerprint": "c730df96fbc853a0a0d4577e3630633015dbd7a30db77073dae875dfe19a7efa",
+      "selection_note": "Models heterogeneous agents sorting around a legal threshold. Derives interior optimality conditions separating changes among bunchers from movement of the marginal type. When a fixed monetary transfer is also chosen at an interior optimum, the marginal-switching welfare term vanishes; the threshold then balances welfare changes among continuing bunchers.",
+      "reviewed_at": "2026-11-06",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7577539",
+        "https://www.nber.org/system/files/working_papers/w35868/w35868.pdf",
+        "https://www.nber.org/papers/w35868"
+      ]
+    },
+    {
       "id": "7676358",
       "doi": "10.2139/ssrn.7676358",
       "title": "Forecasts and Conditionally I.I.D. Models",
@@ -3682,17 +3754,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-05",
+  "last_selection_review": "2026-11-06",
   "review_status": {
-    "last_completed": "2026-11-05T08:26:48+00:00",
-    "candidates_checked_through": "2026-11-05T06:54:13+00:00",
-    "collection_run": 41983469115,
+    "last_completed": "2026-11-06T07:54:54+00:00",
+    "candidates_checked_through": "2026-11-06T06:53:19+00:00",
+    "collection_run": 42177245812,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 57,
-      "include": 2,
-      "exclude": 1
+      "exclude": 16,
+      "defer": 42,
+      "include": 2
     },
-    "remaining_candidates": 184
+    "remaining_candidates": 170
   }
 }
