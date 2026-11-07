@@ -25,6 +25,74 @@
   },
   "papers": [
     {
+      "id": "7678198",
+      "doi": "10.2139/ssrn.7678198",
+      "title": "A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions",
+      "authors": [
+        "Guoqiang Tian"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7678198",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "This paper develops a general theory of dynamic mechanism design with endogenous information and hidden actions, adopting a comprehensive general-equilibrium...",
+      "indexed_at": "2026-11-03T20:28:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7678198",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-03T20:28:06+00:00",
+      "first_seen": "2026-11-04T06:31:34+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7678198"
+      ],
+      "fingerprint": "dad2dbdeb1b0295ec62dba2125e5ed62f700f4ce54146c1dc1f4e5653c7c6a82",
+      "selection_note": "Studies dynamic contracting with hidden actions and endogenous evidence. The current arXiv revision gives history-based revelation under information-structure compatibility and characterizes incentives using action optimality, reporting envelopes, integral monotonicity and residual history-report constraints. Current-type first-order conditions alone do not establish implementability.",
+      "reviewed_at": "2026-11-07",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7678198",
+        "https://arxiv.org/html/2611.05692v1"
+      ]
+    },
+    {
+      "id": "7555700",
+      "doi": "10.2139/ssrn.7555700",
+      "title": "The Value of Information under Local Differential Privacy",
+      "authors": [
+        "Zhe Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555700",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study the value of optimally designed information under local differential privacy in a Bayesian decision problem. With finitely many...",
+      "indexed_at": "2026-10-07T02:26:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7555700",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-07T02:26:06+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7555700"
+      ],
+      "fingerprint": "142a98113f1e39c5d2e98e64e0de3b2f30144c1d251c4fa6ef2afd67c72aee0e",
+      "selection_note": "In a finite-type Bayesian decision problem, characterizes privacy-feasible posteriors and reduces optimal information design to a finite linear program. Derives welfare asymptotics near full privacy and full information. With finitely many actions and a unique prior-optimal action, sufficiently strong privacy eliminates decision gains.",
+      "reviewed_at": "2026-11-07",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7555700",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7555700.pdf?abstractid=7555700&mirid=1"
+      ]
+    },
+    {
       "id": "7679884",
       "doi": "10.2139/ssrn.7679884",
       "title": "Constrained Pareto-Optimal Reinsurance under Heterogeneous Pricing Principles",
@@ -3754,17 +3822,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-06",
+  "last_selection_review": "2026-11-07",
   "review_status": {
-    "last_completed": "2026-11-06T07:54:54+00:00",
-    "candidates_checked_through": "2026-11-06T06:53:19+00:00",
-    "collection_run": 42177245812,
+    "last_completed": "2026-11-07T07:44:45+00:00",
+    "candidates_checked_through": "2026-11-07T06:04:14+00:00",
+    "collection_run": 42345325325,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 16,
-      "defer": 42,
-      "include": 2
+      "include": 2,
+      "defer": 47,
+      "exclude": 11
     },
-    "remaining_candidates": 170
+    "remaining_candidates": 157
   }
 }

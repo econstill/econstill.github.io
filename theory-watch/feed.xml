@@ -8,6 +8,20 @@
     <lastBuildDate>Sat, 07 Nov 2026 06:04:14 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7678198</link>
+      <guid isPermaLink="false">10.2139/ssrn.7678198</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Guoqiang Tian. Added 07 Nov 2026. DOI registered 03 Nov 2026. Mechanism &amp; Market Design / Information &amp; Contracts. This paper develops a general theory of dynamic mechanism design with endogenous information and hidden actions, adopting a comprehensive general-equilibrium...</description>
+    </item>
+    <item>
+      <title>The Value of Information under Local Differential Privacy</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7555700</link>
+      <guid isPermaLink="false">10.2139/ssrn.7555700</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Zhe Chen. Added 07 Nov 2026. DOI registered 07 Oct 2026. Information &amp; Contracts / Decision &amp; Social Choice. We study the value of optimally designed information under local differential privacy in a Bayesian decision problem. With finitely many...</description>
+    </item>
+    <item>
       <title>Constrained Pareto-Optimal Reinsurance under Heterogeneous Pricing Principles</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7679884</link>
       <guid isPermaLink="false">10.2139/ssrn.7679884</guid>
@@ -692,20 +706,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7625275</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Julien Fixary. Added 20 Oct 2026. DOI registered 17 Oct 2026. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. This paper introduces a notion of sequentiality into strategic network formation theory. We construct the analogue of an extensive-form game...</description>
-    </item>
-    <item>
-      <title>Selling Customer Information to Competing Firms: Is Exclusivity Sensitive to Mixed Strategies?</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7619581</link>
-      <guid isPermaLink="false">10.2139/ssrn.7619581</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Iñaki Aguirre. Added 20 Oct 2026. DOI registered 17 Oct 2026. Information &amp; Contracts / Industrial Organization Theory. Clavorà Braulin and Valletti (2016) show, in an insightful analysis, that a data broker selling customer information to two vertically...</description>
-    </item>
-    <item>
-      <title>Partial Price Transparency and Demand Learning in Retail Price Competition</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620880</link>
-      <guid isPermaLink="false">10.2139/ssrn.7620880</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Junbo Jacob Lian, Hanzhang Qin, Chung-Piaw Teo. Added 20 Oct 2026. DOI registered 16 Oct 2026. Industrial Organization Theory / Information &amp; Contracts. Problem definition: Many sellers reprice against rivals' prices, but the rival price they use is often inexact: matching rival offers...</description>
     </item>
   </channel>
 </rss>
