@@ -8,6 +8,20 @@
     <lastBuildDate>Sun, 08 Nov 2026 06:08:23 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>Infinite Factor Structure in Conditional Asset Pricing</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596842</link>
+      <guid isPermaLink="false">10.2139/ssrn.7596842</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Mikhail Chernov, Bryan T. Kelly, Semyon Malamud, Johannes Schwab. Added 08 Nov 2026. DOI registered 12 Oct 2026. Equilibrium &amp; Mathematical Economics. The return covariance matrix is widely assumed to have an eigenvalue cliff: a few large eigenvalues, then a bounded bulk...</description>
+    </item>
+    <item>
+      <title>Optimal Catastrophe Bond Design and its Applications to Climate Change Risk</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542940</link>
+      <guid isPermaLink="false">10.2139/ssrn.7542940</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Andres Medina, Wei Wei. Added 08 Nov 2026. DOI registered 30 Sep 2026. Information &amp; Contracts / Decision &amp; Social Choice. Catastrophe bonds have become a central instrument for transferring catastrophic risk to capital markets, yet their payout structures are typically...</description>
+    </item>
+    <item>
       <title>A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7678198</link>
       <guid isPermaLink="false">10.2139/ssrn.7678198</guid>
@@ -692,20 +706,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7621761</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
       <description>Yulin Hu, Mingliu Chen, Bin Hu. Added 20 Oct 2026. DOI registered 19 Oct 2026. Industrial Organization Theory / Information &amp; Contracts. A prevalent Internet content business model allows publishers to let search engines index their content while monetizing the resulting site...</description>
-    </item>
-    <item>
-      <title>Performance feedback and wage insurance</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625276</link>
-      <guid isPermaLink="false">10.2139/ssrn.7625276</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Toshihiko Nanba. Added 20 Oct 2026. DOI registered 17 Oct 2026. Information &amp; Contracts. I study the joint design of compensation and performance feedback for a risk-averse worker paid a nonnegative terminal wage. The...</description>
-    </item>
-    <item>
-      <title>Internal Cycles and Foresight in Sequential Network Formation</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7625275</link>
-      <guid isPermaLink="false">10.2139/ssrn.7625275</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Julien Fixary. Added 20 Oct 2026. DOI registered 17 Oct 2026. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. This paper introduces a notion of sequentiality into strategic network formation theory. We construct the analogue of an extensive-form game...</description>
     </item>
   </channel>
 </rss>

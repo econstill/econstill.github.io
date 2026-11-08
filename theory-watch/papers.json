@@ -25,6 +25,78 @@
   },
   "papers": [
     {
+      "id": "7596842",
+      "doi": "10.2139/ssrn.7596842",
+      "title": "Infinite Factor Structure in Conditional Asset Pricing",
+      "authors": [
+        "Mikhail Chernov",
+        "Bryan T. Kelly",
+        "Semyon Malamud",
+        "Johannes Schwab"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7596842",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "The return covariance matrix is widely assumed to have an eigenvalue cliff: a few large eigenvalues, then a bounded bulk...",
+      "indexed_at": "2026-10-12T16:05:16+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7596842",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-12T16:05:16+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7596842"
+      ],
+      "fingerprint": "1c9edad2ec35d2bd3bd31029f0c74683a24150b83b7ab38537c95acc4d45541b",
+      "selection_note": "Shows why few conditional factors need not imply a finite unconditional factor structure. Under rich managed-payoff menus and stated regularity, infinitely many component groups can remain strong and generically priced despite finite maximal Sharpe ratios. The individual-stock result additionally requires persistent heterogeneity and infinitely varying common states.",
+      "reviewed_at": "2026-11-08",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7596842",
+        "https://www.nber.org/system/files/working_papers/w35910/w35910.pdf",
+        "https://www.nber.org/papers/w35910"
+      ]
+    },
+    {
+      "id": "7542940",
+      "doi": "10.2139/ssrn.7542940",
+      "title": "Optimal Catastrophe Bond Design and its Applications to Climate Change Risk",
+      "authors": [
+        "Andres Medina",
+        "Wei Wei"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542940",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Catastrophe bonds have become a central instrument for transferring catastrophic risk to capital markets, yet their payout structures are typically...",
+      "indexed_at": "2026-09-30T13:28:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7542940",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-23T07:20:03+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7542940"
+      ],
+      "fingerprint": "9c748daabc9b78a9c572f15d6e2daaf1aeacaf4cd715b53b07a8cba9f504612f",
+      "selection_note": "Characterizes finite-capacity insurance under expected-value premium pricing and bounded marginal indemnities. A convex-order comparison yields capped stop-loss coverage for convex disutility and spectral risk criteria, reducing contract design to its attachment point. Issuance need not be optimal, and the slope restriction is imposed rather than derived from a hidden-action game.",
+      "reviewed_at": "2026-11-08",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7542940",
+        "https://arxiv.org/html/2610.03793v1"
+      ]
+    },
+    {
       "id": "7678198",
       "doi": "10.2139/ssrn.7678198",
       "title": "A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions",
@@ -3822,17 +3894,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-07",
+  "last_selection_review": "2026-11-08",
   "review_status": {
-    "last_completed": "2026-11-07T07:44:45+00:00",
-    "candidates_checked_through": "2026-11-07T06:04:14+00:00",
-    "collection_run": 42345325325,
+    "last_completed": "2026-11-08T07:38:25+00:00",
+    "candidates_checked_through": "2026-11-08T06:08:23+00:00",
+    "collection_run": 42453483525,
     "reviewed_count": 60,
     "decisions": {
-      "include": 2,
-      "defer": 47,
-      "exclude": 11
+      "defer": 56,
+      "exclude": 2,
+      "include": 2
     },
-    "remaining_candidates": 157
+    "remaining_candidates": 153
   }
 }
