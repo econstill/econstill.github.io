@@ -95,7 +95,7 @@ def build():
                           fontSize=9, leading=11, spaceAfter=6)
     paper = ParagraphStyle("paper", parent=body, leftIndent=13,
                            firstLineIndent=-13, spaceAfter=6)
-    story = [Paragraph("Sijie Wang (Still)", title),
+    story = [Paragraph("Sijie Wang", title),
              Paragraph("Curriculum Vitae", contact),
              Paragraph("School of Economics and Management, Beijing Jiaotong University", contact),
              Paragraph("Beijing, China", contact)]
