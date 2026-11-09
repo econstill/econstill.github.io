@@ -25,6 +25,41 @@
   },
   "papers": [
     {
+      "id": "7670398",
+      "doi": "10.2139/ssrn.7670398",
+      "title": "Global Solutions to a New Keynesian Model",
+      "authors": [
+        "Marc Dordal i Carreras",
+        "Seung Joo Lee"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7670398",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We construct a continuum of stationary equilibria in a continuous-time New Keynesian model with a conventional Taylor rule. Our earlier...",
+      "indexed_at": "2026-10-31T06:02:10+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7670398",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-31T06:02:11+00:00",
+      "first_seen": "2026-11-01T06:13:25+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7670398"
+      ],
+      "fingerprint": "939a4d80f0feb8de5b2a6570a2d7d529d2c1c5aed9814e9f8bebc2104b8383ca",
+      "selection_note": "With log utility, rebated Rotemberg costs and a Taylor rule, constructs a continuum of stationary underproduction equilibria satisfying the nonlinear Phillips curve. Each constructed diffusion has a unique invariant law, not a unique economic equilibrium; multiplicity survives an occasionally binding rate floor under additional restrictions.",
+      "reviewed_at": "2026-11-09",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7670398",
+        "https://seungecon.github.io/research/",
+        "https://seungecon.github.io/files/GlobalNK.pdf"
+      ]
+    },
+    {
       "id": "7596842",
       "doi": "10.2139/ssrn.7596842",
       "title": "Infinite Factor Structure in Conditional Asset Pricing",
@@ -3894,17 +3929,16 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-08",
+  "last_selection_review": "2026-11-09",
   "review_status": {
-    "last_completed": "2026-11-08T07:38:25+00:00",
-    "candidates_checked_through": "2026-11-08T06:08:23+00:00",
-    "collection_run": 42453483525,
+    "last_completed": "2026-11-09T09:17:06+00:00",
+    "candidates_checked_through": "2026-11-09T06:41:51+00:00",
+    "collection_run": 42574594946,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 56,
-      "exclude": 2,
-      "include": 2
+      "defer": 59,
+      "include": 1
     },
-    "remaining_candidates": 153
+    "remaining_candidates": 152
   }
 }
