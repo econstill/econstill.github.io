@@ -25,6 +25,144 @@
   },
   "papers": [
     {
+      "id": "7681298",
+      "doi": "10.2139/ssrn.7681298",
+      "title": "Endogenous Group Formation and Social Interactions",
+      "authors": [
+        "Wentao Fu",
+        "Lei Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7681298",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "This paper studies a group formation game in which a continuum of individuals with heterogeneous ideal points choose which group...",
+      "indexed_at": "2026-11-10T04:32:11+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7681298",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-10T04:32:12+00:00",
+      "first_seen": "2026-11-10T07:24:47+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7681298"
+      ],
+      "fingerprint": "eec7f05fa8b9335876f12150e419a50c54782fb989b4c3d08d574e7262050e47",
+      "selection_note": "Studies joint membership and action choices with isolation available. Under a positive continuous type density, equilibrium groups occupy ordered intervals and distribution shape restricts isolation. For uniformly distributed types, characterizes group-size patterns and a welfare gap between decentralized membership and centralized assignment at a fixed group count.",
+      "reviewed_at": "2026-11-10",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7681298"
+      ]
+    },
+    {
+      "id": "7682461",
+      "doi": "10.2139/ssrn.7682461",
+      "title": "On the Continuous Version of the Aumann-Shapley Cost-Sharing Method: Two Characterizations with No Merging or Splitting",
+      "authors": [
+        "Jin Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682461",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Sprumont (2005) characterized the discrete Aumann-Shapley cost-sharing method by Additivity, Dummy, and No Merging or Splitting, and asked whether these...",
+      "indexed_at": "2026-11-09T19:43:41+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7682461",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-09T20:23:03+00:00",
+      "first_seen": "2026-11-10T07:24:47+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7682461"
+      ],
+      "fingerprint": "95864361d751eebc239d9e2cb340f6e8a1f036e6c410c6a0cde57e900dbbc51c",
+      "selection_note": "Gives two continuous cost-allocation characterizations robust to merging or splitting demands, paralleling earlier discrete results. One combines this requirement with additivity and the dummy condition; the other uses monotonicity instead. The claims concern the paper's continuous Aumann-Shapley cost-sharing model, not arbitrary allocation rules.",
+      "reviewed_at": "2026-11-10",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7682461"
+      ]
+    },
+    {
+      "id": "7681784",
+      "doi": "10.2139/ssrn.7681784",
+      "title": "Firm Size, Market Power, and Competition in a Frictional Market",
+      "authors": [
+        "Bharadwaj Kannan",
+        "Roberto Pinheiro",
+        "Jan-Peter Siedlarek"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7681784",
+      "topics": [
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "We study how firm size and market concentration drive price dispersion and margins in a market with information frictions. We...",
+      "indexed_at": "2026-11-09T15:47:38+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7681784",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-09T15:47:38+00:00",
+      "first_seen": "2026-11-10T07:24:47+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7681784"
+      ],
+      "fingerprint": "cfb34fc1f0588130fc14d2348b05f1e4c09c6af0585c5a638f81f64b16acb221",
+      "selection_note": "In noisy search over establishments, characterizes mixed-price equilibrium and how ownership combines captive demand with internal cannibalization. With interior reservation prices, a merger that leaves the largest firm unchanged lowers prices but is unprofitable in the baseline; creating a new leader introduces competing effects. These are conditional ownership experiments, not universal merger-welfare claims.",
+      "reviewed_at": "2026-11-10",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7681784",
+        "https://www.clevelandfed.org/publications/working-paper/2026/wp-2633-firm-size-market-power-and-competition-in-a-frictional-market",
+        "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2026/wp2633.pdf"
+      ]
+    },
+    {
+      "id": "7569998",
+      "doi": "10.2139/ssrn.7569998",
+      "title": "Allowing for Heterogeneous Preferences on Unobserved Quality in Random Coefficient Demand Models",
+      "authors": [
+        "Kyoo il Kim",
+        "Amil Petrin",
+        "Amit Gandhi",
+        "Mons Chan"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7569998",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "We study a generalization of the BLP random coefficient demand model in which consumers have heterogeneous tastes for unobserved product...",
+      "indexed_at": "2026-10-06T13:00:09+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7569998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T13:00:09+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7569998"
+      ],
+      "fingerprint": "d81468ca1d52b0dbbec83d2c6d9bee37025e1b0b96d409f3777f20547b007f60",
+      "selection_note": "Extends random-coefficient demand to heterogeneous tastes for latent quality. An almost-surely positive coefficient in the quality-index specification yields global share-map inversion through an M-matrix argument; dropping that sign can break inversion. Distinguishes this demand foundation from failure of the usual BLP iteration and from convergence of alternative solvers.",
+      "reviewed_at": "2026-11-10",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7569998",
+        "https://www.monschan.com/research/"
+      ]
+    },
+    {
       "id": "7670398",
       "doi": "10.2139/ssrn.7670398",
       "title": "Global Solutions to a New Keynesian Model",
@@ -3929,15 +4067,16 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-09",
+  "last_selection_review": "2026-11-10",
   "review_status": {
-    "last_completed": "2026-11-09T09:17:06+00:00",
-    "candidates_checked_through": "2026-11-09T06:41:51+00:00",
-    "collection_run": 42574594946,
-    "reviewed_count": 60,
+    "last_completed": "2026-11-10T07:42:32+00:00",
+    "candidates_checked_through": "2026-11-10T07:24:47+00:00",
+    "collection_run": 42775044545,
+    "reviewed_count": 56,
     "decisions": {
-      "defer": 59,
-      "include": 1
+      "defer": 37,
+      "include": 4,
+      "exclude": 15
     },
     "remaining_candidates": 152
   }
