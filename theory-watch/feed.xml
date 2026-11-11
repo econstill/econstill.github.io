@@ -8,6 +8,41 @@
     <lastBuildDate>Wed, 11 Nov 2026 06:32:09 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>Auction Design with Private Priors and Costly Learning</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7683598</link>
+      <guid isPermaLink="false">10.2139/ssrn.7683598</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Kemal Ozbek. Added 11 Nov 2026. DOI registered 10 Nov 2026. Mechanism &amp; Market Design / Information &amp; Contracts. We study two-stage auctions in which bidders privately know their valuation priors and learning costs, while the seller jointly designs...</description>
+    </item>
+    <item>
+      <title>Strategy-Proof Social Choice Correspondences for Conditional Expected Utility Maximizers *</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7683174</link>
+      <guid isPermaLink="false">10.2139/ssrn.7683174</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Carmelo Rodríguez Álvarez. Added 11 Nov 2026. DOI registered 10 Nov 2026. Decision &amp; Social Choice. We study social choice functions that select sets of alternatives, taking voters' preferences over sets as input, when voters evaluate...</description>
+    </item>
+    <item>
+      <title>Allocation of Bilateral Surplus in Networks</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7681836</link>
+      <guid isPermaLink="false">10.2139/ssrn.7681836</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Dirck Bouwhuis, Peter Borm, P. Jean-Jacques Herings. Added 11 Nov 2026. DOI registered 10 Nov 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. We study a new class of network models in which players occupy physical positions on a tree and can only...</description>
+    </item>
+    <item>
+      <title>Public and Private Money Inflation Dynamics and Optimal Policy</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682937</link>
+      <guid isPermaLink="false">10.2139/ssrn.7682937</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Daniel R. Sanches. Added 11 Nov 2026. DOI registered 10 Nov 2026. Equilibrium &amp; Mathematical Economics. The total money supply of a modern economy is a combination of publicly and privately issued monies. This paper develops...</description>
+    </item>
+    <item>
+      <title>FirstSwap: Pre-consensus Trade Approvals for Decentralized Market Design</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652139</link>
+      <guid isPermaLink="false">10.2139/ssrn.7652139</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>William Diamond, Fatima Elsheimy, Dahlia Malkhi, Geoff Ramseyer, Srivatsan Sridhar. Added 11 Nov 2026. DOI registered 23 Oct 2026. Mechanism &amp; Market Design / Game Theory &amp; Networks. Decentralized exchanges typically give traders no execution guarantee until a block is finalized. In the meantime, external prices move, traders...</description>
+    </item>
+    <item>
       <title>Endogenous Group Formation and Social Interactions</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7681298</link>
       <guid isPermaLink="false">10.2139/ssrn.7681298</guid>
@@ -671,41 +706,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7642377</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <description>Pengfei Zhang. Added 21 Oct 2026. DOI registered 20 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. Externalities and information asymmetry are two primary frictions in the market for information security. But which friction should government regulations...</description>
-    </item>
-    <item>
-      <title>Screening the Screeners: Performance Vesting in Delegated Investment</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7642286</link>
-      <guid isPermaLink="false">10.2139/ssrn.7642286</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Bowen Guo, Zhaojun Yang. Added 21 Oct 2026. DOI registered 20 Oct 2026. Information &amp; Contracts. We study managerial compensation when investors delegate project selection to privately informed intermediaries, as in venture capital and private equity...</description>
-    </item>
-    <item>
-      <title>Elasticity and Bargaining Power</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7631118</link>
-      <guid isPermaLink="false">10.2139/ssrn.7631118</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Pedro Pablo Pérez Velasco. Added 21 Oct 2026. DOI registered 20 Oct 2026. Game Theory &amp; Networks. This paper identifies a new source of bargaining power: the elasticity of a bargainer's utility, defined as the marginal value...</description>
-    </item>
-    <item>
-      <title>Axiomatic Characterization of the Owen Index without Efficiency</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7632698</link>
-      <guid isPermaLink="false">10.2139/ssrn.7632698</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Takaaki Abe, Miku Inagaki. Added 21 Oct 2026. DOI registered 20 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. We provide an axiomatic characterization of the Owen index on voting games with coalition structures without imposing efficiency. Our characterization...</description>
-    </item>
-    <item>
-      <title>Voluntary Partial Participation in Peer-to-Peer Insurance with Heterogeneous Risks</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7620218</link>
-      <guid isPermaLink="false">10.2139/ssrn.7620218</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Tim J. Boonen, Ka Chun Cheung, Mai Zhang. Added 21 Oct 2026. DOI registered 16 Oct 2026. Information &amp; Contracts / Mechanism &amp; Market Design. Heterogeneous risk affects not only who joins a peer-to-peer insurance pool but also how intensively participants share losses. We study...</description>
-    </item>
-    <item>
-      <title>When Do Minimum Participation Constraints Improve International Public-Good Provision under Voluntary Participation and Strategic Delegation? *</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7542625</link>
-      <guid isPermaLink="false">10.2139/ssrn.7542625</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Ryusuke Shinohara. Added 21 Oct 2026. DOI registered 30 Sep 2026. Game Theory &amp; Networks / Mechanism &amp; Market Design. We examine the effectiveness of a minimum participation constraint (MPC) for international public-good provision when participation is voluntary and provision...</description>
     </item>
   </channel>
 </rss>

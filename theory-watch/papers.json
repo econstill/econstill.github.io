@@ -25,6 +25,179 @@
   },
   "papers": [
     {
+      "id": "7683598",
+      "doi": "10.2139/ssrn.7683598",
+      "title": "Auction Design with Private Priors and Costly Learning",
+      "authors": [
+        "Kemal Ozbek"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7683598",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "We study two-stage auctions in which bidders privately know their valuation priors and learning costs, while the seller jointly designs...",
+      "indexed_at": "2026-11-10T19:14:03+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7683598",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-10T19:43:40+00:00",
+      "first_seen": "2026-11-11T06:32:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7683598"
+      ],
+      "fingerprint": "188631b242a6a453618057cc32749416ac009c50ebc2053435c44cbb44d1b999",
+      "selection_note": "Studies joint auction and learning design with binary values and independent private priors and learning costs. With exclusive assigned learning and full commitment, dynamic incentive constraints yield a revenue decomposition and finite-menu attainment. For finite priors, linear programs approximate continuous costs while preserving exact incentive compatibility within the direct coordinated mechanism class.",
+      "reviewed_at": "2026-11-11",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7683598",
+        "https://arxiv.org/html/2611.04643v1"
+      ]
+    },
+    {
+      "id": "7683174",
+      "doi": "10.2139/ssrn.7683174",
+      "title": "Strategy-Proof Social Choice Correspondences for Conditional Expected Utility Maximizers *",
+      "authors": [
+        "Carmelo Rodríguez Álvarez"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7683174",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study social choice functions that select sets of alternatives, taking voters' preferences over sets as input, when voters evaluate...",
+      "indexed_at": "2026-11-10T14:35:20+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7683174",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-10T15:04:48+00:00",
+      "first_seen": "2026-11-11T06:32:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7683174"
+      ],
+      "fingerprint": "a8d0eca7faf963cc04b5768c84942d27be50e0c90461df7c67a1256b95a36447",
+      "selection_note": "Studies strategy-proof social choice correspondences when voters evaluate outcome sets using conditional expected utility. Uniform priors permit bidictatorial possibilities, but, on the paper's domain, allowing at most one voter with a uniform prior makes strategy-proofness and unanimity force dictatorship. The restriction concerns this set-preference model, not arbitrary voting domains.",
+      "reviewed_at": "2026-11-11",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7683174"
+      ]
+    },
+    {
+      "id": "7681836",
+      "doi": "10.2139/ssrn.7681836",
+      "title": "Allocation of Bilateral Surplus in Networks",
+      "authors": [
+        "Dirck Bouwhuis",
+        "Peter Borm",
+        "P. Jean-Jacques Herings"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7681836",
+      "topics": [
+        "Game Theory & Networks",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study a new class of network models in which players occupy physical positions on a tree and can only...",
+      "indexed_at": "2026-11-10T13:04:42+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7681836",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-10T13:04:42+00:00",
+      "first_seen": "2026-11-11T06:32:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7681836"
+      ],
+      "fingerprint": "468a12103d972f608334101444267268e1d261dbde00591f33298f46fc784478",
+      "selection_note": "Studies how to allocate surplus from adjacent pairs when players can be repositioned on a tree and connected coalitions rearrange internally. The resulting game has a nonempty core, whose allocations are bilateral but not conversely. Characterizes the average tree solution through efficiency and equal per-capita cone excesses on this surplus domain.",
+      "reviewed_at": "2026-11-11",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7681836",
+        "https://research.tilburguniversity.edu/en/publications/allocation-of-bilateral-surplus-in-networks/"
+      ]
+    },
+    {
+      "id": "7682937",
+      "doi": "10.2139/ssrn.7682937",
+      "title": "Public and Private Money Inflation Dynamics and Optimal Policy",
+      "authors": [
+        "Daniel R. Sanches"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682937",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "The total money supply of a modern economy is a combination of publicly and privately issued monies. This paper develops...",
+      "indexed_at": "2026-11-10T12:38:36+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7682937",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-10T13:08:38+00:00",
+      "first_seen": "2026-11-11T06:32:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7682937"
+      ],
+      "fingerprint": "3a4308c78465a32f33530e649b187b73f26360d4b5b887f57b919d27e7f8de45",
+      "selection_note": "Models fiat money and collateral-backed private claims in decentralized trade with endogenous issuer net worth. Collateral feedback can produce coexisting monetary regimes and conditional cycles, rather than a unique global equilibrium. In the policy analysis with full buyer bargaining power, slack collateral permits Friedman-rule efficiency; binding collateral can instead favor positive inflation under additional restrictions.",
+      "reviewed_at": "2026-11-11",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7682937",
+        "https://www.philadelphiafed.org/-/media/frbp/assets/working-papers/2026/wp26-50.pdf"
+      ]
+    },
+    {
+      "id": "7652139",
+      "doi": "10.2139/ssrn.7652139",
+      "title": "FirstSwap: Pre-consensus Trade Approvals for Decentralized Market Design",
+      "authors": [
+        "William Diamond",
+        "Fatima Elsheimy",
+        "Dahlia Malkhi",
+        "Geoff Ramseyer",
+        "Srivatsan Sridhar"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652139",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Decentralized exchanges typically give traders no execution guarantee until a block is finalized. In the meantime, external prices move, traders...",
+      "indexed_at": "2026-10-23T08:41:31+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7652139",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-23T08:41:31+00:00",
+      "first_seen": "2026-10-24T04:43:18+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7652139"
+      ],
+      "fingerprint": "7c35512838300504de67001dfbfd56820730e97d35507b46e3c362c0d8b5a1b8",
+      "selection_note": "Models strategic trade timing under pre-consensus approvals, FIFO ordering and batching. In the atomless diffusion model with constant relative slope, welfare rankings depend on that slope and trading gains. Jump comparisons add tail and price-curve restrictions, and small jumps can favor batching; the results do not imply universal protocol dominance.",
+      "reviewed_at": "2026-11-11",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7652139",
+        "https://arxiv.org/html/2611.10254v1"
+      ]
+    },
+    {
       "id": "7681298",
       "doi": "10.2139/ssrn.7681298",
       "title": "Endogenous Group Formation and Social Interactions",
@@ -4067,17 +4240,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-10",
+  "last_selection_review": "2026-11-11",
   "review_status": {
-    "last_completed": "2026-11-10T07:42:32+00:00",
-    "candidates_checked_through": "2026-11-10T07:24:47+00:00",
-    "collection_run": 42775044545,
-    "reviewed_count": 56,
+    "last_completed": "2026-11-11T07:57:04+00:00",
+    "candidates_checked_through": "2026-11-11T06:32:09+00:00",
+    "collection_run": 42973005254,
+    "reviewed_count": 60,
     "decisions": {
-      "defer": 37,
-      "include": 4,
-      "exclude": 15
+      "exclude": 9,
+      "defer": 46,
+      "include": 5
     },
-    "remaining_candidates": 152
+    "remaining_candidates": 166
   }
 }
