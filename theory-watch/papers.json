@@ -6,21 +6,21 @@
   "archive_kind": "selected_papers",
   "selection": "Content-screened microeconomic-theory selections; automatic discovery alone never authorizes publication",
   "rule_version": "semantic-3.0-micro-candidates",
-  "last_successful_check": "2026-11-11T06:32:09+00:00",
+  "last_successful_check": "2026-11-12T07:16:56+00:00",
   "screening": {
-    "retrieved": 185,
-    "included": 18,
-    "review": 30,
-    "excluded": 573,
-    "cached": 271
+    "retrieved": 181,
+    "included": 22,
+    "review": 57,
+    "excluded": 941,
+    "cached": 633
   },
   "coverage_start": "2026-09-30",
   "last_collection": {
-    "from": "2026-11-08",
-    "through": "2026-11-11",
+    "from": "2026-11-09",
+    "through": "2026-11-12",
     "date_field": "deposit",
-    "records_checked": 621,
-    "new_matches": 28,
+    "records_checked": 1020,
+    "new_matches": 30,
     "changed_matches": 1
   },
   "papers": [
