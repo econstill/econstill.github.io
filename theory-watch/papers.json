@@ -25,6 +25,74 @@
   },
   "papers": [
     {
+      "id": "7686104",
+      "doi": "10.2139/ssrn.7686104",
+      "title": "An Economic Analysis of Conditional Kidney Donation",
+      "authors": [
+        "Oscar Volij"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7686104",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We compare anonymous kidney donation with a mechanism that also permits conditional donations. Donors choose whether to donate and, if...",
+      "indexed_at": "2026-11-12T18:38:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7686104",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-12T18:38:06+00:00",
+      "first_seen": "2026-11-13T06:51:00+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7686104"
+      ],
+      "fingerprint": "c135d121acf494c23483a18351a4376cced74d38bb86f55a87f2b4a4546b3929",
+      "selection_note": "Studies donors' joint participation and choice between anonymous and conditional donation channels. Extra participation competes with reduced matching flexibility and a changed composition of residual demand, so equilibrium need not be unique. Characterizes when conditional donation reduces both groups' waiting lists and when more group-specific donor preferences can help both groups in fully sorted equilibria.",
+      "reviewed_at": "2026-11-13",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7686104"
+      ]
+    },
+    {
+      "id": "7566699",
+      "doi": "10.2139/ssrn.7566699",
+      "title": "Judges, Lawyers, and Legal Innovation",
+      "authors": [
+        "Sepehr Shahshahani",
+        "Deborah Beim"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7566699",
+      "topics": [
+        "Game Theory & Networks",
+        "Information & Contracts"
+      ],
+      "excerpt": "We investigate the conditions that support or suppress legal innovation through a formal model that incorporates a litigant’s strategic decision...",
+      "indexed_at": "2026-10-06T17:32:37+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7566699",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T17:32:37+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7566699"
+      ],
+      "fingerprint": "15f973ac3069b6a87a607ddf64315f4166002a42e8af932768b9d6608c956e10",
+      "selection_note": "Studies a litigant's choice of conventional or innovative arguments when judicial ideology and aptitude are uncertain. Those traits jointly shape innovation, and stronger case merits need not make innovative claims more attractive. Endogenous case framing can distort comparisons of judicial ideology, while an option outside litigation need not increase innovation among litigated cases.",
+      "reviewed_at": "2026-11-13",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7566699",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7566699"
+      ]
+    },
+    {
       "id": "7683083",
       "doi": "10.2139/ssrn.7683083",
       "title": "Paying to be Wrong: Optimal Incentives for Algorithmic Verification",
@@ -4343,17 +4411,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-12",
+  "last_selection_review": "2026-11-13",
   "review_status": {
-    "last_completed": "2026-11-12T07:40:42+00:00",
-    "candidates_checked_through": "2026-11-12T07:16:56+00:00",
-    "collection_run": 43174015087,
+    "last_completed": "2026-11-13T07:48:41+00:00",
+    "candidates_checked_through": "2026-11-13T06:51:00+00:00",
+    "collection_run": 43381459724,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 37,
-      "exclude": 20,
-      "include": 3
+      "exclude": 7,
+      "defer": 51,
+      "include": 2
     },
-    "remaining_candidates": 174
+    "remaining_candidates": 176
   }
 }

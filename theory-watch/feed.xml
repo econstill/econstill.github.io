@@ -8,6 +8,20 @@
     <lastBuildDate>Fri, 13 Nov 2026 06:51:00 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>An Economic Analysis of Conditional Kidney Donation</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7686104</link>
+      <guid isPermaLink="false">10.2139/ssrn.7686104</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Oscar Volij. Added 13 Nov 2026. DOI registered 12 Nov 2026. Mechanism &amp; Market Design / Game Theory &amp; Networks. We compare anonymous kidney donation with a mechanism that also permits conditional donations. Donors choose whether to donate and, if...</description>
+    </item>
+    <item>
+      <title>Judges, Lawyers, and Legal Innovation</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7566699</link>
+      <guid isPermaLink="false">10.2139/ssrn.7566699</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Sepehr Shahshahani, Deborah Beim. Added 13 Nov 2026. DOI registered 06 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. We investigate the conditions that support or suppress legal innovation through a formal model that incorporates a litigant’s strategic decision...</description>
+    </item>
+    <item>
       <title>Paying to be Wrong: Optimal Incentives for Algorithmic Verification</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7683083</link>
       <guid isPermaLink="false">10.2139/ssrn.7683083</guid>
@@ -692,20 +706,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7646199</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>Nir Bachrach, Yi-Chun Chen, Inbal Talgam-Cohen, Xiangqian Yang, Wanchang Zhang. Added 22 Oct 2026. DOI registered 21 Oct 2026. Mechanism &amp; Market Design. In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show...</description>
-    </item>
-    <item>
-      <title>Equivalence Classes in Recursive utility</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7612538</link>
-      <guid isPermaLink="false">10.2139/ssrn.7612538</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Robert A. Becker, Carlos Palmero, Juan Rincon-Zapatero. Added 22 Oct 2026. DOI registered 16 Oct 2026. Equilibrium &amp; Mathematical Economics / Decision &amp; Social Choice. We introduce and analyze an equivalence relation on the set of aggregators in the context of recursive utility theory. We...</description>
-    </item>
-    <item>
-      <title>Credibility vs. Context</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7609964</link>
-      <guid isPermaLink="false">10.2139/ssrn.7609964</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Mengxi Sun. Added 22 Oct 2026. DOI registered 16 Oct 2026. Information &amp; Contracts / Decision &amp; Social Choice. How does a receiver integrate what a sender says with why she says it? When a sender interprets data to...</description>
     </item>
   </channel>
 </rss>
