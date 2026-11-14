@@ -25,6 +25,108 @@
   },
   "papers": [
     {
+      "id": "7688459",
+      "doi": "10.2139/ssrn.7688459",
+      "title": "Indifference in Decentralized Many-to-Many Matching",
+      "authors": [
+        "Alexandre Pabst"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7688459",
+      "topics": [
+        "Mechanism & Market Design",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "This paper studies a two-stage matching mechanism (TSMM) where firms simultaneously propose to many workers and workers simultaneously respond by...",
+      "indexed_at": "2026-11-13T17:27:31+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7688459",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-13T17:57:39+00:00",
+      "first_seen": "2026-11-14T06:31:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7688459"
+      ],
+      "fingerprint": "3ff221a2e267538c9006f11a0221eb486df33f5e491f759b238ee50e721ef81e",
+      "selection_note": "In a two-stage many-partner matching game, worker indifference permits subgame-perfect outcomes that fail the paper's single-firm coalition stability test, even with substitutable preferences. The analysis also gives a response-independence condition supporting stable outcomes.",
+      "reviewed_at": "2026-11-14",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7688459"
+      ]
+    },
+    {
+      "id": "7696623",
+      "doi": "10.2139/ssrn.7696623",
+      "title": "Rational Expectations Equilibrium with an Automated Market Maker",
+      "authors": [
+        "Ping Liu",
+        "Zhan Pang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7696623",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Information & Contracts"
+      ],
+      "excerpt": "We characterize the Grossman–Stiglitz rational expectations equilibrium with costly information acquisition in a prediction market operated by an automated market...",
+      "indexed_at": "2026-11-13T14:47:02+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7696623",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-13T14:47:02+00:00",
+      "first_seen": "2026-11-14T06:31:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7696623"
+      ],
+      "fingerprint": "4b9d06d45e5d5c2b7439e2ccb9a632571aad5c2c890d36fb93bdd1649f1d1b2f",
+      "selection_note": "A single-batch logarithmic market maker is combined with endogenous information acquisition and price-based inference by uninformed traders. In sufficiently deep markets, liquidity improves price information through entry into informed trading; at a fixed positive informed share, information loses value when noise volatility is either very small or very large.",
+      "reviewed_at": "2026-11-14",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7696623",
+        "https://sites.google.com/site/pingliuuiuc/welcome/research"
+      ]
+    },
+    {
+      "id": "7684304",
+      "doi": "10.2139/ssrn.7684304",
+      "title": "Incentive Uncertainty and Equilibrium Uniqueness in Earnings Management Models",
+      "authors": [
+        "Kevin Smith"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7684304",
+      "topics": [
+        "Information & Contracts",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Fischer and Verrecchia (2000) study a reporting-bias model in which the market faces uncertainty over a manager's reporting incentives. They...",
+      "indexed_at": "2026-11-13T06:20:43+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7684304",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-13T06:20:44+00:00",
+      "first_seen": "2026-11-14T06:31:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7684304"
+      ],
+      "fingerprint": "69d069e4c2967a8fa466c4ed9e425fc10020eae14bb4da7896262fa86eab54b4",
+      "selection_note": "For the Fischer-Verrecchia reporting-bias model, Gaussian uncertainty about a manager's incentives rules out nonlinear and partially pooling alternatives to the linear Bayesian pricing equilibrium. The result extends uniqueness beyond the class of linear prices within that model, not to earnings-management games generally.",
+      "reviewed_at": "2026-11-14",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7684304",
+        "https://ksmith142.github.io/"
+      ]
+    },
+    {
       "id": "7686104",
       "doi": "10.2139/ssrn.7686104",
       "title": "An Economic Analysis of Conditional Kidney Donation",
@@ -4411,17 +4513,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-13",
+  "last_selection_review": "2026-11-14",
   "review_status": {
-    "last_completed": "2026-11-13T07:48:41+00:00",
-    "candidates_checked_through": "2026-11-13T06:51:00+00:00",
-    "collection_run": 43381459724,
+    "last_completed": "2026-11-14T07:49:07+00:00",
+    "candidates_checked_through": "2026-11-14T06:31:09+00:00",
+    "collection_run": 43566639536,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 7,
-      "defer": 51,
-      "include": 2
+      "exclude": 17,
+      "include": 3,
+      "defer": 40
     },
-    "remaining_candidates": 176
+    "remaining_candidates": 188
   }
 }

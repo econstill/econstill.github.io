@@ -8,6 +8,27 @@
     <lastBuildDate>Sat, 14 Nov 2026 06:31:09 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>Indifference in Decentralized Many-to-Many Matching</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7688459</link>
+      <guid isPermaLink="false">10.2139/ssrn.7688459</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Alexandre Pabst. Added 14 Nov 2026. DOI registered 13 Nov 2026. Mechanism &amp; Market Design / Game Theory &amp; Networks. This paper studies a two-stage matching mechanism (TSMM) where firms simultaneously propose to many workers and workers simultaneously respond by...</description>
+    </item>
+    <item>
+      <title>Rational Expectations Equilibrium with an Automated Market Maker</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7696623</link>
+      <guid isPermaLink="false">10.2139/ssrn.7696623</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Ping Liu, Zhan Pang. Added 14 Nov 2026. DOI registered 13 Nov 2026. Equilibrium &amp; Mathematical Economics / Information &amp; Contracts. We characterize the Grossman–Stiglitz rational expectations equilibrium with costly information acquisition in a prediction market operated by an automated market...</description>
+    </item>
+    <item>
+      <title>Incentive Uncertainty and Equilibrium Uniqueness in Earnings Management Models</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7684304</link>
+      <guid isPermaLink="false">10.2139/ssrn.7684304</guid>
+      <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Kevin Smith. Added 14 Nov 2026. DOI registered 13 Nov 2026. Information &amp; Contracts / Equilibrium &amp; Mathematical Economics. Fischer and Verrecchia (2000) study a reporting-bias model in which the market faces uncertainty over a manager's reporting incentives. They...</description>
+    </item>
+    <item>
       <title>An Economic Analysis of Conditional Kidney Donation</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7686104</link>
       <guid isPermaLink="false">10.2139/ssrn.7686104</guid>
@@ -685,27 +706,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7651798</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
       <description>Ricardo Fonseca. Added 22 Oct 2026. DOI registered 21 Oct 2026. Mechanism &amp; Market Design / Information &amp; Contracts. A farmer considering a new perennial crop, or someone considering a new vaccine, may prefer to wait and learn from...</description>
-    </item>
-    <item>
-      <title>Electoral Competition over Interval Platforms</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646798</link>
-      <guid isPermaLink="false">10.2139/ssrn.7646798</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Daeseok Kim. Added 22 Oct 2026. DOI registered 21 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. Two candidates choose intervals evaluated by a Hurwicz criterion with worst-loss weight α. Under affine voting, the unique equilibrium is...</description>
-    </item>
-    <item>
-      <title>Stochastic Sequential Choice from Lists</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649588</link>
-      <guid isPermaLink="false">10.2139/ssrn.7649588</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Mohammad Aksam. Added 22 Oct 2026. DOI registered 21 Oct 2026. Decision &amp; Social Choice. This paper provides an axiomatic foundation for Stochastic Sequential Choice fromLists. We model boundedly rational agents who evaluate alternatives from...</description>
-    </item>
-    <item>
-      <title>Revenue Guarantee Equivalence between Dominant-Strategy and Bayesian Mechanisms</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7646199</link>
-      <guid isPermaLink="false">10.2139/ssrn.7646199</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Nir Bachrach, Yi-Chun Chen, Inbal Talgam-Cohen, Xiangqian Yang, Wanchang Zhang. Added 22 Oct 2026. DOI registered 21 Oct 2026. Mechanism &amp; Market Design. In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show...</description>
     </item>
   </channel>
 </rss>
