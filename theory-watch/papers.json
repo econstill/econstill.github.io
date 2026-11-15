@@ -4515,15 +4515,14 @@
   "curation_version": "micro-theory-curated-1",
   "last_selection_review": "2026-11-14",
   "review_status": {
-    "last_completed": "2026-11-14T07:49:07+00:00",
-    "candidates_checked_through": "2026-11-14T06:31:09+00:00",
-    "collection_run": 43566639536,
+    "last_completed": "2026-11-15T07:44:47+00:00",
+    "candidates_checked_through": "2026-11-15T06:40:06+00:00",
+    "collection_run": 43686434353,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 17,
-      "include": 3,
-      "defer": 40
+      "exclude": 3,
+      "defer": 57
     },
-    "remaining_candidates": 188
+    "remaining_candidates": 189
   }
 }
