@@ -25,6 +25,42 @@
   },
   "papers": [
     {
+      "id": "7682027",
+      "doi": "10.2139/ssrn.7682027",
+      "title": "A Simple Theory of Portfolio Market Making",
+      "authors": [
+        "Andreas Park",
+        "Katya Malinova"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682027",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "As tokenized securities proliferate, blockchain technology lets new types of markets, such as automated market makers, compete with traditional exchanges...",
+      "indexed_at": "2026-11-09T17:33:17+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7682027",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-09T18:31:24+00:00",
+      "first_seen": "2026-11-10T07:24:47+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7682027"
+      ],
+      "fingerprint": "ef6c42b0b3ec10fed846918b3db1bf66a8dba30b67759b621f55929cf9e74afc",
+      "selection_note": "Studies a trading-cost bound for competitive portfolio liquidity provision under adverse selection. The paper connects the optimal price-impact response to multi-asset Kyle pricing and compares optimized constant-product pools with the benchmark in specified one- and two-risky-asset cases.",
+      "reviewed_at": "2026-11-16",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7682027",
+        "https://andreaspark.com/research/",
+        "https://slides.slides.com/ap248/dethroning-the-dollar-sgseminars-2026"
+      ]
+    },
+    {
       "id": "7688459",
       "doi": "10.2139/ssrn.7688459",
       "title": "Indifference in Decentralized Many-to-Many Matching",
@@ -4513,16 +4549,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-14",
+  "last_selection_review": "2026-11-16",
   "review_status": {
-    "last_completed": "2026-11-15T07:44:47+00:00",
-    "candidates_checked_through": "2026-11-15T06:40:06+00:00",
-    "collection_run": 43686434353,
+    "last_completed": "2026-11-16T07:43:49+00:00",
+    "candidates_checked_through": "2026-11-16T06:37:07+00:00",
+    "collection_run": 43817936456,
     "reviewed_count": 60,
     "decisions": {
+      "defer": 56,
       "exclude": 3,
-      "defer": 57
+      "include": 1
     },
-    "remaining_candidates": 189
+    "remaining_candidates": 185
   }
 }
