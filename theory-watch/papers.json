@@ -25,6 +25,42 @@
   },
   "papers": [
     {
+      "id": "7688398",
+      "doi": "10.2139/ssrn.7688398",
+      "title": "Who Can Control Our Firms? National Security and Foreign Ownership Regulation",
+      "authors": [
+        "Rodrigo Adao",
+        "Olivier Kooi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7688398",
+      "topics": [
+        "Information & Contracts",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Governments invoke national security to regulate foreign acquisitions of domestic firms. Why is ownership regulation a distinct policy margin beyond...",
+      "indexed_at": "2026-11-13T17:17:02+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7688398",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-13T17:46:32+00:00",
+      "first_seen": "2026-11-14T06:31:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7688398"
+      ],
+      "fingerprint": "045535bc72e9181800d489d98dd231d37d8df0feb0172a117814bec904de351b",
+      "selection_note": "Links incomplete firm contracts to interstate bargaining: ownership changes residual control and conflict exposure that private firms do not internalize. With the government facing the same contracting limits, the model characterizes production and ownership wedges. Comparative statics for tighter ownership regulation require common marginal costs across organizational modes; the defense-demand/exposure complementarity is local.",
+      "reviewed_at": "2026-11-17",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7688398",
+        "https://www.rodrigoadao.com/research",
+        "https://www.dropbox.com/scl/fi/u8nrm6nvfyisplg8fyqom/AK_Oct2026.pdf?dl=1&rlkey=sckpinm5sovuibkdacftlvcc5"
+      ]
+    },
+    {
       "id": "7682027",
       "doi": "10.2139/ssrn.7682027",
       "title": "A Simple Theory of Portfolio Market Making",
@@ -4549,17 +4585,16 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-16",
+  "last_selection_review": "2026-11-17",
   "review_status": {
-    "last_completed": "2026-11-16T07:43:49+00:00",
+    "last_completed": "2026-11-17T07:40:21+00:00",
     "candidates_checked_through": "2026-11-16T06:37:07+00:00",
     "collection_run": 43817936456,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 56,
-      "exclude": 3,
-      "include": 1
+      "include": 1,
+      "defer": 59
     },
-    "remaining_candidates": 185
+    "remaining_candidates": 184
   }
 }
