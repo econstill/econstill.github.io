@@ -8,6 +8,34 @@
     <lastBuildDate>Wed, 18 Nov 2026 07:35:39 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
+      <title>Multi-Asset Market Making</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7699358</link>
+      <guid isPermaLink="false">10.2139/ssrn.7699358</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Ioanid Rosu, Andriy Shkilko, Elvira Sojli, Wing Wah Tham. Added 18 Nov 2026. DOI registered 17 Nov 2026. Equilibrium &amp; Mathematical Economics. We develop a dynamic theory of portfolio market making, solved in closed form for any number of assets and dealers...</description>
+    </item>
+    <item>
+      <title>Contractual freedom versus tenancy law</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7697358</link>
+      <guid isPermaLink="false">10.2139/ssrn.7697358</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Patrick W. Schmitz. Added 18 Nov 2026. DOI registered 17 Nov 2026. Information &amp; Contracts. We study a two-period principal-agent model of rental housing in which a landlord (principal) offers a contract to a tenant...</description>
+    </item>
+    <item>
+      <title>Bad Reputation in Repeated Cheap Talk</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7696484</link>
+      <guid isPermaLink="false">10.2139/ssrn.7696484</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Scott Saas. Added 18 Nov 2026. DOI registered 17 Nov 2026. Information &amp; Contracts / Game Theory &amp; Networks. I examine a class of continuous-state cheap talk games where the receiver is uncertain about the preferences of the sender...</description>
+    </item>
+    <item>
+      <title>Silence, Lies, and Evidence: Investment and Reporting Credibility</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7715098</link>
+      <guid isPermaLink="false">10.2139/ssrn.7715098</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <description>Felix Feng, Ivan Marinovic. Added 18 Nov 2026. DOI registered 17 Nov 2026. Information &amp; Contracts. An investor who relies on a manager's unverifiable report must decide whether to keep investing in a firm, pause, or...</description>
+    </item>
+    <item>
       <title>Who Can Control Our Firms? National Security and Foreign Ownership Regulation</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7688398</link>
       <guid isPermaLink="false">10.2139/ssrn.7688398</guid>
@@ -678,34 +706,6 @@
       <guid isPermaLink="false">10.2139/ssrn.7656438</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <description>Alexander Senk. Added 23 Oct 2026. DOI registered 22 Oct 2026. Industrial Organization Theory. This paper studies how the presence of captive consumers, who buy exclusively through a manufacturer's authorized sales channel, affects the...</description>
-    </item>
-    <item>
-      <title>Winning Voters or Winning Regions? Vote Aggregation, Ideology, and Regional Transfers *</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7656341</link>
-      <guid isPermaLink="false">10.2139/ssrn.7656341</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Pablo Amoros, M. Socorro Puy. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Decision &amp; Social Choice. Electoral systems differ in whether votes are pooled nationwide or aggregated within territorial units, such as regions. A common view...</description>
-    </item>
-    <item>
-      <title>Who Says What: Strategic Communication in Networks</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7653460</link>
-      <guid isPermaLink="false">10.2139/ssrn.7653460</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Anuj Bhowmik, Saptarshi Prosonno Ghosh, Iman Kundu, Sandipan Saha. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Information &amp; Contracts. We study a multi-player communication-coordnation game in which privately informed agents communicate through a social network and choose their optimal...</description>
-    </item>
-    <item>
-      <title>Stackelberg Stopping Games</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7647640</link>
-      <guid isPermaLink="false">10.2139/ssrn.7647640</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Jingjie Zhang, Zhou Zhou. Added 23 Oct 2026. DOI registered 22 Oct 2026. Game Theory &amp; Networks / Equilibrium &amp; Mathematical Economics. We study a Stackelberg variant of the classical discrete-time Dynkin game, in which Player 1 (the leader) commits to a...</description>
-    </item>
-    <item>
-      <title>Who Keeps a Bubble Alive? Skin in the Game and the Survival of Rational Bubbles</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7649238</link>
-      <guid isPermaLink="false">10.2139/ssrn.7649238</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
-      <description>Feng Dong, Siqing Wang, Fan Wu. Added 23 Oct 2026. DOI registered 22 Oct 2026. Equilibrium &amp; Mathematical Economics / Information &amp; Contracts. We study how retained ownership supports the value of a zero-dividend asset held for resale. A sponsor chooses hidden maintenance...</description>
     </item>
   </channel>
 </rss>

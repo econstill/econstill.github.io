@@ -25,6 +25,145 @@
   },
   "papers": [
     {
+      "id": "7699358",
+      "doi": "10.2139/ssrn.7699358",
+      "title": "Multi-Asset Market Making",
+      "authors": [
+        "Ioanid Rosu",
+        "Andriy Shkilko",
+        "Elvira Sojli",
+        "Wing Wah Tham"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7699358",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We develop a dynamic theory of portfolio market making, solved in closed form for any number of assets and dealers...",
+      "indexed_at": "2026-11-17T19:09:30+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7699358",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-17T19:39:17+00:00",
+      "first_seen": "2026-11-18T07:35:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7699358"
+      ],
+      "fingerprint": "d5e2e8e692baa3fd850544e93336b017474018688c067d7fb975eb0c42d9ccbb",
+      "selection_note": "A dynamic theory of liquidity supply links quotes across correlated assets through endogenous dealer inventories. The authors' July 2026 slides specify a monopolist with linear order flow and quadratic inventory costs, deriving cross-hedging and risk-aversion-dependent asset selection. The current abstract's multiple-dealer extension was not checked in full.",
+      "reviewed_at": "2026-11-18",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7699358",
+        "https://conference.nber.org/conf_papers/f246903/f246903.slides.pdf"
+      ]
+    },
+    {
+      "id": "7697358",
+      "doi": "10.2139/ssrn.7697358",
+      "title": "Contractual freedom versus tenancy law",
+      "authors": [
+        "Patrick W. Schmitz"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7697358",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "We study a two-period principal-agent model of rental housing in which a landlord (principal) offers a contract to a tenant...",
+      "indexed_at": "2026-11-17T16:04:17+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7697358",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-17T16:34:17+00:00",
+      "first_seen": "2026-11-18T07:35:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7697358"
+      ],
+      "fingerprint": "f819796ae31b9cde9a6eb9a119eee32914c26efb2ebb4fda489fe864453dcbf9",
+      "selection_note": "A two-period rental-contract model compares contractual freedom with legally required continuation after a landlord cost shock. Tenant private information can make the continuation rule increase gains from trade, unlike under symmetric information. This is a model-specific contracting comparison, not a general welfare claim about housing regulation; review is based on the verified abstract.",
+      "reviewed_at": "2026-11-18",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7697358",
+        "https://cepr.org/publications/dp22104"
+      ]
+    },
+    {
+      "id": "7696484",
+      "doi": "10.2139/ssrn.7696484",
+      "title": "Bad Reputation in Repeated Cheap Talk",
+      "authors": [
+        "Scott Saas"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7696484",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "I examine a class of continuous-state cheap talk games where the receiver is uncertain about the preferences of the sender...",
+      "indexed_at": "2026-11-17T15:19:35+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7696484",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-17T15:49:06+00:00",
+      "first_seen": "2026-11-18T07:35:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7696484"
+      ],
+      "fingerprint": "a20df90876b1e5d65943de7e45125e9575692b1c08875c4b83a095421da59c44",
+      "selection_note": "In a two-period cheap-talk model with persistent sender types, an almost-myopic extreme type and Pareto-efficient continuation play, stronger future-payoff weight can eliminate informative messages discontinuously. For an aligned good type, first-period informativeness deteriorates; complete collapse in the stated small-bias range requires future weight above one. Model and main propositions were read, not the full proof appendix.",
+      "reviewed_at": "2026-11-18",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7696484",
+        "https://www.scottsaas.com/research",
+        "https://drive.google.com/file/d/1f83OIs4trqoFYYoMdY0kjaxUVsZCTN-A/view?usp=drive_link",
+        "https://drive.google.com/uc?export=download&id=1f83OIs4trqoFYYoMdY0kjaxUVsZCTN-A"
+      ]
+    },
+    {
+      "id": "7715098",
+      "doi": "10.2139/ssrn.7715098",
+      "title": "Silence, Lies, and Evidence: Investment and Reporting Credibility",
+      "authors": [
+        "Felix Feng",
+        "Ivan Marinovic"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7715098",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "An investor who relies on a manager's unverifiable report must decide whether to keep investing in a firm, pause, or...",
+      "indexed_at": "2026-11-17T14:21:18+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7715098",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-17T14:21:18+00:00",
+      "first_seen": "2026-11-18T07:35:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7715098"
+      ],
+      "fingerprint": "939308d1041c6f010570e40a5136670159000f651898d444e733ca52041e3904",
+      "selection_note": "A dynamic manager-investor communication model makes funding an endogenous test of unverifiable reports. For patient parties and specified learning parameters, informative reporting can coexist with lying and silence, while the investor may pause funding to await information. The verified abstract and author's overview were read; the equilibrium construction and proofs were not checked.",
+      "reviewed_at": "2026-11-18",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7715098",
+        "https://sites.google.com/view/felixzhiyufeng/home"
+      ]
+    },
+    {
       "id": "7688398",
       "doi": "10.2139/ssrn.7688398",
       "title": "Who Can Control Our Firms? National Security and Foreign Ownership Regulation",
@@ -4585,16 +4724,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-17",
+  "last_selection_review": "2026-11-18",
   "review_status": {
-    "last_completed": "2026-11-17T07:40:21+00:00",
-    "candidates_checked_through": "2026-11-16T06:37:07+00:00",
-    "collection_run": 43817936456,
+    "last_completed": "2026-11-18T08:37:57+00:00",
+    "candidates_checked_through": "2026-11-18T07:35:39+00:00",
+    "collection_run": 44259943619,
     "reviewed_count": 60,
     "decisions": {
-      "include": 1,
-      "defer": 59
+      "exclude": 18,
+      "defer": 38,
+      "include": 4
     },
-    "remaining_candidates": 184
+    "remaining_candidates": 203
   }
 }
