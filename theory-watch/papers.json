@@ -25,6 +25,277 @@
   },
   "papers": [
     {
+      "id": "7699998",
+      "doi": "10.2139/ssrn.7699998",
+      "title": "Regulating Muddled Financial Information Broadcasting",
+      "authors": [
+        "Zeqian Li",
+        "Wendao Xue",
+        "Yifan Yu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7699998",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "Financial representatives increasingly communicate with retail investors through broadcasting technologies, such as mutual fund live streaming, which deliver one message...",
+      "indexed_at": "2026-11-19T06:20:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7699998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-19T06:20:06+00:00",
+      "first_seen": "2026-11-19T07:31:07+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7699998"
+      ],
+      "fingerprint": "d8d52de310f3b3e08d83a71118421648e9bfc1b64f735cfaf3687b81291e3170",
+      "selection_note": "A signaling model studies a representative whose message combines product quality with promotional skill. A larger audience weakens each investor's disciplinary influence and can increase both manipulation and reliance on the signal. The regulatory comparison depends on whether market discipline complements or substitutes for external oversight. Review is based on the source-verified abstract, not a proof audit.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7699998",
+        "https://sites.google.com/view/yifan-yu/research"
+      ]
+    },
+    {
+      "id": "7698818",
+      "doi": "10.2139/ssrn.7698818",
+      "title": "Core Stability is Not a Strong Prosperity Property",
+      "authors": [
+        "Hyungkyu Cheon"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7698818",
+      "topics": [
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Is von Neumann-Morgenstern stability of the core preserved when the worth of the grand coalition increases while all proper-coalition worths...",
+      "indexed_at": "2026-11-19T04:37:57+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7698818",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-19T04:37:57+00:00",
+      "first_seen": "2026-11-19T07:31:07+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7698818"
+      ],
+      "fingerprint": "a692979916eb734d88893f9d67d6581bfe9ad413985eee8d4828ada56ff49bdc",
+      "selection_note": "The source-verified abstract reports a six-player transferable-utility counterexample: increasing only the grand coalition's worth can destroy and later restore von Neumann-Morgenstern stability of the core. A composition result permits arbitrarily many stability gaps as the player set grows. This concerns core stability, not core nonemptiness; the construction and proofs were not independently checked.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7698818"
+      ]
+    },
+    {
+      "id": "7709218",
+      "doi": "10.2139/ssrn.7709218",
+      "title": "Strategic Repayment and Latent Fragility in Financial Networks: Why Banks Withhold Payable Liquidity",
+      "authors": [
+        "Hicham El Kaissi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7709218",
+      "topics": [
+        "Game Theory & Networks",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "A network in which every bank pays in full can nevertheless admit a self-fulfilling settlement freeze under the same balance-sheet...",
+      "indexed_at": "2026-11-18T21:30:09+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7709218",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-18T22:00:06+00:00",
+      "first_seen": "2026-11-19T07:31:07+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7709218"
+      ],
+      "fingerprint": "047fe3f13b7b27a682c23e8e25ba6f6ab2c11d77aef5b72695fed20f6a5a5c5e",
+      "selection_note": "Banks trade prompt-payment discipline against insurance for temporary funding needs, yielding a clipped-affine repayment game. Under explicit bank-level inequalities, full repayment and an early settlement freeze coexist even with unique mechanical clearing. The model distinguishes delay from final default and assumes a restricted terminal-settlement technology; coexistence is not a forecast or a general welfare result. Model and main results were read.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7709218",
+        "https://arxiv.org/abs/2611.21262",
+        "https://arxiv.org/pdf/2611.21262"
+      ]
+    },
+    {
+      "id": "7703981",
+      "doi": "10.2139/ssrn.7703981",
+      "title": "Unified vs. Classified Policy Regimes in Political Delegation",
+      "authors": [
+        "Jidong Chen",
+        "Zhaomin Li"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7703981",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Political delegation sometimes features exceptional policy regimes. We develop a spatial model with information acquisition to identify conditions and implications...",
+      "indexed_at": "2026-11-18T15:12:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7703981",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-18T15:42:10+00:00",
+      "first_seen": "2026-11-19T07:31:07+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7703981"
+      ],
+      "fingerprint": "3c0ec2065510925e3fe27d9c23239b4333b1f1aa38ebf8cc5d3963b725b9347e",
+      "selection_note": "A principal chooses discretionary policy sets before an agent acquires costly information. The spatial delegation model compares one interval with classified regimes that remove an uninformed fallback, identifying an expertise-control trade-off. Its capacity comparative static is conditional on this delegation environment, not a general benefit of ignorance. The verified abstract was read; full proofs were unavailable.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7703981"
+      ]
+    },
+    {
+      "id": "7703779",
+      "doi": "10.2139/ssrn.7703779",
+      "title": "Can a School District Keep Two Stability Commitments?",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7703779",
+      "topics": [
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Can a school district protect families against joint manipulation while keeping the stable outcomes of its current admissions rule? With...",
+      "indexed_at": "2026-11-18T14:50:11+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7703779",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-18T15:20:01+00:00",
+      "first_seen": "2026-11-19T07:31:07+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7703779"
+      ],
+      "fingerprint": "32d527afd8aec58ad3015e3ec75920650618c83b19c506a3dbb786afa65f3706",
+      "selection_note": "The paper studies efficient school-admission reforms that retain specified stable outcomes while strengthening manipulation resistance. Its verified abstract separates two-commitment group-strategy-proof impossibilities from individual-strategy-proof restrictions on the full strict domain, and gives priority structures permitting reform. These are matching-rule compatibility results; the examples and proofs were not independently checked.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7703779"
+      ]
+    },
+    {
+      "id": "7685158",
+      "doi": "10.2139/ssrn.7685158",
+      "title": "Behavioral Comparative Statics with Multiple Aggregates",
+      "authors": [
+        "Takayuki Sakuma"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7685158",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Individual behavior can have several equilibria at the same reward. When choices also change market prices, which information is needed...",
+      "indexed_at": "2026-11-11T14:34:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7685158",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-11T15:04:51+00:00",
+      "first_seen": "2026-11-12T07:16:56+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7685158"
+      ],
+      "fingerprint": "d1836dc13ef81d8f0ffcc70908c385ff17df3a84329929e1f577273f88969300",
+      "selection_note": "An equilibrium comparative-statics test allows multiple behavioral responses and several interacting knowledge stocks with endogenous task prices. The reported necessary-and-sufficient comparison requires jointly implementable responses, a target threshold property, and monotonicity/contraction restrictions on other sectors. Effort bounds alone do not suffice. The source-verified abstract was read; the theorem and applications were not proof-audited.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7685158"
+      ]
+    },
+    {
+      "id": "7571118",
+      "doi": "10.2139/ssrn.7571118",
+      "title": "Public Information, Participation, and Equilibrium Polarization",
+      "authors": [
+        "David T. Yi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7571118",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "This paper examines how information disclosed during competitionaffects the positions competitors choose when participation isvoluntary. Two competitors choose their platforms...",
+      "indexed_at": "2026-10-06T15:06:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7571118",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T15:06:06+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7571118"
+      ],
+      "fingerprint": "e856a89cc0af0b168628f1ce961be0e4ec11d6865b517bf480540f8f0660d14c",
+      "selection_note": "Voluntary participation links information about quality to competitors' platform incentives. Under symmetry, platform-independent information, strict own-payoff concavity and an even convex marginal participation response, the reported refinement comparison reduces symmetric platform separation. Linear participation removes this effect. This is a conditional information/competition result, not universal moderation; review is of the verified abstract, not its proof.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7571118",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/d62b770a-ba03-499f-8f30-f3cdd67797dc-MECA.pdf?abstractid=7571118&mirid=1"
+      ]
+    },
+    {
+      "id": "7559121",
+      "doi": "10.2139/ssrn.7559121",
+      "title": "Information Design in Agriculture: Government Strategic Communications for New Variety Adoption",
+      "authors": [
+        "Zhenxiao Chen",
+        "Jingye Huang",
+        "Qiao-Chu He",
+        "Christopher S. Tang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7559121",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "This paper examines how a government should strategically select an experimental design to assess a new crop variety's market potential...",
+      "indexed_at": "2026-10-06T08:58:21+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7559121",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-10-06T08:58:21+00:00",
+      "first_seen": "2026-10-15T11:48:21+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7559121"
+      ],
+      "fingerprint": "1fd84617f8a950ec7df56dceb871bc5f6aaec9869c79a2d708fadc51c251a02c",
+      "selection_note": "A government commits to public information before farmers choose crops and then quantities. The persuasion model trades improved production choices against crop-market concentration, yielding conditional partial-disclosure policies and a reversal in disclosure direction as expected demand rises. This is an analytical information-design contribution, not merely an agricultural application. The verified abstract was read; the full model and proofs were unavailable.",
+      "reviewed_at": "2026-11-19",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7559121",
+        "https://papers.ssrn.com/sol3/Delivery.cfm/7559121.pdf?abstractid=7559121&mirid=1"
+      ]
+    },
+    {
       "id": "7699358",
       "doi": "10.2139/ssrn.7699358",
       "title": "Multi-Asset Market Making",
@@ -4724,17 +4995,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-18",
+  "last_selection_review": "2026-11-19",
   "review_status": {
-    "last_completed": "2026-11-18T08:37:57+00:00",
-    "candidates_checked_through": "2026-11-18T07:35:39+00:00",
-    "collection_run": 44259943619,
+    "last_completed": "2026-11-19T07:42:59+00:00",
+    "candidates_checked_through": "2026-11-19T07:31:07+00:00",
+    "collection_run": 44480103237,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 18,
-      "defer": 38,
-      "include": 4
+      "exclude": 12,
+      "defer": 40,
+      "include": 8
     },
-    "remaining_candidates": 203
+    "remaining_candidates": 210
   }
 }
