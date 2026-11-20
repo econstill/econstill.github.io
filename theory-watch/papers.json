@@ -25,6 +25,173 @@
   },
   "papers": [
     {
+      "id": "7704038",
+      "doi": "10.2139/ssrn.7704038",
+      "title": "The Cost of Robust Information Elicitation: Incentives and the Organization of Expertise",
+      "authors": [
+        "Shenghan Gao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7704038",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "Organizations rely on expert advice even when neither investigation nor accuracy is verifiable. We show that higher-order uncertainty about experts'...",
+      "indexed_at": "2026-11-20T04:24:26+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7704038",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T04:24:26+00:00",
+      "first_seen": "2026-11-20T07:22:46+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7704038"
+      ],
+      "fingerprint": "fb5ee31567c83937d78aba43ab2e56c0b8f8ddb15316b038434fb0ff67675212",
+      "selection_note": "A two-expert mechanism elicits costly information when investigation and accuracy are unverifiable. The paper compares equilibrium with robust implementation costs and characterizes payments for compensation-only experts; limited contingent payments restrict savings from infrequent checks. This is a mechanism-design contribution, not a generic scoring algorithm. Review is based on the verified abstract; the robustness domain and proofs were not audited.",
+      "reviewed_at": "2026-11-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7704038"
+      ]
+    },
+    {
+      "id": "7703979",
+      "doi": "10.2139/ssrn.7703979",
+      "title": "Rationing at the Margin: Existence of Partially Revealing Equilibria in Large Uniform-Price Auctions",
+      "authors": [
+        "Shenghan Gao"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7703979",
+      "topics": [
+        "Mechanism & Market Design",
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "In large common-value uniform-price auctions with finitely many states and signals, partially revealing prices make bidders tie at the clearing...",
+      "indexed_at": "2026-11-20T04:23:35+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7703979",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T04:23:35+00:00",
+      "first_seen": "2026-11-20T07:22:46+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7703979"
+      ],
+      "fingerprint": "ef35f360b9eee7164c5227162ac5000d5070a281e6048b7d9fd6881ecf829c93",
+      "selection_note": "In large finite-state, finite-signal common-value auctions, price feasibility and the auction's tie-rationing rule impose separate equilibrium-existence restrictions. The paper reports three-signal cases where signal-dependent sharing restores an equilibrium missing under pro rata, unlike the two-signal case. These are model-specific existence results, not a general ranking of rationing rules. The verified abstract was read, not the constructions or proofs.",
+      "reviewed_at": "2026-11-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7703979"
+      ]
+    },
+    {
+      "id": "7710702",
+      "doi": "10.2139/ssrn.7710702",
+      "title": "Training Your AI Replacement: Severance Pay and Limited Commitment",
+      "authors": [
+        "Aidan Goth",
+        "Ramtin Salamat"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7710702",
+      "topics": [
+        "Information & Contracts"
+      ],
+      "excerpt": "The productivity gains from AI often depend on knowledge held by the workers it may replace. Sharing this knowledge can...",
+      "indexed_at": "2026-11-19T14:47:40+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7710702",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-19T15:17:44+00:00",
+      "first_seen": "2026-11-20T07:22:46+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7710702"
+      ],
+      "fingerprint": "0c6c0e4d72caab49aa0e629462583506cb7e663530ddbf41fb34e41657004c9e",
+      "selection_note": "A worker can improve a firm-owned AI while weakening future bargaining power when the firm cannot commit to employment or pay. The two-period contracting model distinguishes final-period severance incentives from earlier teaching and studies a worker-optimal dismissal policy. These are conditional commitment results, not a general layoff-tax recommendation. The verified abstract and author's listing were read; the full model and proofs were unavailable.",
+      "reviewed_at": "2026-11-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7710702",
+        "https://sites.google.com/view/ramtinsalamat/research"
+      ]
+    },
+    {
+      "id": "7710678",
+      "doi": "10.2139/ssrn.7710678",
+      "title": "Subsidy-Free Imbalance Charges Cannot Reward Every Party For Balancing",
+      "authors": [
+        "Nurten Ulusay",
+        "Kemal Guler"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7710678",
+      "topics": [
+        "Game Theory & Networks",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "When demands can be negative as well as positive, as with the imbalances that balance responsible parties cause in electricity...",
+      "indexed_at": "2026-11-19T14:42:17+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7710678",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-19T15:12:15+00:00",
+      "first_seen": "2026-11-20T07:22:46+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7710678"
+      ],
+      "fingerprint": "32f8162435e0fc4dde4acd54ae0298b7f3e7ddf21c395901b1703801674ea43b",
+      "selection_note": "Signed electricity imbalances make core-stable cost sharing conflict with incentives to balance one's own position. The paper reports that, with at least three parties, no rule in the core of every such game always rewards own balancing, and characterizes the trade-off for probabilistic values. This is a cooperative cost-sharing/incentive contribution; the verified abstract was read, not the full rule domain or proofs.",
+      "reviewed_at": "2026-11-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7710678"
+      ]
+    },
+    {
+      "id": "7706778",
+      "doi": "10.2139/ssrn.7706778",
+      "title": "A Theory of Private Credit",
+      "authors": [
+        "Anjan V. Thakor"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7706778",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "Private credit is a multi-trillion-dollar market that specializes in customized, relatively long-maturity loans held to maturity by their originators, and...",
+      "indexed_at": "2026-11-19T14:27:55+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7706778",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-19T14:27:56+00:00",
+      "first_seen": "2026-11-20T07:22:46+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7706778"
+      ],
+      "fingerprint": "820108154da2e3394dc83a6351cfa067ace52034b5b7b5a12f9428d28bf55603",
+      "selection_note": "A joint-profit mechanism allocates loan origination, holding and capital between banks and private-credit firms. Deposit-insurance incentives prevent banks from committing to monitoring capital above regulatory requirements, whereas locked fund equity can support monitoring with senior bank financing. The allocation and renegotiation results are conditional on the stated capital-regulation setting. Review is of the verified abstract, not proof or calibration validation.",
+      "reviewed_at": "2026-11-20",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7706778"
+      ]
+    },
+    {
       "id": "7699998",
       "doi": "10.2139/ssrn.7699998",
       "title": "Regulating Muddled Financial Information Broadcasting",
@@ -4995,17 +5162,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-19",
+  "last_selection_review": "2026-11-20",
   "review_status": {
-    "last_completed": "2026-11-19T07:42:59+00:00",
-    "candidates_checked_through": "2026-11-19T07:31:07+00:00",
-    "collection_run": 44480103237,
+    "last_completed": "2026-11-20T07:44:57+00:00",
+    "candidates_checked_through": "2026-11-20T07:22:46+00:00",
+    "collection_run": 44694417451,
     "reviewed_count": 60,
     "decisions": {
-      "exclude": 12,
-      "defer": 40,
-      "include": 8
+      "defer": 42,
+      "include": 5,
+      "exclude": 13
     },
-    "remaining_candidates": 210
+    "remaining_candidates": 220
   }
 }
