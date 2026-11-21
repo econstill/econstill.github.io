@@ -25,6 +25,210 @@
   },
   "papers": [
     {
+      "id": "7720821",
+      "doi": "10.2139/ssrn.7720821",
+      "title": "Axioms That Do Not Combine: Finite Tests for Betweenness and Its Two Halves",
+      "authors": [
+        "Noah Koike Smith"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7720821",
+      "topics": [
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Experiments test theories of choice under risk on small sets of lotteries, which presumes that every inconsistent data set has...",
+      "indexed_at": "2026-11-20T17:01:37+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7720821",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T17:31:47+00:00",
+      "first_seen": "2026-11-21T07:15:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7720821"
+      ],
+      "fingerprint": "356789bc553abebc69787f36a165c2a2a051991aab11326b27c5d3990c8861ee",
+      "selection_note": "Studies finite-data tests of lottery preferences. The abstract reports bounded inconsistency certificates for each half of betweenness, but no uniform bound for their conjunction with at least four prizes; three prizes admit a four-lottery test. This is a substantive preference-testing contribution. Full abstract and source checked; theorem proofs not inspected.",
+      "reviewed_at": "2026-11-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7720821"
+      ]
+    },
+    {
+      "id": "7727298",
+      "doi": "10.2139/ssrn.7727298",
+      "title": "Fiscal Policy as a Nominal Anchor",
+      "authors": [
+        "Joseph Abadi"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7727298",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "When aggregate demand is non-Ricardian, fiscal policy can anchor the long-run price level even while satisfying the government's intertemporal budget...",
+      "indexed_at": "2026-11-20T16:44:05+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7727298",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T16:44:06+00:00",
+      "first_seen": "2026-11-21T07:15:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7727298"
+      ],
+      "fingerprint": "fd3d94a32cf6d1040ec14da9b5192c6706d9806adeabe92891d77112e3d43553",
+      "selection_note": "Derives fiscal selection of a desired feasible monetary equilibrium under an aggregate transversality condition; strong non-Ricardian demand permits a Ricardian implementing rule. A log-utility OLG model constructs nominal-wealth targeting for nonbubble targets. These are conditional equilibrium-foundation results, not universal fiscal determinacy. Model and main propositions read; appendices not fully audited.",
+      "reviewed_at": "2026-11-21",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7727298",
+        "https://www.philadelphiafed.org/the-economy/monetary-policy/fiscal-policy-as-a-nominal-anchor",
+        "https://www.philadelphiafed.org/-/media/FRBP/Assets/working-papers/2026/wp26-55.pdf"
+      ]
+    },
+    {
+      "id": "7720324",
+      "doi": "10.2139/ssrn.7720324",
+      "title": "Entrepreneurial Optimism and Killer Acquisitions",
+      "authors": [
+        "Michele Dell'Era"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7720324",
+      "topics": [
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "Optimistic entrepreneurs overestimate their innovation projects' chances of success and pursue projects that realistic entrepreneurs would abandon. Incumbents acquire and...",
+      "indexed_at": "2026-11-20T15:46:56+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7720324",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T16:16:54+00:00",
+      "first_seen": "2026-11-21T07:15:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7720324"
+      ],
+      "fingerprint": "bdeeefe1be69d06383415daca236a69f767e3f7012edfb84a1fe382ec5015932",
+      "selection_note": "A one-incumbent acquisition model links entrepreneurs' overoptimistic success beliefs to entry and project shelving. The abstract reports that sufficiently strong optimism can make shelving negative-social-value projects beneficial, so blocking gains need not increase with optimism. A conditional behavioral-IO result, not a general defense of killer acquisitions. Full abstract checked; proofs not inspected.",
+      "reviewed_at": "2026-11-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7720324"
+      ]
+    },
+    {
+      "id": "7718178",
+      "doi": "10.2139/ssrn.7718178",
+      "title": "Single-question Crowd Wisdom with Heterogeneous Priors",
+      "authors": [
+        "Cem Peker"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7718178",
+      "topics": [
+        "Information & Contracts",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "Recent single-question crowd wisdom algorithms use higher-order beliefs to identify truth, even when the majority is wrong. These algorithms rely...",
+      "indexed_at": "2026-11-20T14:12:16+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7718178",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T14:42:18+00:00",
+      "first_seen": "2026-11-21T07:15:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7718178"
+      ],
+      "fingerprint": "8a67bcd497861855b0f3786d650b6cec151dacea01eb14d82a96e5d34e7a8e4d",
+      "selection_note": "Investigates information aggregation when Bayesian forecasters need not share a prior. The abstract identifies a linear relation between first- and second-order beliefs as sufficient for prior-invariant crowd wisdom, then examines that condition in three datasets. The condition is not asserted to hold for every crowd. Full abstract and author listing checked; proofs not inspected.",
+      "reviewed_at": "2026-11-21",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7718178",
+        "https://sites.google.com/view/cempeker"
+      ]
+    },
+    {
+      "id": "7716998",
+      "doi": "10.2139/ssrn.7716998",
+      "title": "Stock Lending and Pass-Through Voting",
+      "authors": [
+        "Doron Levit",
+        "George Nurisso"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7716998",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "Concerns about conflicts of interest have led to growing calls for asset managers to let fund investors cast votes directly...",
+      "indexed_at": "2026-11-20T12:43:51+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7716998",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-20T13:13:51+00:00",
+      "first_seen": "2026-11-21T07:15:39+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7716998"
+      ],
+      "fingerprint": "f063dbe9016a5a2056d2c85f7dd202fdec67cae279f7b59925d5b68ae1e5f02a",
+      "selection_note": "Models an agency conflict over share lending while stock and lending markets jointly reallocate voting rights. With a unique interior lending optimum assumed, changing who votes also changes fees and lending; passing votes to fund investors can therefore lower their welfare under specified response conditions. Baseline model and main welfare results read; no full appendix audit.",
+      "reviewed_at": "2026-11-21",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7716998",
+        "https://www.ecgi.global/publications/working-papers/stock-lending-and-pass-through-voting",
+        "https://www.ecgi.global/sites/default/files/2026-11/fin-1170-2026_stock_lending_and_pass-through_voting_0.pdf"
+      ]
+    },
+    {
+      "id": "7691525",
+      "doi": "10.2139/ssrn.7691525",
+      "title": "Drift-invariant Kernels for Discount Curve Models",
+      "authors": [
+        "Andreas Celary",
+        "Zehra Eksi Altay",
+        "Damir Filipovic",
+        "Paul Krühner"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7691525",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Kernel ridge regression estimates the discount curve as the minimizer of a pricing error plus a penalty given by the...",
+      "indexed_at": "2026-11-17T06:54:54+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7691525",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-17T06:54:54+00:00",
+      "first_seen": "2026-11-17T07:59:29+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7691525"
+      ],
+      "fingerprint": "6e6fba338b5e2c9817886dafec02350b04e7d728b32e4bf33dad58d7a44d6a23",
+      "selection_note": "Characterizes which differentiable kernels produce discount-curve spaces invariant under the risk-neutral drift for every maturity grid, with a separate low-dimensional case. The coefficient-dynamics result distinguishes local-martingale drift compatibility from global existence and positive prices, which require additional conditions. This is a financial-model consistency foundation, not empirical curve-fit performance. Sections 1-4 read; proofs not audited.",
+      "reviewed_at": "2026-11-21",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7691525",
+        "https://arxiv.org/html/2611.09751v2"
+      ]
+    },
+    {
       "id": "7704038",
       "doi": "10.2139/ssrn.7704038",
       "title": "The Cost of Robust Information Elicitation: Incentives and the Organization of Expertise",
@@ -5162,17 +5366,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-20",
+  "last_selection_review": "2026-11-21",
   "review_status": {
-    "last_completed": "2026-11-20T07:44:57+00:00",
-    "candidates_checked_through": "2026-11-20T07:22:46+00:00",
-    "collection_run": 44694417451,
+    "last_completed": "2026-11-21T07:47:43+00:00",
+    "candidates_checked_through": "2026-11-21T07:15:39+00:00",
+    "collection_run": 44879362658,
     "reviewed_count": 60,
     "decisions": {
-      "defer": 42,
-      "include": 5,
-      "exclude": 13
+      "exclude": 11,
+      "defer": 43,
+      "include": 6
     },
-    "remaining_candidates": 220
+    "remaining_candidates": 223
   }
 }
