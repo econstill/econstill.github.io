@@ -5368,13 +5368,12 @@
   "curation_version": "micro-theory-curated-1",
   "last_selection_review": "2026-11-21",
   "review_status": {
-    "last_completed": "2026-11-23T07:53:10+00:00",
+    "last_completed": "2026-11-24T07:56:01+00:00",
     "candidates_checked_through": "2026-11-23T07:45:12+00:00",
     "collection_run": 45133307298,
-    "reviewed_count": 60,
+    "reviewed_count": 40,
     "decisions": {
-      "defer": 54,
-      "exclude": 6
+      "defer": 40
     },
     "remaining_candidates": 230
   }
