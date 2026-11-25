@@ -25,6 +25,319 @@
   },
   "papers": [
     {
+      "id": "7725884",
+      "doi": "10.2139/ssrn.7725884",
+      "title": "Market Depth and the Quality of Liquidity: Competition in Limit Order Books",
+      "authors": [
+        "Jungsuk Han",
+        "Yenan Wang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7725884",
+      "topics": [
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "We study how competition shapes liquidity in limit order books. Our closed-form pricing solution makes endogenous inventory choices tractable. Market...",
+      "indexed_at": "2026-11-24T04:57:22+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7725884",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-24T04:57:22+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7725884"
+      ],
+      "fingerprint": "808b8f89aca2955a329cca13da08e40ff013a150a8a6468532a14888caf9c4e1",
+      "selection_note": "A limit-order-book competition model separates inventory depth from execution quality: cheaper inventory for large and small providers has different effects, and endogenous participation can make subsidies raise depth but worsen prices. Admission is based on the complete verified abstract, not an independent proof audit.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7725884"
+      ]
+    },
+    {
+      "id": "7727001",
+      "doi": "10.2139/ssrn.7727001",
+      "title": "Generation Pricing and Creator Incentives on AI Video Platforms",
+      "authors": [
+        "Guoming Lai"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7727001",
+      "topics": [
+        "Industrial Organization Theory",
+        "Information & Contracts"
+      ],
+      "excerpt": "AI video platforms must decide whether generation should earn its own margin or be supported by advertising from finished content...",
+      "indexed_at": "2026-11-23T21:01:07+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7727001",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T21:31:07+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7727001"
+      ],
+      "fingerprint": "96abc60b0be0f7694e5bedd498f4c4ee746449b5b504dbc4b8e4ba58942771b7",
+      "selection_note": "A platform-contract model links token prices, advertising shares and creator quality investment. The quality elasticity of token requirements reverses the price-versus-cost and sharing comparisons at feasible interior optima; the abstract separately treats quadratic global corners and regular competitive equilibria. Abstract-level screening, not proof verification.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7727001"
+      ]
+    },
+    {
+      "id": "7734460",
+      "doi": "10.2139/ssrn.7734460",
+      "title": "Debt Sustainability and the Range of Multiple Equilibria",
+      "authors": [
+        "Olivier Blanchard",
+        "Gonzalo Huertas",
+        "Pedro Martinez-Bruera"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7734460",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "We characterize the size of the range of multiple equilibria in sovereign debt markets. We show that the nature of...",
+      "indexed_at": "2026-11-23T16:38:18+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7734460",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T16:38:18+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7734460"
+      ],
+      "fingerprint": "26982eb7c2f5209c3758cc5392e7cb290fea94e0eb0fc54579f811f95be72d54",
+      "selection_note": "A sovereign-debt model characterizes the fixed-point feedback between default beliefs and interest rates. Bounded uniform surplus uncertainty can eliminate multiplicity under the stated haircut/rate restriction. The primary paper distinguishes shrinking threshold gaps from a potentially nonmonotone support width. Read the model and Propositions 1-5, not all proofs or extensions.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7734460",
+        "https://www.piie.com/sites/default/files/2026-11/wp26-17.pdf"
+      ]
+    },
+    {
+      "id": "7721958",
+      "doi": "10.2139/ssrn.7721958",
+      "title": "Student Sorting under Standardized Testing: A Linear Bayesian Persuasion Approach",
+      "authors": [
+        "Ran Weksler",
+        "Boaz Zik"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7721958",
+      "topics": [
+        "Information & Contracts",
+        "Mechanism & Market Design"
+      ],
+      "excerpt": "We study how schools seeking to maximize human capital investment should group students taking a common standardized test. We take...",
+      "indexed_at": "2026-11-23T12:34:06+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7721958",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T12:34:06+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7721958"
+      ],
+      "fingerprint": "7044fbd140d0466bf74c6305b87baeaf3c19f5b8eb3d14dfb70b9b99b56bd85e",
+      "selection_note": "With ability-scaled quadratic effort costs and a common test, student grouping reduces to persuasion over posterior means. The S-shaped objective yields separation, upper censoring or pooling under the stated support and prior conditions. Read the model, effort/interiority restriction, Lemmas 2-3 and Theorem 1; not a full proof audit.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7721958",
+        "https://sites.google.com/view/ranweksler/home/research",
+        "https://drive.google.com/file/d/15ZNXX6PNFuKV3NhQ1CeBdAn6FwI1_5i6/view"
+      ]
+    },
+    {
+      "id": "7721964",
+      "doi": "10.2139/ssrn.7721964",
+      "title": "Total Positivity Properties of American Options",
+      "authors": [
+        "Paul Glasserman",
+        "Mike Li",
+        "Dan Pirjol"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7721964",
+      "topics": [
+        "Equilibrium & Mathematical Economics"
+      ],
+      "excerpt": "Call option prices, viewed as functions of strike and time-to-expiration, are totally positive of order 2 (TP2) if the ratio...",
+      "indexed_at": "2026-11-23T11:32:27+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7721964",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T11:32:27+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7721964"
+      ],
+      "fingerprint": "5e4f037f56ab68f339084957bab66f959d4512a718d640df5942236092723983",
+      "selection_note": "The paper establishes strike-maturity ratio comparative statics for optimal-exercise option values, beyond no-arbitrage alone. I.i.d. log-concave risk-neutral log returns and nonnegative rates deliver Bermudan put/call shape restrictions; continuous-exercise extension has additional convergence conditions. Read the stopping model and main results; not a full appendix-proof or empirical-strategy audit.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7721964",
+        "https://arxiv.org/pdf/2611.23495"
+      ]
+    },
+    {
+      "id": "7723298",
+      "doi": "10.2139/ssrn.7723298",
+      "title": "Stable Mechanisms",
+      "authors": [
+        "Zhiming Feng",
+        "Qingmin Liu"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7723298",
+      "topics": [
+        "Mechanism & Market Design",
+        "Information & Contracts"
+      ],
+      "excerpt": "We study mechanism design environments in which the designer does not know the distribution of agents' private information and draws...",
+      "indexed_at": "2026-11-23T08:32:15+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7723298",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T08:32:15+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7723298"
+      ],
+      "fingerprint": "687e3cfa3061feaff8c88616961d29a1c8b0361564f62f6cba0076cf4e863736",
+      "selection_note": "Mechanisms generate the information on which the designer learns. A fictitious revelation principle preserves outcomes and information through a direct mechanism plus filter; monopoly results distinguish regular-distribution optimality from persistent suboptimal posted-price local maxima. Assessed from the full verified abstract; primary proofs were not accessible.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7723298"
+      ]
+    },
+    {
+      "id": "7719158",
+      "doi": "10.2139/ssrn.7719158",
+      "title": "The Market and the Jungle",
+      "authors": [
+        "Juan Carlos Carbajal",
+        "Marcelo Gallardo",
+        "César Martinelli"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7719158",
+      "topics": [
+        "Equilibrium & Mathematical Economics",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study how different institutions governing property rights and economic transactions shape occupational choices and welfare. Individuals in our society...",
+      "indexed_at": "2026-11-23T07:25:12+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7719158",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T07:25:12+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7719158"
+      ],
+      "fingerprint": "6198aef37bab9325025bc2170aac4e941dd91971b4bd4a63ab22a30a4c66e18c",
+      "selection_note": "Quasilinear occupational choice compares compensated market exchange with random coercive hierarchies. At common occupations market surplus dominates; equilibrium comparisons additionally require price invariance and suitable occupational opportunities. Identical agents admit a separate symmetric-jungle comparison. Read primitives, selected existence results and welfare theorems; serial-selected jungle efficiency is not a claim about every local equilibrium.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7719158",
+        "https://arxiv.org/pdf/2611.02635"
+      ]
+    },
+    {
+      "id": "7718740",
+      "doi": "10.2139/ssrn.7718740",
+      "title": "Who Pays for Product Returns? Advertising and Return Policies",
+      "authors": [
+        "Sanxi Li",
+        "Yufan Wu",
+        "Jun Yu",
+        "Mingsheng Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7718740",
+      "topics": [
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "An online marketplace decides how consumers, firms, and the platform share the cost of product returns. We study this decision...",
+      "indexed_at": "2026-11-23T07:11:27+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7718740",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T07:11:27+00:00",
+      "first_seen": "2026-11-24T09:58:53+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7718740"
+      ],
+      "fingerprint": "f2aaaf331fe68f453d6bd245f46ca8fea830db9725486090cc241189280ecfab",
+      "selection_note": "A platform earning commissions and prominence-auction revenue allocates product-return costs while firms bid and then price. Advertising shifts small-loss cost incidence toward consumers; finite-loss policy switches and total welfare are conditional, not uniformly beneficial. The complete abstract supports theoretical-IO admission without implying independent proof verification.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7718740"
+      ]
+    },
+    {
+      "id": "7682012",
+      "doi": "10.2139/ssrn.7682012",
+      "title": "Artificial Shoppers and Attention Competition",
+      "authors": [
+        "Xiaomeng Guo",
+        "Fasheng Xu",
+        "Xiaoli Zhang"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7682012",
+      "topics": [
+        "Industrial Organization Theory",
+        "Decision & Social Choice"
+      ],
+      "excerpt": "We study how AI shopping interfaces affect price competition, platform profit, and consumer welfare in a market with three products...",
+      "indexed_at": "2026-11-10T13:22:13+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7682012",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-10T13:22:13+00:00",
+      "first_seen": "2026-11-11T06:32:09+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7682012"
+      ],
+      "fingerprint": "b4bb098ee8df13fc9cb5d04dfe4692fe6d9c2ffcdd72ab70a3e8627d386e85b0",
+      "selection_note": "A three-quality pricing game separates accurate AI shortlists from undistorted delegation. Under the specified salience rule, zero costs and fixed commissions, better recommendations can hurt some consumers; platform rankings apply only where all compared pure equilibria exist. Read the model, welfare results and global-deviation region definitions, resolving the earlier source gap without auditing all proofs.",
+      "reviewed_at": "2026-11-25",
+      "review_level": "abstract_and_main_results",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7682012",
+        "https://arxiv.org/pdf/2611.09399"
+      ]
+    },
+    {
       "id": "7720821",
       "doi": "10.2139/ssrn.7720821",
       "title": "Axioms That Do Not Combine: Finite Tests for Betweenness and Its Two Halves",
@@ -5366,15 +5679,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-21",
+  "last_selection_review": "2026-11-25",
   "review_status": {
-    "last_completed": "2026-11-24T07:56:01+00:00",
-    "candidates_checked_through": "2026-11-23T07:45:12+00:00",
-    "collection_run": 45133307298,
+    "last_completed": "2026-11-25T08:15:15+00:00",
+    "candidates_checked_through": "2026-11-24T09:58:53+00:00",
+    "collection_run": 45370212934,
     "reviewed_count": 40,
     "decisions": {
-      "defer": 40
+      "exclude": 9,
+      "defer": 22,
+      "include": 9
     },
-    "remaining_candidates": 230
+    "remaining_candidates": 236
   }
 }
