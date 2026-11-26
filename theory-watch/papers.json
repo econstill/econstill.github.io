@@ -25,6 +25,144 @@
   },
   "papers": [
     {
+      "id": "7728123",
+      "doi": "10.2139/ssrn.7728123",
+      "title": "The Firm as a Cultivator of Internal Relationships: How Rotation Supports Favor Exchanges in Organizations",
+      "authors": [
+        "Nicholas Argyres",
+        "Giorgio Zanarone"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7728123",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "In a multidivisional firm, units must frequently transfer resources to each other to address unforeseen contingencies. Yet, the organization typically...",
+      "indexed_at": "2026-11-25T06:03:05+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7728123",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-25T06:03:05+00:00",
+      "first_seen": "2026-11-25T08:42:25+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7728123"
+      ],
+      "fingerprint": "6ae3c1f7e3d02089cf1f3872b870e265fd90c47d38ccdf897ca3b0138148bf91",
+      "selection_note": "A relational-contract model explains how rotating managers can sustain otherwise unenforceable interdivisional favors. Rotation changes the continuation rewards from cooperation or the punishment after defection, with different roles for cross-division and leadership rotation. Admission rests on the complete verified abstract, not an independent proof audit.",
+      "reviewed_at": "2026-11-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7728123"
+      ]
+    },
+    {
+      "id": "7727720",
+      "doi": "10.2139/ssrn.7727720",
+      "title": "Sequential search with endogenous entry",
+      "authors": [
+        "Ivan Conjeaud"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7727720",
+      "topics": [
+        "Information & Contracts",
+        "Industrial Organization Theory"
+      ],
+      "excerpt": "I study a model of sequential search in which the pool of options is endogenous. A searcher inspects applications one...",
+      "indexed_at": "2026-11-24T19:44:16+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7727720",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-24T20:14:16+00:00",
+      "first_seen": "2026-11-25T08:42:25+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7727720"
+      ],
+      "fingerprint": "ff341dcd4bc680b04ff71e5fdaa5abb29edb72ef13581760794f4480363bcda6",
+      "selection_note": "Sequential search and costly private-value applications jointly determine the applicant pool and stopping policy. The paper characterizes gap and no-gap symmetric equilibria; hazard-rate restrictions govern whether more costly inspection can encourage entry enough to benefit the searcher. Screened from the full verified abstract, not a proof audit.",
+      "reviewed_at": "2026-11-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7727720"
+      ]
+    },
+    {
+      "id": "7743460",
+      "doi": "10.2139/ssrn.7743460",
+      "title": "Strategic Disclosure with Fake and Real News",
+      "authors": [
+        "Sivan Frenkel",
+        "Ilan Guttman",
+        "Ilan Kremer"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7743460",
+      "topics": [
+        "Information & Contracts",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We develop a model in which information about a rm's value can be obtained from two sources: (i) voluntary disclosure...",
+      "indexed_at": "2026-11-24T17:26:28+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7743460",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-24T17:26:28+00:00",
+      "first_seen": "2026-11-25T08:42:25+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7743460"
+      ],
+      "fingerprint": "4396e8c01581ce03b97579632ef567ef323e0a83ca3fc62b6d80fe1f2e71463f",
+      "selection_note": "Voluntary disclosure and outside-news credibility interact: disclosure before news can generate a two-cutoff mixed strategy rather than a pure cutoff. Read the earlier 2024 baseline model/results, including its probability-endpoint exceptions, and separately checked the current abstract. The latest version's information-efficiency claim was not independently verified.",
+      "reviewed_at": "2026-11-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7743460",
+        "https://econ.biu.ac.il/sites/econ/files/seminars/draft_sep_26_2024.pdf"
+      ]
+    },
+    {
+      "id": "7716539",
+      "doi": "10.2139/ssrn.7716539",
+      "title": "Mixed Oligopoly under Transmission Constraints: Optimal Delegation in Wholesale Electricity Markets",
+      "authors": [
+        "Ayşe Mumcu",
+        "Serhan Ogur",
+        "Ünal Zenginobuz"
+      ],
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7716539",
+      "topics": [
+        "Industrial Organization Theory",
+        "Game Theory & Networks"
+      ],
+      "excerpt": "We study Cournot competition on a transmission-constrained network between a profitmaximizing private generator and a less efficient public generator whose...",
+      "indexed_at": "2026-11-23T04:16:20+00:00",
+      "selection_reason": "Content-screened selection",
+      "has_abstract": true,
+      "abstract_source": "https://api.crossref.org/works/10.2139/ssrn.7716539",
+      "jel_codes": [],
+      "posted_date": null,
+      "source_metadata_updated_at": "2026-11-23T04:16:20+00:00",
+      "first_seen": "2026-11-23T07:45:12+00:00",
+      "record_updated_at": null,
+      "ssrn_ids": [
+        "7716539"
+      ],
+      "fingerprint": "5319ca48f1e306a86b65d517a1bdbb3b8210bf55d609098f1272f6aed335a0eb",
+      "selection_note": "A transmission-constrained mixed Cournot model endogenizes the public generator's consumer-surplus mandate. Congestion relief changes the efficiency tradeoff and can favor a consumer-oriented mandate where the uncongested benchmark would favor profit maximization. The selection is based on the complete verified abstract, not proof verification.",
+      "reviewed_at": "2026-11-26",
+      "review_level": "abstract_and_source",
+      "review_sources": [
+        "https://api.crossref.org/works/10.2139/ssrn.7716539"
+      ]
+    },
+    {
       "id": "7725884",
       "doi": "10.2139/ssrn.7725884",
       "title": "Market Depth and the Quality of Liquidity: Competition in Limit Order Books",
@@ -5679,17 +5817,17 @@
   ],
   "selection_mode": "curated",
   "curation_version": "micro-theory-curated-1",
-  "last_selection_review": "2026-11-25",
+  "last_selection_review": "2026-11-26",
   "review_status": {
-    "last_completed": "2026-11-25T08:15:15+00:00",
-    "candidates_checked_through": "2026-11-24T09:58:53+00:00",
-    "collection_run": 45370212934,
+    "last_completed": "2026-11-26T07:38:34+00:00",
+    "candidates_checked_through": "2026-11-25T08:42:25+00:00",
+    "collection_run": 45578533687,
     "reviewed_count": 40,
     "decisions": {
-      "exclude": 9,
-      "defer": 22,
-      "include": 9
+      "include": 4,
+      "exclude": 8,
+      "defer": 28
     },
-    "remaining_candidates": 236
+    "remaining_candidates": 233
   }
 }
